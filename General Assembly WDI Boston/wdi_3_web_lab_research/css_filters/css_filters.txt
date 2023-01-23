@@ -1,0 +1,40 @@
+KEY NOTES:
+this works with chrome and safari ( and opera ) - NOT firefox or IE
+
+see chart http://caniuse.com/css-filters
+
+also read http://www.html5rocks.com/en/tutorials/filters/understanding-css/#toc-how
+
+also http://html5-demos.appspot.com/static/css/filters/index.html
+
+can be applied to any element
+
+grayscale(amount)
+converts color in our input image to a shade of gray. 100% means everything will be a shade of gray.
+
+sepia(amount)
+Gives the colors passed in a sepia tinge like in old photographs.
+
+saturate(amount)
+Applies a color saturation effect to the colors which makes them look more vivid.
+
+hue-rotate(angle)
+Shift the colors around to make an input image look completely different. If you can imagine a color spectrum going from red to violet around a color wheel, then this effect takes the original color on the wheel as input and rotates it by the ‘angle’ parameter to produce the color on the wheel to which it rotated as the output color value. So all the colors in the image are shifted by the same 'angle' on the wheel.
+
+invert(amount)
+This effect flips the colors, making the element look like a photo negative.
+
+opacity(amount)
+Controls the opacity of the element. 100% is completely opaque (original image). The closer you get the 0%, the more transparent the element becomes. Setting the opacity to 0 will make the element invisible.
+
+brightness(amount)
+Adjusts the colors between black and the original color in proportion to the 'amount' parameter. 0% is nothing but black, 100% is the original image, 200% is twice as bright as the original image.
+
+contrast(amount)
+Adjusts the difference between the darkest and lightest parts of the input image. 0% is black, 100% is the original image.
+
+blur(radius)
+This will blend the pixels of the element together in accordance with the radius parameter, giving the element a blurry effect. Scale from 0px to 10px.
+
+drop-shadow(shadow)
+This takes a snapshot of the image, makes it a single color, blurs it, then offsets the result a bit so it looks like a shadow of the original content. The ‘shadow’ values control where the shadow is placed, how much blur is applied, the color of the shadow, etc.

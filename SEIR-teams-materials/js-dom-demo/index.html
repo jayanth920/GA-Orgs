@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1 id="title">This is my title</h1>
+    <p class="paragraph">paragraph 1</p>
+    <p class="paragraph">paragraph 2</p>
+    <p class="paragraph">paragraph 3</p>
+    <p class="paragraph">paragraph 4</p>
+    <span>span 1 </span>
+    <span>span 2 </span>
+    <span>span 3 </span>
+    <span>span 4 </span>
+
+    <div class="elements">
+      <h1 id="first-heading">Get this heading by it's ID</h1>
+      <h1
+        class="second-grouped-heading"
+        data-position="1"
+        data-style="nice"
+        data-sauce="chilli"
+      >
+        Get this heading by it's class name
+      </h1>
+      <h1 class="second-grouped-heading" data-position="2">
+        Also get this heading by it's class
+      </h1>
+      <h1 class="second-grouped-heading" data-position="3">
+        Also this heading by class
+      </h1>
+      <span>Get this elment by it's tag (element) name</span>
+    </div>
+
+    <h1 id="title1">another title</h1>
+    <h2>heading 2</h2>
+    <h2>another heading 2</h2>
+    <h2>yet another heading 2</h2>
+
+    <div>
+      <span>
+        Get this element, but no other span!
+      </span>
+    </div>
+
+    <div>
+      <a id="anchor" href="#link"> Get this link element, but not the others </a>
+      <section>
+        <a href="#plz-no"> Don't select me! </a>
+        <a href="#false"> 🐍 Don't select on me 🐍 </a>
+        <a href="#no-selecty"> 🚫 Selections </a>
+      </section>
+    </div>
+    <div>
+      <h1 id="favorite-heading">
+        <span>
+          this is my favorite heading
+        </span>
+      </h1>
+    </div>
+    <a id="w3-schools" href="https://www.w3schools.com">This is a link</a>
+    <img
+      id="random-image"
+      class="is-hidden my-image"
+      src="https://picsum.photos/200/300"
+      width="100"
+      height="200"
+      alt="Sandy beach"
+    />
+    <p id="my-paragraph" style="color: red;">This is a paragraph.</p>
+    
+  </body>
+</html>

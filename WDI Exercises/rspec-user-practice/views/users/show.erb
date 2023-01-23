@@ -1,0 +1,8 @@
+<h2><%= @user.first_name %> <%= @user.last_name %></h2>
+<p>Username: <%= @user.username %></p>
+<p>Password: <%= @user.password %>.</p>
+<a href="/<%= @user.id %>/edit"><button>Edit</button></a>
+<form method="post" action="/<%= @user.id %>">
+  <input type="hidden" name="method" value="delete" />
+  <input type="submit" value="Delete" />
+</form>

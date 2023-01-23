@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @speaker.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @speaker.model %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @speaker.price %>
+</p>
+
+<p>
+  <strong>Max power:</strong>
+  <%= @speaker.max_power %>
+</p>
+
+<p>
+  <strong>Input impedance:</strong>
+  <%= @speaker.input_impedance %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @speaker.height %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @speaker.weight %>
+</p>
+
+<%= link_to 'Edit', edit_speaker_path(@speaker) %> |
+<%= link_to 'Back', speakers_path %>

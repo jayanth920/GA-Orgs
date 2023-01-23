@@ -1,0 +1,15 @@
+{
+  "name": "tdd-mocha-chai",
+  "version": "1.0.0",
+  "description": "## Exercise Objectives - introduce test driven development and practice unit Testing - introduce Mocha and Chai for Javascript Testing - pro skills: gain ways to think about code through test cases - practice setting up and writing your own tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}

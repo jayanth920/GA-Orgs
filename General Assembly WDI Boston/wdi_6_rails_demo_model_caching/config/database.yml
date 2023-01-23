@@ -1,0 +1,14 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: wdi_6_rails_demo_model_caching
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: wdi_6_rails_demo_model_caching
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: wdi_6_rails_demo_model_caching

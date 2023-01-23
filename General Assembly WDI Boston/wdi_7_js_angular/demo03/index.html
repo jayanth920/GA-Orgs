@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Angular Demo 3</title>
+<script src="bower_components/angular/angular.js"></script>
+</head>
+<body ng-app="Demo">
+
+<div ng-controller="MainCtrl">
+	<input type="text" ng-model="search" placeholder="Search">
+
+	<ul>
+	    <li ng-repeat="user in users | filter:search">{{ user.first_name }} {{ user.last_name }}</li>
+	</ul>
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

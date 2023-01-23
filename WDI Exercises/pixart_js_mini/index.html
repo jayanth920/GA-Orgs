@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pixart</title>
+    <style>
+    *{
+      margin:0;
+      border:0;
+      padding:0;
+      border-collapse:collapse;
+      border-spacing:0;
+      font-size:inherit;
+      font-style:inherit;
+      font-family:inherit;
+      font-weight:inherit;
+      text-decoration:none;
+      letter-spacing:inherit;
+      color:inherit;
+      background-color:transparent;
+      list-style-type:none;
+    }
+    *:focus{
+      outline:0;
+      outline-offset:0;
+    }
+    html{
+      font-family:"Helvetica Neue", Helvetica, sans-serif;
+      background-color:#fff9f0;
+      text-align:center;
+    }
+    body{
+      padding:20px;
+    }
+    h1{
+      font-size:48px;
+      line-height:48px;
+      color:#caa;
+    }
+    input{
+      text-align:center;
+      background-color:rgba(0,0,0,0.1);
+      padding:10px 20px;
+      border-radius:10px;
+      transition:background-color 0.2s;
+    }
+    input:focus{
+      background-color:rgba(100,0,0,0.2);
+    }
+    h1, input, #sketchpad{
+      margin:10px auto;
+    }
+    #sketchpad{
+      width:600px;
+      height:400px;
+    }
+    span{
+      display:inline-block;
+      float:left;
+      outline:1px solid #eee;
+      width:10px;
+      height:10px;
+      background-color:white;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Pixart</h1>
+    <input type="text" id="color_input" placeholder="Enter a color" />
+    <div id="sketchpad"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+    (function loadSquares(){
+      var a = 0, innerhtml = "";
+      for(a = 0; a < 2400; a++){
+        innerhtml = innerhtml + "<span class='square'></span>";
+      }
+      $("#sketchpad").html(innerhtml);
+    }());
+    </script>
+    <script src="you_do.js"></script>
+  </body>
+</html>

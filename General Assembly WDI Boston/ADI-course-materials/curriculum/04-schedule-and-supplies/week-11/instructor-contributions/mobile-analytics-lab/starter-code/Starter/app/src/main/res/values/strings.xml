@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnalyticsStarter</string>
+    <string name="title_activity_item_view">ItemViewActivity</string>
+    <string name="price_format">$%1$s</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="buy_now">Buy Now!</string>
+</resources>

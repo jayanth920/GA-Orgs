@@ -1,0 +1,39 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  background-image: url("llama.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#stoplight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 500px;
+  width: 200px;
+  margin: 0 auto;
+  background-color: #333;
+}
+
+.bulb {
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-color: #555;
+}
+
+.active#red {
+  background-color: red;
+}
+
+.active#yellow {
+  background-color: yellow;
+}
+
+.active#green {
+  background-color: green;
+}

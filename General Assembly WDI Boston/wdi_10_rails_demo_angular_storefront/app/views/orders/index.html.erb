@@ -1,0 +1,11 @@
+<h1>Order History</h1>
+
+<% @orders.each_with_index do |order, index| %>
+	<h3>Order: <%= index + 1 %></h3>
+	<h4>Items:</h4>
+	<ul>
+	<% order.line_items.each do |item| %>
+		<li><%= item.product.name %>, <%= item.product.price %></li>
+	<% end %>
+	</ul>
+<% end %>

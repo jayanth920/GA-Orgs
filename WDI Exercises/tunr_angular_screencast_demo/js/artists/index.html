@@ -1,0 +1,11 @@
+<h2>Artists</h2>
+
+<div data-ng-repeat="artist in vm.artists">
+  <p><a data-ui-sref='artistShow({id: artist.id})'>{{artist.name}}</a></p>
+</div>
+
+<form data-ng-submit="vm.create()">
+  <label>Artist Name:</label>
+  <input type="text" data-ng-model='vm.newArtist.name'>
+  <button type="submit">Create Artist</button>
+</form>

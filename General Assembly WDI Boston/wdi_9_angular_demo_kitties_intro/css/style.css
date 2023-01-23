@@ -1,0 +1,20 @@
+body {
+	background-image: url('../images/background.png');
+	font-family: helvetica;
+	text-align: center;
+}
+
+.kitties {
+	padding: 5px;
+	margin: 10px;
+	border: 2px dashed lightgrey;
+}
+
+.left-container, .right-container {
+	background-color: white;
+	float: left;
+	width: 450px;
+	margin: 10px 25px;
+	border: 2px solid red;
+	padding: 10px;
+}

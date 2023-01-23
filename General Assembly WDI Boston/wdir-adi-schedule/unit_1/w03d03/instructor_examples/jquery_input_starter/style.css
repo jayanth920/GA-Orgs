@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+:root {
+  --grain: #D7CEC7;
+  --dusty: #96858F;
+  --blackboard: #565656;
+  --tan: #b99471;
+  --paper: #D5D5D5;
+}
+
+body {
+  background:var(--grain);
+  color:var(--blackboard);
+  margin: 12vw auto;
+  font-size: 3vw;
+  width: 70%;
+  font-family: 'Muli', sans-serif;
+  font-size: 3vw;
+  color: var(--tan);
+}
+
+input[type=submit] {
+  margin-bottom: 1em;
+  padding: 1em 3em;
+  border-radius: .5em;
+  font-size: 3.5vw;
+  border: 2px solid rgba(100,100,100, .5);
+  color: rgba(100,100,100, .5);
+  font-family: 'Muli', sans-serif;
+  font-size: 2vw;
+}
+
+input[type=submit]:focus {
+  outline:0;
+}
+
+input[type=submit]:hover{
+  background: var(--dusty);
+  color: rgba(250,250,250, .9);
+}
+
+input[type=text] {
+  width: 35vw;
+  padding: 1em;
+  font-size:2vw;
+  border-radius: .5em;
+}
+
+input[type=text]:focus {
+  outline: none;
+  background: var(--paper);
+}
+
+ul {
+  list-style-type:circle;
+}

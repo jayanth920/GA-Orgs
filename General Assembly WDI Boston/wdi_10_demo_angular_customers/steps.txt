@@ -1,0 +1,226 @@
+- Agenda
+  Setup
+  Data Binding and Directives.
+  Iteration, Repeating
+  Filters
+  Modules and Controllers
+  Routes
+  Factories
+
+
+================================================
+  Setup (Using the emmet.io plugin here.)
+- Download angular source and add angular.js into the lib directory.
+
+- Create an index.html file with a head and body.
+  html>head>title+script:src^body
+
+- Add the angular js to the script tag.
+   "lib/angular.js"
+
+- Add some boilerplate to the body.
+  h1+div>input+br+h3+table>tr>td*2
+
+  Angular Demo to h1
+  Search: before input
+  Customers: to h3
+
+- Tell angular js that this is an angular app.
+  Add a angular directive ng-app attribute to the html tag.
+
+================================================
+  Data Binding and Directives.
+
+- Add ng-model directive attribute to the input tag
+  ng-model="searchText"
+
+ This will bind the input field to a model named 'searchText'
+
+ In Angular, unlike Rails, there is no explicity construct to define a 'Model'.
+ A model is just data that is being used by the UI.
+ See http://docs.angularjs.org/guide/concepts
+
+- Create a data binding expression, below the input tag that will evaluate the model searchText.
+  {{ searchText }}
+
+ In this case the model is just a javascript string, so we only show it.
+
+- Ooops, don't forget about telling angular this is an angular app!
+  Add ng-app directive to the html tag.
+
+- open index.html
+  Notice that data expression is bound to the value of the input tag/field.
+
+  (Look, no handlers, no events, good stuff)
+  (Whats a directive? Whats a model? Whats data binding?)
+
+================================================
+  Iteration, Repeating
+
+- Add a ng-init directive as an attribute to the body tag.
+  ng-init="customers=[ 'Tom', 'Alex', 'Terri', 'Todd', 'Alexandra','David']"
+
+  This is going in the 'root' scope. We'll talk about scopes in a minute.
+
+  This only creates an array and sets the customers variable to this array when the application is first seen by angular.
+
+- add ng-repeat directive to the tr tag.
+  ng-repeat='cust in customers'
+
+- add data expression to the first td in the table
+  {{ cust }}
+
+- open index.html
+
+- No javascript yet!!
+
+================================================
+Lab (10 minutes) Create a template, songs.html, that will show a list of song titles. Pretty much like the above.
+
+================================================
+ Filters
+
+- Filter by search text in the tr tag. Inside the ng-repeat add a filter.
+  ng-repeat='cust in customers | filter:searchText'
+
+  This filters the customers by the search text entered in the text field.
+
+================================================
+Lab (5 minutes) Create a page that will allow one to filter a set of songs by title.
+
+================================================
+Modules and Controllers
+
+- Create a module.
+  A module is a container and a namespace.
+  Create a file customers_app.js and add the below.
+
+    // Create a angular module named 'customersApp'.
+    // This module will have no dependencies.
+    // angular.module:
+    // First Argument is the name of the module
+    // Second Argument is an array of other modules this module depends on.
+
+    // var app on the LHS is used to namespace javascript objects in this app.
+    // It just happens to be the same name as the module name. It could be different.
+    var customersApp = angular.module('customersApp', []);
+
+- Create a controller in app/controllers/customers_controller.js
+  and add the below.
+
+  customersApp.controller('CustomersController', function($scope){
+    $scope.customers = {
+    {"id": 1, name: "Tom", "total": 5.996},
+    {"id": 1, name: "Alex", "total": 10.994},
+    {"id": 1, name: "David", "total": 10.09},
+    {"id": 1, name: "Jill", "total": 15.99}
+    }
+  });
+
+  Create a controller for this app named 'CustomersController'. It has one model, customers.
+
+- Tell angularjs about this app by adding ng-app='customersApp' to them html tag. And add the script tags for the js files inside the head tag.
+    <script src="customers_app.js"></script>
+    <script src="app/controllers/customers_controller.js"></script>
+
+- Remove the ng-init from the body. Don't need this array as we're getting model/data from a customers in the controller.
+
+- Add the ng-controller directive to first div in the body.
+  <div ng-controller="CustomersController">
+
+  Now the ng app can look up the controller by name in it's namespace.
+
+- open customers.html
+  You see the json defined in the controller. The ng-repeat is interating
+  through the customers variable set in the controller scope.
+
+  NOTE: Everything in the div ng-controller="CustomersController" is
+  a View!!
+
+- change the table to have each customers name and total
+  <td>{{ cust.name }}</td>
+  <td>{{ cust.total | currency}} </td>
+
+  Notice how we use a filter, acting as a formatter, named currency.
+  Lets look that up.
+
+================================================
+Lab (25 minutes) Update you songs app to use a controller.
+
+Each song will have a id, title, duration (in minutes) and a price.
+
+================================================
+
+- Angular Routes
+- Add angular-routes.js script tag
+    <script src="lib/angular-route.js"></script>
+
+- Add ngRoute as a module that this app depends on. In customers_app.js
+  var customersApp = angular.module('customersApp', ['ngRoute']);
+
+- Add routes to the customers_app.js.
+
+customersApp.config(function($routeProvider){
+    $routeProvider
+        .when('/',
+              {
+                  controller: 'CustomersController',
+                  templateUrl: 'app/views/customers.html'
+              });
+});
+
+- Create a views directory
+  mkdir -p app/views
+
+- Move ng-controller directive from index.html to app/views/customers.html
+<div ng-controller="CustomersController">
+  Search: <input type="text" ng-model="searchText" />
+  {{ searchText }}
+  <br/>
+  <h3>Customers</h3>
+  <table>
+    <tr ng-repeat="cust in customers | filter:searchText">
+      <td>{{ cust.name }}</td>
+      <td>{{ cust.total | currency}} </td>
+    </tr>
+  </table>
+</div>
+
+
+- start up WEBrick on port 5000 to avoid Cross Domain issues.
+ruby -run -e httpd . -p5000
+
+goto
+http://localhost:5000
+
+==================================
+Do the above for your songs app.
+==================================
+Factory
+ Create a singleton factory for remote, Ajax requests.
+
+- Add this to the customers_app.js
+
+// Add a factory to do a ajax request.
+customersApp.controller('CustomersController', function($scope, customersFactory){
+    var factory = {};
+
+    customersFactory.getCustomers().success(function(){
+        return $http.get('/customers.json');
+    };
+    return factory;
+}
+
+- $http is injected into the function. It does Ajax calls.
+
+- In the app/controllers/customers_controller.rb remove the customers model.
+  And make sure the contents of this file is:
+  customersApp.controller("CustomersController", function($scope, customersFactory ){
+    function init(){
+        customersFactory.getCustomers().success(function(data){
+            $scope.customers = data;
+        });
+    };
+
+    init();
+});

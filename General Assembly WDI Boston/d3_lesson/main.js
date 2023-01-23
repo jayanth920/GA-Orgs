@@ -1,0 +1,10 @@
+// Data
+
+// RenderData
+
+$(function() {
+	barGraph();
+})
+
+
+

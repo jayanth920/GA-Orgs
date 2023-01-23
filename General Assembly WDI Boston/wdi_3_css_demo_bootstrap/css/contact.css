@@ -1,0 +1,9 @@
+body { 
+  /* so the navbar doesn't hide the top of the page */
+  padding-top: 65px; 
+}
+
+.main-color {
+  /* blue-ish */
+ color:#358cce;
+}

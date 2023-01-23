@@ -1,0 +1,11 @@
+<h2>All Todos</h2>
+<h3><%= link_to "New Todo", new_todo_path %></h3>
+<% @todos.each do |todo| %>
+
+  <p>
+    <%= link_to todo.body, todo_path(todo) %> |
+    <%= link_to "Delete this todo", todo_path(todo),
+       method: :delete %>
+
+  </p>
+<% end %>

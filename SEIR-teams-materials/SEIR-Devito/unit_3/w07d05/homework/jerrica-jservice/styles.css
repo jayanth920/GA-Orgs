@@ -1,0 +1,165 @@
+/* ==================
+      VARIABLES
+================== */
+:root {
+  --red: #F06449;
+  --slightly-darker-gray: #DADAD9;
+  --dark-gray: #36382E;
+  --blue: #5BC3EB;
+  --darker-blue: #5ca3bf;
+  --body-font: 'Karla', calibri;
+  --accent-font: 'Inconsolata', courier;
+  --title-font: 'Poppins', impact;
+}
+
+/* ==================
+      GENERAL
+================== */
+body {
+  font-family: var(--body-font);
+  font-size: 0.9em;
+  background: #f9f9f9;
+}
+h1 {
+  font-family: var(--title-font);
+  font-size: 4em;
+  letter-spacing: 2px;
+  color: #777;
+  text-align: center;
+  margin: 0;
+}
+h1 strong {
+  color: var(--blue);
+}
+h1:after {
+  content: '';
+  width: 100%;
+  height: 0.1em;
+  background: var(--red);
+  display: block;
+}
+
+/* ==================
+    CONTAINERS
+================== */
+.main-container {
+  width: 45em;
+  background: #eee;
+  margin: 3em auto;
+  padding: 2em;
+  border-radius: 0.3em;
+}
+
+/* ==================
+        SCORE
+================== */
+.score {
+  margin: 1em 0;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 0.6em;
+  background: var(--slightly-darker-gray);
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+  font-family: var(--accent-font);
+}
+.score strong {
+  color: var(--darker-blue);
+  font-weight: 700;
+}
+.current-score {
+  font-size: 1.3em;
+}
+.score i {
+  font-size: 0.6em;
+  display: inline-block;
+  margin: 0 0.2em;
+  padding: 0.7em;
+  background: var(--dark-gray);
+  color: whitesmoke;
+  border-radius: 50%;
+}
+.score i:hover {
+  cursor: pointer;
+  background: var(--red);
+  box-shadow: 1px 1px var(--dark-gray);
+}
+
+/* ==================
+        GAME
+================== */
+.game-container {
+  background: #fafafa;
+  margin: 1em 0;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 0.6em;
+}
+button {
+  width: 100%;
+  background: var(--red);
+  box-shadow: 2px 2px var(--blue);
+  color: whitesmoke;
+  border: 0px;
+  border-radius: 0.6em;
+  padding: 0.4em;
+  text-transform: uppercase;
+  font-family: var(--title-font);
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  text-shadow: 1px 1px #888;
+}
+button:hover {
+  cursor: pointer;
+  background: var(--dark-gray);
+  box-shadow: 2px 2px var(--blue);
+}
+.question-info {
+  margin-top: 1em;
+  padding-bottom: 0.8em;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+  font-family: var(--accent-font);
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.question-info strong {
+  color: var(--darker-blue);
+  font-weight: 700;
+}
+.question, .answer {
+  margin: 1em 0;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  background: #eee;
+  color: var(--dark-gray);
+}
+.question h2, .answer h2 {
+  margin: 0;
+  margin-bottom: 0.3em;
+  font-family: var(--title-font);
+  letter-spacing: 0.1em;
+  color: var(--red);
+  text-transform: uppercase;
+  border-bottom: 1px solid #ddd;
+}
+.answer h2 {
+  color: var(--blue);
+}
+.show-more {
+  border-top: 1px solid #eee;
+  padding-top: 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--accent-font);
+  color: var(--darker-blue);
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.show-more:hover {
+  cursor: pointer;
+}

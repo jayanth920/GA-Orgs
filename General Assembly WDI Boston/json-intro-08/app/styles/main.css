@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  font-family: sans-serif;
+}
+
+li {
+  margin-top: 20px;
+  margin-left: 20px;
+  list-style: none;
+}

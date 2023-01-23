@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2021-01-01",
+    "holiday": "New Year's Day"
+  },
+  {
+    "date": "2021-01-18",
+    "holiday": "Martin Luther King Jr. Day"
+  },
+  {
+    "date": "2021-02-15",
+    "holiday": "Presidents’ Day"
+  },
+  {
+    "date": "2021-05-31",
+    "holiday": "Memorial Day"
+  },
+  {
+    "date": "2021-06-18",
+    "holiday": "Juneteenth (Observed)"
+  },
+  {
+    "date": "2021-07-05",
+    "holiday": "Independence Day (Observed)"
+  },
+  {
+    "date": "2021-09-06",
+    "holiday": "Labor Day"
+  },
+  {
+    "date": "2021-11-11",
+    "holiday": "Veterans Day"
+  },
+  {
+    "date": "2021-11-25",
+    "holiday": "Thanksgiving"
+  },
+  {
+    "date": "2021-11-26",
+    "holiday": "Thanksgiving Weekend"
+  },
+  {
+    "date": "2021-12-27",
+    "holiday": "Christmas Day (Observed)"
+  }
+]

@@ -1,0 +1,46 @@
+/*    */
+
+body {
+	font-family: sans-serif;
+}
+img {
+	border:5px solid #9933FF;
+	border-radius: 10px;
+}
+ p {
+ 	color: purple;
+ 	font-weight: bold;
+ }
+
+
+/* 0.1 to 1 or use percentages   */
+div.grayscale {
+	-webkit-filter: grayscale(100%);
+}
+
+/*  takes a value of pixels between 1-10  */
+div.blur {
+	-webkit-filter: blur(5px);
+}
+
+
+/* 0.1 to 1 or use percentages   */
+div.sepia {
+	-webkit-filter: sepia(50%);
+}
+
+/* 0.1 to 1 or use percentages   */
+div.opacity {
+	-webkit-filter: opacity(50%);
+}
+
+/* takes 0 - 10 values */
+div.saturate {
+	-webkit-filter: saturate(5);
+}
+
+/* use more than one! */
+div.plus {
+	-webkit-filter: saturate(5) opacity(50%);
+}
+

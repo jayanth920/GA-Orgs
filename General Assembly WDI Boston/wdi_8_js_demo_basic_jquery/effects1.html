@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Demo</title>
+
+    <style>
+      a.test {
+        font-weight: bold;
+      }
+    </style>
+    <script src="jquery-2.1.0.js"></script>
+    <script>
+
+      $(document).ready(function(){
+
+         var tomDiv = $('#tom-id');
+         tomDiv.css('font-style', 'italic');
+
+         //var people = $('.person');
+         var brothers = $('.brother');
+         var sisters = $('.sister');
+         sisters.css('background', 'pink');
+         brothers.css('background', 'blue');
+
+        // Select by attribute value
+        var tall = $('div[height=70]');
+        var others = $('div[height!=70]');
+
+
+       $('#hide-oldest-button').click(function(){
+           $('div:lt(3)').hide();
+       });
+
+       $('#show-oldest-button').click(function(){
+           $('div:lt(3)').show();
+       });
+
+       $('#fade-in-oldest-button').click(function(){
+          //  $('div:lt(3)').fadeIn('slow');
+           $('div:lt(3)').fadeIn('fast');
+       });
+
+       $('#fade-out-oldest-button').click(function(){
+           // $('div:lt(3)').fadeOut('slow')
+           $('div:lt(3)').fadeOut('fast');;
+       });
+
+       $('#toggle-youngest-button').click(function(){
+           var youngest = $('div:gt(5)').toggle();
+       });
+
+
+       });
+
+    </script>
+
+</head>
+<body>
+    <div id='chris-id' class='person sister' height='64'>Chris Dyer</div>
+    <div id='mike-id' class='person brother' height='69'>Mike Dyer</div>
+    <div id='tom-id' class='person brother' height='74'>Tom Dyer</div>
+    <div id='terri-id' class='person sister' height='67'>Terri Dyer </div>
+    <div id='joe-id' class='person brother' height='70'>Joe Dyer</div>
+    <div id='marriane-id' class='person sister' height='66'>Marriane Dyer</div>
+    <div id='meg-id' class='person sister' height='64'>Meg Dyer</div>
+    <div id='ed-id' class='person brother' height='71'>Ed Dyer</div>
+
+    <button id='hide-oldest-button'>Hide Oldest</button>
+    <button id='show-oldest-button'>Show Oldest</button>
+
+    <button id='toggle-youngest-button'>Toggle Youngest</button>
+
+    <button id='fade-out-oldest-button'>Fade out oldest</button>
+    <button id='fade-in-oldest-button'>Fade in oldest</button>
+
+    <input type='text' id='find-name' placeholder='Enter name'></input>
+
+</body>
+</html>

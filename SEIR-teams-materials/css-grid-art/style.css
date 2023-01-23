@@ -1,0 +1,40 @@
+body {
+    background: lightslategray;
+}
+
+.container {
+    width: 300px;
+    margin: 20px auto;
+    height: 300px;
+    display: grid;
+    grid-gap: 4px;
+    grid-template-rows: 100px 100px 1fr 1fr;
+    grid-template-columns: 80px 1fr 30px;
+}
+
+.item {
+    background: #F3F3F3;
+}
+
+.one {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.two {
+}
+
+.three {
+}
+
+.four {
+}
+
+.five {
+}
+
+.six {
+}
+
+.seven {
+}

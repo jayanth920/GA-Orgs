@@ -1,0 +1,5 @@
+Update songs_app to have a controller. this controller should define and array of songs where each song has a id, title, duration (minutes) and a price (properly formatted).
+
+Display the title, price and the duration.
+
+Make a remote Ajax request to get the list of songs that will be assigned to the customers model. Remember that you need to create a factory that will pull in the song's json from the backend.

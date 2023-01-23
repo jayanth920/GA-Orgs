@@ -1,0 +1,7 @@
+<h2><%= @doughnut.flavor %></h2>
+<strong>Tastiness: </strong><%= @doughnut.tastiness %>
+<br>
+<%= image_tag @doughnut.image_url %>
+
+<%= link_to "Edit", edit_doughnut_path(@doughnut) %> |
+<%= link_to "Delete", @doughnut, method: :delete %>

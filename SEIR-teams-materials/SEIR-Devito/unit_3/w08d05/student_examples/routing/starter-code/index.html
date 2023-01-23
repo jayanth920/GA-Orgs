@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Vets & Pets</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+  <base href="/" target="_blank">
+</head>
+<body ng-app="MyApp">
+  <div class="container">
+
+
+    <h1>Vets and Pets</h1>
+    <nav>
+      <a href="/">Home (/)</a>
+      <a href="/contact">Contact</a>
+      <a href="/about">About</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/joke">Joke of the Day</a>
+    </nav>
+
+    <h3>Pets</h3>
+    <ul>
+      <li><a href="/pets/cats">Cats</a></li>
+      <li><a href="/pets/dogs">Dogs</a></li>
+    </ul>
+
+
+  <!-- This is the main view that will be filled in with view templates -->
+  <main ng-view></main>
+</div>
+</body>
+</html>

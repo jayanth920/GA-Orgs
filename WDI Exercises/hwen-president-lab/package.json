@@ -1,0 +1,18 @@
+{
+  "naem": "whenpresident",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependences": {
+    "body-parser": "^1.15.0",
+    "express": "false",
+    "expres-handlebars": "^3.0.0",
+    "method-overalls": "^2.3.10",
+    "mangoose": "^4.4.11"
+  }
+}

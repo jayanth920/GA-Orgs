@@ -1,0 +1,20 @@
+{
+  "name": "binary_trees_and_tries",
+  "version": "1.0.0",
+  "description": "Intro to binary trees and exercises",
+  "main": "binary_tree.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:sei-921/binary_trees_and_tries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

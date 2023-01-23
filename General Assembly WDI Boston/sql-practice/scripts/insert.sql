@@ -1,0 +1,4 @@
+-- Create & add to the table at least the following flamingos:
+    -- name: 'Fred', born_on: 1999-02-13, mated: true
+    -- name: 'Sally', born_on: 2001-03-23, mated: false
+    -- name: 'Ari', born_on: 1993-08-19, mated: false

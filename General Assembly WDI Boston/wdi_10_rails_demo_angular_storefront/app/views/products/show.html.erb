@@ -1,0 +1,16 @@
+<div class="product-listing">
+	<h1><%= @product.name %></h1>
+	<div class="product-images">
+			<div class="featured-image"><%= image_tag @product.images.first, width: 240 %></div>
+			<% @product.images.each do |product_image| %>
+				<span class="product-thumbnail"><%= image_tag product_image, width: 80 %></span>
+			<% end %>
+	</div>
+	<div class="product-info">Price: <%= number_to_currency @product.price, locale: :us %></div>
+	<div class="purchase-buttons">
+		<%= button_to "Add to cart", add_product_to_cart_path(@product) %>
+	</div>
+	<div class="product-description">
+		<%= @product.description %>
+	</div>
+</div>

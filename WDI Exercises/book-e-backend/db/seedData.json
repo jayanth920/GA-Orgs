@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Google",
+    "url": "http://www.google.com/"
+  },
+  {
+    "title": "Stack Overflow",
+    "url": "http://www.stackoverflow.com/"
+  },
+  {
+    "title": "Base CS",
+    "url": "https://medium.com/basecs"
+  },
+  {
+    "title": "Eloquent JS", 
+    "url": "http://eloquentjavascript.net/"
+  }
+]

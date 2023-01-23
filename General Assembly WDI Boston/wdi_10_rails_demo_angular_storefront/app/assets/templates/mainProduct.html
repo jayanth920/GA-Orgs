@@ -1,0 +1,16 @@
+<div class="product-listing">
+	<h1>{{data.product.name}}</h1>
+	<div class="product-images">
+		<span class="product-thumbnail" ng-repeat="image in data.product.images">
+			<img src="{{image}}" width='80'/>
+		</span>
+	</div>
+	<div class="product-info">Price:{{ data.product.price}}
+	</div>
+	<div class="product-description">
+		{{ data.product.description }}
+	</div>
+	<div ng-controller='CartCtrl'>
+	  <button ng-click='addProductToCart(data.product.id)'>Add to Cart</button>
+	</div>
+</div>

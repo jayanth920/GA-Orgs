@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cross-site Script (XSS) &amp; Code Injection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Do not add `link` tags unless you know what you are doing -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Do not add `script` tags unless you know what you are doing -->
+    <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+    <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+  </head>
+  <body class="container-fluid">
+    <main>
+      <h1>Bob's Site</h1>
+      <div class="well">
+        <form id="security-form">
+          <fieldset class="form-group">
+            <legend>Client Security</legend>
+
+              <label class="radio-inline">
+                <input type="radio"
+                       name="secure[client]"
+                       value="false"
+                       checked>
+                Unsecured
+              </label>
+
+              <label class="radio-inline">
+                <input type="radio"
+                       name="secure[client]"
+                       value="true">
+                Sanitize
+              </label>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Server Security</legend>
+
+              <label class="radio-inline">
+                <input type="radio"
+                       name="secure[server]"
+                       value="false"
+                       checked>
+                Unsecured
+              </label>
+
+              <label class="radio-inline">
+                <input type="radio"
+                       name="secure[server]"
+                       value="true">
+                Sanitize
+              </label>
+          </fieldset>
+
+          <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+      </div>
+      <div id="security-info"></div>
+
+      <h2>Search</h2>
+      <form class="form-inline" id="search-form">
+        <div class="form-group">
+          <input type="search" class="form-control" name="q"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Go</button>
+      </form>
+      <label>Results</label>
+      <div id="search-results">
+        Enter a search above.
+      </div>
+
+      <h2>Posts</h2>
+      <article>
+        <h3>Cat ipsum dolor sit amet</h3>
+        <p>
+          Soft kitty warm kitty little ball of furr. Chirp at birds pee in the
+          shoe, chase the pig around the house hide from vacuum cleaner,
+          scratch the postman wake up lick paw wake up owner meow meow yet be a
+          nyan cat, feel great about it, be annoying 24/7 poop rainbows in
+          litter box all day. Run in circles claw drapes eat from dog's food
+          yet pooping rainbow while flying in a toasted bread costume in space,
+          but touch water with paw then recoil in horror so meowzer and claw
+          drapes. Nap all day toy mouse squeak roll over, roll over and sun my
+          belly, so paw at your fat belly. Poop in litter box, scratch the
+          walls give me attention or face the wrath of my claws see owner, run
+          in terror shake treat bag, or if it smells like fish eat as much as
+          you wish and licks your face.
+        </p>
+
+        <h4>Comments</h4>
+        <div id="comments-info"></div>
+        <div id="comments"></div>
+
+        <form id="show-comments">
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Refresh</button>
+          </div>
+        </form>
+
+        <form id="comment-form">
+          <div class="form-group">
+            <textarea class="form-control"
+                      placeholder="Enter a comment"
+                      name="comment[body]"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Add Comment</button>
+        </form>
+      </article>
+
+      <h2>Cookie Jar</h2>
+      <form id="cookie-form">
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Get Cookie</button>
+          <!-- TODO client cookie request resource -->
+          <!-- TODO client cookie write after receive from server -->
+          <!-- TODO server cookie generation: token, fortune, lotto -->
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

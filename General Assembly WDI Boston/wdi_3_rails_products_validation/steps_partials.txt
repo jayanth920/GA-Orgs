@@ -1,0 +1,41 @@
+#######################################
+# DRY up your new and edit views with a form partial
+#######################################
+
+# Move the form from the new and create view into the form partial.
+touch app/views/products/_form.html.erb
+
+# render the partial in the new and edit views.
+<!-- Pass the instance variable, @product, to the partial -->
+<%= render 'form', product: @product %>
+
+# Change the @product to the product in the form partial
+# This will use the local variable product set when partial was called
+
+
+#######################################
+# DRY up your index view with a partial
+#######################################
+# create a partial that will show each product in the index view
+# This could be reused by the show view? 
+touch app/views/products/_product.html.erb
+
+# replace the products iteration code in the index with this.
+<%= render partial: "product", collection: @products %>
+
+# Lets wrap this product partial in a layout that will separate each product.
+touch app/views/products/_product_layout.html.erb
+
+# Add the below code into this layout
+<ul>
+  <%= yield %>
+</ul>
+<br>
+<hr>
+
+# Update render method in the index view
+<%= render partial: "product", collection: @products, layout: 'product_layout' %>
+
+#######################################
+# LAB. DRY up the songs views
+#######################################

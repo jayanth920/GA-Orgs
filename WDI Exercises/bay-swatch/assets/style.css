@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Yellowjacket;
+  src: url("./YELLOW.ttf");
+}
+
+h1 {
+  transform: rotate(-10deg);
+  font-size: 64px;
+}
+
+p, h1, form {
+  text-align: center;
+  color:yellow;
+  text-shadow: 2px 2px 1px orange;
+  font-family: Yellowjacket;
+}
+
+div.swatch {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+footer, input {
+  font-size: 24px;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+body {
+  background-image: url("BayWatch.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.container {
+  width: 520px;
+  margin: 0px auto;
+  padding: 10px;
+  background-image: url("hasselhoffbaywatch.jpg");
+}
+
+input {
+  margin: 0 auto;
+}
+footer {
+  width: 50%;
+  margin: 0 auto;
+  height: 20px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}

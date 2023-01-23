@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SlowestLab</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+  <div class="navbar-header pull-left">
+    <a class="navbar-brand" href="/">The Slowest App</a>
+  </div>
+  <div class="navbar-header pull-right">
+    <ul class="nav navbar-nav">
+      <% if signed_in? %>
+        <li>
+          <%= link_to "My dashboard", root_path %>
+        </li>
+        <li>
+          <%= link_to "Sign out", signout_path, method: "delete" %>
+        </li>
+      <% else %>
+        <li>
+          <%= link_to "Sign in or sign up", new_session_path %>
+        </li>
+      <% end %>
+      <li><%= link_to('Users', users_path) %></li>
+      <li><%= link_to('Venues', venues_path) %></li>
+      <li><%= link_to('Shows', shows_path) %></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+        <%flash.each do|key,value|%>
+                <div class="alert alert-<%=key%>"> <%=value%> </div>
+        <%end%>
+<%= yield %>
+</div>
+</body>
+</html>

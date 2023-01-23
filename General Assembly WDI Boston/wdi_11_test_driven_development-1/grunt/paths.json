@@ -1,0 +1,60 @@
+{
+  "primeFactors": {
+    "source": [
+      "prime-factors/lib/**/*.js"
+    ],
+    "tests": [
+      "prime-factors/spec/**/*.js"
+    ]
+  },
+  "stringCalculator": {
+    "source": [
+      "string-calculator/lib/**/*.js"
+    ],
+    "tests": [
+      "string-calculator/spec/**/*.js"
+    ]
+  },
+  "berlinClock": {
+    "source": [
+      "berlin-clock/lib/**/*.js"
+    ],
+    "tests": [
+      "berlin-clock/spec/**/*.js"
+    ]
+  },
+  "lostInAlabama": {
+    "source": [
+      "lost-in-alabama/lib/**/*.js"
+    ],
+    "tests": [
+      "lost-in-alabama/spec/**/*.js"
+    ]
+  },
+  "spellingOutNumbers": {
+    "source": [
+      "spelling-out-numbers/lib/**/*.js"
+    ],
+    "tests": [
+      "spelling-out-numbers/spec/**/*.js"
+    ]
+  },
+  "source": [
+    "<%= paths.primeFactors.source =>",
+    "<%= paths.stringCalculator.source =>",
+    "<%= paths.lostInAlabama.source =>"
+    "<%= paths.berlinClock.source =>"
+    "<%= paths.spellingOutNumbers.source =>"
+  ],
+  "tests": [
+    "<%= paths.primeFactors.tests =>",
+    "<%= paths.stringCalculator.tests =>",
+    "<%= paths.lostInAlabama.tests =>",
+    "<%= paths.berlinClock.tests =>"
+    "<%= paths.spellingOutNumbers.tests =>"
+  ],
+  "project": [
+    "<%= paths.source =>",
+    "<%= paths.tests =>"
+  ]
+}

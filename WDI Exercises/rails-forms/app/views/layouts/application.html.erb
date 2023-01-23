@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RailsForms</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <nav>
+  <ul>
+    <li><a href="/">Search Demo</a></li>
+  </ul>
+  <hr>
+  <ol>
+    <li><a href="/forms/option_and_select">&lt;option> and &lt;select></a></li>
+    <li><a href="/forms/textarea_and_input_type_hidden">&lt;textarea> and &lt;input type="hidden"></a></li>
+    <li><a href="/forms/input_text_number_password">&lt;input type="text"> and type="number" and type="password"</a></li>
+    <li><a href="/forms/checkbox">&lt;input type="checkbox"></a></li>
+    <li><a href="/forms/radio">&lt;input type="radio"></a></li>
+    <li><a href="/forms/date">&lt;input type="date"></a></li>
+  </ol>
+  </nav>
+
+  <section>
+    <%= yield %>
+  </section>
+
+
+</body>
+</html>

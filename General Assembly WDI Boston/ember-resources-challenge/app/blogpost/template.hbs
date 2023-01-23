@@ -1,0 +1,7 @@
+{{blogpost-details model.blogpost}}
+
+{{#each comments as |eachComment|}}
+  {{comment-details comment=eachComment}}
+{{/each}}
+
+{{comment-form}}

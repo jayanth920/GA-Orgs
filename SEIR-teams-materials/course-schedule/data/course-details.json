@@ -1,0 +1,52 @@
+{
+  "start": "2021-02-01",
+  "IANAtimezone": "America/New_York",
+  "startTime": "10:00",
+  "endTime": "18:00",
+  "end": "2021-04-26",
+  "outcomesBlock": {
+    "day": 4,
+    "startTime": "16:30",
+    "endTime": "18:00"
+  },
+  "name": "seir-201",
+  "org": "seir-201",
+  "nickname": "coolkids",
+  "scheduleBlocks": [
+    {
+      "name": "Morning",
+      "startTime": "10:00",
+      "endTime": "11:00"
+    },
+    {
+      "name": "Lecture AM",
+      "startTime": "11:00",
+      "endTime": "12:30"
+    },
+    {
+      "name": "Lab AM",
+      "startTime": "12:30",
+      "endTime": "13:30"
+    },
+    {
+      "name": "Lunch",
+      "startTime": "13:30",
+      "endTime": "14:30"
+    },
+    {
+      "name": "Lecture PM",
+      "startTime": "14:30",
+      "endTime": "16:30"
+    },
+    {
+      "name": "Lab PM",
+      "startTime": "16:30",
+      "endTime": "18:00"
+    },
+    {
+      "name": "Homework",
+      "startTime": "18:00",
+      "endTime": "22:00"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+  <script src="app.js"></script>
+  <link rel='stylesheet' type='text/css' href='styles.css'>
+</head>
+<body ng-app='stoplight'>
+  <div ng-controller='stoplightController as vm'>
+    <div id="traffic-light">
+      <div
+      ng-repeat="color in vm.colors"
+      ng-click="vm.turn(color)"
+      ng-style="{background: vm.bg}"
+      ng-class="{ 'off': vm.bg != color }"
+      ></div>
+    </div>
+  </div>
+</body>
+</html>

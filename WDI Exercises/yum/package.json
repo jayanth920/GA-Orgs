@@ -1,0 +1,9 @@
+{
+  "name": "yum",
+  "version": "1.0.0",
+  "description": "YUM!  Cookies!",
+  "main": "index.js",
+  "author": "WDI",
+  "license": "ISC",
+  "dependencies": {}
+}

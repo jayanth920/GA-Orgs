@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Malicious Click Stealer</title>
+        
+        <style>
+            iframe.safe {
+                width: 300px; height: 150px;
+            }
+            
+            div.malicious {
+                width: 300px; height: 150px;
+                position: absolute; top: 0;
+                z-index: 1;
+                background-color: #ff0000; opacity: 0.1;
+            }
+        </style>
+    </head>
+    <body>
+        <iframe src="click-for-alerts.html" class="safe"></iframe>
+        
+        <div onclick="clickForAlerts()" class="malicious"></div>
+        <script>
+            function clickForAlerts() {
+                alert("I've stolen the click (^_^)");
+            }
+        </script>
+    </body>
+</html>

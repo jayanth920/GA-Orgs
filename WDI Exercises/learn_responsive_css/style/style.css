@@ -1,0 +1,54 @@
+body {
+  font-size: 16px;
+  background: purple; }
+
+#wrapper {
+  width: 85%;
+  border-radius: 15px;
+  margin: auto;
+  background: white;
+  padding: 1rem; }
+
+#phone {
+  display: none;
+  background: magenta; }
+
+#tablet {
+  display: none;
+  background: orange; }
+
+#laptop {
+  display: none;
+  background: pink; }
+
+@media (min-width: 320px) {
+  #phone {
+    display: block; } }
+@media (min-width: 700px) {
+  #wrapper {
+    width: 90%; }
+
+  #phone {
+    display: none; }
+
+  #tablet {
+    display: block; }
+
+  .nav-item {
+    display: inline-block;
+    list-style: square;
+    padding: 1rem; } }
+@media (min-width: 1200px) {
+  #wrapper {
+    width: 960px; }
+
+  #phone {
+    display: none; }
+
+  #tablet {
+    display: none; }
+
+  #laptop {
+    display: block; } }
+
+/*# sourceMappingURL=style.css.map */

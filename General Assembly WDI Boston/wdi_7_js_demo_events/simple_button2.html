@@ -1,0 +1,19 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="./src/simple_button2.css">
+  </head>
+  <body>
+    <div id='my_button' class='button-div'>Off</div>
+    <script src='./src/simple_button2.js'></script>
+    <script type='text/javascript'>
+      var button = document.getElementById('my_button');
+      button.onclick = EventDemo.toggleButton;
+
+      // Level 0 DOM  events can't have multiple handlers
+      // last handler overrides previous ones.
+      // button.onclick = function(){
+      //   alert("Hey weird my toogle button go, waaaaa");
+      // }
+    </script>
+  </body>
+</html>

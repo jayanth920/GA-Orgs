@@ -1,0 +1,65 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "pickles",
+      "texture": "crunchy",
+      "pairing": "ketchup"
+    },
+    {
+      "id": 2,
+      "name": "buffalo chicken",
+      "texture": "fleshy",
+      "pairing": "waffles"
+    },
+    {
+      "id": 3,
+      "name": "croutons",
+      "texture": "crunchy",
+      "pairing": "italian dressing"
+    }
+  ],
+  "songs": [
+    {
+      "id": 1,
+      "name": "Celestica",
+      "band": "Crystal Castles",
+      "album": "Crystal Castles"
+    },
+    {
+      "id": 2,
+      "name": "Love Again",
+      "band": "Run the Jewels",
+      "album": "Run the Jewels 2"
+    },
+    {
+      "id": 3,
+      "name": "Childish Gambino",
+      "band": "telegraph ave.",
+      "album": "because the internet"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "name": "Wet Hot American Summer",
+      "Director": "David Wain",
+      "Writers": [{"name": "Michael Showalter"}, {"name": "David Wain"}],
+      "Tagline": "High Times. Hard Bodies. Soft Rock."
+    },
+    {
+      "id": 2,
+      "name": "Akira",
+      "Director": "Katsuhiro Otomo",
+      "Writers": [{"name": "Katsuhiro Otomo"}, {"name": "Izo Hashimoto"}],
+      "Tagline": "Neo-Tokyo is about to E.X.P.L.O.D.E."
+    },
+    {
+      "id": 3,
+      "name": "Holy Mountain",
+      "Director": "Alejandro Jodorowsky",
+      "Writers": [{"name": "Alejandro Jodorowsky"}],
+      "Tagline": "I am beyond taglines."
+    }
+  ]
+}

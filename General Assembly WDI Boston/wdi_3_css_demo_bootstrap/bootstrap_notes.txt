@@ -1,0 +1,56 @@
+* Install Emmet
+  emmet.io
+* Twitter Bootstrap
+** Examples
+*** builtwithbootstrap.com
+*** lovebootstrap.com
+*** expo.bootstrap.com
+  Noticed by developers of bootstrap.
+** Mobile first approach.
+  Think about design on small devices, phones.
+** I.E 8 and higher.
+  need some hack to get I.E 8 to work otherwise works on I.E 9 and above.
+** No more sprites
+  Could not scale up or change color.
+** Font icons are vector icons
+  Can scale up fonts.
+** Competitors, Zurb foundation.
+** Is a responsive design framework.
+  Somewhere between a canned CMS and a site built from raw CSS.
+** Pros
+*** Some of the work is already done for you.
+*** Still customizable
+    Doesn't NEED to look like all the other sites that use bootstrap.
+
+** Cons
+*** Code "bloat"
+   More code that if this was developed for one app using CSS/HTML/JS.
+
+** Avoid customization in the download.
+  Will have to remember all the choices in this version if you have get a more
+  recent version.
+** Only need the css, fonts and js directories.
+*** You will get the minified and plain files.
+** CSS
+** Fonts
+   Series of icons you can use. All vector based, as opposed to raster based.
+** Javascript.
+*** Need to download jquery and respond.js
+
+** JQuery is required
+*** JQuery 1.x will support I.E 8 and above
+*** JQuery 2.x will support I.E 9 and above
+*** Add jquery to the bottom of the body, the footer.
+   This will make sure that the HTML is loaded before the javascript.
+   You may have jquery/js code that works on the DOM.
+** Add bootstrap.js after jquery
+* Add respond.js after bootstrap.js
+  Create a respond.js in the js directory.
+** Add the respond.js in the head
+* Grid
+** 12 column grid
+** 4 sizes, extra small
+*** extra small (col-xs) < 768 pixels
+*** small (col-sm) >= 768 pixels
+*** medium (col-md) >= 992 pixels
+*** large (col-lg) >= 1200px

@@ -1,0 +1,21 @@
+  651  rails new load_test --database=postgresql
+  652  cd load_test/
+  653  subl .
+  654  rails g scaffold Post title body:text
+  655  rake db:create
+  656  rake db:migrate
+  657  rake db:seed
+  658  git init
+  659  bundle
+  660  git add .
+  661  git commit -m "Initial commit"
+  662  history
+  663  heroku new
+  664  heroku create
+  665  git push heroku master
+  666  git remote add origin git@github.com:tibbon/ga-lab-load-test.git
+  667  git push -u origin master
+  668  heroku open
+  669  heroku run rake db:migrate
+  670  heroku run rake db:seed
+  671  history

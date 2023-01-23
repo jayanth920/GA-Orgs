@@ -1,0 +1,19 @@
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'snippets/**/*'
+
+Style/EmptyMethod:
+  EnforcedStyle: 'expanded'
+
+Documentation:
+  Enabled: false
+
+AllCops:
+  TargetRubyVersion:
+    2.5
+  Exclude:
+    - 'spec/spec_helper.rb'

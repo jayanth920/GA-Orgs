@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="WaterApp">
+	<head>
+		<meta charset="utf-8">
+		<title>Water Bar</title>
+		<link rel="stylesheet" href="main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+		<script src="app.js" charset="utf-8"></script>
+	</head>
+	<body ng-controller="BaseCtrl as ctrl">
+		<h1>Water Bar</h1>
+		<h2>We only serve water</h2>
+		<div class="container">
+			<div class="menu">
+				<h3>Menu</h3>
+				<hr>
+						<dl ng-repeat="water in ctrl.waters">
+							<dt>{{water.brand}}</dt>
+							<dd>${{water.price}}</dd>
+						</dl>
+			</div>
+		</div>
+	</body>
+</html>

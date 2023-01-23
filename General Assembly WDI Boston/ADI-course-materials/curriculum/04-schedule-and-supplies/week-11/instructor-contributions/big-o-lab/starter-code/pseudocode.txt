@@ -1,0 +1,77 @@
+Problem 1:
+
+func sumArray(var A as array of length n)
+    var sum as int = 0
+    for i from 0 to n - 1
+        sum += A[i]
+    return sum
+end func
+
+Running time: 
+Explanation: 
+
+----------------------------------------------------------------
+
+Problem 2:
+
+func sumMatrix(var A as n x n matrix) // A matrix can be represented as an array of arrays, from A[0][0] to A[n][n]
+    var sum as int = 0
+    for i from 0 to n - 1
+        sum += sumArray(A[i])
+    return sum
+end func
+
+Running time: 
+Explanation: 
+
+----------------------------------------------------------------
+
+Problem 3:
+
+func countDivisionsByTwo(var n as int)
+    var count as int = 0
+    var i as int = n
+    while i >= 1
+        count++
+        i = i / 2
+    return count
+end func
+
+Running time: 
+Explanation: 
+
+----------------------------------------------------------------
+
+Problem 4:
+
+func arrayMax(var A as array of length n)
+    var currentMax as int = A[0]
+    for i from 0 to n - 1
+        if A[i] > currentMax then
+            currentMax = A[i]
+    return currentMax
+end func
+
+Running time: 
+Explanation: 
+
+----------------------------------------------------------------
+
+***BONUS*** Problem 5:
+
+func bonusFunction(var n as int)
+    var total as int = 0
+    for i from 1 to n
+        for j from 1 to n
+            total += 1
+        for k from 1 to 2 * n
+            total += 1
+            var m as int = 0
+            while (m < 3 * n)
+                total += 1
+                m += 2
+    return total
+end func
+
+Running time: 
+Explanation: 

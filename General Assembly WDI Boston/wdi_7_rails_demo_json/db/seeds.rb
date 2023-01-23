@@ -1,0 +1,11 @@
+king = Author.create(name: "Stephen King")
+austen = Author.create(name: "Jane Austen")
+lovecraft = Author.create(name: "H.P. Lovecraft")
+
+Book.create(title: "It", price: 10.99, author: king)
+Book.create(title: "Cujo", price: 6.99, author: king)
+Book.create(title: "Pet Semetary", price: 6.98, author: king)
+Book.create(title: "Pride and Prejudice", price: 10.99, author: austen)
+Book.create(title: "Sense and Sensibility", price: 12.99, author: austen)
+Book.create(title: "Northanger Abby", price: 6.99, author: austen)
+Book.create(title: "The Call of Cthulhu", price: 5.99, author: lovecraft)

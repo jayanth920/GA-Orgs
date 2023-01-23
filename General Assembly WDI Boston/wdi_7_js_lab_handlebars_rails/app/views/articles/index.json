@@ -1,0 +1,47 @@
+[
+  {
+    "id": 3,
+    "title": "Third article title",
+    "category": "ruby",
+    "summary": "Even more words for my third article go here",
+    "author": {
+      "id": 1,
+      "name": "Alex",
+      "username": "grantovich"
+    },
+    "comments": []
+  },
+  {
+    "id": 2,
+    "title": "Second article title",
+    "category": "javascript",
+    "summary": "Summary for my second article would be found here",
+    "author": {
+      "id": 1,
+      "name": "Alex",
+      "username": "grantovich"
+    },
+    "comments": [
+      {
+        "id": 1,
+        "content": "This was the first comment made on my article"
+      },
+      {
+        "id": 2,
+        "content": "Another anonymous comment made on the second article"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "First article title",
+    "category": "ruby",
+    "summary": "Here is the summary for my first article",
+    "author": {
+      "id": 2,
+      "name": "David",
+      "username": "tibbon"
+    },
+    "comments": []
+  }
+]

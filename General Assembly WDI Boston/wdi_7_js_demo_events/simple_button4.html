@@ -1,0 +1,33 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="./src/simple_button2.css">
+  </head>
+  <body>
+    <!-- 
+      Event Bubbling.
+      1. Create a container around the button
+     -->
+    <div id='container'>
+      <!-- Button -->
+      <div id='my_button' class='button-div'>Off</div>
+    </div>
+
+    <script src='./src/simple_button4.js'></script>
+    <script type='text/javascript'>
+      var button = document.getElementById('my_button'),
+      // 2. get the container div element.
+      container = document.getElementById('container');
+
+      // last argument enables capture phase (1) if true.
+      // bubble phase (3) if false.
+      button.addEventListener('click', EventDemo.toggleButton, false);
+
+      // 3. Show event info for button.
+      button.addEventListener('click', EventDemo.showEventInfo, false);
+
+      // 4. Show event info for the , button parent, container div.
+      container.addEventListener('click',EventDemo.showEventInfo, false);
+
+    </script>
+  </body>
+</html>

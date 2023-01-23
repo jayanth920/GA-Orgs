@@ -1,0 +1,27 @@
+<%= form_for player do |f| %>
+  <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div>
+    <%= f.label :job %>
+    <%= f.select :job, Player::JOBS %>
+  </div>
+  <div>
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+  <div>
+    <%= f.label :health %>
+    <%= f.text_field :health %>
+  </div>
+  <div>
+    <%= f.label :magic %>
+    <%= f.text_field :magic %>
+  </div>
+  <div>
+    <%= f.label :is_alive, 'Alive?' %>
+    <%= f.check_box :is_alive %>
+  </div>
+  <%= f.submit %>
+<% end %>

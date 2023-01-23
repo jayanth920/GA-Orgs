@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Demo</title>
+
+    <style>
+      a.test {
+        font-weight: bold;
+      }
+    </style>
+    <script src="jquery-2.1.0.js"></script>
+    <script>
+       // You can select elements based on:
+       // Element name $('p'), $('a'), $('div'), etc.
+       // Element id $('#elementId')
+       // Element class $('.elementClass')
+       // Element attributes
+       // Element visibility
+       // Element order
+       // Form fields
+       // Element parents or children
+       // Combinations of the above.
+
+      $(document).ready(function(){
+
+         // Select the elememnt by id. Notice the # for the id.
+         var tomDiv = $('#tom-id');
+         tomDiv.css('font-style', 'italic');
+
+         // Select the element by class. Noticed the . for the class.
+         //var people = $('.person');
+         var brothers = $('.brother');
+         var sisters = $('.sister');
+         sisters.css('background', 'pink');
+         brothers.css('background', 'blue');
+
+        // Select by attribute value
+        var tall = $('div[height=70]');
+        var others = $('div[height!=70]');
+
+
+       $('#oldest-button').click(function(){
+           // var oldest = $('div:first').text();
+           var oldest = $('div:lt(3)').text();
+           alert('Oldest is ' + oldest);
+       });
+
+       $('#youngest-button').click(function(){
+           // var youngest = $('div:last').text();
+           var youngest = $('div:gt(5)').text();
+           alert('Youngest is ' + youngest);
+       });
+
+
+       $("input[type='text']").change(function(){
+          var name =  event.target.value.split(" ").shift().toLowerCase();
+          nameID = '#'+ name + '-id';
+         $(nameID).css('background', 'white');
+         alert('See ' + name  + ' with white the background');
+
+       });
+
+     alert("Tom's Grandaughter is " + $('#tom-id > div:first-child > div:first-child').text());
+
+
+       $('.sister').each(function(index, element){
+         console.log("Sister " + index + " is " + $(element).text());
+       });
+
+
+       });
+
+    </script>
+
+</head>
+<body>
+    <div id='chris-id' class='person sister' height='64'>Chris Dyer</div>
+    <div id='mike-id' class='person brother' height='69'>Mike Dyer</div>
+    <div id='tom-id' class='person brother' height='74'>Tom Dyer
+      <div>Jen
+        <div>Maddie</div>
+      </div>
+      <div>Eric</div>
+    </div>
+    <div id='terri-id' class='person sister' height='67'>Terri Dyer
+    </div>
+    <div id='joe-id' class='person brother' height='70'>Joe Dyer</div>
+    <div id='marriane-id' class='person sister' height='66'>Marriane Dyer</div>
+    <div id='meg-id' class='person sister' height='64'>Meg Dyer</div>
+    <div id='ed-id' class='person brother' height='71'>Ed Dyer</div>
+
+    <button id='oldest-button'>Find Oldest</button>
+    <button id='youngest-button'>Find Youngest</button>
+
+    <input type='text' id='find-name' placeholder='Enter name'></input>
+
+</body>
+</html>

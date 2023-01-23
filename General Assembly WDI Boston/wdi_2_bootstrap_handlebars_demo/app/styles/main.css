@@ -1,0 +1,63 @@
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+@font-face {
+    font-family: "Pricedown";
+    src: url(Pricedown.ttf) format("truetype");
+}
+
+.hero-unit {
+  margin: auto;
+  width: 80%;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  border-radius: 6px;
+  margin-top: 5em;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Pricedown";
+  color: black;
+}
+
+h1 {
+  font-size: 76px;
+}
+
+.portrait {
+  height: 300px;
+  width: 300px;
+  border: .75em solid black;
+}
+
+a {
+  font-family: "Pricedown";
+  color: black !important;
+  font-size: 2em;
+}
+
+
+.navbar {
+  border-bottom: .75em solid black;
+  background-color: white;
+  margin-bottom: 0px;
+}
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+canvas {
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+

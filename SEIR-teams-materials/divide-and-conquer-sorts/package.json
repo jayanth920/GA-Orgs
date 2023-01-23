@@ -1,0 +1,23 @@
+{
+  "name": "divide-and-conquer-sorts",
+  "version": "1.0.0",
+  "description": "Modules and exercises for divide and conquer sorts",
+  "main": "exercises/MergeSort.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:SEIR-teams-materials/divide-and-conquer-sorts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

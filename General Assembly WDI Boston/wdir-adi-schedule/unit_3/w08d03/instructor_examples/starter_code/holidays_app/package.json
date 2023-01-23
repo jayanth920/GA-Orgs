@@ -1,0 +1,26 @@
+{
+  "name": "spicy-hermit-cookie",
+  "version": "1.0.0",
+  "description": "National Holiday MEAN Stack Full CRUD build",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krafalski/spicy-hermit-cookie.git"
+  },
+  "author": "K. Rafalski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krafalski/spicy-hermit-cookie/issues"
+  },
+  "homepage": "https://github.com/Krafalski/spicy-hermit-cookie#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.2",
+    "morgan": "^1.9.0"
+  }
+}

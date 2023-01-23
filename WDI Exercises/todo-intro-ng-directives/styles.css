@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  margin-top: 10%;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+button {
+  background: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+h1 {
+  color: #31599A;
+  font-family: 'Bree Serif', serif;
+}
+
+div[ng-controller] {
+  background: linear-gradient(to bottom, #49B5D5 0%, #76CBE5 100%);
+  border: 5px solid #FBD93D;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.new {
+  background: #31599A;
+  color: #eee;
+  font-size: 1em;
+  margin: 7% 0;
+}

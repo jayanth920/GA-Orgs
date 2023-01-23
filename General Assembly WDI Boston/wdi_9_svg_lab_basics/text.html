@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVG Text</title>
+</head>
+<body>
+  <h1>SVG Text</h1>
+  <p>We can display text in SVG images where needed. This is great for labels and such, but you don't want to do all the text on your page this way. Use the 'text' element for text.</p>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="30">
+    <text fill="black" x="10" y="20">Hello World</text>
+  </svg>
+
+  <p>You can also do links in text</p>
+
+  <svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <a xlink:href="http://generalassemb.ly" target="_blank">
+      <text x="0" y="15" fill="tomato">General Assembly is Awesome</text>
+    </a>
+  </svg>
+
+  <h3>NOW YOU TRY - 8</h3>
+  <p>Make a 'legend' for a chart with rectangles or polygons for shapes with text labels.</p>
+
+  <div id="your-legend">
+  </div>
+
+</body>
+</html>

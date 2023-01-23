@@ -1,0 +1,15 @@
+<h1>Login</h1>
+<form>
+  <fieldset>
+    <div class='row'>
+      <label><strong>Email</strong></label>
+      <input ng-model="loginForm.email" placeholder="Email" type="text" maxlength="250">
+    </div>
+    <div class='row'>
+      <label><strong>Password</strong></label>
+      <input ng-model="loginForm.password" placeholder="Password" type="password" maxlength="25">
+    </div>
+     <button ng-click="loginUser()">Login</button>
+    </div>
+  </fieldset>
+</form>

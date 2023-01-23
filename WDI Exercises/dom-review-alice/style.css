@@ -1,0 +1,24 @@
+body {
+    background: steelblue
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+.button {
+    font-family: fantasy;
+    font-size: 24px;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 0 20px;
+    background: peachpuff;
+}

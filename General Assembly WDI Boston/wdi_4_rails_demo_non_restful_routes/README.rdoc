@@ -1,0 +1,6 @@
+== Mapple App Store
+
+Models: 
+
+* Customers
+* Apps

@@ -1,0 +1,20 @@
+body {
+	background: hsla(146, 62%, 95%, 1);
+	height: 97vh;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 1em;
+	background-color: lightgray;
+	margin: 0.5em;
+}
+
+/* REMEMBER TO STYLE FOR MOBILE FIRST,
+THEN ADD MEDIA QUERY FOR LARGER THAN 800PX */
+
+main {
+	height: 100%;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous">
+    </script>
+    <script src="js/script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <input type="number" name="input" id="temp" value="0">
+    <select class="unit" name="unit" id="unit">
+      <option value="c">Celsius</option>
+      <option value="f">Fahrenheit</option>
+      <option value="k">Kelvin</option>
+    </select>
+    <h2><span id="f-temp"></span>&deg;F</h2>
+    <h2><span id="c-temp"></span>&deg;C</h2>
+    <h2><span id="k-temp"></span>&deg;K</h2>
+  </body>
+</html>

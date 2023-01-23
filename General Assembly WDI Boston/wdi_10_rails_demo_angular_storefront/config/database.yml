@@ -1,0 +1,16 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *defaults
+  database: Storefront_development
+
+test:
+  <<: *defaults
+  database: Storefront_test
+
+production:
+  <<: *defaults
+  database: Storefront_production

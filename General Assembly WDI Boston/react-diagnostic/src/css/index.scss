@@ -1,0 +1,20 @@
+$blue: #0ff;
+$red: #f00;
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+}
+
+.hover {
+  color: $red;
+}
+
+.normal {
+  color: $blue;
+}

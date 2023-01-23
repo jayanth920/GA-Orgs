@@ -1,0 +1,12 @@
+{
+  "source": [
+    "src/**/*.js"
+  ],
+  "other": [
+    "Gruntfile.js",
+    "grunt/*.js"
+  ],
+  "data": [
+    "data/**/*.json"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_id": "adidemo-1220",
+    "project_number": "433737748264",
+    "name": "ADIDemo"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433737748264:android:344ccdc827f37539",
+        "client_id": "android:com.clevertap.adidemo",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.clevertap.adidemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

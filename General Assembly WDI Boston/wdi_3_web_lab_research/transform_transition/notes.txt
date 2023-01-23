@@ -1,0 +1,26 @@
+CSS 3 transforms/transitions
+
+transitions: go back and forth between two styles in CSS when you click/hover/focus on an element, SMOOTHLY
+
+"CSS Transitions allow property changes in CSS values to occur smoothly over a specified duration. This smoothing animates the changing of a CSS value when triggered by a mouse click, focus or active state, or any changes to the element (including even a change on the element’s class attribute)."
+- http://www.w3.org/TR/css3-transitions/
+
+http://blog.alexmaccaw.com/css-transitions
+http://alistapart.com/article/understanding-css3-transitions/
+
+transform applies either a 2d or 3d transformation to an element. allows you to rotate/scale/move/skew based on specified values (x axis, y axis, z axis for 3d).
+CSS transforms can technically be done using other web technologies, but maintainability of other methods for simple element transformations is a drawback, so css is preferable. they are easy to work with and have very little if any unnecessary javascript involved.
+(source http://www.sitepoint.com/a-primer-on-css3-transforms/)
+
+
+also, support for css transforms is relatively strong across all browsers with decent market share. the only exception is IE - any version below 9. IE 6-8 can support transforms with the help of a jquery plugin, if need be.
+
+demos:
+
+start with barrel roll: http://stackoverflow.com/questions/8000194/how-does-google-do-the-barrel-roll
+
+ANNA: for transitions:
+http://css3.bradshawenterprises.com/transitions/
+
+LIBBY: for transforms:
+http://www.w3schools.com/css/css3_2dtransforms.asp

@@ -1,0 +1,5 @@
+{
+  "default": ["nag"],
+  "nag": ["jshint", "jsonlint", "jscs:status", "jsbeautifier:status"],
+  "reformat": ["jscs:write", "jsbeautifier:write"]
+}

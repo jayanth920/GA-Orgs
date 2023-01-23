@@ -1,0 +1,28 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <div id='my_button' class='button_link'></div>
+
+    <!-- DONT DO THIS!
+      Inline event handlers are no good. Very obtrusive.
+      "Unobtrusive Javascript" is better. 
+
+      <div id='my_button' class='button_link' onclick='function(){ alert("me bad handler"); }'>
+      </div> 
+    -->
+
+    <script src='./src/simple_button.js'></script>
+    <script type='text/javascript'>
+      var button = document.getElementById('my_button');
+      button.innerHTML = "Off";
+      button.style.color = 'gray';
+
+      // Dom 0 Events.
+
+      // This is Unobstrusive, the handler in NOT
+      // defined in the HTML markup. Hey, it's not 1997.
+      button.onclick = EventDemo.toggleButton;
+    </script>
+  </body>
+</html>

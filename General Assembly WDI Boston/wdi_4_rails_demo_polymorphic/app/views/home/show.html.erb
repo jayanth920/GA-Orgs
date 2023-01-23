@@ -1,0 +1,15 @@
+<h1>Statuses</h1>
+<% @statuses.each do |status| %>
+  <p>
+    <%= render status %>
+    | <%= link_to 'comments', status %>
+  </p>
+<% end %>
+
+<h1>Links</h1>
+<% @links.each do |link| %>
+  <p>
+    <%= render link %>
+    | <%= link_to 'comments', link %>
+  </p>
+<% end %>

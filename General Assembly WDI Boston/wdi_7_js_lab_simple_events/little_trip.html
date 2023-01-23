@@ -1,0 +1,19 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="./src/simple_button2.css">
+    <script src='./src/little_trip.js'></script>
+    <script type='text/javascript'>
+      window.onload = function(){
+        var button = document.getElementById('trip-button');
+        button.innerHTML = Traveler.startText;
+        button.addEventListener('click', Traveler.nextHandler, false);
+        Traveler.init();
+      };
+    </script>
+  </head>
+  <body>
+    <div id='trip-button' class='button-div'>Start Trip</div>
+    <div id='travel-container'></div>
+
+   </body>
+</html>

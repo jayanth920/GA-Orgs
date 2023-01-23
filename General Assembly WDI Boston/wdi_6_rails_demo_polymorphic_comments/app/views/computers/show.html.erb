@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @computer.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @computer.model %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @computer.price %>
+</p>
+
+<%= link_to 'Edit', edit_computer_path(@computer) %> |
+<%= link_to 'Back', computers_path %>

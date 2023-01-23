@@ -1,0 +1,45 @@
+$wrapper-padding: 20px;
+$wrapper-margin: 20px;
+$wrapper-width: 960px;
+// columns info huzzah
+$col-width: 77px;
+$col-width-2: 154px;
+$col-width-3: 235px;
+$col-width-6: 470px;
+$col-width-10: 777px;
+$all-the-width: 100%;
+
+
+#wrapper {
+  width: $wrapper-width;
+  padding: $wrapper-padding;
+  margin: auto;
+}
+// 960 / 12 = 80 = 1 column
+.col-1 {
+  width: $col-width;
+  display: inline-block;
+}
+.col-2 {
+  width: $col-width-2;
+  display: inline-block;
+}
+.col-3 {
+ width: $col-width-3;
+ display: inline-block;
+}
+.col-6 {
+  width: $col-width-6;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.col-10 {
+  width: $col-width-10;
+  display: inline-block;
+}
+.row {
+  width: $all-the-width;
+  display: inline-block;
+}

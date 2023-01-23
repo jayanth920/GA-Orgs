@@ -1,0 +1,39 @@
+h1 {
+  margin-top: 30px;
+}
+
+button {
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  max-width: 350px;
+  padding-inline-start: 0px;
+}
+
+li {
+  padding: 5px 0px;
+  margin: 5px 0px;
+  border-top: 1px solid #d2d2d3;
+}
+
+li:last-of-type {
+  border-bottom: 1px solid #d2d2d3;
+}
+
+.row:first-of-type {
+  margin-bottom: 20px;
+}
+
+/* FIX THE ??? FOR THE CSS RULES BELOW */
+.col-???-2:not(:last-child) {
+  border-right: 2px solid black;
+}
+
+@media (max-width: 991.98px) {
+  .col-???-2 {
+    border: 2px solid #d2d2d3 !important;
+    margin: 5px 3px 0px 3px;
+  }
+}

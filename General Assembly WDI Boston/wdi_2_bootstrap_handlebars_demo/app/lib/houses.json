@@ -1,0 +1,40 @@
+{
+  "houses": [
+    {
+      "id": 1,
+      "name": "House Baratheon",
+      "words": "Ours is the fury.",
+      "sigil": "http://i.imgur.com/iJtBKIR.png"
+    },
+    {
+      "id": 2,
+      "name": "House Bolton",
+      "words": "Our blades are sharp.",
+      "sigil": "http://i.imgur.com/uPoc9Jh.jpg"
+    },
+    {
+      "id": 3,
+      "name": "House Lannister",
+      "words": "Hear me roar!",
+      "sigil": "http://i.imgur.com/gOwmzoU.jpg"
+    },
+    {
+      "id": 4,
+      "name": "House Martell",
+      "words": "Unbowed, Unbent, Unbroken.",
+      "sigil": "http://i.imgur.com/XaIiVNI.jpg"
+    },
+    {
+      "id": 5,
+      "name": "House Stark",
+      "words": "Winter is coming.",
+      "sigil": "http://i.imgur.com/zpVjXsa.jpg"
+    },
+    {
+      "id": 6,
+      "name": "House Targaryen",
+      "words": "Blood and fire.",
+      "sigil": "http://i.imgur.com/4FuSpZt.jpg"
+    }
+  ]
+}

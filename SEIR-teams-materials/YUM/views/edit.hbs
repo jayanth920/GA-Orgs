@@ -1,0 +1,22 @@
+<h2>Update {{name}}:</h2>
+
+<form action="/{{id}}?_method=put" method="post" accept-charset="utf-8">
+    <p>
+        <label>Name:</label>
+        <input type="text" name="name" value="{{name}}"/>
+    </p>
+    <p>
+        <label>Owner:</label>
+        <input type="text" name="owner" value="{{owner}}"/>
+    </p>
+    <p>
+        <label>Type:</label>
+        <input type="text" name="type" value="{{type}}"/>
+    </p>
+    <p>
+        <label>Number:</label>
+        <input type="text" name="capacity" type="number" value="{{capacity}}" />
+    </p>
+
+    <input type="submit" value="Update" />
+</form>

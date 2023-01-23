@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Honest Tom's Products</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div id='container'>
+    <div id='header'>
+      <h2> Honest Tom's <%= @title %></h2> 
+    </div>
+    <div id='contents'>
+      <%= yield %>
+    </div>
+  </div>
+  <footer>
+    <ul>About
+      <li> Host <a href='https://generalassemb.ly/instructors/tom-dyer/1717'>Tom</a></li>
+    </ul>
+  </footer>
+</body>
+</html>

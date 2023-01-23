@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Make:</b>
+  <%= @computer.make %>
+</p>
+
+<p>
+  <b>Model:</b>
+  <%= @computer.model %>
+</p>
+
+<p>
+  <b>Processor speed:</b>
+  <%= @computer.processor_speed %>
+</p>
+
+
+<%= link_to 'Edit', edit_computer_path(@computer) %> |
+<%= link_to 'Back', computers_path %>

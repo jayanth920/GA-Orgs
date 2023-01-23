@@ -1,0 +1,12 @@
+<h1>Details for <%= @guitar["year"] %> <%= @guitar["model"] %></h1>
+
+<dl class="lower-margin-box" >
+  <dt>Make: </dt><dd><%= @guitar["make"] %></dd>
+  <dt>Model: </dt><dd><%= @guitar["model"] %></dd>
+  <dt>Year: </dt><dd><%= @guitar["year"] %></dd>
+  <dt>Color: </dt><dd><%= @guitar["color"] %></dd>
+</dl>
+
+<a href="/">Index</a> | <a href="/guitars/<%= @guitar["id"] %>/edit">Edit</a> |
+<a href="/guitars/<%= @guitar["id"] %>/delete">Delete</a>
+

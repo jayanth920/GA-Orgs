@@ -1,0 +1,16 @@
+<h3><a ng-click="navNewProduct()">New Product</a></h3>
+
+<h1 class="text-center">Products From Angular</h1>
+
+<input type='text' ng-model='search.$'>
+
+<div class="product-listing" ng-repeat="product in data.products | filter:search">
+    <h3><a ng-click="viewPost($index + 1)" >{{ product.name }}</a></h3>
+    <div class="product-images" >
+      <span class="product-thumbnail" ng-repeat="image in product.images">
+      	<img src="{{image}}" width='80'/>
+      </span>
+    </div>
+    <div class="product-info">Price: {{ product.price}}</div>
+    <div class="product-description">{{ product.description }}</div>
+</div>

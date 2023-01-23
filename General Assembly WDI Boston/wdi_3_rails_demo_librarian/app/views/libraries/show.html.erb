@@ -1,0 +1,13 @@
+<h1><%= @library.name %></h1>
+
+<h2>All our books!</h2>
+<ul>
+<% @books.each do |book| %>
+  <li><%= book.title %></li>
+  <%= link_to 'X', book_path(book), method: :delete %>
+<% end %>
+</ul>
+
+<%= link_to "New Book", new_book_path(library_id: '1') %>
+
+<%= render 'books/form' %>

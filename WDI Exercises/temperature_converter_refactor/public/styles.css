@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  border:0;
+  padding:0;
+  border-collapse:collapse;
+  border-spacing:0;
+  font-size:inherit;
+  font-style:inherit;
+  font-family:inherit;
+  font-weight:inherit;
+  text-decoration:none;
+  letter-spacing:inherit;
+  color:inherit;
+  background-color:transparent;
+  list-style-type:none;
+  line-height:1.4em;
+  box-sizing:border-box;
+  border-radius:5px;
+  margin-left:auto;
+  margin-right:auto;
+
+*:focus{
+  outline:0
+}
+html{
+  background-color:#f3f3f3;
+  color:#444;
+}
+body,html{
+  position:relative;
+  font-family:"Times New Roman", serif;
+  font-size:36px;
+}
+body{
+  min-height:100vh;
+}
+div{
+  position:relative;
+}
+input, textarea{
+  outline:none;
+}
+a, button, label{
+  cursor:pointer;
+}
+
+
+.container{
+  max-width:800px;
+  padding:20px 40px;
+}
+h1,h2,h3,h4,h5,h6,
+button, .button, .buttons>*{
+  font-family:Verdana, sans-serif;
+}
+h1{ font-size:48px; }
+h2{ font-size:24px; }
+h1,h2,h3,h4,h5,h6{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+p, img{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+p.important{
+  text-align:center;
+}
+
+button, .button, .buttons>*{
+  display:inline-block;
+  text-align:center;
+  margin-top:1px;
+  padding:10px;
+  text-transform:uppercase;
+  text-decoration:none;
+  letter-spacing:2px;
+  font-size:12px;
+  font-weight:bold;
+  transition: 0.1s background-color, 0.1s color;
+}
+button, .button, .buttons>*,
+button.primary:hover, .button.primary:hover, .buttons>.primary:hover{
+  background-color:white;
+  color:#808;
+}
+button:hover, .button:hover, .buttons>*:hover,
+button.primary, .button.primary, .buttons>.primary{
+  background-color:#808;
+  color:#fff;
+}
+.full-width,
+.full-widths>*{
+  display:block;
+  width:100%;
+}
+
+img{
+  display:block;
+  width:100%;
+  overflow:hidden;
+}
+header{
+  background-color:#fff;
+  padding:10px 10px;
+  color:#666;
+  text-align:center;
+}
+section{
+  border-radius:0;
+  border-bottom:1px solid #eee;
+  margin-bottom:40px;
+  padding-top:10px;
+  padding-bottom:20px;
+}
+a{
+  color:#6699cc;
+  text-decoration:underline;
+}
+a:hover{
+  color:#4477aa;
+}
+
+fieldset{
+  margin:.5em 0;
+}
+input, select{
+  display:inline-block;
+  background-color:#fff;
+  border-radius:5px;
+  height:48px;
+  vertical-align:baseline;
+}
+input{
+  width:3em;
+  padding:2px 5px;
+  text-align:right;
+}
+main{
+  text-align:center;
+}

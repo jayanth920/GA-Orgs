@@ -1,0 +1,3 @@
+CREATE DATABASE tunrdrf;
+CREATE USER tunrdrfuser WITH PASSWORD 'tunrdrf';
+GRANT ALL PRIVILEGES ON DATABASE tunrdrf TO tunrdrfuser;

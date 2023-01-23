@@ -1,0 +1,11 @@
+rect {
+  fill: green;
+  stroke: blue;
+  stroke-width: 10;
+}
+
+.tomatos {
+  fill: tomato;
+  stroke: orange;
+  stroke-width: 20;
+}

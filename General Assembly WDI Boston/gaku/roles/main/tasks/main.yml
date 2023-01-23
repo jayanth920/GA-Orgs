@@ -1,0 +1,10 @@
+---
+
+- include: aptitude.yml
+  when: skip_packages is not defined
+- include: fail2ban.yml
+- include: postgres.yml
+- include: user.yml
+- include: ssh.yml
+- include: ruby.yml
+- include: nginx.yml

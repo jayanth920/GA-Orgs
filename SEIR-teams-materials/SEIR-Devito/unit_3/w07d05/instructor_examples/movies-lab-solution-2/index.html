@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="MoviesApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body ng-controller="MainController as ctrl">
+    <h1>Welcome to {{ctrl.appName}}</h1>
+    <form ng-submit="ctrl.getMovies()">
+      <input type="text" placeholder="movie title" ng-model="ctrl.searchString">
+      <button type="submit" name="button">Get Movie!</button>
+    </form>
+    <div ng-repeat="movie in ctrl.movies">
+      <div ng-show="!ctrl.showDetails"><h2 ng-click="ctrl.toggleDetails(movie)">{{movie.Title}}</h2></div>
+      <div ng-show="movie.showDetails">
+        <h2>{{movie.Title}} {{movie.Year}}</h2>
+        <img ng-src="{{movie.Poster}}" alt="{{movie.Title}}"><br>
+        <button type="button" name="button" ng-click="ctrl.toggleDetails(movie)">Return to List</button>
+      </div>
+    </div>
+  </body>
+</html>

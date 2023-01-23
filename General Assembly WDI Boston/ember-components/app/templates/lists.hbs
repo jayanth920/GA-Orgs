@@ -1,0 +1,13 @@
+<!-- templates/lists.hbs -->
+<div class="container">
+  <h2>Shopping Lists</h2>
+
+  {{#each model as |list|}}
+    <h3>{{list.title}}</h3>
+    <ul>
+    {{#each list.items as |item|}}
+        <li>{{item.content}}</li>
+    {{/each}}
+    </ul>
+  {{/each}}
+</div>

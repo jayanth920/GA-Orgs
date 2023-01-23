@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MoviesApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+  <script src="app.js" charset="utf-8"></script>
+  <title>Movie App</title>
+</head>
+<body ng-controller="MainController as ctrl">
+  <h1>Welcome to {{ctrl.appName}}</h1>
+
+  <form ng-submit="ctrl.getMovies()">
+    <input type="text" placeholder="movie title" ng-model="ctrl.movieTitle" />
+    <button type="submit">SUBMIT</button>
+  </form>
+
+  <div ng-repeat="movie in ctrl.movies">
+  <a href="#"><h2 ng-click="ctrl.displayInfo(movie)">{{ movie.Title }}</h2></a>
+  <h2 ng-if="movie.Title === ctrl.activeMovie">{{ movie.Year }}</h2>
+  <img ng-if="movie.Title === ctrl.activeMovie" ng-src='{{ movie.Poster }}' />
+  <!-- <h3 ng-show="ctrl.showInfo"> Starring: {{ movie.Actors }} </h3>
+  <h4 ng-show="ctrl.showInfo"> Plot: {{ movie.Plot }} </h4>
+  <h5 ng-show="ctrl.showInfo"> Genre: {{ movie.Genre }} </h5>
+  <h6 ng-show="ctrl.showInfo"> Rated: {{ movie.Rated }} </h6? -->
+</div>
+
+</body>
+</html>

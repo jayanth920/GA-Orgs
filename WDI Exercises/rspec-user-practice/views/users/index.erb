@@ -1,0 +1,20 @@
+<h2>These are the users whose passwords we're protecting:</h2>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Username</th>
+    <th>Password</th>
+  </tr>
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.id %></td>
+      <td><a href="/<%= user.id %>"><%= user.first_name %></a></td>
+      <td><a href="/<%= user.id %>"><%= user.last_name %></a></td>
+      <td><%= user.username %></td>
+      <td><%= user.password %></td>
+    </tr>
+  <% end %>
+</table>

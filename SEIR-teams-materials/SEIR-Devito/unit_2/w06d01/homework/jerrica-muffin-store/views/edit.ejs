@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <% include ./partials/head.ejs %>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ========== SIDEBAR ========== -->
+      <aside>
+        <% include ./partials/sidebar.ejs %>
+      </aside>
+      <!-- ========== MAIN CONTENT ========== -->
+      <main>
+        <div class="individual-product">
+          <h2>UPDATE <%=product.name%> LISTING</h2>
+          <form action="/products/<%=product._id%>?_method=PUT" method="post">
+            <label for="name">name</label>
+            <input type="text" name="name" value="<%=product.name%>"/>
+            <label for="description">description</label>
+            <input type="text" name="description" value="<%=product.description%>"/>
+            <label for="img">image</label>
+            <input type="text" name="img" value="<%=product.img%>"/>
+            <label for="price">price</label>
+            <input type="number" name="price" value="<%=product.price%>"/>
+            <label for="qty">quantity</label>
+            <input type="number" name="qty" value="<%=product.qty%>"/>
+            <input type="submit"/>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

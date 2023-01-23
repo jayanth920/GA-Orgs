@@ -1,0 +1,20 @@
+{
+  "name": "search-algorithms",
+  "version": "1.0.0",
+  "description": "search algorithms",
+  "main": "searches.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/sei-921/search-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

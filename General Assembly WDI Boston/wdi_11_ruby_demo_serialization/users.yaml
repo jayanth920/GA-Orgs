@@ -1,0 +1,6119 @@
+---
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3600 Denesik Lock
+    city: Destinifort
+    state: SC
+    zipcode: 93973-2552
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 323-615-8079
+  email: abe@tromp.info
+  uid: 22fa3e0d-4f25-4383-8207-92abddae3c7b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 486 Myrtice Turnpike
+    city: Brakusmouth
+    state: SC
+    zipcode: '71062'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (442)252-8932 x8003
+  email: dee@collier.info
+  uid: b187b3b6-efea-4d63-a2d2-59041611c66b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8657 Osinski Branch
+    city: Legroshaven
+    state: TN
+    zipcode: '47409'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (576)403-2006 x40319
+  email: bria@pagac.name
+  uid: 888bc0a9-4953-4620-b551-7ee4301e35eb
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 47992 Schamberger Dam
+    city: Wendyport
+    state: NY
+    zipcode: '53380'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 796.040.9275 x0436
+  email: sharon_prosacco@farrell.net
+  uid: 3d96cf12-3ff6-4a85-9b04-5c27daebdb62
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 39623 Halvorson Ford
+    city: Port Scottyton
+    state: NJ
+    zipcode: '49804'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-692-272-4469
+  email: lindsay.adams@schowalter.com
+  uid: e20f37c1-3c59-4874-afeb-2666970c45e7
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9203 Prosacco Valleys
+    city: New Greggton
+    state: NJ
+    zipcode: 54617-6389
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 773.780.8232 x8784
+  email: antonio_bins@lemkebatz.info
+  uid: 9f97ad15-b991-44bf-a916-ab64d420adcb
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 210 Towne Route
+    city: Berthaport
+    state: KY
+    zipcode: '12049'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 942.260.2812
+  email: rosalinda.rice@feil.net
+  uid: 1947ac81-bfea-4daa-a025-49c1d36771f3
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 856 Beer Brook
+    city: East Laishaland
+    state: NJ
+    zipcode: '36602'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (319)311-3745 x247
+  email: kadin_haley@schuster.biz
+  uid: e2d850c3-92ca-470e-872d-33750a51c51f
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7179 Green Village
+    city: Michaelachester
+    state: HI
+    zipcode: 68443-1716
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-661-516-0391
+  email: shayna.bernhard@treutelbailey.info
+  uid: 9ebccf1b-8854-404b-89c1-90d18a999c0b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 57654 Kira Gateway
+    city: West Terry
+    state: TX
+    zipcode: '69971'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (832)152-4708 x6535
+  email: dolores@medhurst.com
+  uid: bdec5666-ee13-4354-a82e-6114f709068e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9213 Jordan Flat
+    city: Murraymouth
+    state: KS
+    zipcode: '32935'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-222-630-2855 x7200
+  email: david@lueilwitz.info
+  uid: 83e689a8-9cdc-4a09-a14a-ad271d0b9750
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 47352 Bruen Route
+    city: Lednertown
+    state: AZ
+    zipcode: '58048'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 844-667-1794 x8673
+  email: cristina.swaniawski@veum.org
+  uid: c605450c-c113-43ae-92a6-0e445dea45e7
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 629 Lind Streets
+    city: East Ashley
+    state: WI
+    zipcode: '36483'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (642)189-7207 x7439
+  email: ines@padbergveum.info
+  uid: e9218fdf-fa28-4f9a-88c4-98056b8c2fee
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 300 Gerlach Ports
+    city: New Octaviachester
+    state: NM
+    zipcode: '95547'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-970-256-2677 x4177
+  email: joshuah@medhurst.net
+  uid: 015da170-6422-4093-ac95-c2ea28ddc861
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 649 VonRueden Lights
+    city: Langworthborough
+    state: AR
+    zipcode: '54932'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 844-117-9780 x57771
+  email: greg@dickensreinger.org
+  uid: e8d5c29e-d2e2-4905-bdb7-86e354089a03
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 339 Howe Mall
+    city: Zulaufville
+    state: IA
+    zipcode: '84860'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (215)409-4452
+  email: sid@purdysimonis.com
+  uid: 6c090ecd-fcc9-4c55-b16b-60ea7593eac8
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 33991 Tyshawn Locks
+    city: Lake Roscoe
+    state: PA
+    zipcode: 59360-5203
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (434)299-5098
+  email: laverne_daniel@swaniawski.org
+  uid: 524320a8-486a-4fe3-8c98-7bcb018ad6b1
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 96368 Casper Pike
+    city: Mertzhaven
+    state: OH
+    zipcode: 69126-0580
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-425-026-5425 x9026
+  email: kyla_dubuque@bernhard.net
+  uid: f501eb33-7fac-40ef-b84d-abfab5631caf
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9377 Marjorie Extensions
+    city: East Elvaberg
+    state: IL
+    zipcode: '64218'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 707.296.0080 x305
+  email: peter@keler.com
+  uid: a038d5b4-1e8a-4eb6-8ebf-56bdad1844b7
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 94773 Ardella Greens
+    city: New Karleeton
+    state: TX
+    zipcode: 12475-8688
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-429-935-3065 x40912
+  email: meredith@labadie.org
+  uid: 2620ce87-a562-41e6-8211-e76afd3fa54a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 14314 Sean Extension
+    city: Kearamouth
+    state: NJ
+    zipcode: 12418-2034
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-419-165-0261
+  email: jaida@robertskuhn.net
+  uid: b110fa20-995a-4e63-a3f7-f790d4978cc1
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1364 Jameson Rest
+    city: Francescahaven
+    state: NC
+    zipcode: '56742'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (610)955-5750 x10093
+  email: jakayla_lang@koelpin.net
+  uid: fa70e980-cbfb-4e18-983d-84749c457ea1
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6026 Farrell Streets
+    city: Einarhaven
+    state: DE
+    zipcode: 39509-7284
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-756-850-7291 x49780
+  email: brandt@nikolausmills.com
+  uid: 28f1c81b-c4ea-4d5f-b3d6-5ae69ed43516
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 21182 Ansley Overpass
+    city: South Leopoldview
+    state: WI
+    zipcode: '82685'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 296.281.0034
+  email: paula_rolfson@oberbrunner.name
+  uid: b316c829-be03-444d-9aa1-76a76ea5d3c2
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 143 Claudia Hollow
+    city: Clintonton
+    state: NM
+    zipcode: '41230'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 460.531.1488 x745
+  email: sandy_beier@kirlin.name
+  uid: 3a9efead-3ee3-4fb1-8d25-9f6a3767949a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9736 Marina Road
+    city: South Reynamouth
+    state: LA
+    zipcode: 64106-1910
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (748)678-1217 x628
+  email: albert@townepfannerstill.net
+  uid: ebcc36ff-d736-4fc2-9982-888bf9c9ca95
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 40332 Jakubowski Mills
+    city: Titoland
+    state: MI
+    zipcode: '22557'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 638-135-7062
+  email: ramiro_haley@ohara.name
+  uid: a31658cd-19e6-4f14-bcbf-179a76cf060f
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1032 Wisoky Drives
+    city: West Urban
+    state: TX
+    zipcode: '90665'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 376.782.3239 x58731
+  email: haan.keler@rolfson.name
+  uid: 4de62315-d238-49cf-b6be-7daf828f50fd
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 116 Bergstrom Gateway
+    city: Ethelburgh
+    state: MA
+    zipcode: '29770'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 579.541.6525
+  email: krystina@prohaska.net
+  uid: 542dcc8b-107a-48ae-8130-e952142dee2c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1236 Runolfsson Oval
+    city: East Andersonview
+    state: ND
+    zipcode: '43989'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 874-099-5005 x4656
+  email: dewayne_ziemann@stantonyost.net
+  uid: 2de9f8ae-b2e5-49c7-ba81-24f9aedcf245
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8717 Gardner Inlet
+    city: Kuhicland
+    state: IL
+    zipcode: '24946'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (380)519-9041 x47547
+  email: graciela@fritsch.info
+  uid: 6a67899e-741c-43d4-9e59-eba27ed4f9ff
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 520 Feil Square
+    city: Morrismouth
+    state: LA
+    zipcode: '66029'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 459-405-2687 x34077
+  email: devin@lebsack.info
+  uid: 7df6ac46-092f-42d6-9997-a2875f551c8e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1856 Christiansen Spur
+    city: East Zoe
+    state: CT
+    zipcode: 80595-9332
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-828-013-2333
+  email: faye.lakin@champlin.org
+  uid: cfc254d1-6aa8-4185-8ea6-b84504d657ca
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9506 Cecil Gateway
+    city: Port Madisenberg
+    state: ME
+    zipcode: '60842'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-916-918-0697 x534
+  email: johanna@schulist.net
+  uid: e2f42314-ff5a-48fe-9cf0-c1a82a66e6af
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 835 Lester Ways
+    city: South Jayceburgh
+    state: TN
+    zipcode: '23887'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 537-648-8786 x5647
+  email: winnifred@quitzonmohr.org
+  uid: de321563-b3ea-4a6a-bfb1-f3790e898699
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9667 Feil Islands
+    city: Amietown
+    state: MT
+    zipcode: '94398'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-219-784-8638 x7355
+  email: michelle@hudson.net
+  uid: bb093102-266b-439f-bdcd-6229ae33621b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 344 Welch Row
+    city: Lake Zacherystad
+    state: NC
+    zipcode: 41038-6063
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (334)247-1898 x44322
+  email: mckenna@goodwin.org
+  uid: d3357b88-6e78-4451-8aa8-5f59fadd8cc5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7200 Lind Viaduct
+    city: New Sylvestermouth
+    state: PA
+    zipcode: 62249-6927
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 702.376.9493 x359
+  email: deon_berge@wiza.com
+  uid: 28a582da-dfd6-4cf5-8c0c-5a7d7f9de778
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 878 Jaeden Street
+    city: Port Jaynemouth
+    state: NC
+    zipcode: 92810-6037
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 568.505.2070
+  email: julian@little.com
+  uid: 3261e319-2b91-46ae-8841-aab7efb9732a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 414 Jayne Stravenue
+    city: West Marcella
+    state: AR
+    zipcode: '67268'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (920)086-5367
+  email: olga@douglas.biz
+  uid: e1cad8e1-6ee7-4c59-8696-5ae54f409ba4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 900 Prosacco Light
+    city: Lake Euniceview
+    state: WI
+    zipcode: '48103'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-202-118-8702
+  email: hulda@mcdermottpollich.com
+  uid: 7e3000a1-2d6f-4734-8689-e7015b7bf679
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 81280 Wilber Ferry
+    city: West Hayliechester
+    state: SC
+    zipcode: 55031-7243
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (991)868-2856 x9031
+  email: carroll@durganabshire.com
+  uid: 913634e3-b020-4d7f-a3a4-f0f545b9cd09
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7390 Adolphus Coves
+    city: Marcelleville
+    state: CA
+    zipcode: '12240'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-355-075-0965 x293
+  email: krystal_roberts@kaulkewiza.biz
+  uid: 90153682-bed6-4644-bb07-bc133012a06c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 38547 Calista Way
+    city: New Marco
+    state: ME
+    zipcode: 32973-9811
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 871-078-4562 x15205
+  email: demetrius.bernhard@volkmanmoriette.net
+  uid: 2a7172fc-9eb9-4e2f-a191-036cc6ca2f8a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9288 Mohammad Heights
+    city: Rohanborough
+    state: LA
+    zipcode: '95740'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 460-333-7458
+  email: vickie.ratke@murazik.info
+  uid: 85e5d523-8f7a-48af-bc36-81f01739f816
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 57563 Haley Forest
+    city: Lake Garfieldside
+    state: WV
+    zipcode: 22441-1999
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 448.321.6200 x16551
+  email: elroy.murray@schaden.org
+  uid: 9ac5039f-cf40-4dc0-bdd9-d998184c8867
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 93993 Kyla Stravenue
+    city: Rainamouth
+    state: NH
+    zipcode: '56687'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (508)229-4537 x595
+  email: joanie_thompson@conn.name
+  uid: e15a606c-4125-4a54-b1b5-6dc10e613437
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 73914 Glennie Spurs
+    city: North Myronfurt
+    state: WV
+    zipcode: '48115'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (182)035-7230
+  email: eliane_christiansen@mosciski.net
+  uid: 2086c326-eb73-4922-a682-d58df7472e38
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 205 Kristian Rest
+    city: Romaineburgh
+    state: NV
+    zipcode: 91527-2529
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 343.729.9009
+  email: winston_gerlach@binshamill.com
+  uid: aedff02f-8513-40b9-8866-cab9d2a8d647
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6785 Kathryn Forest
+    city: West Hermanville
+    state: FL
+    zipcode: 21664-4299
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-308-050-9868 x0480
+  email: blake@eichmann.com
+  uid: 582180dd-756c-4bde-829d-19de33e83301
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 371 Sabryna Isle
+    city: Camilatown
+    state: MN
+    zipcode: 15654-7245
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 894.205.3506
+  email: kristofer_kunde@legros.net
+  uid: b3662f62-b253-4f98-bf5d-ed39b2314734
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8752 Wendell Point
+    city: Julioburgh
+    state: KS
+    zipcode: '41719'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 947-859-6825 x9984
+  email: malachi@kuhlman.com
+  uid: 3552a579-fe7f-4d8d-bdd1-2254dd7c9057
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 518 Trevor Prairie
+    city: Hillsville
+    state: VA
+    zipcode: 87728-4411
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 289-772-4591
+  email: sylvia.douglas@harberhudson.info
+  uid: bdb91b51-7c9a-4e45-8920-40e940c4d4d3
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4474 Demetris Pine
+    city: Jonashaven
+    state: AL
+    zipcode: '85094'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 759.389.9495 x86688
+  email: jayden@windlerjones.info
+  uid: 085655dd-3ea3-4f8a-9815-23c4b5cd82c3
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 76391 Mustafa Throughway
+    city: Kohlerburgh
+    state: MA
+    zipcode: 96715-5009
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (730)721-5369
+  email: margie_ortiz@rutherford.net
+  uid: 3a566068-7b95-49e3-8cf2-aae70f177a7e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 31085 Michale Ranch
+    city: West Mollie
+    state: IA
+    zipcode: 96406-5282
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-911-259-1208 x54580
+  email: brad@reynoldsfeest.name
+  uid: ecc9cd35-e245-4f74-9a62-f5fcdd88c173
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7434 Kozey Lakes
+    city: Taraborough
+    state: SD
+    zipcode: '93373'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 816-122-1436
+  email: rudy@trantow.net
+  uid: 7aa73c6a-2e2a-4b26-a1b0-4a19c21901a0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4571 Kassulke Keys
+    city: North Leann
+    state: RI
+    zipcode: '86739'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-372-169-1834 x994
+  email: ruby.weimann@wiza.com
+  uid: 7190b3d8-b20a-4681-a11b-7e049b8d335e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4386 Thurman Radial
+    city: New Shirley
+    state: MN
+    zipcode: '92950'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 670-269-7893
+  email: candace@funk.biz
+  uid: 44d0d1b7-2a5a-4f25-ae60-b184d46f6b45
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 526 Maxime Shoal
+    city: Port Candace
+    state: DE
+    zipcode: '86435'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (898)998-2652 x2038
+  email: shaylee@bashirian.org
+  uid: 95bde38e-d461-4712-bf68-ddd0ed1750f2
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 789 Sam Mills
+    city: Gabrielside
+    state: TX
+    zipcode: '22206'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 580.489.4900 x143
+  email: catharine_friesen@schumm.info
+  uid: 3fa6ad7f-18ff-4a71-8f35-8cdd07bb12d6
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 600 Rebeca Corners
+    city: Noechester
+    state: ID
+    zipcode: 52317-8336
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 827.142.1931
+  email: celine_towne@kozey.name
+  uid: de47a507-3ce3-4251-ab26-99043fadb704
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8527 Batz Meadows
+    city: Karianneborough
+    state: PA
+    zipcode: 41481-4869
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-223-541-5609 x5725
+  email: narciso.dubuque@beer.name
+  uid: 4010da05-9904-4d76-a3b0-f9a95abe0adc
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 464 Jovanny Lakes
+    city: Alainaville
+    state: AR
+    zipcode: '24859'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (473)736-8359 x045
+  email: forest@franecki.net
+  uid: 8b0471eb-b40d-42c7-95a5-5f181ebda483
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 86316 Martine Ferry
+    city: Hauckmouth
+    state: OH
+    zipcode: '65321'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 751.888.3414 x70799
+  email: emily.towne@bauchlangosh.com
+  uid: f4beecfa-09ba-4daa-bec6-44a5794489ce
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 25203 Ruben Locks
+    city: Brianneberg
+    state: TX
+    zipcode: 94197-4917
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (260)851-2945 x31519
+  email: nettie.grady@koch.com
+  uid: feb07ad9-4767-4e18-bf47-54fdbf64fa71
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 25997 McKenzie Station
+    city: Schneiderton
+    state: VA
+    zipcode: 77402-1889
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-343-090-8227 x9841
+  email: rosalind.hauck@christiansenmckenzie.net
+  uid: 7e094ef8-78f1-4460-a94f-781ce730cb85
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 18206 Lang Loop
+    city: East Luisa
+    state: WI
+    zipcode: '61602'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 743-348-6994 x068
+  email: raegan@okon.com
+  uid: d4c12a2f-ef12-401f-a35e-7d54dd76672c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6800 Mack Shores
+    city: Anabelburgh
+    state: DE
+    zipcode: '85794'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (903)296-6560 x9824
+  email: simeon@tillmanwest.net
+  uid: 95534c38-2093-456d-9a9a-6e9fdd154d98
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 42957 Wisozk Terrace
+    city: Moorehaven
+    state: NH
+    zipcode: 95674-8249
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 757-220-5233
+  email: gust.romaguera@wisokycummerata.name
+  uid: 1e869424-581c-4d5f-bf34-e006e33ff84e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 65588 Hirthe Villages
+    city: South Ora
+    state: ND
+    zipcode: 30349-6636
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (692)681-0077 x476
+  email: karen_roob@kubbauch.net
+  uid: f76d78ab-7156-4ed6-af36-23edf8b11bb4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 379 Reichert Mount
+    city: New George
+    state: AL
+    zipcode: '58825'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (616)326-1502
+  email: enola@conroy.biz
+  uid: c439e3dc-8cca-441c-ac9f-c5637e9318b1
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 978 Felicia Path
+    city: West Kaliport
+    state: KS
+    zipcode: '98901'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-105-658-0494 x45600
+  email: savanah.littel@bahringerlittel.biz
+  uid: 3e114172-8cb1-4065-a0b8-fcf631845ae6
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3326 Winnifred Coves
+    city: Port Junius
+    state: RI
+    zipcode: '67508'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 431.154.6939 x894
+  email: macie.wisoky@abbottschneider.info
+  uid: 9c12e17f-a0b8-436a-b503-4e9d1152f65d
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 695 Shanny Way
+    city: North Fordhaven
+    state: DE
+    zipcode: '83790'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-446-235-7732 x6574
+  email: oceane@mayer.biz
+  uid: c2012759-9cc4-4375-b34e-7d00eb598eea
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3622 Torp Spurs
+    city: Willisview
+    state: UT
+    zipcode: 78431-3573
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (172)596-1540 x128
+  email: okey_kuvalis@kilback.org
+  uid: 65cee8f7-6ba8-410a-bda6-2287b0be3d1a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 383 Kertzmann Squares
+    city: New Izabella
+    state: IL
+    zipcode: 99127-2199
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-719-515-8005 x32415
+  email: faustino@langworth.com
+  uid: a9056a4f-cfe6-4f17-b506-1a5e37d7ad6a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 929 Bogan Lights
+    city: East Anastacioland
+    state: TX
+    zipcode: '68813'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-939-719-5733 x42034
+  email: pietro.farrell@kuhic.net
+  uid: 7c4e8f60-02dc-4108-989d-d4442c08ff9b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 430 Bernhard Lake
+    city: South Sadye
+    state: AL
+    zipcode: 13920-1062
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 275.917.4469 x41624
+  email: caden_price@conroy.org
+  uid: e990877e-e12d-4673-93ae-c131108be282
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 98241 Thiel Glens
+    city: Lake Kayla
+    state: UT
+    zipcode: '50428'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-119-505-4756 x922
+  email: paul.dach@vonruedenschamberger.name
+  uid: 5cefe598-5785-443f-bdfa-ba97bde318a5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7146 Rowe Tunnel
+    city: New Kamron
+    state: ND
+    zipcode: '78739'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-330-932-6626
+  email: dereck@barrowswilkinson.org
+  uid: e873664a-7665-4eff-aa15-90f28a99525c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 66620 Howard Crest
+    city: East Charlie
+    state: MS
+    zipcode: 35939-8004
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 989.554.6380 x9575
+  email: diamond.quitzon@pfannerstill.net
+  uid: 834c7a73-46f5-4edb-9699-895677b3463c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 669 Huels Avenue
+    city: Hellerstad
+    state: NH
+    zipcode: 33324-1791
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 812-370-8172 x2880
+  email: bernadine@jakubowskiblick.com
+  uid: 08a9c3c5-edc2-4348-8277-2399b69c3b91
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 689 Gerlach Ports
+    city: South Curtisland
+    state: MI
+    zipcode: 98686-3409
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 269.707.5796
+  email: alberto.barton@corkery.biz
+  uid: 23a3189e-556b-4bb4-916b-45cf78287e76
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 43570 Letitia Mount
+    city: West Zoie
+    state: AL
+    zipcode: '32586'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 835-586-3969 x66390
+  email: freeda_bahringer@croninklein.info
+  uid: 42feaa67-bff2-43fb-bcaa-89ac7681a08c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 30597 Dwight Burgs
+    city: Glovertown
+    state: VT
+    zipcode: 81923-8077
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 609.977.4383 x98196
+  email: bill@ruelhaley.org
+  uid: 6fb507df-b558-42a9-89db-ce545c23b0e4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 617 Lottie Stravenue
+    city: Port Lola
+    state: SD
+    zipcode: '41005'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 431-997-1284 x0809
+  email: anais@powlowski.net
+  uid: ce424ac9-17b4-4d11-a9c4-f3a3fb075cff
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 387 Maggio Fords
+    city: New Leonor
+    state: FL
+    zipcode: '25182'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 481-813-9616 x22333
+  email: yvette.effertz@little.name
+  uid: 752ac2d6-80d5-41d5-bac9-4acbea035b27
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 61850 McKenzie Roads
+    city: Lake Christopview
+    state: NV
+    zipcode: '84228'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 670-503-9452
+  email: madonna_dibbert@kunze.net
+  uid: ccd74bc9-2953-448f-9bdd-5df519fa3a74
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 513 Griffin Throughway
+    city: South Mitchellbury
+    state: IN
+    zipcode: '56909'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 900-192-9377 x873
+  email: julien.emmerich@schuppe.info
+  uid: 6b3ac6be-9740-468b-b8ed-ed55bba31f7b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 62550 Douglas Field
+    city: Revafurt
+    state: NH
+    zipcode: '93337'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (805)766-5213 x7974
+  email: humberto.cremin@skilesrolfson.info
+  uid: 26e25833-9055-4c01-a6e0-3bef876a0963
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9182 McGlynn Union
+    city: North Queenie
+    state: NJ
+    zipcode: 13977-1965
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 371.963.1752
+  email: graciela@greenholt.name
+  uid: 83a92992-404b-4f60-bdfc-57159be76ba7
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 58512 Weimann Wall
+    city: Jaunitaborough
+    state: VT
+    zipcode: '87971'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-562-111-6359 x630
+  email: jaren.lind@prohaskazemlak.org
+  uid: f56ae351-aeee-45e1-a51f-cb2e2390afeb
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 729 Imogene Causeway
+    city: South Jadonbury
+    state: NC
+    zipcode: 90904-4061
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 952.787.0552
+  email: alvis.becker@kertzmannbins.org
+  uid: 861f301b-f3cd-44b9-8219-4230ee12533c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3246 Alan Landing
+    city: Bartonfurt
+    state: MD
+    zipcode: '94229'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 734.628.0928
+  email: consuelo@quitzon.com
+  uid: eff4ebe9-ed9f-4d48-8469-2f249aa56a3d
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 50960 Antwan Vista
+    city: Lake Cordell
+    state: UT
+    zipcode: 93595-9930
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (482)287-6971 x176
+  email: jeanie@sawayn.org
+  uid: 819251eb-db35-479a-a407-a9a0361bf7a1
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 98457 Doyle Forest
+    city: Port Gregoriamouth
+    state: CO
+    zipcode: '55582'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 620-274-8283
+  email: millie@steuber.net
+  uid: 76ba48ff-027d-4eaf-a693-de9eb02e876f
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 85396 O'Connell Trafficway
+    city: Macejkovicberg
+    state: ID
+    zipcode: '40619'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-618-096-8265 x2618
+  email: myles@hermann.com
+  uid: 4c0c6308-7a9c-4f52-b37e-cb567bf7330b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 636 Lynch Cliff
+    city: Port Murraychester
+    state: VA
+    zipcode: '53173'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-457-887-9242 x9940
+  email: jaleel@thompson.name
+  uid: ae5f5bae-df9a-43f6-81ac-8b36015c8d37
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 95863 Justice Roads
+    city: Rogahnshire
+    state: MI
+    zipcode: '84257'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 556.390.8326
+  email: easton_daniel@stark.name
+  uid: 90621080-c5f8-4174-a7b5-7dd1089de45a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 665 Pfannerstill Flat
+    city: South Jules
+    state: NM
+    zipcode: 54578-5251
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 772.514.0087
+  email: zoie.gusikowski@hackettcollier.com
+  uid: df6165ac-7bf1-41f1-a0e2-0314e4e9efba
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 199 Ondricka Coves
+    city: Powlowskiview
+    state: MS
+    zipcode: '63177'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (493)954-8338 x763
+  email: syble@hamill.org
+  uid: 9b834cce-db71-4ece-a8b8-d49d1089e269
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 753 Schiller Forks
+    city: Lake Johnsonbury
+    state: SD
+    zipcode: '21688'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-704-214-1372 x320
+  email: brain@crooksframi.org
+  uid: 7e0f1737-b5f6-4e00-b013-6f118261d924
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4251 Tina Manors
+    city: Justinatown
+    state: OK
+    zipcode: 44567-6161
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-364-210-7206
+  email: flo.little@eichmann.biz
+  uid: cefcb6ec-c098-4a9d-b7ed-a4195cd4b579
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 309 Meagan Villages
+    city: East Ruth
+    state: LA
+    zipcode: 94358-2995
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (377)098-4904 x804
+  email: buck.collins@huels.com
+  uid: da631066-50b9-454b-a355-dad2e28bcf24
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2798 Bahringer Turnpike
+    city: North Francis
+    state: WY
+    zipcode: '19034'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 711.024.1964 x5218
+  email: bret@robertsmedhurst.com
+  uid: 50e9189b-523d-4f36-ac3b-dfa4c6b9ab8d
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 111 Leffler Green
+    city: Port Elizabethland
+    state: NJ
+    zipcode: 36478-0424
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 692.967.9227 x66267
+  email: eloy.botsford@vonrueden.info
+  uid: 0c0f2ad5-a042-4ff1-b5b9-fef8c437d633
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2621 Ethelyn Streets
+    city: West Treva
+    state: CA
+    zipcode: 46806-7137
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-460-304-2736 x26582
+  email: stella@murray.info
+  uid: 6b09f06e-6321-4ace-952e-be0471b4e66c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 479 Verner Corners
+    city: Raynorburgh
+    state: ME
+    zipcode: '12867'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-483-551-7117 x5552
+  email: gudrun@ratkemann.name
+  uid: c817d3cf-bac8-402d-89b1-a28edabac267
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 38349 Stanton Parks
+    city: Port Alyce
+    state: OK
+    zipcode: '51471'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-108-587-6413 x16662
+  email: lambert@bradtke.net
+  uid: e44ccc76-4974-4256-a4e8-9df20b743051
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 85991 Idella Square
+    city: Stephonside
+    state: ID
+    zipcode: 78059-2339
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 240.252.3164 x444
+  email: percival.grady@pfeffer.biz
+  uid: e683b5f9-b329-46cb-b0c2-5b226550406e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3857 Kiley Unions
+    city: Paulinefurt
+    state: WY
+    zipcode: '69431'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 576-311-0617 x5759
+  email: izabella.stark@carroll.org
+  uid: 1196256d-33f6-4cac-a1f0-f8a334eecda0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8872 Sawayn Skyway
+    city: East Nicoletteville
+    state: SC
+    zipcode: 60673-0967
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 496.179.3090
+  email: hildegard@gulgowski.info
+  uid: fa554967-8b5c-40a3-b795-7ec99a0e2f7d
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 642 Barrows Grove
+    city: Liamouth
+    state: AL
+    zipcode: 28615-1910
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-601-210-9540 x6795
+  email: evangeline.grant@mcclurekilback.biz
+  uid: ddae8755-b609-4aea-b3d5-8574843e92bb
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 273 Douglas Avenue
+    city: New Myrtleland
+    state: AL
+    zipcode: 97599-1961
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-658-439-6724 x3067
+  email: johnny@wisozk.name
+  uid: f830b429-eea8-42c1-855b-5e4de6a47264
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7746 Carleton Fort
+    city: Kylershire
+    state: OK
+    zipcode: 70363-8045
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (859)420-6500
+  email: vivienne.bernier@paucek.name
+  uid: 46042cf2-dcc8-4e4a-9ee3-835272d19ca0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 310 Borer Shoals
+    city: Dickenschester
+    state: PA
+    zipcode: '40574'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (587)516-0920
+  email: ludie@davis.name
+  uid: c9b04496-f052-4392-91e2-5c5bc5ffd3f0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 172 Makenna Knoll
+    city: Nobleburgh
+    state: DE
+    zipcode: 58923-9517
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 921-112-7717
+  email: vincenzo@pacocha.info
+  uid: dbc97e2e-1a60-46da-89e0-48a831c228cb
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 555 Pfeffer Hollow
+    city: Langworthshire
+    state: IN
+    zipcode: 86654-1260
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-536-660-4201 x473
+  email: celine.rau@bartell.com
+  uid: dcff7bac-6256-4707-b163-98589fe4e9e9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 18227 Misty Rapids
+    city: Gudrunmouth
+    state: MO
+    zipcode: 96865-5512
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 655.220.8827 x202
+  email: ali_corwin@jerde.name
+  uid: 8aee1f25-2f81-4a19-ae3c-baaa3d78d9fa
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 507 Ebba Streets
+    city: Jacquelynmouth
+    state: CA
+    zipcode: '25719'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 802-172-6854
+  email: madie@heller.name
+  uid: b39b4830-9f55-4b43-9f60-bbf88deaa54b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 26119 Boris Villages
+    city: Lake Myronfurt
+    state: PA
+    zipcode: 49693-8023
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-654-215-5215
+  email: katarina@lebsack.info
+  uid: a8d3f01a-7faf-4b6f-9ddd-1089c6eee3e2
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 580 Breitenberg Light
+    city: North Rowanside
+    state: SD
+    zipcode: 97624-4162
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 817.771.3533 x7569
+  email: stewart_farrell@harvey.org
+  uid: 0c50d72c-bd97-4f26-97c8-3217f6f4513c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 66630 Hilpert Views
+    city: West Cadeport
+    state: WY
+    zipcode: '25120'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 684.018.5328 x5559
+  email: rachel@pourosdurgan.name
+  uid: 05872ca1-86c8-47b6-87a6-867db46b0740
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 90631 Michel Road
+    city: Lake Georgiannaland
+    state: CA
+    zipcode: 99415-1194
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 724.526.2973
+  email: walter@cummingsjacobson.biz
+  uid: e8735730-db5e-4262-a8a2-82161fc376b5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6611 Lisandro Manors
+    city: Alexanderton
+    state: AK
+    zipcode: 36644-9284
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (120)610-7588
+  email: margarita@leannongutmann.com
+  uid: c5fbf548-13a8-4ca6-a705-9575b1a844d6
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 881 Kulas Station
+    city: East Brownfort
+    state: IN
+    zipcode: '19719'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 239-371-1850
+  email: hudson@kiehn.biz
+  uid: 011e3f64-0961-4097-a393-73618e3d5317
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 5019 Weber Park
+    city: East Kaelynton
+    state: GA
+    zipcode: '75420'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 917-397-5453
+  email: orion@lind.info
+  uid: ed8350d3-7ae9-4580-894a-921e2dae1ad9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 543 Bettie Road
+    city: Port Eladio
+    state: DE
+    zipcode: '34635'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (261)788-9539 x840
+  email: laurianne_ritchie@ferry.biz
+  uid: 155b651e-b1f0-4283-8e1a-c7a557ee77b7
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 16900 Kertzmann Plain
+    city: North Kadin
+    state: MA
+    zipcode: 80448-5867
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 710.526.5405 x3456
+  email: orion@willmsboyer.info
+  uid: dcfab368-970f-4a00-bc44-7cba915f04af
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 395 McClure Island
+    city: Beckermouth
+    state: GA
+    zipcode: 77572-0522
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 788-513-7071 x695
+  email: jenifer_balistreri@bergstromokeefe.org
+  uid: ce12124f-1c6b-4e7c-b8fa-dc4abdbfbff9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 204 Hassan Unions
+    city: Rohantown
+    state: VT
+    zipcode: '31016'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-130-090-5863 x096
+  email: cameron@faybergstrom.info
+  uid: 54ed9b73-6e3f-438c-a4f9-1095b5f410a2
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 128 Brekke Streets
+    city: North Rickieside
+    state: DE
+    zipcode: 25992-0502
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (398)303-2380 x613
+  email: allene@doylebecker.info
+  uid: dedc9e78-673a-4756-b9c3-677f05caded8
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9941 Wilkinson Freeway
+    city: South Lavernetown
+    state: NC
+    zipcode: 98660-8133
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 563.705.4335 x83315
+  email: enola@howellkaulke.org
+  uid: 872a6d38-9894-43bb-83f2-5a0799e4413f
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2914 Heaney Points
+    city: Pfeffertown
+    state: CO
+    zipcode: 39793-8376
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 294.952.5719
+  email: monserrat@greenholt.com
+  uid: 111a8a0e-17c7-4f67-b728-125d14d07d02
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 222 Amparo Falls
+    city: Korbinberg
+    state: MO
+    zipcode: '52963'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 182-688-7541 x545
+  email: calista@waters.com
+  uid: a8436502-0115-4c78-9b14-121ac315ab6e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2782 Considine Union
+    city: South Chester
+    state: WI
+    zipcode: '53197'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 194.851.5827 x9140
+  email: lula_carter@torphy.biz
+  uid: 97622ca6-368e-40cd-ab08-928939087a95
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 973 Mikel Coves
+    city: East Aracelitown
+    state: UT
+    zipcode: 30795-2615
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (916)693-2332 x7906
+  email: hilbert@franeckiwill.name
+  uid: 608cb357-4599-48db-bdce-c7b61a8e0f08
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 236 Ally River
+    city: West Lydia
+    state: HI
+    zipcode: 56525-8401
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 801-373-7679 x4230
+  email: dexter@cummings.net
+  uid: 3ddaa1a2-22f5-46ec-b76a-89f4ab01b62e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 165 Ronaldo Courts
+    city: Mittieborough
+    state: AL
+    zipcode: 63699-7551
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-160-679-3752 x96150
+  email: rubye@jakubowski.net
+  uid: da644de9-eb3f-4e71-991c-6a7f30342559
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2384 Nicole Union
+    city: New Aubrey
+    state: AL
+    zipcode: 60201-6992
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 837-602-2625 x46918
+  email: armando@schumm.info
+  uid: 11846afd-3b96-4a05-b3d5-a378755cccac
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 70844 Tom Mount
+    city: Grimesville
+    state: OH
+    zipcode: '84924'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 894-951-0414 x40898
+  email: francisco@cole.com
+  uid: 2969f02e-a3cc-4f41-870e-e05a38a1ecd5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 117 Larissa Plain
+    city: Lake Paulaton
+    state: ME
+    zipcode: 13647-5186
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 525-057-2924
+  email: eliseo@jakubowski.com
+  uid: b932d6e8-5998-4258-ae1a-e721c532e123
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 565 Legros Forest
+    city: Lake Carliland
+    state: ND
+    zipcode: 59384-8903
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-438-439-3237 x35868
+  email: judd.franecki@huel.name
+  uid: 0520fd8b-980f-4790-bfbe-6e9733a540ee
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 89344 Ezequiel Falls
+    city: Walshville
+    state: LA
+    zipcode: '21427'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 928.186.8701 x93303
+  email: angelita.stark@abbott.com
+  uid: b8532e8b-4adb-40f7-874d-ef0a181251f0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 96487 Wayne Alley
+    city: South Vilma
+    state: NC
+    zipcode: '20228'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-544-397-2386 x9227
+  email: benedict_vandervort@conroyokeefe.info
+  uid: 60a2fcf4-a754-4991-aa5d-fa53c17da80d
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1834 Walsh Terrace
+    city: Lake Stanport
+    state: UT
+    zipcode: 79842-5514
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-926-420-6350 x4571
+  email: alvah.padberg@corwinreichert.org
+  uid: 5823c29c-6c63-48f7-97a3-a759f5ee7a64
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 87330 Mazie Ford
+    city: West Elouiseburgh
+    state: IA
+    zipcode: 84757-3984
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 574-002-8727 x49468
+  email: geovanny@weimannlueilwitz.info
+  uid: 008f12bd-8df8-4a5f-a55d-feb4b14e5148
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 521 Heaney Parkways
+    city: Lake Ludie
+    state: NC
+    zipcode: 53270-5663
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-546-886-8374 x05310
+  email: isabella@mohrturner.biz
+  uid: 46c32188-a148-45ab-b076-1f05d0d1582d
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3435 Denesik Knolls
+    city: South Connor
+    state: CA
+    zipcode: 67706-8427
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 195.756.5565 x62453
+  email: cedrick_zulauf@torphy.com
+  uid: 3ab88b53-d5a0-48da-8af3-42067d87d12e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 12068 Miller Locks
+    city: Port Nikolas
+    state: NJ
+    zipcode: 38968-1429
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 299.673.9376 x137
+  email: lenna@breitenberg.org
+  uid: d6977032-511e-46e2-b6fb-8b6bf412fe3f
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 53922 Abel Court
+    city: Greenholthaven
+    state: AR
+    zipcode: '60617'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 153.712.3394 x2136
+  email: era.goodwin@franecki.net
+  uid: 57612883-f3b3-42f5-98ba-7c1283d1c8fc
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7317 Morissette Isle
+    city: North Haskell
+    state: ME
+    zipcode: 87866-0829
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (572)202-6557
+  email: maddison_friesen@marvinkuhlman.info
+  uid: 43811736-7a06-4626-ae10-7b34bb5bb244
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 24149 Fahey Village
+    city: East Leilani
+    state: WA
+    zipcode: 71355-3176
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (910)318-0786 x95110
+  email: chase.parisian@adams.org
+  uid: 02f90605-62bb-40cd-8a8e-db2e6462003f
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 744 River Dam
+    city: Haleyton
+    state: AR
+    zipcode: '46505'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 166-005-9643 x6277
+  email: michale.nikolaus@davis.org
+  uid: a4356124-e118-40cb-871c-6631d2654c24
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 701 Elias Wells
+    city: East Gageview
+    state: RI
+    zipcode: 14425-5988
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 423.414.4168
+  email: bo@sipespfannerstill.biz
+  uid: f080c01b-b477-4b09-9d0f-f7c18d11e528
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 67157 Kailyn Course
+    city: Obiebury
+    state: IA
+    zipcode: '22339'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-901-804-2803 x376
+  email: easter@dickihahn.net
+  uid: f6ad0b55-2e77-4f23-97d7-afc8ed95215a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 11320 Douglas Well
+    city: Brakushaven
+    state: AK
+    zipcode: '37818'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-793-286-8735
+  email: isac.cremin@huels.name
+  uid: 87049f12-62ad-40af-ab66-bc4b410577e8
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6673 Delta Crossroad
+    city: Haagfort
+    state: SC
+    zipcode: 27016-6493
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-774-916-4484 x07774
+  email: myles@dietrichlowe.info
+  uid: c8b12e51-cd5f-4ded-af9b-c38a2da31a61
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 295 Kyle Lights
+    city: Treuteltown
+    state: IL
+    zipcode: 13592-6705
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 274-113-1045
+  email: nicole_lesch@bartell.org
+  uid: f076394f-9cd2-4886-abd2-2cfa6f113c81
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 922 Joan Well
+    city: Spinkafort
+    state: FL
+    zipcode: 74106-0173
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (181)536-4716 x587
+  email: hester.rau@halvorsonpowlowski.info
+  uid: 99ebded6-b92f-4d21-b8ea-0679d9e642ed
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 565 Edison Loop
+    city: Port Francis
+    state: CT
+    zipcode: 65863-5115
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 216.341.5210
+  email: colten@zulauf.biz
+  uid: ddecc3a0-c89a-4fe5-a5e7-1a35cb39b331
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3597 Mosciski Terrace
+    city: South Mayra
+    state: ID
+    zipcode: 38289-6121
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (768)762-3420 x45506
+  email: kody_kohler@hilll.net
+  uid: 612c478c-00d2-4b3f-9277-31f4a489b015
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 767 Katharina Row
+    city: Oswaldotown
+    state: SD
+    zipcode: 36670-3412
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-404-127-7107 x749
+  email: jazmin_pfannerstill@bogisich.biz
+  uid: e1746650-877c-4ccb-a379-98f9336cdf33
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 12158 Beier Prairie
+    city: Haileeshire
+    state: IL
+    zipcode: 94468-6080
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 613-183-5127 x49491
+  email: chadrick.ernser@reynolds.org
+  uid: c66884a8-65ef-4928-9161-a9da1ec343f8
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7630 Kiley Turnpike
+    city: West Kristina
+    state: DE
+    zipcode: 15855-3272
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 636-150-9101 x21315
+  email: shanna_gerhold@hauck.org
+  uid: 504969af-fdd6-4907-b42a-d1fc3e6c022a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 80112 Ardella Fords
+    city: Keyontown
+    state: MT
+    zipcode: '85391'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 916.707.1839 x3113
+  email: dahlia_lang@wintheiser.info
+  uid: 876c82c8-74d9-4075-9006-7b2d50669473
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1533 Julian Freeway
+    city: Connport
+    state: TN
+    zipcode: '80748'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 540.629.7793 x458
+  email: adrain.mohr@haagbednar.org
+  uid: 36d65fb6-cbf0-4d29-bfbf-246a254b5f34
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 410 Alexandrea Branch
+    city: North Clementinebury
+    state: NJ
+    zipcode: 48213-5964
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 337-382-2037 x968
+  email: delbert@okuneva.biz
+  uid: afea4fd2-8551-414a-86d4-08fa9ac0d390
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 53205 Skiles Point
+    city: Aliyaborough
+    state: NE
+    zipcode: 68842-3224
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 939.708.0563
+  email: augustine@marksbailey.biz
+  uid: 69d6fdcb-ed4e-45a7-8cc6-189b1ae6bd11
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1179 Kemmer Mountains
+    city: East Greg
+    state: OK
+    zipcode: '44344'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-106-651-8596 x92031
+  email: zelma.lindgren@stokespouros.com
+  uid: a91c8954-5786-441b-9daa-096d0eac3714
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 81385 Mann Lodge
+    city: New Josueton
+    state: WY
+    zipcode: '15848'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (980)762-5287
+  email: dorothea.ledner@schimmel.org
+  uid: 4cb50e14-dd01-48ab-b66d-3f61b7631c61
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 73354 Arno Corners
+    city: Mosciskiville
+    state: NC
+    zipcode: 50043-2026
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 817.226.9984 x95535
+  email: nyah@rippin.com
+  uid: 5c3f9068-cd1a-4733-8a7a-edb9af736ae2
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 312 Zoey Pike
+    city: Port Gerda
+    state: DE
+    zipcode: '81464'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (357)460-1254 x7308
+  email: vivien@parisian.name
+  uid: 6adf9873-7a98-4b8b-b270-64b6cc70b96f
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7685 Wava Estate
+    city: Kleinstad
+    state: ID
+    zipcode: '85764'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 196.880.7413
+  email: bernice@turner.info
+  uid: b887651b-c35b-4865-928e-4252f88fa429
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2126 Regan Key
+    city: New Derek
+    state: HI
+    zipcode: 28284-6989
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (893)128-2752 x2868
+  email: chauncey.mckenzie@christiansenkeebler.org
+  uid: 296e04c8-21fe-4fda-aba1-c3bbee621d9b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7532 Adonis Valley
+    city: East Einarborough
+    state: IL
+    zipcode: 84165-3999
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-742-663-0497 x138
+  email: elian.schinner@willms.name
+  uid: 92234173-517d-41b5-81e0-72f4d3c8c877
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 373 Addie Junction
+    city: Timothyside
+    state: VT
+    zipcode: '61781'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (550)239-3277
+  email: felicita@daniel.name
+  uid: f109447d-6420-4fc4-ab51-5101fe8006fd
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 915 Terrill Ranch
+    city: New Nathan
+    state: HI
+    zipcode: 70722-4325
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-879-388-0606 x555
+  email: griffin@beer.biz
+  uid: dda8754c-9bdd-41c3-b8e8-88cb63bdcc5e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 70841 Lonie Inlet
+    city: Port Danetown
+    state: AR
+    zipcode: '12349'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (194)403-4598
+  email: deonte@stiedemannlesch.com
+  uid: 74782581-42a2-4dac-85de-a9d07a717181
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 78064 Marvin Ridge
+    city: Mayertmouth
+    state: NV
+    zipcode: '35440'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (883)330-2103
+  email: arvel@moenlesch.biz
+  uid: 1e580304-a506-4902-b989-b6ab32c08059
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 735 Hackett Streets
+    city: North Rosario
+    state: AK
+    zipcode: '60965'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 383-823-1831 x5790
+  email: celestine_ritchie@denesikhickle.name
+  uid: 1841ea61-3cfa-47de-8d9e-79fa7b0a2abf
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 239 Ivy Lock
+    city: Edwinview
+    state: WA
+    zipcode: 10660-2108
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-750-047-2939
+  email: christiana.schamberger@schmidt.net
+  uid: efbc5543-32d7-4370-bf84-1e27b3aa5992
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 60046 Cielo Hills
+    city: Cleobury
+    state: SC
+    zipcode: '73966'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-544-156-4253
+  email: joe@beahan.info
+  uid: ea04667f-aeef-49fc-a14d-c847f102a434
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9759 Spencer Mills
+    city: Wunschfort
+    state: SC
+    zipcode: 76961-5066
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 743.449.9055 x261
+  email: christy@okuneva.net
+  uid: 482c1e1a-c104-4037-b053-75444b4d3e16
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 289 Kulas Mill
+    city: South Marjolaine
+    state: IN
+    zipcode: '15462'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-908-525-8903 x29724
+  email: ashly_dickinson@erdman.com
+  uid: 623da1ed-37b9-428c-8f33-800491777bad
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 308 Connie Circles
+    city: Starkfort
+    state: KS
+    zipcode: '30873'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 939-180-4026
+  email: jerel.wunsch@wittingweimann.org
+  uid: c70b260c-bfa2-47d2-815b-b26ee1e3984c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 59679 Alexandria Island
+    city: Geoffreyborough
+    state: MS
+    zipcode: '89804'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (807)563-8371
+  email: gunnar.oberbrunner@quigley.com
+  uid: 98fd2d0d-34ca-4922-954a-d04050967b6b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 832 Hilpert Ferry
+    city: Hendersonside
+    state: CA
+    zipcode: 80255-4990
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-217-068-2951
+  email: lola.lynch@kiehn.name
+  uid: f7b693cb-4924-4460-9d26-28874e938f3a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 318 Baumbach River
+    city: Rexshire
+    state: GA
+    zipcode: '43296'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 249.620.9380
+  email: lucio@huelpadberg.name
+  uid: 172417c0-5b3c-43e9-8f84-dc3a6c8fbe92
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 608 Koepp Point
+    city: Erdmantown
+    state: CO
+    zipcode: '95394'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 207-559-2672 x099
+  email: estelle@harris.biz
+  uid: 3737fb52-80e4-4dfb-ac61-255f2b20d462
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2613 Renner Isle
+    city: Sawaynville
+    state: NE
+    zipcode: 53482-2799
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 988-701-4160
+  email: marisa_rempel@conroy.biz
+  uid: 8957a0a6-1cac-492f-8174-23db119bbbf4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 10752 Clifford Spur
+    city: Port Gabe
+    state: AZ
+    zipcode: 35223-3140
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (154)115-9086
+  email: germaine@moore.com
+  uid: 226aca9f-fb46-40ce-9c63-f40a8be77518
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1054 Huels Junctions
+    city: South Allen
+    state: VT
+    zipcode: '37940'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 192.006.0251 x6853
+  email: arielle@oconnerwiegand.info
+  uid: f9a11d1f-6260-4e21-942a-f32ba8f26846
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 825 Jan Court
+    city: Port Reannaview
+    state: NE
+    zipcode: '63570'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 771-055-4987 x1009
+  email: alysha.hegmann@bartell.name
+  uid: adec86d2-6973-4eae-bf96-0cb435159cad
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3963 Thiel Dam
+    city: Port Alexzander
+    state: GA
+    zipcode: 87979-1164
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 868-058-0675 x736
+  email: torrance@colewiza.biz
+  uid: 624133c3-0169-4693-b625-d4940545018d
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 656 Kaia Skyway
+    city: Lake Alessia
+    state: GA
+    zipcode: 81243-0695
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-236-201-4286 x1563
+  email: emmanuelle.braun@doyle.name
+  uid: 030e18fd-be0a-4fca-a033-69bfb6b25cf9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 505 Davion Corners
+    city: Port Delbertmouth
+    state: GA
+    zipcode: '17333'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 160-734-2733 x8666
+  email: lon.hilll@nolan.com
+  uid: 15c421df-df70-4266-a55d-3f0cb8a9250b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 575 Malinda Ville
+    city: Gleasontown
+    state: VA
+    zipcode: '24716'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (540)906-1891 x78274
+  email: kelsie@quitzon.org
+  uid: 4b4e0822-2e11-4937-a38d-f4ab9a871ac0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 18597 Isom Inlet
+    city: Dulceton
+    state: ID
+    zipcode: '94258'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-906-248-0078
+  email: roie@west.info
+  uid: e3043672-6b57-45e5-98ac-e81399789ba4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 897 Lloyd Stream
+    city: Adelaview
+    state: NJ
+    zipcode: '14573'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 383-268-4772 x9401
+  email: talia.crist@walsh.name
+  uid: de4ee5a6-afe3-4d87-89dc-31f241f7fe26
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 5907 Betsy Springs
+    city: Lake Joanny
+    state: MA
+    zipcode: '56232'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-220-067-8669
+  email: cyril@okuneva.biz
+  uid: 4a1f9eec-d889-4b9d-8bbd-541076999c32
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 59850 Conner Lake
+    city: Gleasonchester
+    state: IL
+    zipcode: 52924-3765
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-966-819-9702
+  email: mabelle_yost@bartoletti.org
+  uid: d297b0e8-fa26-4ea3-883a-1bf2a4ce3272
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3356 Pfeffer Overpass
+    city: Gabetown
+    state: VT
+    zipcode: '90609'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 433-387-6995 x857
+  email: sarah_osinski@schuppe.org
+  uid: b0d4aca5-be33-44e5-90af-fe549979a499
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 64746 Roob Course
+    city: South Jeanville
+    state: MN
+    zipcode: '70682'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 884-720-1610 x729
+  email: willard@walker.org
+  uid: a45422b6-6d08-4587-82a9-4c43da8bb43d
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 471 Reginald Falls
+    city: Elliottside
+    state: NH
+    zipcode: '45299'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-839-844-8019 x6349
+  email: telly@jacobsharris.info
+  uid: 895b839f-f6d8-4c19-8bbd-1a529e314554
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 40234 Nicolas Shoal
+    city: Windlerland
+    state: OR
+    zipcode: 96364-5297
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 166.373.2852
+  email: kelton@spinka.info
+  uid: 1d8524dd-98eb-4f31-a61d-062b4ebec165
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 380 Hoppe Row
+    city: Franzview
+    state: NC
+    zipcode: '73067'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 991-442-8788 x20704
+  email: anna_doyle@kemmer.name
+  uid: ff93525d-6977-49cd-b9a6-ed6334db91ff
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 92170 Murphy Crescent
+    city: North Kurtishaven
+    state: AZ
+    zipcode: '32569'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (395)297-2828 x32218
+  email: emilie.murazik@dibbert.name
+  uid: c4792a32-0b8d-4f08-bfc0-dd9f690b5b9c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 71523 Desmond Tunnel
+    city: North Albinview
+    state: NE
+    zipcode: 66508-0315
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 105.201.6313 x829
+  email: neva@mayer.com
+  uid: 927c4cd2-0a22-4d2a-bf88-36eaf1be732b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 73251 Hettinger Trail
+    city: Kleinbury
+    state: MN
+    zipcode: 89830-3586
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (189)562-1661 x857
+  email: clinton.kaulke@ziemann.org
+  uid: 02926c69-1827-46ff-84c1-41c4cadc006b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8990 Elvera Rue
+    city: East Demetriusmouth
+    state: NE
+    zipcode: '19757'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 750.084.6660
+  email: lyda_nienow@davis.org
+  uid: 614887c1-d300-4edf-8858-ffb6088302f6
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7872 Aniya Ways
+    city: Hilllside
+    state: NM
+    zipcode: '37942'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 975-445-8354
+  email: dixie.blanda@adamsbernhard.net
+  uid: 3955d949-f32b-4969-a7aa-2efe336300c4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 448 Mason Meadow
+    city: West Adela
+    state: NV
+    zipcode: '15376'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 694.384.4593
+  email: stevie@rippin.com
+  uid: 3e0b305d-4279-4646-b8a3-8295c52cddd7
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 48838 Bailey Wells
+    city: Jastport
+    state: DE
+    zipcode: '66438'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 223-458-3375 x323
+  email: jaylon.bauch@nikolaus.info
+  uid: 39a0aa87-c5c3-4e40-ba26-8a4a6c0ecffc
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 29485 Norma Isle
+    city: Willisbury
+    state: NC
+    zipcode: '93332'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 895.272.6086
+  email: meaghan.kihn@barrows.net
+  uid: cfb09573-cab6-4680-a69f-2ef97e10c00a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 631 Schaefer Hollow
+    city: Morganside
+    state: WA
+    zipcode: 18481-0824
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 624-350-9213 x3934
+  email: pasquale@murraycormier.net
+  uid: 32c66362-a755-4df8-8155-024ce66468e9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 528 Dickinson Port
+    city: Woodrowhaven
+    state: CA
+    zipcode: 81661-3693
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (716)273-4744
+  email: aylin_bailey@lesch.net
+  uid: f24defc4-ffc2-45f1-89d4-915d499ce1e9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 13488 Myron Plains
+    city: New Alfonso
+    state: MT
+    zipcode: '40201'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 553-745-5871
+  email: francis_conroy@zboncak.com
+  uid: bb999502-1098-4478-bbd4-7261c1edb597
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 63347 Winfield Springs
+    city: Stephaniastad
+    state: MD
+    zipcode: '28920'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (658)881-5592 x57122
+  email: magali@prosacco.name
+  uid: 65b71fe1-a2b0-48e3-81a5-be470b02a1dc
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 905 Roob Lights
+    city: Osinskimouth
+    state: MN
+    zipcode: 99420-2555
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 249-892-5703 x050
+  email: tia@shanahanhermiston.biz
+  uid: 8723f7ea-5f0e-453f-8cf4-b8ed15917faf
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 70993 Savannah Curve
+    city: Maudmouth
+    state: MI
+    zipcode: 71598-4178
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (799)824-0873 x58432
+  email: belle_becker@batz.info
+  uid: 83f738f8-d05b-4480-baf6-39da8bd882e3
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 66095 Dave Unions
+    city: Roweburgh
+    state: KY
+    zipcode: 42905-5389
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 128-479-4704 x55285
+  email: shana_rolfson@erdman.info
+  uid: 89082ace-f8f0-4538-8ebf-c945a741d9d4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 59935 Kelley Lights
+    city: Weimannmouth
+    state: ME
+    zipcode: '71032'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 881.106.8545 x4845
+  email: trenton@reynoldspowlowski.biz
+  uid: 486cdd6f-3a3c-4c94-b008-f91405ed8117
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6571 Belle Drives
+    city: New Nick
+    state: AK
+    zipcode: 58812-0410
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 235-771-6414
+  email: shad@aufderhar.biz
+  uid: ef2446ea-d99c-4872-bcc1-37c52e3a1cd1
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 358 Berta Burg
+    city: East Kellen
+    state: IL
+    zipcode: '13032'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 299.504.0706
+  email: zelma@macgyver.com
+  uid: 55aafeb2-dc2d-4646-90b4-2236fa66b09e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 74269 Jenkins Prairie
+    city: West Eastonland
+    state: AZ
+    zipcode: '10793'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (286)828-3681
+  email: jefferey@paucek.name
+  uid: 95ebf670-1047-4d22-9f63-fc08294a3b44
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 337 Fritsch Square
+    city: Lake Ervinmouth
+    state: SC
+    zipcode: '43748'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (622)321-2368 x049
+  email: maureen@anderson.biz
+  uid: fd96b5be-9cce-4ffc-9f4f-ecab1bb535fb
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 72054 Stokes Falls
+    city: Huelsport
+    state: GA
+    zipcode: '73519'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-571-347-7056 x0962
+  email: osvaldo@auer.com
+  uid: 3df2364e-cd07-4f95-adcd-7dbff9430f0c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 176 Lueilwitz Ferry
+    city: Emmastad
+    state: IN
+    zipcode: '50955'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 381.920.1652
+  email: magdalen_borer@jakubowski.name
+  uid: e772b105-3534-40e1-ac4b-e50f867d362b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9758 Marcelino Center
+    city: West Louisa
+    state: NV
+    zipcode: '11630'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 657.604.5854 x0753
+  email: nicole.padberg@heathcotejerde.biz
+  uid: f22cb7fa-2225-4d44-8fa6-5d122652d925
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 114 Anderson Trail
+    city: Nasirside
+    state: WY
+    zipcode: 54558-7810
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 503-566-6165
+  email: andreane@kiehnbarton.info
+  uid: 47c91fda-1c2d-478e-bd05-c4fa107527f7
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 601 Domenica Prairie
+    city: Hansenhaven
+    state: FL
+    zipcode: '46888'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (630)124-8838 x17177
+  email: alfreda@eichmann.com
+  uid: 99268f6a-fd74-4ab2-94d8-33d174d81aea
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9278 Malika Shoals
+    city: Morissettebury
+    state: AZ
+    zipcode: 43009-9549
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-876-880-0359 x541
+  email: demetris@glover.name
+  uid: 88cbaca8-4853-4553-b9da-9d6c584300a7
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 97186 Lebsack Falls
+    city: Port Rosellashire
+    state: MT
+    zipcode: '97770'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 314.333.5279 x7583
+  email: raul.crist@reichel.com
+  uid: 563f5af0-2bf8-4f12-adb7-fbf0a6946a8c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 31049 Littel Coves
+    city: Lake Nicolette
+    state: CA
+    zipcode: '58198'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 167.254.3403 x72106
+  email: dion_smith@little.name
+  uid: ba396255-ffc7-47ec-b2b6-4ae81cb49e7d
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7096 Hartmann Parks
+    city: Santaton
+    state: MS
+    zipcode: '55895'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-716-927-3815 x0532
+  email: maximus_moore@roob.name
+  uid: 453509c5-28ab-4693-a397-eeb2ea1d57c4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6283 Talon Mount
+    city: Rociotown
+    state: TX
+    zipcode: 26962-8598
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 816.526.2001
+  email: corene.hickle@pagacbernier.net
+  uid: 2fe0d83a-9fd1-48a1-a2b4-1b7027207946
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1262 Ezra Harbors
+    city: Port Chelsey
+    state: DE
+    zipcode: 37835-6171
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (310)545-5365 x86515
+  email: hyman@gusikowski.name
+  uid: b5d83d13-661c-4efe-8a21-f07b867b3d59
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 42906 Goldner Row
+    city: Kertzmanntown
+    state: OR
+    zipcode: 95225-3058
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-184-279-0167 x0737
+  email: camille_hansen@mann.com
+  uid: f67e3ff9-465e-4b56-a175-00a9efa70bfe
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4296 Monahan Brooks
+    city: Abbottshire
+    state: IL
+    zipcode: '10656'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-752-738-8159 x7075
+  email: nicola@schultz.net
+  uid: c6dc4d8a-90fe-4530-99e6-d0807aa62e09
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8297 Kozey Court
+    city: Mosciskiland
+    state: ID
+    zipcode: 72852-7820
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 279.270.6976
+  email: demarcus@emard.net
+  uid: a8b48886-0f4f-4de7-a43f-670752caa2c5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 58646 Jayson Mount
+    city: Blancheberg
+    state: UT
+    zipcode: 75200-8517
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 305.684.5598
+  email: mckenna@crooks.net
+  uid: e5d2e39e-d527-43ac-9ab1-58c8db69af7b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 474 Medhurst Ranch
+    city: Port Asiaview
+    state: MA
+    zipcode: 87070-8079
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-181-225-3057 x969
+  email: nils@parisian.info
+  uid: 6f341adc-23b4-42f4-8179-0263005764a9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6118 Tyree Rapid
+    city: Eudoraberg
+    state: NV
+    zipcode: '36389'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 115.030.5355 x633
+  email: keven_hettinger@thieldare.net
+  uid: 6c27b678-a94d-41c3-bd60-a40c1421695c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 86998 Lemke Estates
+    city: Wittingfort
+    state: DE
+    zipcode: 63954-0291
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 508-436-6967 x96943
+  email: bradley@gleichner.name
+  uid: fce0b0ef-3517-4bcd-9670-6e59d0a39069
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 55822 Rita Way
+    city: Isaacchester
+    state: WA
+    zipcode: 26418-2226
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-629-197-7478
+  email: santos@nicolachoen.com
+  uid: 4a69ab42-8c33-436d-9465-faecbf68fdc5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 81949 Peggie Park
+    city: East Haskell
+    state: NC
+    zipcode: 65237-1694
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 318-080-5421 x2099
+  email: terry.kuhlman@hirthe.org
+  uid: 0f7b9dad-7f7f-4b09-a98f-267f1ab58487
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 829 Windler Port
+    city: North Rosinatown
+    state: NM
+    zipcode: 16081-4778
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 307.314.4859 x75056
+  email: sonya@jacobi.name
+  uid: 939d6b84-ac42-4383-b936-937a58b9a9c4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 750 Leffler Lights
+    city: East Alliehaven
+    state: PA
+    zipcode: 97894-7117
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-944-270-9627
+  email: isai.moore@stanton.org
+  uid: ce42092b-809a-4c40-b320-a509d2f9945a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 85636 Polly Islands
+    city: Olsonview
+    state: OR
+    zipcode: '96071'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 541.997.9569 x186
+  email: trace@wintheiser.org
+  uid: 8f968848-05d3-465a-9abb-3b6f1cca449b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 75046 Ofelia Ridges
+    city: Darbyton
+    state: AL
+    zipcode: '75256'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 124-015-4546 x90598
+  email: allie@schultz.net
+  uid: d3ffd6e1-8c83-4ec4-ad1d-267ba0f5e282
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4622 Walter Junctions
+    city: Lake Aimeeshire
+    state: MS
+    zipcode: 70403-0232
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-705-881-0966 x98744
+  email: maribel@stehr.name
+  uid: 648789ed-79f8-4562-bdf8-687ebe16cba6
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1710 Kuhn Mountains
+    city: Sabinamouth
+    state: SC
+    zipcode: '63218'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 685.695.2158 x9264
+  email: della_koelpin@klein.info
+  uid: 394bac5f-1953-487e-9137-3d994099e527
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 548 Wyman Ranch
+    city: New Cornell
+    state: NY
+    zipcode: 17350-3160
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-182-745-5022 x14344
+  email: luella@dooley.name
+  uid: 3866ae80-c33a-4a83-aed8-50e292bc65bf
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 736 Vandervort Plaza
+    city: Abernathyhaven
+    state: AR
+    zipcode: '28398'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-835-549-8690 x063
+  email: helmer.schuster@feil.com
+  uid: 17d90cda-e94f-4569-8a9a-b8dd83821734
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 17428 Ewell Plaza
+    city: North Myrnahaven
+    state: MD
+    zipcode: '31967'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 825.749.9641 x279
+  email: paul.vandervort@jacobsonhowe.com
+  uid: b95e446d-c42c-4481-9e71-ba4de054f0ba
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 46624 King Points
+    city: Denismouth
+    state: AK
+    zipcode: 32422-7480
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 535-903-3692
+  email: danny@hirthe.com
+  uid: b3641623-55a6-4443-bc92-1b65b0cb7239
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 946 Jacey Freeway
+    city: Marquardtland
+    state: PA
+    zipcode: '71375'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (741)390-9693
+  email: jean.kub@nienow.net
+  uid: 890902e0-7765-418e-bebe-abf43bb9e42c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 45172 Lorenzo Mountains
+    city: East Horaciomouth
+    state: AK
+    zipcode: 31824-1711
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 432-868-1065
+  email: destany@macgyver.biz
+  uid: b34c373b-79b5-4441-bc36-ab16e718b479
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 229 Abigail Orchard
+    city: Elsaborough
+    state: NC
+    zipcode: '42422'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (759)099-4440 x960
+  email: providenci@lubowitzdickens.info
+  uid: 649f649d-f0d4-4d9d-9fd0-001b4e9053ff
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 43419 Gusikowski Parkway
+    city: New Camrynshire
+    state: FL
+    zipcode: 10073-2271
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-981-857-9801
+  email: chyna_hermann@armstrongjenkins.biz
+  uid: 50982414-eecf-4532-86f3-c311a51183e5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1505 Aaron Branch
+    city: East Margarett
+    state: NV
+    zipcode: 74184-0959
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 235.643.5749 x7398
+  email: amelia_thiel@weimann.biz
+  uid: 7e8eca99-a884-4592-b265-4a6154bc5cb8
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 186 Volkman Point
+    city: New Vernonborough
+    state: RI
+    zipcode: '51328'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 266.779.7312
+  email: shanel_hackett@hettingerdoyle.name
+  uid: 8ed7430d-e0a8-480b-a0a9-9111fc6b2e4a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 76156 Corkery Station
+    city: Wintheiserburgh
+    state: MN
+    zipcode: '12121'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 668-509-3072 x6930
+  email: adah@heelmckenzie.org
+  uid: 04f2191c-4220-4de1-a6f7-ab51559b5a45
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 47104 Lou Parkway
+    city: Joburgh
+    state: NC
+    zipcode: 53588-0040
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 888.307.7881 x3201
+  email: johanna@aufderhardickens.com
+  uid: b3800498-b010-4567-83f0-da24d72e513b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 43370 Caterina Plaza
+    city: East Judsonchester
+    state: NY
+    zipcode: '35847'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 551-456-6740 x12046
+  email: coy.eichmann@graham.com
+  uid: 9cb2fcf9-b0c0-40ec-955e-5dccd1c666ad
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 11801 Jeffry Drives
+    city: Lake Elsa
+    state: CO
+    zipcode: '47568'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 127-061-8085
+  email: caandra_bashirian@champlin.biz
+  uid: 6f63273e-dab1-4c9f-8467-bdf837fdb4e1
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6103 Genoveva Stream
+    city: East Brenda
+    state: NE
+    zipcode: 42051-4738
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (735)194-5435 x68177
+  email: nola@weimanndeckow.biz
+  uid: a2c7e51e-e486-4076-9485-29a496988fee
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6251 Legros Terrace
+    city: Moriahchester
+    state: MI
+    zipcode: '58523'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 628.278.6793
+  email: demarco@bode.info
+  uid: 378b9304-bc0b-4a2f-89d3-26cde15495b7
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 67319 Rowena Loop
+    city: Port Obie
+    state: IL
+    zipcode: 15577-3547
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (239)075-4682 x5845
+  email: dario.stark@lednerwuckert.net
+  uid: 40c245c8-2554-4d9e-9efb-896adc61baae
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 429 Altenwerth Burgs
+    city: Schinnerside
+    state: NC
+    zipcode: 82022-3989
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 312-820-5792
+  email: nat@schowalter.biz
+  uid: b2c33f5f-2ad5-4736-a348-fab047297e7b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 97543 Everett Squares
+    city: East Norvalbury
+    state: NE
+    zipcode: 83689-9386
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 879.961.0737
+  email: kaylie@carroll.biz
+  uid: 79a6b278-d7cb-4e4b-99bc-8c59de81cf09
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 38348 Welch Rue
+    city: North Gia
+    state: MS
+    zipcode: '88851'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-884-059-6984 x451
+  email: maria_ruecker@schmeler.name
+  uid: 5a183f4d-4543-4870-9106-d2ce92e7aa34
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9301 Christiansen Mountain
+    city: Lake Cheyanneland
+    state: MO
+    zipcode: 33174-7146
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (875)119-2723 x0341
+  email: nathanial@ohara.biz
+  uid: 2cb706e5-8ed7-4cb0-ac90-eb15315c7c30
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 301 Reichert Course
+    city: Erdmanville
+    state: MS
+    zipcode: '55902'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 823.823.1935
+  email: benjamin.roberts@rempel.com
+  uid: de161707-97da-4397-9ae2-68c5496f3ccb
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 899 Stracke Groves
+    city: Johnstonland
+    state: MT
+    zipcode: 88481-8400
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (957)976-9039 x6468
+  email: mireya@lindgren.info
+  uid: a7628111-66a0-4ce6-974a-ba95c30522c0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9674 Leuschke Villages
+    city: Ernaburgh
+    state: KY
+    zipcode: '65132'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 885.865.8831
+  email: pierre.gleason@grimes.net
+  uid: 8b63dfee-e100-4ef0-ac5b-6b46da175c9c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 904 Nya Falls
+    city: North Lanebury
+    state: MN
+    zipcode: '98868'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (652)357-3421
+  email: mariane@parker.net
+  uid: 5b4b925f-9bfd-4c46-8e01-cac5f2d4e259
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 93996 Parker Pine
+    city: Meaganberg
+    state: OK
+    zipcode: 25583-7188
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-303-003-8114 x209
+  email: shemar@crookspaucek.info
+  uid: 5dfdcf02-2026-4069-bf9a-6646b10b372b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 49866 Glover Ranch
+    city: Bradton
+    state: MA
+    zipcode: 42963-6135
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 402.263.5770 x742
+  email: zander@bruen.biz
+  uid: ccba79f2-8fa0-436a-91b7-5236ed82db69
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 422 Mills Field
+    city: Lake Allisonport
+    state: DE
+    zipcode: '79649'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (678)307-3843 x372
+  email: andreanne_boyle@murazik.org
+  uid: b5717454-d3c6-49e4-8e83-54a4be48c958
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 61516 Dovie Ville
+    city: Onafort
+    state: ID
+    zipcode: '55903'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 889-081-4513 x8309
+  email: shayne_kautzer@koepp.info
+  uid: 70372a88-2f9b-4a51-90a8-865750511d7e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6504 Metz Turnpike
+    city: Leathabury
+    state: DE
+    zipcode: '57628'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-832-788-7444
+  email: keara@feestkohler.com
+  uid: 7fe9b73d-7e4d-40d9-9649-cdb22baab5d9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8351 Mohr Cape
+    city: East Bradenville
+    state: AK
+    zipcode: 35067-2320
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 675.523.2729 x08687
+  email: gloria@schinner.net
+  uid: 76be0030-6852-4337-bd2c-2e9419eb8608
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 58369 Jamie Lakes
+    city: Belleton
+    state: IN
+    zipcode: '66267'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 794-226-9782
+  email: gonzalo@dickinsondamore.name
+  uid: 35cb5325-ceb1-4117-aad6-ba0a14299ca9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8846 Bauch Forks
+    city: Stehrmouth
+    state: MS
+    zipcode: 26564-6736
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (900)904-3374 x33867
+  email: celine_reichel@shanahan.info
+  uid: 3836987f-798c-475c-9c05-b864066893ec
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 829 Rutherford Pass
+    city: Hansenview
+    state: ME
+    zipcode: '17569'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (705)002-5483
+  email: jordi_pfannerstill@weimann.com
+  uid: 3892a5e4-a2d7-4cb4-9fd0-96cc828baf1f
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8743 Lionel Summit
+    city: North Faustinotown
+    state: OR
+    zipcode: '80787'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 945.214.0670 x503
+  email: kevon@torproberts.org
+  uid: 68bf5302-071b-431e-a735-d8b4f98182e0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2699 Kiehn Plain
+    city: Gersonshire
+    state: MO
+    zipcode: 15318-9215
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 367-230-4085
+  email: carol@hermiston.info
+  uid: 68f2f829-7b52-4701-837d-b6123520f635
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 601 Kemmer Skyway
+    city: Douglasstad
+    state: RI
+    zipcode: 50110-4023
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-412-149-0710
+  email: emanuel@crona.info
+  uid: 8c5ca099-9460-48cf-a2ce-98eea4171747
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 46538 Rice Road
+    city: Corwinland
+    state: IN
+    zipcode: '76994'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 261-898-3874 x78408
+  email: joany.hauck@jaskolski.info
+  uid: 3e7cce03-d2b7-4144-ab38-5792726a96df
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 886 Robb Dam
+    city: Corrinemouth
+    state: IA
+    zipcode: 54385-4754
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 583.691.9802 x86372
+  email: julius@lindgrenlockman.name
+  uid: ac4a57d6-1728-46af-9c6d-dac1b6af2a75
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 908 Katelynn Corner
+    city: New Leopoldobury
+    state: AL
+    zipcode: '82793'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-178-541-9673 x365
+  email: rosamond@brakus.org
+  uid: 8ae51c0f-0ce9-4e9b-a22a-51c0a147c724
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 784 Kuhlman Cape
+    city: Tristonstad
+    state: AR
+    zipcode: '67246'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 193.218.1452 x32755
+  email: cathrine@kuphalemard.name
+  uid: e87ec9b5-a83b-42cc-b065-1ec5154d71f8
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 78682 Pfeffer Vista
+    city: Port Alba
+    state: NH
+    zipcode: '67972'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-796-980-8012
+  email: alvina@whiteleuschke.biz
+  uid: d7ddae26-02fe-4bc1-91d4-ed5ad9e44fbb
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8924 Rutherford Springs
+    city: Cormierstad
+    state: NE
+    zipcode: 41650-1151
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 839.976.9907 x99427
+  email: zachariah@walterritchie.net
+  uid: c6f0b0fb-4f03-4357-bca4-1f5774956e19
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 72337 McCullough Spring
+    city: South Margretchester
+    state: WI
+    zipcode: 44058-3942
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 335-628-1307 x0047
+  email: lindsay.wolf@willcole.info
+  uid: b8b1bd57-6c49-47cf-b2ff-660fe9f48bfd
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8239 Walter Shoal
+    city: Lake Dollymouth
+    state: CO
+    zipcode: '99925'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 866-541-1365
+  email: gerard.windler@effertzschmeler.org
+  uid: dd0a4f9a-5e2d-4b84-b9fc-6cb3a1685b90
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 56830 Quigley River
+    city: Nicolehaven
+    state: RI
+    zipcode: 70094-3206
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (832)471-5445
+  email: coralie.erdman@fahey.com
+  uid: 2756dd7e-9289-4382-978d-002daa2b6ebe
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 276 Toy Mountain
+    city: New Zakary
+    state: FL
+    zipcode: '79067'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (313)185-4930 x04949
+  email: jacquelyn.pagac@bradtke.name
+  uid: c78461c9-3660-49b3-a75f-b691a5201810
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2367 Treutel Fall
+    city: Laurenceside
+    state: MI
+    zipcode: '81141'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (896)243-8190
+  email: dino_pfeffer@hansen.org
+  uid: c638d0df-89d3-4f0f-9ead-8558d7df55ae
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 174 Marquardt Orchard
+    city: Feilside
+    state: AL
+    zipcode: 20177-3135
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 484.507.5498 x140
+  email: marty@ankundingfarrell.com
+  uid: 675de7d9-7757-4951-a15e-ae076ac41c26
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 984 Dare Oval
+    city: Lebsackton
+    state: CO
+    zipcode: 80002-1806
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-289-789-6119 x5710
+  email: rosemary@bins.info
+  uid: b4ac899a-047f-4b85-a539-4f6f5a3a0e7b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 32622 Smith Haven
+    city: Lake Andreanneville
+    state: MA
+    zipcode: '58812'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 126-427-9849 x53213
+  email: linnea@carterpfeffer.net
+  uid: d4a61007-4d11-4c88-ae79-825dcb1f3906
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7837 Schimmel Plain
+    city: Yostberg
+    state: NH
+    zipcode: '53410'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (516)155-0011 x02723
+  email: roselyn_ebert@sipesfritsch.org
+  uid: 97957392-7373-4ac1-9be9-550460720506
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 983 Lang Pine
+    city: Vladimirbury
+    state: IA
+    zipcode: 92589-3516
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (937)681-4523
+  email: barrett@harber.biz
+  uid: adf2cbe7-799e-49e6-827b-828f09dd8913
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9994 Marks Brooks
+    city: Port Miles
+    state: HI
+    zipcode: '58462'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (342)640-8955
+  email: magdalen@smitham.name
+  uid: e31aef16-f064-4b77-867f-75dcc9583d67
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 15807 Deckow Ranch
+    city: Lake Rasheed
+    state: WV
+    zipcode: 40704-5460
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 433.893.4103 x37717
+  email: mary.witting@von.name
+  uid: 289c751c-aa22-4674-b1a8-a66c93b53a0b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9915 Garrick Glens
+    city: Lake Haleighmouth
+    state: OH
+    zipcode: '42860'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 829-674-6678 x242
+  email: lacey@greenfelderkrajcik.com
+  uid: e52151b4-0cbe-4ce6-a3a6-84eaeaa7a2e0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 29679 Rubye Tunnel
+    city: Grahamland
+    state: WY
+    zipcode: '84050'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 455.561.9766
+  email: melisa@johnstonhand.org
+  uid: 37488450-c58f-4e83-a9dd-0ecacdffac1a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 80939 Hyatt Summit
+    city: Earnestmouth
+    state: AZ
+    zipcode: '61367'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (621)680-3566 x726
+  email: candelario@hartmannrogahn.info
+  uid: 43271565-6c1a-4fbb-a991-7eae2ab92eec
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 15575 Daniel Circle
+    city: Patrickborough
+    state: OR
+    zipcode: '21362'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 729.258.6000 x0260
+  email: prince_blanda@reilly.biz
+  uid: 2a0342cb-057e-4c01-bcc5-1296ae7fdb64
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 99101 Lang Forges
+    city: Howemouth
+    state: TX
+    zipcode: '43682'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-935-133-1715
+  email: rubye@moore.info
+  uid: abac4952-88f2-48fb-b171-66830110fd2c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 42576 Homenick Street
+    city: Port Merrittmouth
+    state: AK
+    zipcode: 85514-8238
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-672-816-2170 x80698
+  email: lavon_hackett@wunsch.net
+  uid: b2aba0fb-7817-4b92-85b6-8219cd32ba58
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4522 Runte Ranch
+    city: South Hendersonstad
+    state: AR
+    zipcode: '71577'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 597-417-1758 x6343
+  email: rosalee@hermanngrimes.net
+  uid: 61c392db-0a39-49a3-a2fe-1c3c8776335c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 96930 Gleason Rapids
+    city: Johnsonport
+    state: KS
+    zipcode: '31811'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 275.673.7811
+  email: johnson@adams.name
+  uid: dc682cfa-1a3c-4b79-bc7f-28c2ebd1d972
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 51414 Morgan Haven
+    city: Makennafurt
+    state: FL
+    zipcode: '48673'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-223-835-5020 x1189
+  email: gail.kozey@kiehn.org
+  uid: 3f8b8909-3bf8-4a02-ab21-5e98de044098
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 67858 Rice Fort
+    city: Lake Alexandre
+    state: RI
+    zipcode: '51803'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 141-500-9321 x0959
+  email: martine@zieme.com
+  uid: 0683066b-b07f-497f-a8a1-272649720646
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 5450 Donavon Prairie
+    city: Janessamouth
+    state: WV
+    zipcode: 47057-8883
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 366.631.2814 x887
+  email: brenna_prohaska@pouros.org
+  uid: 9153940a-38e9-4948-a76c-45406105eead
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 5335 Schneider Locks
+    city: Balistrerimouth
+    state: NV
+    zipcode: 65978-8199
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-773-566-7813
+  email: tony_mraz@oharavolkman.name
+  uid: d73c9d14-29e7-4f9a-b4b1-91b2c38e64ee
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 665 Cronin Viaduct
+    city: Bayerfort
+    state: ND
+    zipcode: 11199-7307
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (827)903-1769
+  email: dimitri@mccullough.info
+  uid: 40481a88-f1ff-4731-b013-eccd7b77fd21
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 238 Camilla Freeway
+    city: New Elveramouth
+    state: TN
+    zipcode: '16258'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 663.711.5497 x198
+  email: clark@fahey.biz
+  uid: fa44ff7a-d4af-4f51-b355-9cc862b7d3dd
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 107 Lucile Lakes
+    city: North Jaiden
+    state: NM
+    zipcode: 18292-3452
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 114-335-8479
+  email: mittie.leannon@ruelzemlak.net
+  uid: 9636f87c-b630-4ee5-b658-caff1f08b827
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 109 Ryan Place
+    city: Jamarhaven
+    state: ND
+    zipcode: 54682-5114
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (768)739-1264 x301
+  email: johnathon_considine@frami.net
+  uid: bce9e5c7-bd63-43c9-89d0-5bdad5430773
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 60868 Schneider Corners
+    city: Lake Jeffrey
+    state: NM
+    zipcode: 76444-2117
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 897-896-8822 x05614
+  email: crystal.treutel@gorczany.info
+  uid: 35ef6756-8610-4abc-8e34-871521796c96
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 627 Sonya Mill
+    city: North Rosannafort
+    state: VT
+    zipcode: '63736'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 563.569.5329
+  email: garnett@funkgreenholt.biz
+  uid: bf36f8b6-5b02-40d7-b24a-8bf9ccceead9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2399 Demetris Rue
+    city: Jacobsonland
+    state: AL
+    zipcode: '76650'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (392)803-3633
+  email: erin_wintheiser@walker.com
+  uid: 094f1ab5-865a-4c21-b28c-6e7573507288
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 15922 Miles Junction
+    city: Lake Ethelynview
+    state: NH
+    zipcode: 18543-7814
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 947.156.9233
+  email: shanelle_oconner@nolan.org
+  uid: 70121857-8a0a-4da5-bc64-3c7b104f339a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 19025 Sheridan Shoals
+    city: Lake Delfina
+    state: NY
+    zipcode: 15990-5286
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 345-714-4125 x099
+  email: deanna_stoltenberg@wisokypouros.biz
+  uid: ea68969b-8034-41f0-854f-8e90becf5610
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 89068 Bailey Views
+    city: Lake Haileeland
+    state: NJ
+    zipcode: 17236-3411
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-814-007-1311 x4341
+  email: santa@farrellgleichner.biz
+  uid: 449ab949-f680-4eab-8e80-f5b884327f60
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 759 Rau Cliffs
+    city: Lake Samantafort
+    state: WY
+    zipcode: '99713'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 848.507.5791 x3184
+  email: tatum_walker@braunosinski.info
+  uid: 241a0c58-03a1-47c1-a9fe-19dfba8b9b04
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 306 Daniel Trail
+    city: Claudiaport
+    state: PA
+    zipcode: '76661'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 884-572-1243
+  email: camron.runolfsdottir@littel.biz
+  uid: 7ff97ff5-fa98-4a0c-8b43-37b77c3d7fec
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 415 Erdman Drives
+    city: Ilianaside
+    state: ID
+    zipcode: 82841-3211
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 573.358.6826 x38430
+  email: hallie@brakus.org
+  uid: 97ac8d2e-3b58-4626-b10b-104b726f205e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 344 Isaac Trace
+    city: Schaefermouth
+    state: MN
+    zipcode: 23063-7753
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-661-961-4215 x07379
+  email: sherwood_mann@lockman.biz
+  uid: 28b2db46-c56a-4c05-ae92-c78703fd865b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9276 Berge Meadow
+    city: North Lazaroshire
+    state: IL
+    zipcode: 52934-0610
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 795-497-4385 x71030
+  email: eden.haag@funk.biz
+  uid: 423375ac-f0f7-43b4-958b-18b4aa8fa3c8
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8135 Greg Plains
+    city: Pfefferfurt
+    state: TN
+    zipcode: 86572-3404
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 870.607.3545 x289
+  email: maureen.metz@schultzcarroll.biz
+  uid: ae0b3027-edf1-4021-a5a9-7d2337c2df19
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8973 Marvin Expressway
+    city: New Walker
+    state: KY
+    zipcode: 96751-0482
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-426-314-5782
+  email: lelia@murphy.net
+  uid: 3a99fd85-db41-4352-a69b-e99394e0182b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1086 Connelly Ports
+    city: East Ronaldo
+    state: NC
+    zipcode: 56392-7155
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-800-202-1029 x81245
+  email: kelly.rodriguez@lowe.org
+  uid: cc78d548-88ab-4d84-ad4b-ee75e81a589c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 656 Jacobson Road
+    city: East Gabeport
+    state: NC
+    zipcode: '81131'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-184-938-9912
+  email: ozella.kling@stanton.net
+  uid: 3efbedec-b364-4ed4-b089-3b6980b94e4c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 5931 Virgie Points
+    city: Salvadormouth
+    state: AR
+    zipcode: '87245'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (560)690-6697 x193
+  email: bart_little@armstrong.com
+  uid: 39e011aa-3482-46c3-a08f-119d1333bbba
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1147 Bergnaum Vista
+    city: Kuphalchester
+    state: NH
+    zipcode: 41390-0161
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (777)151-8442 x93758
+  email: eulalia@bins.com
+  uid: bfe8c646-3bf4-4b24-b910-38220f41ff66
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 63927 Blick Mountains
+    city: Elinoreshire
+    state: IN
+    zipcode: 37402-6146
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 564-804-1935 x10641
+  email: carolanne@gorczanyschultz.biz
+  uid: 10e2a4c3-1789-4268-b399-7d7900b064aa
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 572 Gerhold Mountains
+    city: Terrencebury
+    state: NY
+    zipcode: 41681-1692
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 192-433-8914 x2611
+  email: raphael.homenick@schmitt.com
+  uid: c964b6f3-b894-4606-b853-e503ad127a55
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 575 Sporer Shores
+    city: Devonteville
+    state: VT
+    zipcode: 11538-5010
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 314.821.5928
+  email: skyla@kohler.name
+  uid: 9a78be55-5aec-49c6-9262-d8a4014a0056
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 214 Buckridge Pike
+    city: Collierport
+    state: CT
+    zipcode: '18010'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 508-980-8042 x976
+  email: adolph.douglas@johnscrooks.biz
+  uid: 497782ad-5187-4825-8920-3340e89ddb69
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 853 Padberg Tunnel
+    city: West Abdielfurt
+    state: WV
+    zipcode: '40111'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-494-199-8888
+  email: ursula@hills.org
+  uid: 96e78019-6373-42df-933b-a4d093ea52a7
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 28561 Howe Ville
+    city: Lake Winstonbury
+    state: WA
+    zipcode: 54849-2108
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 790-719-6332 x926
+  email: miles@towne.net
+  uid: 07f199cb-85a0-4ff7-91fc-ba68186fa8c3
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 96664 Georgette Center
+    city: Adelatown
+    state: NY
+    zipcode: 44813-8096
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (722)374-5453 x814
+  email: jermey.wehner@waelchi.com
+  uid: d33fafd1-5bb3-4657-a603-11fdcbd65e0e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 514 Maggio Avenue
+    city: East Jermaine
+    state: IN
+    zipcode: '98790'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 621-275-1646
+  email: anjali@blandajohns.name
+  uid: 72adc5ee-20ce-49a5-a351-bf5cefd84991
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 590 Javier River
+    city: Brakusport
+    state: KY
+    zipcode: 49000-9060
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 111.891.9133 x75839
+  email: modesta@raynor.org
+  uid: aa6daf7a-02e0-47df-b95e-7798b2a7d6b2
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 239 Gerlach Brooks
+    city: Cummingsshire
+    state: CA
+    zipcode: 45138-2136
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 793.104.6144 x5099
+  email: trystan_cremin@doylekris.info
+  uid: a89a12b7-f8c0-4fe7-aaa9-72876c8edf16
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 71339 Nelda Flat
+    city: Kochport
+    state: SC
+    zipcode: 43894-8102
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (676)482-1498 x05999
+  email: jaiden@robelbogan.net
+  uid: d58a7ad9-98ab-46e5-916a-f067da16422c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 83487 Satterfield Cliffs
+    city: North Sunny
+    state: KS
+    zipcode: '65027'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-624-201-7719
+  email: eden_torphy@hillsbechtelar.info
+  uid: 352d22bc-301d-4f97-a389-d89cb828d848
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4002 Rita Common
+    city: Kaylieborough
+    state: NE
+    zipcode: 34846-5304
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (818)052-3878 x769
+  email: frankie.green@collins.info
+  uid: eb07faaa-4b0d-44eb-9fb3-31eb3f91035b
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 355 Kovacek Pike
+    city: New Jaydeton
+    state: NM
+    zipcode: '40489'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-842-110-0121
+  email: roderick@keeling.info
+  uid: 1b980486-5aa9-4681-bb44-d48743f71cd6
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 40773 Sienna Avenue
+    city: Conroybury
+    state: AZ
+    zipcode: '51210'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (983)616-8430 x067
+  email: kaylin.nolan@douglas.com
+  uid: 2357c934-28fc-4a08-9814-3f61209c08c0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 442 Ortiz Lodge
+    city: Lake Estherville
+    state: CO
+    zipcode: 14709-2726
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (970)751-1466
+  email: everardo@legroswisozk.com
+  uid: 431ee095-7ab8-4b14-a3d8-ae1053a28131
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 885 Johnson Cliff
+    city: North Lelaton
+    state: IL
+    zipcode: '13661'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (631)126-6243 x85381
+  email: alicia@kuhnjones.biz
+  uid: b3a66c09-8456-4497-bb7d-75d819bbd78e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 604 Schroeder View
+    city: Naderville
+    state: OK
+    zipcode: '42152'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (982)978-8466 x0276
+  email: gladyce.donnelly@weinat.org
+  uid: 76a1175e-1cb2-49e0-b3a6-a6afd3830561
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4710 Anderson Shoal
+    city: Russelshire
+    state: OK
+    zipcode: 43035-5236
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-606-938-2816 x59374
+  email: alfred.ohara@durgan.info
+  uid: 9737020a-94cd-4af8-84b2-2ebecb15ac8a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 238 Camden Skyway
+    city: Altenwerthborough
+    state: ID
+    zipcode: '16253'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-238-112-6552
+  email: clark_mohr@nienow.name
+  uid: dcda811b-5415-4a18-814c-648b736719d6
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8311 Stracke Extension
+    city: South Leonie
+    state: VA
+    zipcode: '31717'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 329.238.9749
+  email: jeanette_runte@halvorsonstark.biz
+  uid: 93c70ec7-ec7d-46af-ae49-1f412c298fb8
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 48753 Corkery Walk
+    city: Bartellborough
+    state: FL
+    zipcode: 73483-5147
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 943-523-8671
+  email: efren@mcglynn.net
+  uid: ade25b27-f4e3-4b55-9bbe-6803cfebc53e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 75059 Sonny Crossing
+    city: North Tyshawn
+    state: WV
+    zipcode: '68893'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 768.392.2509
+  email: cornell.schowalter@sanfordkeler.biz
+  uid: 8c4efe61-c869-4cee-8c81-e5174b839879
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 45118 Ratke Glen
+    city: South Alexanne
+    state: DE
+    zipcode: '51623'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-200-886-7955 x7232
+  email: murphy.altenwerth@stokestorphy.org
+  uid: 22f2fad9-eb0e-4339-a25d-530a2c851407
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 61098 Candida Skyway
+    city: West Willfort
+    state: HI
+    zipcode: '82018'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 693-473-4175 x2591
+  email: emerson@hagenesullrich.net
+  uid: d89ab040-ca9a-4bba-a24e-bd84e583d2bc
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 50719 Eugenia Isle
+    city: East Colleenborough
+    state: OH
+    zipcode: 21703-7963
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-713-325-0051
+  email: brianne_carter@ziemann.name
+  uid: e1b16687-8c06-4a04-973d-a510697652b4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7351 Alayna Plaza
+    city: Lake Arnomouth
+    state: ND
+    zipcode: '78126'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 600-110-6778 x78621
+  email: janea_weimann@kuvalisconn.net
+  uid: 38f1fe9b-fdae-4347-8bdd-344a9de96110
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3749 Toy Rapids
+    city: Konopelskibury
+    state: MN
+    zipcode: '25646'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 384-415-6077 x968
+  email: celestino.volkman@douglas.name
+  uid: 3ace16eb-8756-4466-8e94-be3962be68c4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 728 Legros Heights
+    city: Marilouhaven
+    state: TX
+    zipcode: '54958'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 300-064-0997 x83757
+  email: araceli@schuppe.name
+  uid: 09b30da0-595e-4861-af64-853a03c49670
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 849 Corwin Radial
+    city: Madisenton
+    state: UT
+    zipcode: 74982-4355
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 722-244-3387 x58192
+  email: kris@kihn.net
+  uid: dc4359b2-f164-40a4-922d-b43812cbb4ed
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 37549 Jonathan Manors
+    city: Paucekville
+    state: NE
+    zipcode: 66031-6697
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 189-969-0750
+  email: thad.wisozk@ko.name
+  uid: 5ea863bb-85c4-4e99-a1cd-d9f8f1b4ce4c
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 242 Meagan Streets
+    city: New Terrenceville
+    state: DE
+    zipcode: 17624-1811
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 172.616.8306 x196
+  email: vivianne@hermann.com
+  uid: 9dc832e2-0354-45c8-9caa-9c16163fa918
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3153 Wehner Point
+    city: Port Michaleton
+    state: OR
+    zipcode: 59824-6974
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-828-894-5581 x13493
+  email: hilton_nitzsche@block.org
+  uid: 1fabfa00-fc03-42cb-9207-05ac0e6bb551
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4169 Crist Overpass
+    city: Millsberg
+    state: LA
+    zipcode: 24256-3145
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (145)340-2053 x949
+  email: delia@walsh.com
+  uid: 247145ff-b993-457a-9512-b99af9559f7e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 998 Noel Flat
+    city: Port Brady
+    state: CO
+    zipcode: '67186'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 842-972-0709 x376
+  email: lemuel_deckow@gislason.info
+  uid: c3677760-fac2-42f5-a46b-8106dd98b098
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 596 Winston Green
+    city: South Theodorabury
+    state: KS
+    zipcode: '88347'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 603.704.7750 x8096
+  email: eleanora.ferry@keler.info
+  uid: 2de379ae-e6e4-447c-9676-a67ed1f8db30
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 251 Clovis Road
+    city: Concepcionview
+    state: MA
+    zipcode: '36320'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 849.104.1862
+  email: karolann@luettgen.net
+  uid: 348bbbc7-e4a6-464a-ae96-699918d1ec50
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 24128 Runolfsson Shores
+    city: Lonnystad
+    state: CA
+    zipcode: 73163-5201
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (468)479-2798 x51216
+  email: frank@keler.org
+  uid: 3003d59e-912d-4a6b-84c4-9ec77309b7d5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 844 Ferry Lock
+    city: West Marjolaine
+    state: NJ
+    zipcode: '73985'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 913-663-7537 x1634
+  email: domenick.kuhic@pouros.info
+  uid: acfb5da5-f92b-4fa3-8a1b-df87e8c1d2fc
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 94476 Miracle Loop
+    city: Izabellaland
+    state: NV
+    zipcode: 27453-7671
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 462.617.2028
+  email: coy@ziememarvin.com
+  uid: e9dcca39-1e01-479d-8c84-47102d3f2270
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 36144 Cassidy Lane
+    city: East Mayeton
+    state: FL
+    zipcode: '85156'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 922-256-2543 x61871
+  email: oceane.emard@rutherfordbreitenberg.net
+  uid: 61b921c8-7d57-4bf1-8f96-c76778e5d183
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 40470 Dariana Burgs
+    city: Morarborough
+    state: WI
+    zipcode: '53262'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-800-691-7516
+  email: chester_fadel@hansen.info
+  uid: 630afa67-5720-43fe-af87-e74b99205b4e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3955 Nathanael Extension
+    city: Port Idaport
+    state: KY
+    zipcode: 92356-9485
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-127-982-4115
+  email: louisa@hoegerwolff.org
+  uid: 94dfcd16-0059-489c-acd4-afd0e7e25786
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 507 Gutkowski Skyway
+    city: East Mableburgh
+    state: AL
+    zipcode: 86601-6690
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (924)984-4689 x5546
+  email: amira@schiller.info
+  uid: 9e3c6d28-12ce-4998-a759-7283782e8aea
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 26243 Strosin Grove
+    city: Port Laisha
+    state: SD
+    zipcode: '40235'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 698.098.5250 x665
+  email: eunice@connellyfeeney.info
+  uid: ebcaf8f3-e8ee-4bb2-9951-1722aeb2edf6
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 786 Bergstrom Neck
+    city: Rayland
+    state: MI
+    zipcode: '27320'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-770-521-0131
+  email: clint@swift.biz
+  uid: 64949503-a747-4272-ba0a-b96ef3624159
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 252 Barton Summit
+    city: Lydaton
+    state: IN
+    zipcode: 66942-1482
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (662)444-3889 x6419
+  email: deanna_hintz@hudson.net
+  uid: 1432f077-0a97-4296-b148-cc41fe399a93
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 372 Kunde Lane
+    city: South Trisha
+    state: TN
+    zipcode: '85082'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 578.213.9870
+  email: dayne.goodwin@yostwaelchi.biz
+  uid: 25c393d1-ed0a-4143-a25d-7e196ae3484a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 429 Dicki Village
+    city: Shannymouth
+    state: NH
+    zipcode: '55811'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 468.589.4651 x6765
+  email: marjorie.wiegand@stracke.name
+  uid: d45e8652-1774-41e5-bfcb-5bc08678efa3
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 38464 Donnelly Via
+    city: Kathlynbury
+    state: DE
+    zipcode: '71008'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 439.158.3407 x92028
+  email: adela.hartmann@gottlieb.net
+  uid: 44988543-b309-4d16-a84d-ea238aa043b0
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3154 Feeney Crossing
+    city: South Adalbertobury
+    state: WI
+    zipcode: '41159'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 720.625.6995
+  email: pink.hirthe@wyman.net
+  uid: fa90d5bf-7107-478f-aac9-7ea98ed4611f
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 3251 Wisoky Freeway
+    city: North Coralie
+    state: ND
+    zipcode: 39717-8391
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-535-203-3065 x8144
+  email: wyman_marquardt@hodkiewicz.net
+  uid: daaf7f11-3388-4551-93df-04138075ea0f
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 46845 Alison Pine
+    city: Lake Aurelioville
+    state: MO
+    zipcode: 71686-1949
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 595-451-8981 x63474
+  email: justyn@hamilllittle.com
+  uid: b44a9ccb-69f9-4416-87e6-97d366ca8dbb
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 838 Hamill Islands
+    city: Reingerchester
+    state: NC
+    zipcode: 76943-8226
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-552-162-9941 x6604
+  email: elliott@jast.net
+  uid: 990a58e0-0849-48dd-9ec1-bb53469319be
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2390 Ledner Turnpike
+    city: North Andreaneport
+    state: SC
+    zipcode: '29248'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 520.508.3753 x20050
+  email: leopoldo@moenhansen.net
+  uid: 6b238617-8b6e-41ef-88d5-a1fcafdabbe5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1032 Genesis Hollow
+    city: East Antwanside
+    state: ND
+    zipcode: '35764'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (569)864-8222
+  email: jamey.kling@corwinblock.org
+  uid: 8ead9d1c-a349-417b-9e61-01c6db76acb5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 434 Selena Valleys
+    city: Danafurt
+    state: MD
+    zipcode: 11650-3604
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-757-748-1679 x71206
+  email: harmony@will.net
+  uid: 64475f77-1cc1-49b5-bcf8-89d46dbc0f10
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 95562 Bahringer Well
+    city: Port Franciscaside
+    state: WA
+    zipcode: '72591'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 454.539.6894 x7711
+  email: afton_gleichner@feeney.name
+  uid: 7eb4d49e-24fb-405e-b041-b9e58d5c3da2
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1171 Hilton Isle
+    city: South Rainaport
+    state: LA
+    zipcode: 80979-6998
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 460-860-6711 x57266
+  email: bethel_mccullough@terryfranecki.org
+  uid: 18c2de6c-265f-4d1d-b64c-b62c12a62fbe
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 85044 Mertz Crest
+    city: Thieltown
+    state: NJ
+    zipcode: 72807-9634
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-686-815-3177 x6728
+  email: rosalia@millerbruen.org
+  uid: 1474034d-062d-488f-9cc0-5450ea21a561
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 17521 Flatley Loaf
+    city: Port Kristinashire
+    state: OK
+    zipcode: '31741'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (383)531-8463 x15794
+  email: jalyn@nitzsche.com
+  uid: 8cca3dec-4424-43a2-9c27-2380d48a7ee2
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 82596 Larissa Fort
+    city: North Jamarcus
+    state: AL
+    zipcode: 42568-7976
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (317)143-1126 x4876
+  email: stefanie_schaden@rice.biz
+  uid: 60ba1433-e4aa-41f7-877e-52d7c104c1b8
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2114 Keshawn Ford
+    city: East Cedrickmouth
+    state: OH
+    zipcode: 90763-1054
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (588)121-9811 x43733
+  email: sincere@kaulkeboyle.biz
+  uid: 13e0fec6-4f6e-4965-99f8-984c60f1267e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 105 Jast Ferry
+    city: Emileside
+    state: AZ
+    zipcode: '37032'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 813.156.2178 x5428
+  email: marta.gorczany@romaguerakonopelski.com
+  uid: aa2fa4f0-489c-45cc-9446-76c503355fa1
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 26991 Myrl Squares
+    city: Trantowshire
+    state: CA
+    zipcode: 71514-0939
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 137.027.9288 x4017
+  email: marilou@cummings.net
+  uid: d003b01c-80b3-4ca2-8d05-d8d2f3a8b867
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 44208 Lennie Unions
+    city: North Hansfort
+    state: SC
+    zipcode: 81055-1546
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 630.663.1897 x727
+  email: dangelo_kuvalis@johnston.info
+  uid: a4b7d001-0372-4069-8f0c-e8c173d76213
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 48180 Sauer Lakes
+    city: Hudsonmouth
+    state: AR
+    zipcode: '90381'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (260)587-5680 x81751
+  email: trent@murphy.info
+  uid: e4388589-ce3e-4718-87dd-6e29fadf4bc4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 956 Dimitri Corners
+    city: East Zeldatown
+    state: MS
+    zipcode: 96330-7945
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (533)053-1866 x84827
+  email: selina@weimannstanton.info
+  uid: 40c8c961-60ca-4226-bc0d-e247175c25b9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 58348 Witting Run
+    city: New Austen
+    state: CT
+    zipcode: '49476'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-515-509-1081 x793
+  email: rey.bayer@erdman.biz
+  uid: 306f833e-e858-4b78-b74d-5487a5d15908
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 257 Salma Grove
+    city: Lake Noble
+    state: ME
+    zipcode: '41765'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-352-964-0264
+  email: germaine@thiel.name
+  uid: 6471bdc1-7d65-4f24-b029-320deb166b78
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 96810 Vena Drive
+    city: East Kristina
+    state: MT
+    zipcode: '67112'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 936-510-8196 x0634
+  email: allie_orn@cainbotsford.com
+  uid: 2b16ba52-6693-4fcb-a95e-469cad7cf159
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 30982 Wuckert Throughway
+    city: North Elmer
+    state: CT
+    zipcode: '65408'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 739.470.0782
+  email: samantha.leannon@kovacekyundt.info
+  uid: 312c5253-12cd-4ccc-ab44-cace59bb123d
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 50732 Ramon Cape
+    city: West Dora
+    state: MI
+    zipcode: '35421'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 127.591.5542
+  email: ericka_herman@nicolascain.net
+  uid: c4097fce-0744-4c7b-9ca7-aff43e4f71c5
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 53554 Wolf Summit
+    city: Westmouth
+    state: VT
+    zipcode: 25680-4204
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-411-225-0267 x6288
+  email: colleen@heaney.net
+  uid: 875f2418-3533-4291-ba8b-a6250fca7ebe
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 2747 Amaya Cliffs
+    city: Port Vivianton
+    state: MN
+    zipcode: 65103-4596
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 521.267.2204
+  email: kiel.ruecker@brekkerunolfsdottir.info
+  uid: 29829d69-dbb7-4d1e-8509-30925f3dba27
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8165 Jakubowski Passage
+    city: Reggiefurt
+    state: AK
+    zipcode: 24770-8264
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 596-628-9848
+  email: rusty.smith@gutmann.com
+  uid: 0e2a9dd1-1f37-4b3d-98f8-19c3e78ab156
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7425 Joana Spring
+    city: Hassanmouth
+    state: IA
+    zipcode: 91831-4462
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (639)431-1258
+  email: reginald@hammes.info
+  uid: 929c020f-f4d4-45e4-a1ce-cfd646c80eee
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 352 Maya Heights
+    city: Sophieborough
+    state: NC
+    zipcode: '63007'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 614.007.6080 x634
+  email: fred.ernser@dietrich.net
+  uid: 69ade54a-709e-4d8c-a8dd-b86d7dc64847
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 193 Greyson Ports
+    city: Jedidiahland
+    state: NE
+    zipcode: '64918'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (561)340-1962 x343
+  email: drew@schmidt.name
+  uid: db0f5aff-8c2a-4fd9-a47a-0579f01c107a
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 8776 Mitchell Ports
+    city: New Maximilianport
+    state: MT
+    zipcode: 53037-2496
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 426-629-0127 x8339
+  email: sadye@danielondricka.biz
+  uid: 27ddaeff-4fc2-41fe-b5d7-574fb95e9969
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 523 Conn Point
+    city: New Chasity
+    state: NM
+    zipcode: '96196'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-761-451-6572 x94137
+  email: santiago.gulgowski@oberbrunnerbechtelar.net
+  uid: 1f2af3a7-6065-4efa-96b9-6da8a0c3b136
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 855 Wiza Land
+    city: Melbaberg
+    state: VT
+    zipcode: '11966'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-954-764-7671 x011
+  email: natalia@lindgren.info
+  uid: 54b956a7-2dc0-47e2-8c45-b8891d17ac85
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 154 Ludwig Fort
+    city: Mitchellchester
+    state: HI
+    zipcode: '27537'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (904)844-2625 x3393
+  email: retha_rempel@schummkuvalis.com
+  uid: 6955efb4-af39-4946-bb8e-e5c925d29d0e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9456 Brittany Well
+    city: New Maxwell
+    state: MI
+    zipcode: 30327-7733
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 899-182-5910
+  email: sherwood.trantow@waelchi.org
+  uid: bc588c57-9c65-4be6-af20-9f48981d9223
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 1940 Balistreri Park
+    city: New Ianmouth
+    state: NC
+    zipcode: 85314-5160
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 749-068-5692
+  email: claudie@friesenkunde.biz
+  uid: 6b137461-59e9-435c-8066-7d86a37016ac
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7939 Dawson Ports
+    city: Veumchester
+    state: MN
+    zipcode: 92475-1115
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (390)651-0686
+  email: lloyd.nitzsche@gulgowskiward.name
+  uid: 2d4374f5-24f1-494c-b94a-de838f612444
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9273 Luettgen Brooks
+    city: Durwardmouth
+    state: MO
+    zipcode: 18676-7303
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 966-479-7179 x6124
+  email: lonie@ohara.info
+  uid: f3de9a7b-d0e5-4c1d-9ac6-298c5940d098
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 33456 Eileen Divide
+    city: West Leathaside
+    state: IL
+    zipcode: '52124'
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 919.178.6175
+  email: vernice@schuster.biz
+  uid: bfcf8eb7-49ca-4a3f-9541-7369ab9f003e
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 254 Mante Parks
+    city: West Adolfo
+    state: WY
+    zipcode: 27209-6421
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (706)434-8909
+  email: ethelyn@dooley.info
+  uid: 19aa5c0c-d178-4dc2-b82f-bf66e2f412a9
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 9215 Lowe Prairie
+    city: West Moriah
+    state: ME
+    zipcode: 40026-7809
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 526-996-9985
+  email: horacio.corwin@kaulkemonahan.com
+  uid: 30097e62-c3ce-4472-9ba1-48f1d2be4764
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 115 Gutmann Drive
+    city: Ginamouth
+    state: CA
+    zipcode: 33673-5003
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 372.408.6005
+  email: jayce_kautzer@langosh.com
+  uid: 969d3150-772d-45ef-9943-55018e5505e8
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 4785 Williamson Freeway
+    city: Bartland
+    state: GA
+    zipcode: 47298-5551
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (277)796-1063 x50514
+  email: malachi@sauer.biz
+  uid: 4cfd9a97-9933-4d53-9eb1-d156d0bf22f4
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 6635 Adams Key
+    city: Beahanmouth
+    state: HI
+    zipcode: 79711-5979
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (700)253-9612 x3323
+  email: heath@schroedercronin.name
+  uid: 1b0f3a08-6112-4634-94c5-04e689a2cb71
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 59701 Lubowitz Parks
+    city: Goldnerland
+    state: WI
+    zipcode: 65308-9855
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: 1-302-301-7963
+  email: keeley@walsh.org
+  uid: b863737d-d6db-4937-99d9-9ec2c2cde9f6
+- !ruby/object:User
+  mailing_address: !ruby/object:MailingAddress
+    street: 7612 Larkin Loaf
+    city: Schoenview
+    state: ND
+    zipcode: 27218-3453
+  user_preference: !ruby/object:UserPreference
+    paper_billing: true
+    login_retries: 4
+    send_info: true
+    text_alerts: false
+  phone_num: (465)491-0164
+  email: anibal_zieme@windler.org
+  uid: 6bdda8ec-a61a-499f-a6da-2eb473d1524f

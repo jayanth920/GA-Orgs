@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Polymorphic Demo</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<nav>
+  <%= link_to 'Home', root_path %>
+  <% if user_signed_in? %>
+    | Signed in as <%= current_user.email %>
+    | <%= link_to 'New status', new_status_path %>
+    | <%= link_to 'New link', new_link_path %>
+    | <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+  <% else %>
+    | <%= link_to 'Sign in', new_user_session_path %>
+  <% end %>
+</nav>
+
+<p class="notice"><%= flash[:notice] %></p>
+<p class="alert"><%= flash[:alert] %></p>
+
+<hr>
+
+<%= yield %>
+
+</body>
+</html>

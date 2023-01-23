@@ -1,0 +1,16 @@
+{
+  "name": "students",
+  "version": "1.0.0",
+  "description": "1. Backend 2. Express   - json 3. Views for the User 4. Front End OOJS   - AJAX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "hbs": "^4.0.0",
+    "mongoose": "^4.2.8"
+  }
+}

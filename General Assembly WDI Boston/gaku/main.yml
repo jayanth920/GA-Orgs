@@ -1,0 +1,6 @@
+---
+
+- hosts: gaku
+  user: root
+  roles:
+    - main

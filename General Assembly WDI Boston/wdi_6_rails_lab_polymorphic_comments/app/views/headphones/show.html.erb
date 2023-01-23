@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @headphone.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @headphone.model %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @headphone.description %>
+</p>
+
+<p>
+  <strong>Impedance:</strong>
+  <%= @headphone.impedance %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @headphone.price %>
+</p>
+
+<%= link_to 'Edit', edit_headphone_path(@headphone) %> |
+<%= link_to 'Back', headphones_path %>

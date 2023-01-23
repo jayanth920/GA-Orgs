@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+- 2.2.0
+script: bundle exec rspec spec/temperature_conversion_spec.rb
+notifications:
+  webhooks: http://gradingwizard.herokuapp.com/travisreports

@@ -1,0 +1,20 @@
+{
+  "name": "intro-to-sorting",
+  "version": "1.0.0",
+  "description": "intro to sorting and bubble sort",
+  "main": "bubbleSort.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/sei-921/intro-to-sorting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

@@ -1,0 +1,43 @@
+/* UNIVERSAL SELECTOR */
+p {
+	font-size: 100px;
+	margin: 15px 0;
+}
+
+/* TYPE SELECTOR */
+p {
+	font-family: sans-serif;
+	color: cornflowerblue;
+	/*font-size: 40px;*/
+	/* color: black !important; */
+}
+
+/* CLASS SELECTOR */
+p.class_specificity {
+	color: tomato;
+}
+
+/*p {
+	color: gold;
+}
+*/
+
+/* ATTRIBUTE SELECTOR */
+p[title] {
+	color: lightgray;
+}
+
+/* ID SELECTOR */
+p.class_specificity#id_specificity {
+	color: blue;
+}
+
+/* PSEUDOCLASS SELECTOR */
+p:hover {
+	color: green;
+}
+
+/* ID & PSEUDOCLASS SELECTOR */
+p#id_specificity:hover {
+	color: pink;
+}

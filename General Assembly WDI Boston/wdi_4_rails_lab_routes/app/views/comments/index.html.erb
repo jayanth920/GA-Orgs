@@ -1,0 +1,6 @@
+Comments
+<ul>
+<% @comments.each do |comment| %>
+  <li>Movie <%= comment.movie.title %> Comment is: <br/><%= comment.body %> </li>
+<% end %>
+</ul>

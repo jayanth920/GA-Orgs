@@ -1,0 +1,8 @@
+<h1>Hello</h1>
+
+<%= form_tag send_email_path do %>
+	To: <%= text_field_tag :email_destination %>
+	Subject: <%= text_field_tag :email_subject %>
+	Body: <%= text_field_tag :email_body %>
+	<%= submit_tag "Send email" %>
+<% end %>

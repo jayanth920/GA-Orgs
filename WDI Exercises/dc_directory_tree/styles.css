@@ -1,0 +1,52 @@
+*
+{
+	margin:0;
+	border:0;
+	padding:0;
+	border-collapse:collapse;
+	border-spacing:0;
+	font-size:inherit;
+	font-style:inherit;
+	font-family:inherit;
+	font-weight:inherit;
+  text-decoration:none;
+	color:inherit;
+	background-color:transparent;
+	box-sizing:border-box;
+}
+html,body
+{
+  height:100%;
+}
+html
+{
+  background-color:white;
+}
+body
+{
+  font-family: monospace;
+	font-size:16px;
+  line-height:25px;
+  text-align:center;
+}
+body>*
+{
+  display:inline-block;
+  vertical-align:top;
+  width:40%;
+  height:100%;
+  text-align:left;
+}
+li
+{
+  list-style-position:inside;
+  margin-top:20px;
+}
+textarea{
+	display:block;
+	width:100%;
+	resize:none;
+	height:40px;
+	line-height:36px;
+	border-bottom:1px dotted black;
+}

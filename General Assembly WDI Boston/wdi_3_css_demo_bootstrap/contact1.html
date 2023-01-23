@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Info</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Width is determined the the device width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Minified bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Add the contact.css -->
+    <link href="css/contact.css" rel="stylesheet">
+    <!-- Add font awesome for icons -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+          <!-- Nav Header -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">GA WDI BOSTON</a>
+          </div>
+          <!-- Navbar -->
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another Action</a></li>
+                  <li><a href="#">Enough Already</a></li>
+                  <li><a href="#">Your pushing it!</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Center the page's content -->
+    <div class="container">
+
+      <!-- Address row -->
+      <div class="row">
+        <div class="col-sm-4 col-lg-4">
+          <div class="panel">
+            <div class="panel-heading">
+              <h3>
+                <i class="icon-pushpin main-color"></i>Our office
+              </h3>
+            </div>
+            <div class="panel-body">
+              <address>
+                <strong>General Assembly</strong><br>
+                101 Broadway St, Floor 14<br>
+                Cambridge, MA 01897
+                <i class="icon-phone-sign"></i> 617 456-7890
+              </address>
+            </div>
+          </div>
+          <!-- Panel for Hours -->
+          <div class="panel">
+            <div class="panel-heading">
+              <h3><i class="icon-time main-color"></i>Business Hours</h3>
+            </div>
+            <div class="panel-body">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="success">
+                    <td>Monday</td>
+                    <td>9:00 AM to 5:00 PM</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Tuesday</td>
+                    <td>9:00 AM to 5:00 PM</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Wednesday</td>
+                    <td>9:00 AM to 5:00 PM</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Thursday</td>
+                    <td>9:00 AM to 5:00 PM</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Friday</td>
+                    <td>9:00 AM to 5:00 PM</td>
+                  </tr>
+                  <tr class="warning">
+                    <td>Saturday</td>
+                    <td>10:00 AM to 2:00 PM</td>
+                  </tr>
+                  <tr class="danger">
+                    <td>Sunday</td>
+                    <td>Closed</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- Form row -->
+        <div class="col-12 col-lg-8">
+          <div class="panel">
+            <div class="panel-heading">
+              <h3><i class="icon-envelope main-color"></i>Feel free to contact us.</h3>
+            </div>
+            <div class="panel-body">
+              <!-- CONTACT FORM -->
+              <form>
+                <fieldset>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" type="text" name="name" value=""/>
+                    <br>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="text" name="email" value=""/>
+                    <br>
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input class="form-control" type="text" name="subject" value=""\
+                           />
+                    <br>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Comments</label>
+                    <textarea class="form-control" type="text" name="message" value\
+                              ="" rows="5" cols="25"></textarea>
+                    <br>
+                  </div>
+                  <!-- Form Submit Button -->
+                  <div class="form-group">
+                    <label for="submit">&nbsp;</label>
+                    <input class="btn btn-lg btn-info" type="submit" name="submit" v\
+                           alue="Send Message">
+                  </div>
+                </fieldset>
+              </form>
+            </div> <!-- end of form -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Minified jquery, required for bootstrap -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- Minified bootstrap javascript -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

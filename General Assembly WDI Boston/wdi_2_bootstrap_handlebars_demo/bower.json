@@ -1,0 +1,9 @@
+{
+  "name": "bootstrap-handlebars-tutorial",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "handlebars": "~3.0.3",
+    "bootstrap": "~3.3.4"
+  }
+}

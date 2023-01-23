@@ -1,0 +1,39 @@
+<h1>Listing amplifiers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Make</th>
+      <th>Model</th>
+      <th>Price</th>
+      <th>Max power</th>
+      <th>Impedance</th>
+      <th>Height</th>
+      <th>Weight</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @amplifiers.each do |amplifier| %>
+      <tr>
+        <td><%= amplifier.make %></td>
+        <td><%= amplifier.model %></td>
+        <td><%= amplifier.price %></td>
+        <td><%= amplifier.max_power %></td>
+        <td><%= amplifier.impedance %></td>
+        <td><%= amplifier.height %></td>
+        <td><%= amplifier.weight %></td>
+        <td><%= link_to 'Show', amplifier %></td>
+        <td><%= link_to 'Edit', edit_amplifier_path(amplifier) %></td>
+        <td><%= link_to 'Destroy', amplifier, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Amplifier', new_amplifier_path %>

@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+
+development:
+  <<: *default
+  database: wdi_10_rails_demo_rake_development
+
+test:
+  <<: *default
+  database: wdi_10_rails_demo_rake_test
+
+production:
+  <<: *default
+  database: wdi_10_rails_demo_rake_production
+  username: wdi_10_rails_demo_email
+  password: <%= ENV['WDI_10_RAILS_DEMO_RAKE_DATABASE_PASSWORD'] %>

@@ -1,0 +1,13 @@
+Lab:
+Create 5 of your favorite songs
+
+Song will have a:
+title
+description
+duration
+price
+
+- Create a features/create_song.rb 
+  Will create and print out your 5 favorite songs.
+
+  Make sure you create a file for the Song class in the lib directory.

@@ -1,0 +1,6 @@
+name: "Brown Shoe", description: "It's brown, it's a shoe", price: 13.99, category: 'Apparel'
+name: "Rose Colored Glasses", description: "To make you happy, happy", price: 23.49
+name: 'Motorized Fork', description: 'To stuff your gob more effienctly', price: 12.07
+name: 'Brown Paper Bag', description: "Hide your booze, openly, in public for everyone to see", price: 1.44
+name: 'Bouncy Castle', description: 'Perfect software development environment',  price: 1_200.00
+name: 'Headphones', description: 'Phone for you head', price: 23.66

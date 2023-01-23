@@ -1,0 +1,27 @@
+<h1>Listing Computers</h1>
+
+<table>
+  <tr>
+    <th>Make</th>
+    <th>Model</th>
+    <th>Processor speed</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @computers.each do |computer| %>
+  <tr>
+    <td><%= computer.make %></td>
+    <td><%= computer.model %></td>
+    <td><%= computer.processor_speed %></td>
+    <td><%= link_to 'Show', computer %></td>
+    <td><%= link_to 'Edit', edit_computer_path(computer) %></td>
+    <td><%= link_to 'Destroy', computer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Computer', new_computer_path %>

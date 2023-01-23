@@ -1,0 +1,32 @@
+/* Header */
+nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  padding: 10px;
+  overflow: hidden;/* parent element of floated children */
+}
+nav img {
+  float: left;
+  height: 50px;
+}
+nav span {
+  float:left;
+  position: relative;
+  top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header h1 {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+header a {
+  color: white;
+}
+header a:hover {
+  color: black;
+  text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
+
+}

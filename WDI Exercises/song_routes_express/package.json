@@ -1,0 +1,26 @@
+{
+  "name": "song_routes_express",
+  "version": "1.0.0",
+  "description": "CRUD routes for a Song",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ga-dc/song_routes_express.git"
+  },
+  "keywords": [
+    "express",
+    "routes"
+  ],
+  "author": "WDIDC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ga-dc/song_routes_express/issues"
+  },
+  "homepage": "https://github.com/ga-dc/song_routes_express#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

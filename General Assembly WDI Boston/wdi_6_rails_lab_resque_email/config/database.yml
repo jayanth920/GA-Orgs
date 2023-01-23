@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ga_resque_email_lab_development
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: ga_resque_email_lab_test
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: ga_resque_email_lab_production
+  pool: 5

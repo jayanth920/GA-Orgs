@@ -1,0 +1,318 @@
+---
+title: Object Oriented Programming Fundamentals
+duration: "1:30"
+creator:
+    name: Drew Mahrt
+    city: NYC
+
+---
+
+
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Object Oriented Programming Fundamentals
+
+### LEARNING OBJECTIVES
+*After this lesson, you will be able to:*
+- Explain the difference between public and private keywords
+- Override methods
+- Describe how the static keyword relates to variables and methods
+
+### STUDENT PRE-WORK
+*Before this lesson, you should already be able to:*
+- Create classes and subclasses
+
+### INSTRUCTOR PREP
+*Before this lesson, instructors will need to:*
+- Read through the lesson
+- Add additional instructor notes as needed
+- Edit language or examples to fit your ideas and teaching style
+- Open, read, run, and edit (optional) the starter and solution code to ensure it's working and that you agree with how the code was written
+
+---
+
+### LESSON GUIDE
+
+| TIMING  | TYPE  | TOPIC  |
+|:-:|---|---|
+| 5 min  | [Opening](#opening-5-mins)  | Discuss lesson objectives |
+| 15 min  | [Introduction](#introduction-public-and-private-member-variables-15-mins)  | Public and Private member variables |
+| 5 min  | [Demo](#demo-public-and-private-member-variables-5-mins)  | Public and Private member variables |
+| 5 min  | [Introduction](#introduction-overriding-methods-5-mins)  | Overriding methods |
+| 10 min  | [Independent Practice](#independent-practice-overriding-methods-10-mins)  | Overriding methods |
+| 10 min  | [Introduction](#introduction-static-vs-nonstatic-10-mins)  | Static vs Non-Static |
+| 10 min  | [Demo](#demo-static-vs-nonstatic-10-mins)  | Static vs Non-Static |
+| 10 min  | [Introduction](#introduction-singleton-10-mins)  | Singleton Class |
+| 15 min  | [Demo](#demo-singleton-15-mins)  | Singleton Class |
+| 5 min  | [Conclusion](#conclusion-5-mins)  | Review / Recap |
+<a name="opening"></a>
+## Opening (5 mins)
+
+Now it's time to venture beyond the basic class and subclass designs we've learned the last few lessons. Object-Oriented Programming can be truly powerful in the amazing design possibilities it allows programmers to implement in their apps.
+
+Today we will cover topics including private and public member variables, overriding methods, and static and non-static variables and methods.In fact, you have been using almost all of these already without knowing it!
+
+> Check: Ask students to explain the reasons why we use inheritance and subclassing.
+
+<a name="introduction"></a>
+## Introduction: Public and Private member variables (15 mins)
+
+We use objects to divide code into separate responsibilities. We can then use these objects in other code to execute their responsibility. How the object accomplishes its responsibility is irrelevant to the calling code - this is known as a `black box`. We only have to worry about the input and outputs of the object and let the object worry about it self.
+
+The big advantage with OOP is creating sectioned off data and code. For black boxes that have implementation only its creator should worry about, it's important to know how to close off access to parts of your `class` while opening access to others.
+
+This is called *access control*, and there are keywords in Java that provide different levels of access.
+
+---
+|             	| class 	| package 	| subclass 	| world 	|
+|-------------	|-------	|---------	|----------	|-------	|
+| `public`     	| Y     	| Y       	| Y        	| Y     	|
+| `protected`  	| Y     	| Y       	| Y        	| N     	|
+| _no modifier_ 	| Y     	| Y       	| N        	| N     	|
+| `private`     	| Y     	| N       	| N        	| N     	|
+---
+
+The two most commonly used modifiers are `public` and `private`. These are two modifiers that Java also shares with many other object oriented languages.
+
+#### public and private
+
+By denoting a method or variable `public`, we are exposing it to the world.  This means something different for the variables and methods we create in our class.
+
+- For variables, this means code outside of our class will be able to assign to and from our _member variable_.
+
+- For methods, this means being able to call this method outside of class. In order to this, an object must be instantiated and then, using _dot notation_, the method is called. We have seen this since the very first app that you wrote in this course.
+
+> Instructor Note: Explain dot notation.
+
+Denoting a member `private` on the other hand will close all access except within the class
+
+> Check: Describe difference between the public and private keywords. Share out!
+
+<a name="demo"></a>
+## Demo: Public and Private member variables (5 mins)
+
+> Check: Ask why we use getters and setters instead of directly accessing our member variables
+
+Let's go back to our __Car__ example:
+
+```java
+public class Car {
+     private double mSpeed;
+
+     public Car(){
+       mSpeed = 0.0;
+     }
+
+     void goForward() {
+        mSpeed += 5.0;
+     }
+
+     public void setSpeed(double speed){
+       mSpeed = speed;
+     }
+
+     public double getSpeed(){
+       return mSpeed;
+     }
+ }
+
+```
+
+Notice the private modifier that goes in front of the mSpeed variable. Any calls to a Car object from other code won't have direct access to the variable. That is why getters and setters exist. With a few exceptions, you will almost always make your member variables private.
+
+> Check: Ask why we use getters and setters instead of directly accessing member variables.
+<a name="introduction-overriding-methods-5-mins"></a>
+## Introduction: Overriding methods (5 mins)
+
+Sometimes we want our subclasses to provide different functionality than their parent classes. Instead of creating a new method to accomplish this, we can Override methods. Basically this just means that the overriding method replaces the parent's version of the method.
+
+**Note**: The new method must be identical to the parent method in declaration.
+
+``` java
+public class A{
+  public A(){}
+
+  public String hello(int i){
+    return "Hello from A "+i;
+  }
+}
+
+public class B extends A{
+  public B(){
+    super();
+  }
+
+  @Override
+  public String hello(int x){
+    return "Hello from B "+x;
+  }
+}
+```
+
+Note the @Annotation. This is a concept in Java used to mark certain parts of code for the compiler. The @Override annotation is used to denote superclass methods that we are rewriting. The compiler can then warn us in case of mistake in our override.
+
+> Check: Ask the students what would happen if we used @Override on a method, but declared the method with different input values than the parent method.
+
+<a name="independent-practice-overriding-methods-10-mins"></a>
+## Independent Practice: Overriding methods (10 mins)
+
+Create a class `Dog.java`, and create a subclass `Poodle.java`. Add a bark method to both that makes the dog say something in the console, where Poodle's overrides Dog's, so that it returns a different String depending on which type calls it.
+
+> Check:  Were students able to successfully complete the task?  Review one students solution with the class.
+
+<a name="introduction-static-vs-nonstatic-10-mins"></a>
+## Introduction: Static vs Non-Static (10 mins)
+
+In Java, you will occasionally see a modifier on variables and methods called `static`. This means two different things depending on if it's used on a method or variable.
+
+
+#### Static variables
+
+Static variables are variables that are only created once in memory across all instances of a class. We will see an example of this in the next demo.
+
+<a name="demo-static-vs-nonstatic-10-mins"></a>
+## Demo: Static vs Non-Static (10 mins)
+
+One example of using both static methods and variables is in a design pattern called a Singleton. A singleton is a class whose data is only loaded once into memory, but is accessible anywhere an instance of the class is loaded.
+
+Let's pretend a town only has one School, a class we will make that contains teachers and students. We only want one instance of the school.
+
+``` java
+public class School{
+  private static School school = null;
+  private static LinkedList<String> teachers;
+  private static LinkedList<String> students;
+
+  private School(){
+    teachers = new LinkedList<String>();
+    students = new LinkedList<String>();
+  }
+
+  public static School getInstance(){
+    if(school == null){
+      school = new School();
+    }
+    return school;
+  }
+
+  public void addTeacher(String teacher){
+    teachers.add(teacher);
+  }
+
+  public void addStudent(String student){
+    students.add(student);
+  }
+
+  public LinkedList<String> getStudents(){
+    return students;
+  }
+
+  public LinkedList<String> getTeachers(){
+      return teachers;
+  }
+}
+```
+
+```Java
+public static void main(String[] args) {
+    School school = School.getInstance();
+    school.addStudent("Bobby");
+
+    addAnotherStudent();
+
+    System.out.println(school.getStudents());
+}
+
+public static void addAnotherStudent(){
+    School school = School.getInstance();
+    school.addStudent("Joe");
+}
+```
+
+> Check: Ask the students what would happen if we made addTeacher or addStudent static.
+
+<a name="introduction-singleton-10-mins"></a>
+## Introduction: Singleton Class
+
+A singleton class that can only ever have a single instance. Furthermore, this instance is not tied to the scope of any particular method or activity; in effect it lives "off to the side," apart from other scopes, and persists for the lifetime of your app.
+
+This useful when you need to access an instance of a class from multiple scopes, or different sections of your app, but you want changes made in one scope to persist to the other scope.
+
+Singletons are also useful when you are dealing with a class that includes a large amount of data that must be loaded into memory each time an instance of the class is created. What might happen to your phones memory and performance if you create many instances of such a class? Would it be beneficial to limit the number of instances?
+
+<a name="demo-singleton-15-mins"></a>
+## Demo: Singleton Class
+
+This useful when you need to access an instance of a class from multiple scopes, or different sections of your app, but you want changes made in one scope to persist to the other scope.
+
+Singletons are also useful when you are dealing with a class that includes a large amount of data that must be loaded into memory each time an instance of the class is created. What might happen to your phones memory and performance if you create many instances of such a class? Would it be beneficial to limit the number of instances?
+
+```
+public class School{
+    // STATIC variable to hold the ONE instance of our singleton
+    private static School sInstance;
+
+    // Member variables to store whatever data we want our singleton to hold
+    private List<String> mTeachers;
+    private List<String> mStudents;
+
+    // PRIVATE constructor, so code from other classes can't make more instances
+    private School(){
+        mTeachers = new LinkedList<String>();
+        mStudents = new LinkedList<String>();
+    }
+
+    // STATIC method to retrieve the ONE instance of our singleton
+    public static School getInstance() {
+        if (sInstance == null){
+            sInstance = new School();
+        }
+        return sInstance;
+    }
+
+    // add & get methods to work with the data this singleton stores
+    public void addTeacher(String teacher) {
+        mTeachers.add(teacher);
+    }
+
+    public void addStudent(String student) {}
+        mStudents.add(student);
+    }
+
+    public LinkedList<String> getStudents(){
+        return mStudents;
+    }
+
+    public LinkedList<String> getTeachers(){
+        return mTeachers;
+    }
+}
+```
+
+Example of using the singleton in multiple scopes:
+
+```
+public static void main(String[] args) {
+    School school = School.getInstance();
+    school.addStudent("Bobby");
+
+    addAnotherStudent();
+
+    // This will print out "Bobby" AND "Joe"
+    System.out.println(school.getStudents());
+}
+
+public static void addAnotherStudent(){
+    School school = School.getInstance();
+    school.addStudent("Joe");
+}
+```
+
+<a name="conclusion"></a>
+## Conclusion (5 mins)
+
+We covered a lot of new concepts today, but they all contribute to making your classes more robust and useful. As you continue writing your apps, you will see all of these being used, and hopefully you will now have a better understanding of what they actually are doing.
+
+
+### ADDITIONAL RESOURCES
+- [Oracle: Static documentation](https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html)
+- [Oracle: Controlling Access](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
+- [Oracle: Overriding](https://docs.oracle.com/javase/tutorial/java/IandI/override.html)

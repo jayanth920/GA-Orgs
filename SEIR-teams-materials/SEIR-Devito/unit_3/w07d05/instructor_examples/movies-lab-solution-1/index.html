@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="MoviesApp">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js" charset="utf-8"></script>
+        <script src="app.js" charset="utf-8"></script>
+        <style media="screen">
+            .ng-hide {
+            }
+        </style>
+    </head>
+    <body ng-controller="MainController as ctrl">
+        <h1>Welcome to {{ ctrl.appName }}</h1>
+        <form ng-submit="ctrl.getMovies();">
+            <input type="text" placeholder="Movie Title" ng-model="ctrl.movieTitle">
+            <button type="submit">Submit</button>
+        </form>
+        <div ng-repeat="movie in ctrl.movies">
+            <h2 ng-click="ctrl.showTitle(movie.imdbID)">{{ movie.Title }} {{ movie.Year }}</h2>
+            <div ng-show="ctrl.targetIndex === movie.imdbID">
+                <img ng-src="{{ movie.Poster }}" alt="" />
+                <button ng-click="ctrl.showTitle('')">Close</button>
+            </div>
+        </div>
+    </body>
+</html>

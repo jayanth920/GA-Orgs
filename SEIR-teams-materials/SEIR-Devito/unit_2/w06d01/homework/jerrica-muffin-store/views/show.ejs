@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <% include ./partials/head.ejs %>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ========== SIDEBAR ========== -->
+      <aside>
+        <% include ./partials/sidebar.ejs %>
+      </aside>
+      <!-- ========== MAIN CONTENT ========== -->
+      <main class="show">
+        <div class="individual-product">
+          <h2><%=product.name%></h2>
+          <img src="<%=product.img%>"/>
+          <% if(product.qty > 0) {%>
+            <div class="product-options">
+              <p class="stock"><strong>IN STOCK:</strong> <%= product.qty %></p>
+              <form action="/products/<%=product._id%>/buy?_method=PUT" method="post">
+                <button type="submit" class="buy-button">buy one</button>
+              </form>
+            </div>
+          <% } else {%>
+            <h3>OUT OF STOCK!</h3>
+          <% } %>
+          <p class="desc"><%=product.description%></p>
+          <p class="edit-link"><a href="/products/edit/<%=product._id%>">edit listing</a></p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

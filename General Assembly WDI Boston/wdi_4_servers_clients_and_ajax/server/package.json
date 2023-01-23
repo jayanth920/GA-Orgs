@@ -1,0 +1,15 @@
+{
+  "name": "chat-server",
+  "version": "0.1.0",
+  "description": "A simple chat server to demonstrate RESTful APIs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charlton Wilbur",
+  "license": "BSD",
+  "dependencies": {
+    "md5": "^1.0.0",
+    "restify": "^3.0.3"
+  }
+}

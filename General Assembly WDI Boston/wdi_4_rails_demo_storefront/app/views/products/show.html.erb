@@ -1,0 +1,4 @@
+<h1><%= @product.name %></h1>
+Price: <%= number_to_currency @product.price %>
+
+<%= button_to "Add to Cart", new_line_item_path(product_id: @product, user_id: current_user) %>

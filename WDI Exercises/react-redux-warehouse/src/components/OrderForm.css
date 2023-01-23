@@ -1,0 +1,55 @@
+.OrderForm {
+  position: relative;
+  padding: 2rem 1rem 1rem;
+  border: 1px solid #555;
+  width: 80%;
+  max-width: 750px;
+  margin: 2rem auto;
+}
+
+.OrderForm:before {
+  content: "New Order";
+  position: absolute;
+  top: -0.75rem;
+  left: 2rem;
+  padding: 0.25rem 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: smaller;
+  color: #555;
+  background-color: #fff;
+}
+
+.OrderForm p {
+  display: inline;
+  padding: 1rem;
+}
+
+.OrderForm label {
+  display: inline;
+  padding: 0.5em;
+  padding-right: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: small;
+  color: #555;
+}
+
+.OrderForm input {
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem;
+  border-bottom: 1px solid #555;
+}
+
+.OrderForm button {
+  outline: none;
+  border: none;
+  background-color: #555;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: small;
+  font-weight: lighter;
+  padding: 0.25rem 0.75rem;
+}

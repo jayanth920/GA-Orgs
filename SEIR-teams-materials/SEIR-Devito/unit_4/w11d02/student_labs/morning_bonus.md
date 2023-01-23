@@ -1,0 +1,4 @@
+- Build a clicker counter
+- Build a timer
+- Build a message decoder (look back to our first day of angular for details)
+- Get your Tic Tac Toe game working

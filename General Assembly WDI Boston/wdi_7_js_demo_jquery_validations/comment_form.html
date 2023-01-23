@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/custom_form.css">
+    <script src="./js/jquery-1.9.1.js"></script>
+    <script src="./js/jquery.validate.js"></script>
+    <script src="./js/comment_form.js"></script>
+    </script>
+  </head>
+  <body>
+    <h3>Custom Form Validation</h3>
+    <form id="commentForm" action="#">
+      <fieldset>
+        <legend>Please provide your name, email address (won't be
+          published) and a comment</legend>
+        <p>
+          <label for="cname">Name (required, at least 2 characters)</label>
+          <input id="cname" name="name" type="text" required minlength="2">
+        </p>
+        <p>
+          <label for="email">E-Mail (required)</label>
+          <input id="email" type="email" name="email"required />
+        </p>
+        <p>
+          <label for="url">URL (optional)</label>
+          <input id="url" type="url" name="url"/>
+        <p>
+          <label for="comment">Your comment (required)</label>
+          <textarea id="comment" name="comment" minlength="5" required></textarea>
+        </p>
+        <p>
+          <input class="submit" type="submit" value="Submit">
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Advanced Functions</string>
+
+    <string name="pass">Pass</string>
+    <string name="fail">Fail</string>
+
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="F">F</string>
+
+    <string name="times_5">90 90 90 90 90</string>
+
+    <string name="toast_string">The number was not valid!</string>
+
+</resources>

@@ -1,0 +1,25 @@
+html {
+  background-color: #004f8c;
+  background-image: url("./images/cartographer.png");
+  font-family: helvetica, arial, sans-serif;
+}
+
+body {
+  margin: 30px 50px;
+  padding: 40px 40px;
+  background: rgba(246, 255, 255, 0.25);
+  color: #222;
+}
+
+input {
+  font-size: 32px;
+  display: block;
+  margin: 10px auto;
+  width: 6em;
+}
+
+select {
+  font-size: 24px;
+  display: block;
+  margin: 10px auto;
+}

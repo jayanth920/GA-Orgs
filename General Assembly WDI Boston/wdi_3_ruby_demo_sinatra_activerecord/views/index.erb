@@ -1,0 +1,11 @@
+<h1>My Awesome Guitar Collection</h1>
+<div class="guitars-list">
+  <% @guitars.each do |guitar| %>
+    <div class="guitar">
+      <a href="/guitars/<%= guitar["id"] %>">
+      <%= guitar["make"] %> <%= guitar["model"] %>
+      </a>
+    </div>
+  <% end %>
+</div>
+<a href="/guitars/new">Add New Guitar</ha>

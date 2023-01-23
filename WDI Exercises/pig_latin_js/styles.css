@@ -1,0 +1,139 @@
+*
+{
+  margin:0;
+  border:0;
+  padding:0;
+  border-collapse:collapse;
+  border-spacing:0;
+  font-size:inherit;
+  font-style:inherit;
+  font-family:inherit;
+  font-weight:inherit;
+  text-decoration:none;
+  color:inherit;
+  background-color:transparent;
+  list-style-type:none;
+  box-sizing:border-box;
+}
+*:focus
+{
+  outline:0
+}
+body,html
+{
+  width:100%;
+  position:relative;
+}
+html
+{
+  height:100%;
+}
+body
+{
+  min-height:100%;
+  background-color:#ffdddd;
+  box-shadow:0px 0px 200px 25px #ccaaaa inset;
+  font-size:0;
+}
+div
+{
+  position:relative;
+}
+a, button, label
+{
+  cursor:pointer;
+}
+
+main{
+  width:500px;
+  margin:0 auto;
+  padding-top:100px;
+  text-align:center;
+}
+i{
+  display:inline-block;
+  box-shadow:0px 0px 60px 5px #410;
+}
+i:first-of-type{
+  margin-right:200px;
+}
+i, i:after{
+  position:relative;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  background-color:#fff;
+}
+i:after{
+  content:".";
+  display:block;
+  background-color:transparent;
+  box-shadow:10px 10px 25px 5px #ccc inset;
+}
+i p{
+  display:block;
+  position:absolute;
+  bottom:15px;
+  right:15px;
+  width:25px;
+  height:25px;
+  z-index:100;
+  border-radius:50%;
+  background-color:#441100;
+}
+i+i p{
+  right:auto;
+  left:15px;
+}
+nav, nav:after{
+  display:block;
+  position:relative;
+  margin:0 auto;
+  height:150px;
+  width:250px;
+  border-radius:50%;
+}
+nav{
+  background-color:#a66;
+  box-shadow:0px 10px 50px 0px #fbb inset;
+  cursor:pointer;
+}
+nav:hover{
+  opacity:0.8;
+}
+nav:after{
+  content:".";
+  background-color:transparent;
+  box-shadow:0px 0px 100px 0px #300;
+}
+nav div{
+  position:absolute;
+  bottom:50%;
+  left:0;
+  height:30px;
+  width:100%;
+}
+s{
+  display:inline-block;
+  width:20px;
+  margin:0 20px;
+  height:100%;
+  border-radius:50%;
+  background-color:#400;
+  box-shadow:0px 0px 20px 5px #400;
+}
+input{
+  display:inline-block;
+  background-color:#300;
+  width:400px;
+  height:80px;
+  margin-top:20px;
+  border-bottom-left-radius:80px;
+  border-bottom-right-radius:80px;
+  font-size:24px;
+  color:white;
+  text-align:center;
+  padding:0 30px;
+  font-family:"Helvetica Neue";
+  box-shadow:0px 10px 100px 10px #400;
+}

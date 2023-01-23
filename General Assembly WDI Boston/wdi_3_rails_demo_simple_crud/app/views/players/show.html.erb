@@ -1,0 +1,18 @@
+<h1><%= @player.name %></h1>
+<p><%= @player.description %></p>
+
+<p>
+  <%= link_to 'Edit player', edit_player_path(@player) %>
+  |
+  <%= link_to 'Delete player', @player, method: :delete,
+    data: { confirm: 'Really delete this player?' } %>
+</p>
+
+<ul>
+  <li>Job: <%= @player.job %></li>
+  <li>Health: <%= @player.health %></li>
+  <li>Magic: <%= @player.magic %></li>
+  <% unless @player.is_alive %>
+    <li>Unfortunately this player is dead</li>
+  <% end %>
+</ul>

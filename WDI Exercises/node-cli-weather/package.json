@@ -1,0 +1,22 @@
+{
+  "name": "node-cli-weather",
+  "version": "1.0.0",
+  "description": "$ git clone https://github.com/ga-dc/node-cli-weather     $ cd node-cli-weather     $ npm install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ga-dc/node-cli-weather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ga-dc/node-cli-weather/issues"
+  },
+  "homepage": "https://github.com/ga-dc/node-cli-weather#readme",
+  "dependencies": {
+    "request": "^2.67.0"
+  }
+}

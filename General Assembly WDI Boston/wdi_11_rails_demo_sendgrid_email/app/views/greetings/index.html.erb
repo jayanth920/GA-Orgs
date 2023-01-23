@@ -1,0 +1,9 @@
+<%= form_tag('/greetings', method: 'post') do %>
+  <%= label_tag(:email_to, "To:") %>
+  <%= text_field_tag(:email_to) %>
+  <%= label_tag(:subject, "Subject:") %>
+  <%= text_field_tag(:subject) %>
+  <%= label_tag(:body, "Body:") %>
+  <%= text_field_tag(:body) %>
+  <%= submit_tag("Send Email") %>
+<% end %>

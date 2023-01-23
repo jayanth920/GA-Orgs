@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Study AngularJS",
+    "description": "Fun with modules, controllers, services, directives... woohoo",
+    "completed": true
+  },
+  {
+    "title": "Study Node",
+    "description": "JavaScript everywhere? Hooray!",
+    "completed": true
+  },
+  {
+    "title": "Study Express",
+    "description": "Sinatra with callbacks instead of code blocks! Yay!",
+    "completed": true
+  },
+  {
+    "title": "Study Mongo",
+    "description": "JSON everywhere. Neat!",
+    "completed": true
+  },
+  {
+    "title": "MEAN App",
+    "description": "Full stack js! This is the best!"
+  }
+]

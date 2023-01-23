@@ -1,0 +1,37 @@
+{
+  "options": {
+    "specNameSuffix": "spec.js",
+    "helperNameSuffix": "helper.js",
+    "useHelpers": false,
+    "stopOnFailure": false,
+    "reporters": {
+      "console": {
+        "colors": true,
+        "cleanStack": 1,
+        "verbosity": 3,
+        "listStyle": "indent",
+        "activity": false
+      }
+    }
+  },
+
+  "prime-factors": {
+    "specs": ["<%=  paths.primeFactors.tests %> "]
+  },
+
+  "string-calculator": {
+    "specs": ["<%=  paths.stringCalculator.tests %> "]
+  },
+
+  "berlin-clock": {
+    "specs": ["<%=  paths.berlinClock.tests %> "]
+  },
+
+  "lost-in-alabama": {
+    "specs": ["<%=  paths.lostInAlabama.tests %> "]
+  },
+
+  "spelling-out-numbers": {
+    "specs": ["<%=  paths.spellingOutNumbers.tests %> "]
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+		<script src="app.js" charset="utf-8"></script>
+		<title>Nozama Filters</title>
+	</head>
+	<body ng-controller="BaseCtrl as ctrl">
+		<h1>{{ ctrl.storeName }}</h1>
+		<h2>{{ ctrl.jingle }}</h2>
+		<h3>You are right here, right now: {{ ctrl.date }}</h3>
+		<ul>
+			<li ng-repeat="product in ctrl.products">{{product.name}}:<span>{{product.price}}</span></li>
+		</ul>
+	</body>
+  <style media="screen">
+    @import url('https://fonts.googleapis.com/css?family=Chicle|Montserrat');
+    h1{
+      font-family: 'Chicle', cursive;
+      font-size: 3em;
+      text-align: center;
+      color: #E27D60;
+    }
+    body{
+      font-family: 'Montserrat', sans-serif;
+      width: 90%;
+      margin:auto;
+      color: #8899dd;
+    }
+    li {
+      list-style: none;
+      padding: .5em;
+    }
+    span {
+      padding-left: 1em;
+      font-weight: bold;
+    }
+  </style>
+</html>

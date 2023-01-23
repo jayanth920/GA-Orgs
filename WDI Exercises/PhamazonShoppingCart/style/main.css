@@ -1,0 +1,33 @@
+#wrapper {
+  width: 960px;
+  padding: 20px;
+  margin: auto; }
+
+.col-1 {
+  width: 77px;
+  display: inline-block; }
+
+.col-2 {
+  width: 154px;
+  display: inline-block; }
+
+.col-3 {
+  width: 235px;
+  display: inline-block; }
+
+.col-6 {
+  width: 470px;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  list-style: none; }
+
+.col-10 {
+  width: 777px;
+  display: inline-block; }
+
+.row {
+  width: 100%;
+  display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */

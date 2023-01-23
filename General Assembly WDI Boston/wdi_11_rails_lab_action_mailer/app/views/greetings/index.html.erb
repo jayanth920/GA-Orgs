@@ -1,0 +1,29 @@
+<h1>Listing greetings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Email</th>
+      <th>Content</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @greetings.each do |greeting| %>
+      <tr>
+        <td><%= greeting.email %></td>
+        <td><%= greeting.content %></td>
+        <td><%= link_to 'Show', greeting %></td>
+        <td><%= link_to 'Edit', edit_greeting_path(greeting) %></td>
+        <td><%= link_to 'Destroy', greeting, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Greeting', new_greeting_path %>

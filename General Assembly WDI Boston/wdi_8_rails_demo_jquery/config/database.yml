@@ -1,0 +1,16 @@
+common: &default
+  adapter: postgresql
+  encoding: unicode
+  database: teacher_eval_development
+
+development:
+  <<: *default
+  database: wdi_8_rails_demo_jquery_development
+
+test:
+  <<: *default
+  database: wdi_8_rails_demo_jquery_test
+
+production:
+  <<: *default
+  database: wdi_8_rails_demo_jquery_production

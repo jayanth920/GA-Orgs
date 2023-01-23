@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <!-- Page Info -->
+  <head>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+
+  <!-- Page Content -->
+  <body>
+    <div id="root">
+    </div>
+
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+    <script type="text/babel">
+      const rootElement = document.getElementById('root')
+
+      class Header extends React.Component {
+        render() {
+          return (
+            <header>
+              <nav>
+                <img src="http://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png" alt=""></img>
+                <span>&</span>
+                <img src="http://winedinewith.us/wp-content/uploads/2012/10/custom-logo-w-text2.png" alt=""></img>
+              </nav>
+              <h1>Review <a target="_blank" href="https://www.nightshiftbrewing.com/our-beer/">the Crew</a></h1>
+            </header>
+          )
+        }
+      }
+
+      class Main extends React.Component {
+        state = { beers: [] }
+        componentDidMount(){
+          const beersString = window.localStorage.getItem('beers')
+          if (beersString) {
+            const beers = JSON.parse(beersString)
+            this.setState({beers: beers})
+          }
+        }
+        handleSubmit = event => {
+          event.preventDefault()
+
+          const newBeer = {
+            name: event.target[0].value,
+            abv: event.target[1].value,
+            imageUrl: event.target[2].value,
+            review: event.target[3].value
+          }
+          const updatedBeers = this.state.beers.concat(newBeer);
+          localStorage.setItem('beers', JSON.stringify(updatedBeers))
+          this.setState({beers: updatedBeers})
+          event.target.reset()
+        }
+        handleClear = event => {
+          event.preventDefault()
+          localStorage.setItem('beers', '')
+          this.setState({beers: []})
+        }
+        render() {
+          const beers = this.state.beers
+          return (
+            <main>
+              <div className="video-container">
+                <iframe src="https://www.youtube.com/embed/H5Qog2yU7Pc" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+              </div>
+              <div className="form-container">
+                <form onSubmit={this.handleSubmit}>
+                  <input type="text" placeholder="Beer"></input>
+                  <input type="text" placeholder="ABV"></input>
+                  <input type="text" placeholder="Image URL"></input>
+                  <textarea rows="8" placeholder='Tasting Notes'></textarea>
+                  <input type="submit" value="Save Review"></input>
+                </form>
+              </div>
+              <div id="beer-profiles-container">
+                {beers.map((beer, index) => (
+                  <div className="beer-profile" key={index}>
+                    <img src={beer.imageUrl} alt=""></img>
+                    <h3> {beer.name} </h3>
+                    <p> {beer.abv} </p>
+                    <p> {beer.review} </p>
+                  </div>
+                ))}
+              </div>
+              <button type="button" onClick={this.handleClear}>Clear Reviews</button>
+
+            </main>
+          )
+        }
+      }
+
+      class App extends React.Component {
+        render() {
+          return (
+            <div className='container'>
+              <Header></Header>
+              <Main></Main>
+            </div>
+          )
+        }
+      }
+      const element = (
+        <App />
+      )
+      ReactDOM.render(element, rootElement)
+    </script>
+  </body>
+</html>

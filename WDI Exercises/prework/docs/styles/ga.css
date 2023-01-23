@@ -1,0 +1,659 @@
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+}
+
+.reveal #wufoo {
+  width:100%;
+  height:100%;
+}
+
+.reveal iframe{
+  height:95%;
+  width:95%;
+  border:none;
+}
+
+/*
+::selection {
+    background: #FF5E99;
+    color: #fff;
+    text-shadow: none;
+}
+*/
+
+@font-face {
+    font-family: 'PFDinTextCompProBold';
+    font-weight: normal;
+    font-style: normal;
+    src: url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-bold-webfont-a8c9fed8a2ed07672278ebf77e18516b.eot);
+    src: url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-bold-webfont-a8c9fed8a2ed07672278ebf77e18516b.eot?) format("embedded-opentype"),url(assets/pfdintextcomppro-bold-webfont-4c8cc68a25b55542962dbc93a6ac181c.woff) format("woff"),url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-bold-webfont-1bde711161209f8572b23a935ada1c5a.ttf) format("truetype"),url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-bold-webfont-a0e400499d5c6c5c6d41ff9374de1c61.svg) format("svg")
+}
+
+@font-face {
+    font-family: 'pf_din_text_comp_promedium';
+    font-weight: normal;
+    font-style: normal;
+    src: url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-medium-webfont-5abe9f68f3b7859f075501479d73fa12.eot);
+    src: url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-medium-webfont-5abe9f68f3b7859f075501479d73fa12.eot?) format("embedded-opentype"),url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-medium-webfont-8ffc4eb371d9bdfae633cab876f2e2c1.woff) format("woff"),url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-medium-webfont-2f2fbfc8b9a2e8ba295f3bbe33e0bcbc.ttf) format("truetype"),url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-medium-webfont-12d12d555e17c9e743c9bf9689b68312.svg) format("svg")
+}
+
+@font-face {
+    font-family: 'PFDinTextCompProLight';
+    font-weight: normal;
+    font-style: normal;
+    src: url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-light-webfont-f822682966853ae096aed8b7d3d94c99.eot);
+    src: url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-light-webfont-f822682966853ae096aed8b7d3d94c99.eot?) format("embedded-opentype"),url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-light-webfont-c4b09a20e67bcfbd1763bd447e104e7f.woff) format("woff"),url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-light-webfont-47faba512846d7faa3a1bd6ee3cdcce9.ttf) format("truetype"),url(http://generalassembly.github.io/prework/styles/assets/pfdintextcomppro-light-webfont-38b26f1c0f177424d4d9ee0bb0f3bbb4.svg) format("svg")
+}
+
+@font-face {
+    font-family: 'News706BT-RomanC';
+    font-weight: normal;
+    font-style: normal;
+    src: url(http://generalassembly.github.io/prework/styles/assets/232ED5_0_0-d72fd753f89de0000c1db8360fcb155a.eot);
+    src: url(http://generalassembly.github.io/prework/styles/assets/232ED5_0_0-d72fd753f89de0000c1db8360fcb155a.eot?) format("embedded-opentype"),url(assets/232ED5_0_0-7f95449380ce91ab974abf605d24442c.woff) format("woff"),url(http://generalassembly.github.io/prework/styles/assets/232ED5_0_0-4eb3b4f3e74657eed299e70df353eaf3.ttf) format("truetype"),url(http://generalassembly.github.io/prework/styles/assets/232ED5_0_0-6b74d68880781796f4e0f2ac8ccf6bce.svg) format("svg")
+}
+
+@font-face {
+    font-family: 'News706BT-ItalicC';
+    font-weight: normal;
+    font-style: normal;
+    src: url(http://generalassembly.github.io/prework/styles/assets/232ED5_1_0-ff03a41bd9b77ef073e5297d19481817.eot);
+    src: url(http://generalassembly.github.io/prework/styles/assets/232ED5_1_0-ff03a41bd9b77ef073e5297d19481817.eot?) format("embedded-opentype"),url(http://generalassembly.github.io/prework/styles/assets/232ED5_1_0-75dd550ca4d8d02ecbb97a846ced46d2.woff) format("woff"),url(http://generalassembly.github.io/prework/styles/assets/232ED5_1_0-cc0cb4d272be1ea6c57d2f9a393b76b3.ttf) format("truetype"),url(http://generalassembly.github.io/prework/styles/assets/232ED5_1_0-a8ce344afa575270533b28eeace81df7.svg) format("svg")
+}
+
+@font-face {
+    font-family: 'News706BT-BoldC';
+    font-weight: normal;
+    font-style: normal;
+    src: url(http://generalassembly.github.io/prework/styles/assets/232ED5_2_0-c2e989d70d6d881525ff364c23efb24c.eot);
+    src: url(http://generalassembly.github.io/prework/styles/assets/232ED5_2_0-c2e989d70d6d881525ff364c23efb24c.eot?) format("embedded-opentype"),url(http://generalassembly.github.io/prework/styles/assets/232ED5_2_0-482ab39465c8619002c9cd763e153631.woff) format("woff"),url(http://generalassembly.github.io/prework/styles/assets/232ED5_2_0-3d4278b94c3111fe622eee5373b9d6f6.ttf) format("truetype"),url(http://generalassembly.github.io/prework/styles/assets/232ED5_2_0-a742e66ffbe1e267f7d6e1fe7a56469f.svg) format("svg")
+}
+
+@font-face {
+    font-family: 'InconsolataMedium';
+    font-weight: normal;
+    font-style: normal;
+    src: url(http://generalassembly.github.io/prework/styles/assets/inconsolata-webfont-c0dcdcc8f9786187162df8a6ea30c3fb.eot);
+    src: url(http://generalassembly.github.io/prework/styles/assets/inconsolata-webfont-c0dcdcc8f9786187162df8a6ea30c3fb.eot?) format("embedded-opentype"),url(http://generalassembly.github.io/prework/styles/assets/inconsolata-webfont-5ee7158da42c4dde1a3df179996e431d.woff) format("woff"),url(http://generalassembly.github.io/prework/styles/assets/inconsolata-webfont-5bbf5ddc3e971b89eaa79768b8073dbf.ttf) format("truetype"),url(http://generalassembly.github.io/prework/styles/assets/inconsolata-webfont-a54012c278ca0f3208e1391c5262aa7f.svg) format("svg")
+}
+
+@font-face {
+    font-family: 'iconic';
+    font-weight: normal;
+    font-style: normal;
+    src: url(http://generalassembly.github.io/prework/styles/assets/iconic-e70215c23701347e25b7595b97955a21.eot);
+    src: url(http://generalassembly.github.io/prework/styles/assets/iconic-e70215c23701347e25b7595b97955a21.eot?) format("embedded-opentype"),url(http://generalassembly.github.io/prework/styles/assets/iconic-906319e67c6e936a07777b4b5e7aa5d4.svg) format("svg"),url(http://generalassembly.github.io/prework/styles/assets/iconic-112934c2524e65ec70714e13c63ecfed.woff) format("woff"),url(http://generalassembly.github.io/prework/styles/assets/iconic-44d4af16d3e3e4a6a8e9322fdbef8531.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Circular-Black';
+    font-weight:normal;
+    font-style:normal;
+    src: url(assets/lineto-circular-black.eot);
+    src: url(assets/lineto-circular-black.eot%3F) format("embedded-opentype"),url(assets/lineto-circular-black.svg) format("svg"),url(assets/lineto-circular-black.woff) format("woff"),url(assets/lineto-circular-black.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Circular-Book';
+    font-style:normal;
+    src: url(assets/lineto-circular-book.eot);
+    src: url(assets/lineto-circular-book.eot%3F) format("embedded-opentype"),url(assets/lineto-circular-book.svg) format("svg"),url(assets/lineto-circular-book.woff) format("woff"),url(assets/lineto-circular-book.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Circular-Bold';
+    font-style:normal;
+    src: url(assets/lineto-circular-bold.eot);
+    src: url(assets/lineto-circular-bold.eot%3F) format("embedded-opentype"),url(assets/lineto-circular-bold.svg) format("svg"),url(assets/lineto-circular-bold.woff) format("woff"),url(assets/lineto-circular-bold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Circular-Medium';
+    font-style:normal;
+    src: url(assets/lineto-circular-medium.eot);
+    src: url(assets/lineto-circular-medium.eot%3F) format("embedded-opentype"),url(assets/lineto-circular-medium.svg) format("svg"),url(assets/lineto-circular-medium.woff) format("woff"),url(assets/lineto-circular-medium.ttf) format("truetype")
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+
+p + h1, p + h2, p + h3, p + h4, p + h5, p + h6 {
+  margin-top: 1rem;
+}
+
+h1, h2 {
+  font-family: "PFDinTextCompProBold", Impact, Arial;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3, h4, h5, h6 {
+  text-transform: capitalize;
+  line-height: 1.2;
+  font-family: "Circular-Black", Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 0.9375rem;
+}
+
+h5 {
+  font-size: 0.8125rem;
+}
+
+h6 {
+  font-size: 0.625rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.title-cased {
+  text-transform: capitalize;
+}
+
+p {
+  font: 0.875rem/1.375rem "News706BT-RomanC", Georgia;
+  -webkit-font-smoothing: antialiased;
+}
+p.small {
+  font-size: 0.85rem;
+}
+p.normal {
+  font-size: 1rem;
+}
+p.medium {
+  font: 1.125rem/1.875rem "News706BT-RomanC", Georgia;
+}
+p.special {
+  font: 0.8125rem/1.125rem "Circular", Helvetica, sans-serif;
+}
+p.stand-out {
+  font: 0.9375rem/1.5 "Circular", Helvetica, sans-serif;
+}
+p.citation {
+  font: 0.9375rem/2 "Circular", Helvetica, sans-serif;
+}
+p.inline-header {
+  font: 1.25rem/1.5rem "Circular", Helvetica, sans-serif;
+}
+p + p, p + ul, p + form, p + section {
+  margin-top: 1rem;
+}
+
+
+/******************************************************
+*   BUTTONS
+*******************************************************/
+
+.button {
+  margin-bottom: 3px;
+  padding: 1rem 2rem 1rem;
+  border: 0;
+  font: 800 1.125rem/normal "Circular", Helvetica, sans-serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  color: white;
+  background-color: #fa4542;
+  -webkit-box-shadow: 0 3px 0 0 #be0201;
+  -moz-box-shadow: 0 3px 0 0 #be0201;
+  box-shadow: 0 3px 0 0 #be0201;
+}
+.button:active {
+  background-color: #d70400;
+}
+.button:hover {
+  color: white;
+  background-color: #f6201d;
+  cursor: pointer;
+}
+.button:focus {
+  outline: 0;
+}
+[disabled].button {
+  opacity: 0.60;
+}
+
+.button.small, .button.button-small {
+  font-size: 15px;
+  padding: 11px 1.875rem;
+}
+
+.button.button-secondary, .button.subscriber {
+  color: #ed7821;
+  background-color: #fbd334;
+  -webkit-box-shadow: 0 3px 0 0 #f7af0b;
+  -moz-box-shadow: 0 3px 0 0 #f7af0b;
+  box-shadow: 0 3px 0 0 #f7af0b;
+}
+.button.button-secondary:active, .button.subscriber:active {
+  background-color: #f9c120;
+}
+.button.button-secondary:hover, .button.subscriber:hover {
+  color: #ed7821;
+  background-color: #fcdb4f;
+  cursor: pointer;
+}
+
+.button.button-dark, .button.secondary {
+  color: #383838;
+  background-color: #c3c3c3;
+  -webkit-box-shadow: 0 3px 0 0 #818181;
+  -moz-box-shadow: 0 3px 0 0 #818181;
+  box-shadow: 0 3px 0 0 #818181;
+}
+.button.button-dark:active, .button.secondary:active {
+  background-color: #b7b7b7;
+}
+.button.button-dark:hover, .button.secondary:hover {
+  color: #383838;
+  background-color: #dadada;
+  cursor: pointer;
+}
+
+.button.button-light, .button.white {
+  color: #383838;
+  background-color: #f6f6f6;
+  -webkit-box-shadow: 0 3px 0 0 #a2a2a2;
+  -moz-box-shadow: 0 3px 0 0 #a2a2a2;
+  box-shadow: 0 3px 0 0 #a2a2a2;
+}
+.button.button-light:active, .button.white:active {
+  background-color: #d5d5d5;
+}
+.button.button-light:hover, .button.white:hover {
+  color: #383838;
+  background-color: white;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+}
+
+.button.fluid, .button-fluid {
+  width: 100%;
+}
+
+
+/******************************************************
+*   CONTENT AREAS
+*******************************************************/
+
+.content-area-yellow {
+    background: #ffd707
+}
+
+.content-area-grey {
+    background: #f2f2f2
+}
+
+.content-area-grey-medium {
+    background: #e2e2e2
+}
+
+.content-area-grey-dark {
+    background: #222222;
+    color: white
+}
+
+.content-area-greyLighter {
+    background-color: #e2e2e2
+}
+
+.content-area-black {
+    background: black
+}
+
+.content-area-mint {
+    background: #89e8da
+}
+
+.content-area-mint-dark {
+    background: #23c2bc
+}
+
+.content-area-wood-light {
+    background: #f2f2f2
+}
+
+.content-area-wood-dark {
+    background: #e2e2e2
+}
+
+.content-area-white {
+    background: white
+}
+
+.content-area-toprule {
+    border-top: 1px solid #e2e2e2
+}
+
+[class*='content-area-']+.content-area,.image-wrapper+.content-area {
+    margin-top: 2rem
+}
+
+@media screen and (min-width: 600px) {
+    [class*='content-area-']+.content-area,.image-wrapper+.content-area {
+        margin-top:4rem
+    }
+}
+
+[class*='content-area-'].arrow-down {
+    position: relative
+}
+
+[class*='content-area-'].arrow-down:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 48%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent
+}
+
+.content-area-yellow.arrow-down:after {
+    border-top: 20px solid #ffd707
+}
+
+.content-area-grey.arrow-down:after {
+    border-top: 20px solid #f2f2f2
+}
+
+.content-area-grey-dark.arrow-down:after {
+    border-top: 20px solid #222222
+}
+
+.content-area-black.arrow-down:after {
+    border-top: 20px solid black
+}
+
+.content-area-mint.arrow-down:after {
+    border-top: 20px solid #89e8da
+}
+
+.content-area-mint-dark.arrow-down:after {
+    border-top: 20px solid #23c2bc
+}
+
+.content-area-wood-light.arrow-down:after {
+    border-top: 20px solid #f2f2f2
+}
+
+.content-area-wood-dark.arrow-down:after {
+    border-top: 20px solid #e2e2e2
+}
+
+.content-area-white.arrow-down:after {
+    border-top: 20px solid white
+}
+
+.content-area-grey .column .product {
+    background: #f2f2f2
+}
+
+.content-area-grey .column .product:hover {
+    background: white
+}
+
+/*************************
+*  COLUMNS
+**************************/
+
+@media only screen and (min-width: 64.063em) {
+  .column.large-centered,
+  .columns.large-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important; }
+
+  .column.large-uncentered,
+  .columns.large-uncentered {
+    margin-left: 0;
+    margin-right: 0;
+    float: left !important; }
+
+  .column.large-uncentered.opposite,
+  .columns.large-uncentered.opposite {
+    float: right; }
+
+  .column,
+  .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left; }
+
+      [class*="column"] + [class*="column"]:last-child {
+    float: right; }
+
+  [class*="column"] + [class*="column"].end {
+    float: left; }
+
+/* Typography */
+/* Typography Styling */
+/* Media Query Breakpoints */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.is-force-hidden {
+  display: none !important;
+}
+
+.is-shown {
+  display: block;
+}
+
+.is-invisible {
+  visibility: hidden;
+}
+
+.centered {
+  text-align: center;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+@media screen and (max-width: 899px) {
+  .hide-under-900 {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hide-over-900 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .hide-under-835 {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 835px) {
+  .hide-over-835 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .hide-under-720 {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .hide-over-720 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .hide-under-600 {
+    display: none !important;
+  }
+}
+
+.show-under-600 {
+  display: block !important;
+}
+@media screen and (min-width: 600px) {
+  .show-under-600 {
+    display: none !important;
+  }
+}
+
+.show-under-720 {
+  display: block !important;
+}
+@media screen and (min-width: 720px) {
+  .show-under-720 {
+    display: none !important;
+  }
+}
+
+.show-under-900 {
+  display: block !important;
+}
+@media screen and (min-width: 900px) {
+  .show-under-900 {
+    display: none !important;
+  }
+}
+
+.show-for-mobile {
+  display: block !important;
+}
+@media screen and (min-width: 600px) {
+  .show-for-mobile {
+    display: none !important;
+  }
+}
+
+.show-for-tablet {
+  display: block !important;
+}
+@media screen and (min-width: 720px) {
+  .show-for-tablet {
+    display: none !important;
+  }
+}
+
+.show-for-web-small {
+  display: block !important;
+}
+@media screen and (min-width: 900px) {
+  .show-for-web-small {
+    display: none !important;
+  }
+}
+
+.break-after-on-mobile {
+  display: block;
+}
+@media screen and (min-width: 600px) {
+  .break-after-on-mobile {
+    display: inline;
+  }
+}
+
+.reveal .page {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  min-height: 20rem;
+}
+@media screen and (min-width: 720px) {
+  .page {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .page h1:first-of-type,
+  .page h2:first-of-type,
+  .page h3:first-of-type,
+  .page h4:first-of-type {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .centered-page-subhead {
+    width: 60%;
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+}
+
+.page-header {
+  margin-bottom: 3rem;
+}
+
+.page.nobottom {
+  margin-bottom: 0;
+}
+
+.desaturate {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}

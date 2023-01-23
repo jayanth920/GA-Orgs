@@ -1,0 +1,77 @@
+/* THESE STYLES ARE DEFAULTS, YOU CAN START BELOW LINE 77 */
+
+nav {
+  margin: 0;
+  padding: 10px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  border-bottom: 2px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  height: 50px;
+  margin-right: 16px;
+  transition: all 0.2s;
+  filter: invert(0%);
+  border-radius: 100%;
+}
+
+img:hover {
+  filter: invert(100%); 
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.flags {
+  margin: 72px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1024px;
+}
+
+.country {
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+}
+
+.country h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.flag {
+  border: 5px solid black;
+  display: grid;
+  height: 160px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.flag div {
+  min-width: 25px;
+  min-height: 25px;
+}
+
+#chile .blue::before{
+  content: '★';
+  font-size: 50px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 5px;
+  display: block;
+}
+
+/* STYLE BELOW HERE */

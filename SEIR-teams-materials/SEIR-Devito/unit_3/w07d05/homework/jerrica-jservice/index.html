@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="JserviceApp">
+  <head>
+    <meta charset="utf-8">
+    <title>jService</title>
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+    <!-- styles -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Karla|Poppins:900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body ng-controller="MainController as ctrl">
+    <div class="main-container">
+      <h1>THIS IS <strong>JEOPARDY!</strong></h1>
+      <!-- ============ SCOREBOARD ============ -->
+      <div class="score">
+        <div class="current-score">
+          <strong>CURRENT SCORE:</strong> {{ctrl.game.score}}
+        </div>
+        <div class="point-adjuster">
+          <i class="fas fa-plus" ng-click="ctrl.calculateScore('plus')"></i>
+          <i class="fas fa-minus" ng-click="ctrl.calculateScore('minus')"></i>
+          <i class="fas fa-redo-alt" ng-click="ctrl.calculateScore('reset')"></i>
+        </div>
+      </div>
+      <!-- ============ GAME CONTAINER ============ -->
+      <div class="game-container">
+        <button ng-click="ctrl.getTrivia()">hit me with random trivia!</button>
+        <div class="trivia" ng-if="ctrl.dom.showingTrivia">
+          <!-- ============ TRIVIA INFO (CATEGORY & POINT VALUE) ============ -->
+          <div class="question-info">
+            <div class="category">
+              <strong>CATEGORY:</strong> {{ctrl.game.category}}
+            </div>
+            <div class="question-points">
+              <strong>POINTS:</strong> {{ctrl.game.triviaPoints}}
+            </div>
+          </div>
+          <!-- ============ TRIVIA QUESTION ============ -->
+          <div class="question">
+            <h2>trivia:</h2>
+            {{ctrl.game.trivia}}
+          </div>
+          <!-- ============ TRIVIA ANSWER TOGGLE ============ -->
+          <div class="show-more" ng-if="!ctrl.dom.showingSolution" ng-click="ctrl.showSolution()">
+            show me the solution!
+          </div>
+          <!-- ============ TRIVIA ANSWER ============ -->
+          <div class="answer" ng-if="ctrl.dom.showingSolution">
+            <h2>solution:</h2>
+            {{ctrl.game.triviaSolution}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

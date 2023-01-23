@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Mac OS X version 5.2.0">
+  <meta charset="utf-8"><!-- All this HTML was generated using Pandoc and Tidy-HTML5 -->
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>jquery-selectors-events</title>
+  <script>
+  document.addEventListener("DOMContentLoaded", function(){
+    var hTags = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
+    [].forEach.call(hTags, function(hTag){
+      var link  = document.createElement("A");
+      link.href = "#" + hTag.id;
+      link.classList.add("nav");
+      link.textContent  = (hTag.textContent);
+      hTag.innerHTML    = link.outerHTML;
+    });
+  });
+  </script>
+  <style>
+  *{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:inherit;
+    font-weight:inherit;
+    font-family:inherit;
+    font-style:inherit;
+    text-decoration:inherit;
+    line-height:inherit;
+    color:inherit;
+  }
+  html{
+    font-size:24px;
+    line-height:32px;
+    color:#444;
+  }
+  body{
+    max-width:800px;
+    margin:0 auto;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    font-weight:bold;
+    margin:2em 0 1em 0;
+  }
+  h1 a{
+    font-size:36px;
+    line-height:60px;
+    border-top:2px solid #ccc;
+    text-align:center;
+  }
+  h2 a{
+    font-size:28px;
+    line-height:50px;
+    background-color:#eee;
+    border-top:1px solid #ccc;
+    text-align:center;
+  }
+  h3 a{
+    font-size:24px;
+    line-height:30px;
+    border-bottom:1px solid #ccc;
+  }
+  h4 a{
+    font-size:18px;
+    line-height:30px;
+  }
+  p, li, pre{
+    margin:1em 0;
+  }
+  a{
+    color:#369;
+    text-decoration:underline;
+  }
+  a:hover{
+    color:#69c;
+  }
+  a.nav{
+    display:block;
+    text-decoration:none;
+    color:#800;
+  }
+  a.nav:hover{
+    color:#c00;
+  }
+  li{
+    list-style-position:inside;
+  }
+  pre, code{
+    font-family:"Andale Mono", "Courier New", monospace;
+    font-size:18px;
+    line-height:30px;
+    color:#000;
+    background-color:#f0f0f0;
+    padding:5px;
+    border-radius:5px;
+    vertical-align:baseline;
+    white-space:pre-wrap;
+  }
+  pre code{
+    padding:0;
+  }
+  em{
+    font-style:italic;
+  }
+  strong{
+    font-weight:bold;
+  }
+  input{
+    background-color:#999;
+    color:#fff;
+    border-radius:5px;
+    border-bottom:1px solid #333;
+    padding:5px 10px;
+  }
+  </style>
+</head>
+<body>
+  <script src="jquery.js">
+  </script>
+  <h1 id="jquery-selectors-and-events">jQuery Selectors and Events</h1>
+  <h2 id="learning-objectives">Learning Objectives</h2>
+  <ul>
+    <li>Identify whether a desired functionality can be accomplished with CSS or with Javascript.</li>
+    <li>Use jQuery to manipulate elements on a webpage.</li>
+    <li>Use events to add interactivity to a webpage.</li>
+  </ul>
+  <h2 id="framing">Framing</h2>
+  <p>The intent of this class is to understand what Javascript is capable of, and what it can do that CSS cannot.</p>
+  <h2 id="what-is-jquery">What is jQuery?</h2>
+  <p><em>jQuery is Javascript.</em></p>
+  <p>It's a bunch of Javascript someone wrote for you so you don't have to.</p>
+  <p>It's as if someone wrote a whole bunch of CSS classes for you to save you time working on your webpage.</p>
+  <p>jQuery's slogan is "write less; do more".</p>
+  <h3 id="whats-a-library">What's a library?</h3>
+  <p>A bunch of code someone wrote for you that you can use in your code is considered a <strong>library</strong>.</p>
+  <p>Some notable other libraries are Bootstrap CSS, Underscore JS, and D3 JS.</p>
+  <p>Just as jQuery is pure Javascript, Bootstrap is pure CSS. If you look at the source code for Bootstrap, it is 100% CSS just like you've written yourself. There's no "magic".</p>
+  <h3 id="minification">Minification</h3>
+  <p><a href="jquery.js">This is jQuery.</a></p>
+  <p><a href="jquery.min.js">This is also jQuery.</a></p>
+  <p>They are the exact same code. One has been "minified".</p>
+  <ul>
+    <li>Why would you minify code?</li>
+    <li>True or false: If you get an error in your code, you should go look for the cause in the jQuery source code and fix it there.</li>
+  </ul>
+  <h2 id="what-can-you-do-with-jquery">What can you do with jQuery?</h2>
+  <h3 id="documentation-dive">Documentation Dive</h3>
+  <h4 id="questions">Questions</h4>
+  <ul>
+    <li>What are 3 interesting-looking jQuery functions you found?</li>
+    <li>What do you put inside <code>$(" ... ")</code>?</li>
+  </ul>
+  <h4 id="look-at">Look at:</h4>
+  <ul>
+    <li>
+      <a href="http://api.jquery.com/category/attributes/">Attributes</a>
+    </li>
+    <li>
+      <a href="http://api.jquery.com/category/css/">CSS</a>
+    </li>
+    <li>
+      <a href="http://api.jquery.com/category/dimensions/">Dimensions</a>
+    </li>
+    <li>
+      <a href="http://api.jquery.com/category/effects/">Effects</a>
+    </li>
+    <li>
+      <a href="http://api.jquery.com/category/events/">Events</a>
+    </li>
+    <li>
+      <a href="http://api.jquery.com/category/manipulation/">Manipulation</a>
+    </li>
+    <li>
+      <a href="http://api.jquery.com/category/offset/">Offset</a>
+    </li>
+  </ul>
+  <h3 id="selecting-elements">Selecting elements</h3>
+  <p>We're going to use jQuery to manipulate elements.</p>
+  <p>jQuery selectors are just like CSS selectors. The only difference is you "wrap them in cash":</p>
+  <h4 id="css">CSS</h4>
+  <pre class="css"><code>ul &gt; li.message:not(:first-child){
+  color: red;
+}</code></pre>
+  <h4 id="jquery">jQuery</h4>
+  <pre class="js"><code>$("ul &gt; li.message:not(:first-child)").css("color", "blue")</code></pre>
+  <h3 id="you-do-practice-with-selectors">You Do: Practice with Selectors</h3>
+  <p>Open the Chrome console (Command + Option + J).</p>
+  <p>Using jQuery and <code>.css("color", "blue")</code>, select the following elements and turn them blue. Refresh the page to go back to their original colors.</p>
+  <ul>
+    <li>All paragraphs</li>
+    <li>All links inside an <code>&lt;h2&gt;</code></li>
+    <li>Anything with the class of <code>css</code> or the class of <code>js</code></li>
+    <li>The first item in any list</li>
+  </ul>
+  <h3 id="you-do-getters-and-setters">You Do: Getters and setters</h3>
+  <p>Several functions, like <code>.css()</code>, <code>.html()</code>, and <code>.text()</code> do different things depending on whether you put 1, 2, 3, or more things inside them.</p>
+  <p>Using the Chrome console, can you figure out what the difference is for each of these?</p>
+  <pre class="js"><code>$("something").css()
+$("something").css("color")
+$("something").css("color", "blue")</code></pre>
+  <pre class="js"><code>$("something").html()
+$("something").html("&lt;h1&gt;Hello&lt;/h1&gt;")
+$("something").html("&lt;h1&gt;Hello&lt;/h1&gt;", "&lt;h1&gt;World&lt;/h1&gt;")</code></pre>
+  <pre class="js"><code>$("something").text()
+$("something").text("&lt;h1&gt;Hello&lt;/h1&gt;")
+$("something").text("&lt;h1&gt;Hello&lt;/h1&gt;", "&lt;h1&gt;World&lt;/h1&gt;")</code></pre>
+  <h2 id="whats-an-event">What's an event?</h2>
+  <p>Any interaction with the page is an <strong>event</strong>.</p>
+  <h3 id="you-do-practice-with-events">You Do: Practice with Events</h3>
+  <p><input id="hello" onclick="$('#hello').css('color', 'red')" value="Hello, world!"></p>
+  <p>This is the code for the text box above:</p>
+  <pre class="html"><code>&lt;input id="hello" onclick="$('#hello').css('color', 'red')" value="Hello, world!" /&gt;</code></pre>
+  <ul>
+    <li>What is <code>onclick</code> in HTML terminology? (Hint: It's the same thing as <code>id</code>, or <code>href</code>, or <code>src</code>...)</li>
+    <li>What goes inside <code>onclick</code>?</li>
+    <li>What does it do?</li>
+  </ul>
+  <p>How would you change the code so it responds...?</p>
+  <ul>
+    <li>When the <em>mouse</em> goes <em>over</em> an element</li>
+    <li>When a <em>key</em> goes <em>down</em> after you've clicked an element</li>
+    <li>When the mouse goes away from an element</li>
+  </ul>
+  <h2 id="putting-them-together">Putting them together</h2>
+  <p id="poke" onclick="$('#poke').css('color', 'red'); alert($('#poke').text())">You can do any number of jQuery functions in one event. Separate them with a semicolon (<code>;</code>).</p>
+  <pre class="html"><code>&lt;p id="poke" onclick="$('#poke').css('color', 'red'); alert($('#poke').text())"&gt;You can do any number of jQuery functions in one event. Separate them with a `;` semicolon.&lt;/p&gt;</code></pre>
+  <h3 id="lights-out">Lights Out</h3>
+  <p><a href="https://github.com/ga-wdi-exercises/lights_out">Link</a></p>
+  <p>Read the Wiki for instructions.</p>
+  <h3 id="tic-tac-toe">Tic Tac Toe</h3>
+  <p><a href="https://github.com/ga-wdi-exercises/tic_tac_toe">Link</a></p>
+  <ul>
+    <li>Ignore the "How to get started", because the game board has been provided for you.</li>
+    <li>Follow the "minimum requirements" like a series of steps.</li>
+    <li>After cloning this down, checkout the <code>jquery-soup-starter</code> branch to begin.</li>
+  </ul>
+  <h2 id="references">References</h2>
+  <ul>
+    <li>
+      <a href="http://jquery.com/">Official jQuery Documentation</a>
+    </li>
+  </ul>
+</body>
+</html>

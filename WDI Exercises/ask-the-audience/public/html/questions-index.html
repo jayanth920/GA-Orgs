@@ -1,0 +1,14 @@
+<ul class="questions">
+  <li data-ng-repeat="question in IndexVM.questions">
+    <h2><a data-ui-sref="show(question)">{{question.text}}</a></h2>
+    <ul class="answers">
+      <li data-ng-repeat="answer in question.answers">
+        {{answer.text}}
+      </li>
+    </ul>
+  </li>
+  <li>
+    <input type="text" data-ng-model="IndexVM.newQuestion.text" />
+    <button data-ng-click="IndexVM.create()">Add your Question</button>
+  </li>
+</ul>

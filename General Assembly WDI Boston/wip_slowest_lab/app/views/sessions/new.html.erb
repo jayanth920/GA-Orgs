@@ -1,0 +1,57 @@
+
+
+<div class="row">
+
+  <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3">
+  <h2>Sign in</h2>
+    <%= form_for(:session, url: sessions_path) do |f| %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+
+      <%= f.submit "Sign in", class: "btn btn-large btn-primary" %>
+    <% end %>
+  <h2>
+      <%= form_for(:session, url: sessions_path) do |f| %>
+
+      <%= f.hidden_field :email, :value => User.first.email %>
+      <%= f.hidden_field :password, :value => 'asdasd' %>
+
+      <%= f.submit "Sign in as User.first", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </h2>
+  </div>
+
+  <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3">
+  <h2>Sign up</h2>
+    <%= form_for(@user) do |f| %>
+          <p>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+      </p>
+      <p>
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+      </p>
+
+      <p>
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+      </p>
+
+      <p>
+      <%= f.label :password_confirmation %>
+      <%= f.password_field :password_confirmation %>
+      </p>
+
+      <%= image_tag @user.avatar, :class => "avatar" %>
+      <%= f.hidden_field :avatar, :value => @user.avatar %>
+      <p>
+      <%= f.submit "Sign up", class: "btn btn-large btn-primary" %>
+      </p>
+    <% end %>
+  </div>
+</div>

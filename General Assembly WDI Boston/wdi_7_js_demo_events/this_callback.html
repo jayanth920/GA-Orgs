@@ -1,0 +1,27 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <button id='buttonId'>
+      Click Me
+    </button>
+    <div id='messageId'>
+     No Message
+    </div>
+
+    <script src='./src/this_callback.js'></script>
+    <script type='text/javascript'>
+    newObj = new ThisCallbackDemo("newObj hello"),
+    button = document.getElementById('buttonId');
+
+    // Oops, wont work. 'this' pointer inside the event handler 
+    // is the element that received the click.
+    button.addEventListener('click', newObj.buttonHandler, false);
+
+    // This will bind the this pointer inside the event handler
+    // to newObj. Which will work.
+    // button.addEventListener('click', newObj.buttonHandler.bind(newObj), false);
+
+    </script>
+  </body>
+</html>

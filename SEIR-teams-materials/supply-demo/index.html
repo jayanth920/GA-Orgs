@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--css reset -->
+		<!-- this removes all preset browser styles so that custom styles appear uniformly across different browsers -->
+		<link rel="stylesheet" href="vendor/css/reset.css" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="off-canvas-menu" id="off-canvas">
+			<nav class="dropdown top-dropdown">
+				<div class="closebtn">&times;</div>
+				<ul class="dropdown-top-ul">
+					<li class="nav-li"><a href="#">MENS</a></li>
+					<li class="nav-li"><a href="#">WOMENS</a></li>
+					<li class="nav-li"><a href="#">LIFESTYLE</a></li>
+				</ul>
+			</nav>
+			<nav class="dropdown">
+				<ul>
+					<li class="nav-li"><a href="href">About</a></li>
+					<li class="nav-li"><a href="#">Blog</a></li>
+					<li class="nav-li"><a href="#">Read Me</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="container">
+			<div class="row main-content">
+				<header class="col col-3 nav-container">
+					<div class="logo-container">
+						<div class="mask-logo">
+							<img class="logo-img" src="img/logo.png" alt="Supply Logo" />
+						</div>
+					</div>
+					<nav class="top-nav dropdown">
+						<ul>
+							<li class="nav-li"><a href="#">MENS</a></li>
+							<li class="nav-li"><a href="#">WOMENS</a></li>
+							<li class="nav-li"><a href="#">LIFESTYLE</a></li>
+						</ul>
+					</nav>
+					<nav class="bottom-nav dropdown">
+						<ul>
+							<li class="nav-li"><a href="href">About</a></li>
+							<li class="nav-li"><a href="#">Blog</a></li>
+							<li class="nav-li"><a href="#">Read Me</a></li>
+						</ul>
+					</nav>
+					<div class="hamburger-icon" id="hamburger">
+						<svg viewBox="0 0 100 80" width="40" height="40">
+							<rect width="75" height="10"></rect>
+							<rect y="30" width="75" height="10"></rect>
+							<rect y="60" width="75" height="10"></rect>
+						</svg>
+					</div>
+				</header>
+				<main>
+					<div class="col col-9">
+						<div class="row cta-container">
+							<img src="img/main_boots.jpg" alt="The thousand mile boot" />
+						</div>
+						<div class="row">
+							<div class="col col-4">
+								<img
+									src="img/cat-mens.jpg"
+									alt="Men's category, a pair of brown dress shoes"
+								/>
+							</div>
+							<div class="col col-4">
+								<img src="img/cat-women.jpg" alt="Women's category, necklace" />
+							</div>
+							<div class="col col-4">
+								<img
+									src="img/cat-lifestyle.jpg"
+									alt="Lifestyle category, painted artwork"
+								/>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col-6">
+								<img src="img/home-about.jpg" alt="About supply" />
+							</div>
+							<div class="col col-6" alt="">
+								<img
+									src="img/home-blog.jpg"
+									alt="News and updates, blog section"
+								/>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+			<footer class="main-footer"></footer>
+
+			<script src="script.js"></script>
+		</div>
+	</body>
+</html>

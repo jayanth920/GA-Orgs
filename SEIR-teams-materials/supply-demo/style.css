@@ -1,0 +1,193 @@
+/* everything outside the media query applies to desktop widths */
+
+body {
+	/* tells browser to account for border and padding when determining width of element. more info here: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+	box-sizing: border-box;
+	/* set base fonts -- browser will default to first available font; if none are available, will supply any sans-serif font */
+	font-family: Helvetica, Arial, sans-serif;
+	/* set base font color -- not the most accessible color choice due to low contrast */
+	color: darkgrey;
+}
+
+/* constricts the main content to the center of the page */
+.container {
+	/* do not let content stretch beyond 1200px */
+	max-width: 1200px;
+	/* center content horizontally */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* hide the hamburger menu and off-canvas menu*/
+.hamburger-icon,
+.off-canvas-menu {
+	display: none;
+}
+
+/* give the main page content margins */
+.main-content {
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-left: 40px;
+	min-height: 90vh;
+}
+/* keep images at 100% of their container -- otherwise they try to grow to their auto width */
+img {
+	width: 100%;
+}
+
+/* a utility class -- use whenever something needs to be a flex-row container */
+.row {
+	display: flex;
+	gap: 20px;
+}
+
+/* apply a bottom margin of 20px to all rows EXCEPT last of their group (avoid double bottom margin) */
+.row:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+/* another utility class -- apply to all flex children that should be columns in a flex grow */
+.col {
+	/* take up full allotted width */
+	width: 100%;
+	/* do not grow more than 1 fraction of the space */
+	flex-grow: 1;
+	/* do not shrink more than 1 fraction of the space */
+	flex-shrink: 1;
+}
+
+.col-3 {
+	/* Take up 3/12 of available space, i.e., 25% column width */
+	flex-basis: 25%;
+}
+
+.col-4 {
+	/* Take up 4/12 of available space, i.e., 33% column width */
+	flex-basis: 33.33333333%;
+}
+
+.col-6 {
+	/* Take up 6/12 of available space, i.e., 50% column width */
+	flex-basis: 50%;
+}
+
+.col-9 {
+	/* Take up 9/12 of available space, i.e., 75% column width */
+	flex-basis: 75%;
+}
+
+.nav-container {
+	/* make the nav container a flex-container */
+	display: flex;
+	/* align items horizontally */
+	flex-direction: column;
+	/* group elements in center of main-axis (vertical) */
+	justify-content: center;
+}
+
+.mask-logo,
+.hamburger-icon {
+	/* put a semi-opaque mask over the logo */
+	opacity: 50%;
+}
+
+.logo-img {
+	/* make the logo image smaller and let its width be auto to maintain aspect ratio*/
+	height: 50px;
+	width: auto;
+}
+
+.nav-li {
+	/* use rems as units of measurement for text for scalability */
+	/* set font-size as half of the default font-size of the root element */
+	font-size: 0.5rem;
+	/* set line-height as 1.5 times the default font-size of the element */
+	line-height: 1.5rem;
+}
+.top-nav .nav-li {
+	/* grab the top-nav list items and set their letter-spacing */
+	letter-spacing: 0.2rem;
+}
+
+.top-nav,
+.bottom-nav {
+	/* give the header's top and bottom navs a top margin of 20px */
+	margin-top: 20px;
+}
+
+/* grab and style the nav links */
+.nav-li a,
+.closebtn {
+	text-decoration: none;
+	color: darkgrey;
+}
+
+.nav-li a:hover {
+	color: black;
+}
+
+.main-footer {
+	height: 100px;
+	min-height: 10vh;
+	background-color: rgb(230, 230, 230);
+}
+
+@media screen and (max-width: 768px) {
+	.row {
+		flex-direction: column;
+	}
+
+	.nav-container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	/* hide nav links */
+	.top-nav,
+	.bottom-nav {
+		display: none;
+	}
+
+	/* show hamburger icon */
+	.hamburger-icon {
+		display: block;
+	}
+
+	.off-canvas-menu {
+		display: block;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		/* change width with javascript */
+		width: 0vw;
+		background-color: rgb(230, 230, 230);
+		transition: 0.5s;
+	}
+
+	.dropdown {
+		padding-top: 1rem;
+		padding-left: 3rem;
+		padding-right: 1rem;
+	}
+
+	.off-canvas-menu li {
+		font-size: 1.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.top-dropdown {
+		margin-bottom: 2rem;
+	}
+
+	.dropdown-top-ul {
+		margin-top: 2rem;
+	}
+
+	.closebtn {
+		font-size: 36px;
+		width: 100%;
+		text-align: right;
+	}
+}

@@ -1,0 +1,141 @@
+@import 'sass/variables';
+@import '~bootstrap/scss/bootstrap';
+
+a {
+  color: $info;
+
+  &:hover {
+    color: $info;
+    text-decoration: underline;
+  }
+}
+
+code,
+pre,
+tt {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body {
+  code {
+    background-color: #f6f8fa;
+    border-radius: 3px;
+    color: $text-color;
+    font-size: 85%;
+    margin: 0;
+    padding: .2em .4em;
+  }
+
+  > p:first-child {
+    display: none;
+  }
+
+  .highlight {
+    margin-bottom: 1rem;
+
+    pre {
+      background-color: #f6f8fa;
+      border-radius: 3px;
+      font-size: 85%;
+      line-height: 1.45;
+      margin-bottom: 0;
+      overflow: auto;
+      padding: 16px;
+    }
+
+    .pl-c {
+      color: #6a737d;
+    }
+
+    .pl-k {
+      color: #d73a49;
+    }
+
+    .pl-s .pl-s1, .pl-smi {
+      color: #24292e;
+    }
+
+    .pl-pds, .pl-s, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sra, .pl-sr .pl-sre {
+      color: #032f62;
+    }
+
+    .pl-e, .pl-en {
+      color: #6f42c1;
+    }
+
+    .pl-c1, .pl-s .pl-v {
+      color: #005cc5;
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+
+  section {
+    order: 1;
+    padding: 1rem;
+    width: 75%;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 500;
+      position: relative;
+
+      .octicon-link {
+        fill: #ccc;
+        transition: fill .5s;
+      }
+
+      > a {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-align: right;
+        top: 0;
+
+        &:hover {
+          > .octicon-link {
+            fill: $info;
+          }
+        }
+
+      }
+    }
+  }
+
+  nav {
+    background-color: $default;
+    padding: 1rem;
+    width: 25%;
+
+    li {
+      cursor: pointer;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.file-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+
+  .navbar-nav {
+    align-items: center;
+  }
+}

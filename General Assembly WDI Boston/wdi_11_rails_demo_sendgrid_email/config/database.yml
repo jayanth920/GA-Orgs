@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: SendGridDemo_development
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: SendGridDemo_test
+  pool: 5

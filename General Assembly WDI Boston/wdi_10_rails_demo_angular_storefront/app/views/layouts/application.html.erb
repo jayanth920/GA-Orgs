@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="StoreFront">
+<head>
+  <title>Storefront</title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application", "main" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<ul class="hmenu">
+		<li><%= link_to "Angular Products", root_path %></li>
+		<li><%= link_to "Rails Products", products_path %></li>
+	  <%= render 'shared/registration_items' %>
+	  <%= render 'shared/login_items' %>
+	</ul>
+	<p class="notice"><%= notice %></p>
+	<p class="alert"><%= alert %></p>
+	<%= yield %>
+
+</body>
+</html>

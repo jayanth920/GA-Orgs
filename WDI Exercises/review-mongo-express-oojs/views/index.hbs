@@ -1,0 +1,33 @@
+<ul>
+
+</ul>
+
+<script>
+  var Student = function(info){
+    for(var k in info){
+      this[k] = info[k]
+    } 
+  }
+  Student.fetch = function(){
+    return $.getJSON("/students.json", function(response){
+      var students = []
+      for(var i = 0; i < response.length; i++){
+        students.push(new Student(response[i])) 
+      }
+      return students
+    }) 
+  }
+  var StudentView = function(student){
+   //renders model on page 
+   $("ul").append("<li>"+student.name+"</li>")
+  }
+</script>
+
+<script src='http://jshawl.com/jq'></script>
+<script>
+  Student.fetch().then(function(students){
+    for(var i = 0; i < students.length; i++){
+      new StudentView(students[i])
+    } 
+  })
+</script>

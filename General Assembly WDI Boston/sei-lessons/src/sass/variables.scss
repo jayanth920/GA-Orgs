@@ -1,0 +1,31 @@
+$danger: #e41a23;
+$dark: #000;
+$info: #017991;
+$primary: #e41a23;
+$success: #14bf5b;
+$text-color: #222;
+$warning: #ffa100;
+$default: #f6f6f6;
+$gray-200: #ececec;
+
+$border-radius: 4px;
+
+$font-family-sans-serif: Circular, Helvetica, Arial, sans-serif;
+
+$headings-font-weight: bold;
+
+$alert-success-bg: transparentize($success, .9);
+$alert-success-text: $text-color;
+$alert-success-border: $success;
+
+$alert-info-bg: transparentize($info, .9);
+$alert-info-text: $text-color;
+$alert-info-border: $info;
+
+$alert-warning-bg: transparentize($warning, .9);
+$alert-warning-text: $text-color;
+$alert-warning-border: $warning;
+
+$alert-danger-bg: transparentize($danger, .9);
+$alert-danger-text: $text-color;
+$alert-danger-border: $danger;

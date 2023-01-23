@@ -1,0 +1,74 @@
+@import 'variables.scss';
+
+// target the DOM
+body {
+  font-size: $base-page-size;
+  background: $body-background;
+}
+
+#wrapper {
+  width: $wrapper-phone;
+  border-radius: $radius;
+  margin: auto;
+  background: $content-background;
+  padding: $font-size-standard;
+}
+
+// display
+#phone {
+  display: none;
+  background: magenta;
+}
+#tablet {
+  display: none;
+  background: orange;
+}
+#laptop {
+  display: none;
+  background: pink;
+}
+
+// media queries for responsive design
+@media (min-width: $device-phone) {
+  // delete these when done :)
+  #phone {
+    display: block;
+  }
+  // end delete :)
+}
+@media (min-width: $device-tablet) {
+  #wrapper {
+    width: $wrapper-tablet;
+  }
+  // delete these when done :)
+  #phone {
+    display: none;
+  }
+  #tablet {
+    display: block;
+  }
+  // end delete :)
+  .nav-item {
+    display: inline-block;
+    list-style: square;
+    padding: $font-size-standard;
+  }
+
+
+}
+@media (min-width: $device-laptop) {
+  #wrapper {
+    width: $wrapper-laptop;
+  }
+  // delete these when done :)
+  #phone {
+    display: none;
+  }
+  #tablet {
+    display: none;
+  }
+  #laptop {
+    display: block;
+  }
+  // end delete
+}

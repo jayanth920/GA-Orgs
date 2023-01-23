@@ -1,0 +1,43 @@
+#Audiowide {
+  font-family: 'Metamorphous', cursive;
+  font-size: 1.5em;
+}
+
+#Freckle-face {
+  font-family: 'Freckle Face', cursive;
+  font-size: 1.5em;
+}
+
+#Caesar-dressing {
+  font-family: 'Caesar Dressing', cursive;
+  font-size: 1.5em;
+}
+
+#Butcherman {
+  font-family: 'Butcherman', cursive;
+  font-size: 1.5em;
+}
+
+#hover:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.crazy-style {
+  font-size: 4em;
+  color: orange;
+  text-decoration: underline;
+  text-shadow: 5px 5px 5px black;
+}
+
+#empty-div {
+  width: 50%;
+  background-color: AliceBlue;
+  text-align: center;
+  padding: 20px;
+  height: 100px;
+  font-size: 1.5em;
+  border: 5px solid;
+  box-shadow: 5px 5px 5px purple;
+  margin: 20px;
+}

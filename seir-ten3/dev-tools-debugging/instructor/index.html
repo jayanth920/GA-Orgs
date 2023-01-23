@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Errors</title>
+    <script>
+         console.log('before error')
+         try {
+            throw(new Error("Oh, noes."));
+         }catch(err){
+             err
+             console.log('this is the error', err)
+         }finally{
+             console.log('do something like log that this happened')
+         }
+    	
+       
+    	console.log("after error");
+
+        //////////////////////
+
+        var myString = "awesome";
+
+        function printString (str) {
+        console.log(str);
+        }
+        // calling functions (executing)
+        printString(myString);
+
+        //////////////////////
+       // TypeError: cashRegister.add is not a function
+        var total = 0;
+
+        var cashRegister = {
+            addToTotal: function (amount) {
+                return total + amount;
+            }
+        }
+
+        total = cashRegister.addToTotal(4);
+        // total = cashRegister.add(4);
+
+        //////////////////////
+       // SyntaxError: Unexpected token 'else'
+        function shoutLongWords (word) {
+            if (word.length > 5) {
+                console.log(word.toUpperCase());
+            } else {
+                console.log(word)
+            }
+         }
+    </script>
+  </head>
+  <body></body>
+</html>

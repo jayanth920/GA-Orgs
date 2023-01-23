@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Activity Transitions Demo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+</resources>

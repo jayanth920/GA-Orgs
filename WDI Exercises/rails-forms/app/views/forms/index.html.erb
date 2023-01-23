@@ -1,0 +1,8 @@
+<h2>Search</h2>
+
+<br>
+
+<% @cats.each do |cat| %>
+  <h2><%= cat.kind %></h2>
+  <%= image_tag cat.image_url %>
+<% end %>

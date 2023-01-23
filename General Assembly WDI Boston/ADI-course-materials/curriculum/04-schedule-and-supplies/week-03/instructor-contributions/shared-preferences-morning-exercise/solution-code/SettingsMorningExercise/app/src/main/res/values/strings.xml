@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SettingsMorningExercise</string>
+    <string-array name="colors_array">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>

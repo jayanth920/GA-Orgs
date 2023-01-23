@@ -1,0 +1,22 @@
+{
+  "name": "js-gladiator",
+  "version": "1.0.0",
+  "description": "The Emperor has commissioned you to build a Gladiator Arena. You will do so using your knowledge of object-oriented Javascript and ES6 classes.",
+  "main": "gladiator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:SEIR-809/js-gladiator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0"
+  }
+}

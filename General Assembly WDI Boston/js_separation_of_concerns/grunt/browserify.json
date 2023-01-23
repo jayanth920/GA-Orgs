@@ -1,0 +1,13 @@
+{
+  "app": {
+    "src": ["<%= paths.source %>"],
+    "dest": "app.js",
+    "options": {
+      "require": ["jquery"]
+    }
+  },
+  "specs": {
+    "src": ["<%= paths.tests %>"],
+    "dest": "specs.js"
+  }
+}

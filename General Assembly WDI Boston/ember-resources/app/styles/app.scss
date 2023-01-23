@@ -1,0 +1,9 @@
+@import 'ember-bootstrap/bootstrap';
+
+.list-detail-hidden li {
+  display: none;
+}
+
+.crossed {
+  text-decoration: line-through;
+}

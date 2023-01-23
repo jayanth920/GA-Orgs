@@ -1,0 +1,22 @@
+.song {
+  float:left;
+  width: 180px;
+  padding: 24px;
+  height: 200px;
+  text-align: center;
+}
+
+.song:hover {
+
+}
+
+.song-image {
+  width: 100px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.song-image img {
+  width: 100px;
+}

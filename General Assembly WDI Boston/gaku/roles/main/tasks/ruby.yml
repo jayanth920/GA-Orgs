@@ -1,0 +1,50 @@
+---
+
+- name: Download chruby
+  get_url: url=https://github.com/postmodern/chruby/archive/v{{ chruby_version }}.tar.gz
+           dest={{ user_home }}/src/chruby-{{ chruby_version }}.tar.gz
+
+- name: Unarchive chruby
+  unarchive: src={{ user_home }}/src/chruby-{{ chruby_version }}.tar.gz
+             dest={{ user_home }}/src/
+             copy=no
+  register: chruby_unarchive
+
+- name: Install chruby
+  shell: make install chdir={{ user_home }}/src/chruby-{{ chruby_version }}
+  when: chruby_unarchive.changed
+
+- name: Configure chruby to start on login
+  template: src=chruby.sh.j2 dest=/etc/profile.d/chruby.sh mode=u+x
+
+- name: Create /opt/rubies if needed
+  file: path=/opt/rubies state=directory
+
+- name: Download ruby-install
+  get_url: >
+    url=https://github.com/postmodern/ruby-install/archive/v{{ruby_install_version}}.tar.gz
+    dest={{ user_home }}/src/ruby-install-{{ruby_install_version}}.tar.gz
+
+- name: Unarchive ruby-install
+  unarchive: src={{ user_home }}/src/ruby-install-{{ruby_install_version}}.tar.gz
+             dest={{ user_home }}/src/
+             copy=no
+  register: ruby_install_unarchive
+
+- name: Install ruby-install
+  shell: make install chdir={{ user_home }}/src/ruby-install-{{ruby_install_version}}
+  when: ruby_install_unarchive.changed
+
+- name: Find out if ruby_version is already installed
+  stat: path=/opt/rubies/{{ ruby_version }}
+  register: ruby_dir
+
+- name: Install ruby_version if necessary
+  command: '{{ ruby_install_command}} ruby {{ruby_version }}'
+  when: ruby_dir.stat.isdir is defined and ruby_dir.stat.isdir
+
+- name: Install bundler
+  command: /opt/rubies/ruby-{{ ruby_version }}/bin/gem install bundler creates=/home/jrhorn424/.gem/ruby/{{ ruby_version }}/bin/bundle
+
+- name: Set default ruby
+  template: src=ruby-version.j2 dest={{ user_home }}/.ruby-version

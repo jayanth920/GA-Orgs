@@ -1,0 +1,9 @@
+<h2>{{thing.name}}</h2>
+
+<p>{{thing.description}}</p>
+
+<form action="/{{thing.name}}" method="POST">
+  <input type="text" name="thing[name]" value="{{thing.name}}" />
+  <textarea name="thing[description]">{{thing.description}}</textarea>
+  <button type="submit">Update</button>
+</form>

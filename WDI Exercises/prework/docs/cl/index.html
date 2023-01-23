@@ -1,0 +1,1502 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+  <title>General Assembly: How to use Command Line</title>
+
+  <meta name="description" content="How-to-Use-Command-line">
+  <meta name="author" content="Dana C Reilly">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+   <link href="https://ga-core-production-herokuapp-com.global.ssl.fastly.net/assets/favicon-457864a24ef9216d266a9db330e606f1.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+  <link rel="stylesheet" href="../css/reveal.css">
+  <link rel="stylesheet" href="../css/theme/ga_theme.css" id="theme">
+
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="../lib/css/atelier-heath.dark.css">
+
+  <!-- GA css port -->
+  <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='../styles/ga.css'>
+   <link rel='stylesheet' href='../styles/all.css'>
+   <!--
+  <link rel='stylesheet' href='../styles/main.css'>
+  -->
+
+
+  <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+  <script>
+    document.write( '<link rel="stylesheet" href="http://generalassembly.github.io/prework/css/print/'&#32;+&#32;(&#32;window.location.search.match(&#32;/print-pdf/gi&#32;)&#32;?&#32;'pdf'&#32;:&#32;'paper'&#32;)&#32;+&#32;'.css" type="text/css" media="print">' );</script>
+
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<!--
+  <div id="banner">
+    <div class="masthead">
+      <div id="ga-logo">
+        <a target="blank" href="//generalassemb.ly/">
+          <img alt="Ga lockup" src="../assets/ga-lockup-60ab5be0ca3cb6ff021c2e17b1398fe2.png"></a>
+      </div>
+    </div>
+  </div>
+-->
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+        <section title="use-command-line">
+        <h1 class="large">How to Use <br>Command Line</h1>
+        </section>
+
+        <section title="what-is-this-tutorial">
+         <p>The command line lets you communicate with your computer directly and efficiently, the way a programmer would. Whether you want to be a developer, or just want a more powerful way to use your computer, the command line puts you on the inside track to operating your computer like a pro.
+          <br>
+          <br>
+          This tutorial will introduce you to the command line interface and have you opting for your keyboard over your mouse to control your computer.
+          </p>
+        </section>
+
+        <section title="table-of-contents" class="content-area-white">
+          <p>Complete this tutorial in one sitting <br>or come back later to finish what you started.</p>
+          <div class="max-width has-padding visit-metro">
+            <div class="max-width has-padding stacked-product-list">
+              <h4 class="group-header">Contents</h4>
+              <a href="index.html#/4">
+                <div class="stacked-item clearfix">
+                  <p class="stacked-item-title">
+                   Part One: What is the Command Line?
+                  </p>
+                  <p class="small stacked-item-date hide-under-600">
+                    10 Minutes
+                  </p>
+                </div>
+              </a>
+              <a href="index.html#/20">
+                <div class="stacked-item clearfix">
+                  <p class="stacked-item-title">
+                    Part Two: How Your Computer is Organized
+                  </p>
+                  <p class="small stacked-item-date hide-under-600">
+                    10 Minutes
+                  </p>
+                </div>
+              </a>
+              <a href="index.html#/35">
+              <div class="stacked-item clearfix">
+                <p class="stacked-item-title">
+                  Part Three: Navigate Your File System
+                </p>
+                <p class="small stacked-item-date hide-under-600">
+                 20 Minutes
+                </p>
+              </div>
+            </a>
+            <a href="index.html#/62">
+              <div class="stacked-item clearfix">
+               <p class="stacked-item-title">
+                  Part Four: Manipulate Files
+                </p>
+                <p class="small stacked-item-date hide-under-600">
+                  20 Minutes
+                </p>
+              </div>
+            </a>
+            <h4 class="group-header">Index</h4>
+            <a href="index.html#/82">
+              <div class="stacked-item clearfix">
+                <p class="stacked-item-title">
+                  Glossary of Terms
+                </p>
+                <p class="small stacked-item-date hide-under-600">
+                  20 Minutes
+                </p>
+              </div>
+            </a>
+            <a href="index.html#/83">
+              <div class="stacked-item clearfix">
+                <p class="stacked-item-title">
+                  Glossary of Commands
+               </p>
+                <p class="small stacked-item-date hide-under-600">
+                  20 Minutes
+                </p>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <section title="explanation-of-gifs">
+
+          <p>
+            We &hearts; GIFs, and we&rsquo;ll be using them as visual aids. So, if you miss a demonstration just wait, and it will replay over and over and over and over again.
+          </p>
+          <br>
+          <img src="http://media3.giphy.com/media/bAplZhiLAsNnG/giphy.gif" alt="Jim Carey and his computer">
+          <br>
+          <div class="fragment">Now let&rsquo;s get started!</div>
+
+        </section>
+
+        <section title="what-is-the-command-line">
+
+        <h1>Part One</h1>
+          <h3>What is the command line?</h3>
+
+        </section>
+
+        <section title="into-to-the-command-line">
+          <p>
+            The <a class="underline" href="index.html#commandline"> <strong>Command Line</strong></a> is one of two ways to interact with your computer. 
+            <br>
+            You could go through the rest of your life never using it. You could move your mouse, click on icons, drag and drop files from one folder to another in a state of ignorant bliss.
+            <br>
+            <img src="http://media.giphy.com/media/KGg0DprB70r6g/giphy.gif" alt="Cat on a Computer">
+            <br>
+            <span class="fragment">When you&rsquo;re using the computer this way, you&rsquo;re using what&rsquo;s called <br>a <em>Graphical User Interface</em> or GUI.</span>
+          </p>
+        </section>
+
+        <section title="gui-versus-cli">
+
+          <div class="grid-row two">
+            <div class="column">
+              <div style="margin-right: 40px">
+                <p>
+                  In a GUI (pronounced &ldquo;gooey&rdquo;), you communicate with your computer using a combination of text, images and gestures.
+                </p>
+                <img src="Graphics/GUI.png" alt ="Graphic User Interface">
+              </div>
+            </div>
+            <div class="column">
+              <div class="fragment" style="margin-left: 40px">
+                <p>
+                  Command line, on the other hand, is a <em>text-based interface</em>, where you communicate with your computer using text alone.
+                </p>
+                <img src="Graphics/CommandLine.png" alt ="Command line Interface">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- <section title="terminal-interacts-with-os">
+          <div class="fragment">
+            <p>
+              Both the command line and the GUI are <a href="#terminal"> <strong>terminals</strong></a> or the interface where you interact with your computer&rsquo;s operating system.
+            </p>
+          </div>
+        </section> -->
+
+        <section title="console-back-in-the-day">
+          <img src="Graphics/CLI.gif" alt="Command line interface">
+          <p>
+            Back in the day, the command line was the only way to interact with your computer, until the video display terminal was introduced in the mid-60s.
+          </p>
+          <div class="fragment">
+            <p>
+              As a programmer, you won&rsquo;t need to revert to wearing bell-bottoms but you will need to do tasks on your computer without a mouse.
+            </p>
+          </div>
+
+        </section>
+
+        <section title="access-the-command-line">
+          <h3>How to Access the Command line</h3>
+        </section>
+
+        <section title="the-terminal-application">
+          <p>
+            We&rsquo;ll access the command line using the Terminal (capital-T) application, the most common application on MacOSX and Linux machines.
+          </p>
+          <img src="Graphics/Terminal.png" alt="Terminal Icon for Mac">
+          <h4>Terminal icon</h4>
+        </section>
+
+        <section title="find-the-terminal-application-in-utilities">
+          <p class="big">You can open up Terminal from the Finder</p>
+            <br><p>By going into your Applications folder, and then into your Utilities folder, and then double clicking on the Terminal icon.</p>
+          <br>
+          <img src="Graphics/where_to_find_terminal.gif" alt="Terminal in Utilities">
+        </section>
+
+        <section title="find-the-terminal-application-in-spotlight">
+        <p class="big">Or by using Spotlight.</p>
+        <br>
+        <br>
+        <img src="Graphics/where_to_find_terminal_spotlight.gif" alt="Terminal in Spotlight">
+        </section>
+
+        <section title="open-the-console">
+        <img src="Graphics/sad_face.png" alt="Sorry Windows Users">
+        <p>This tutorial does not explore the command line that comes with Windows, because most developers don&rsquo;t use it. If you&rsquo;re a Windows user, we recommended installing a command line program like <a href="http://cygwin.com/" target="_blank" >Cygwin</a> or <a href="http://msysgit.github.io/" target="_blank">MSysGit</a> in order to follow along with the syntax we use here.</p>
+        </section>
+
+        <section title="do-it-open-the-console">
+          <h2>Your Turn</h2>
+          <ol>
+            <li>
+              <span class="li">
+                Go ahead and open Terminal on your computer &#151;a new window will appear on your screen.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Great! Now everyone who can see over your shoulder will think you&rsquo;re a badass hacker.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="get-started-using-console">
+
+          <h3>How to Get Started Using Terminal</h3>
+
+        </section>
+
+        <section title="console-window">
+          <p>
+            When you open Terminal, you should see a window like this:
+          </p>
+          <img src="Graphics/terminal_blank.gif" alt="Blank Console">
+          <p>
+            This window is where you&rsquo;ll tell the computer what to do, and where the computer will display its reply.
+          </p>
+        </section>
+
+        <section title="prompt">
+          <p class="big">Talk the talk</p>
+          <img src="Graphics/terminal_prompt.gif" alt="Blank Console">
+          <p>
+            The <strong>prompt</strong> is the &lsquo;$&rsquo; that automatically shows up on the end of the first line. It&rsquo;s the command line equivalent of &lsquo;stand-by&rsquo; and indicates Terminal is ready to accept your <a href="index.html#command"><strong>command</strong></a>. We&rsquo;ll learn a few commands later in this lesson.
+          </p>
+        </section>
+
+        <section title="cursor">
+        <p class="big">Talk the talk</p>
+          <img src="Graphics/terminal_cursor.gif" alt="Blank Console">
+          <p>
+            The <strong>cursor</strong> follows the prompt and the text you type will appear here.
+            <br>
+            Just like in every other setting where you've ever seen a cursor.
+          </p>
+        </section>
+
+        <section>
+        <p class="big">Talk the talk</p>
+          <img src="Graphics/terminal_username.gif" alt="Blank Console">
+          <p>The <strong>username</strong> of the person logged in precedes the prompt, and as you can see above, this user is named <em>samspade</em>.</p>
+        </section>
+
+        <section title="do-it-find-your-username">
+          <h2>Your turn</h2>
+          <ol>
+            <li>
+            <span class="li">
+              What name do you see in your open Terminal window just before the prompt? This is your username.</span>
+            </li>
+            <li class="fragment">
+            <span class="li">
+              From now on, mentally subsitute yours for the one you see on screen in any example code.</span>
+            <li class="fragment">
+            <span class="li">
+              You will never need to write out the username and prompt, just any text that follows it.</span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="How Your Computer is Organized">
+          <h1>Part Two</h1>
+          <h3>How Your Computer is Organized</h3>
+        </section>
+
+        <section title="how-the-computer-is-organized-in-gui">
+          <p>
+             Before we get into a few basic commands, it&rsquo;s important to understand how content on your computer is organized.
+          </p>
+          <p>
+            In the Finder GUI, you&rsquo;re probably used to viewing folders and files as icons in a list or in columns.
+          </p>
+          <img src="Graphics/GUI.gif" alt="File System in GUI">
+        </section>
+
+        <section title="what-is-a-file-system">
+          <p>
+            Your computer organizes and stores files using a <strong>file system</strong>.
+          </p>
+          <p>
+            
+          </p>
+          <img src="Graphics/GUI.gif" alt="File System in GUI">
+        </section>
+
+        <section title="what-are-directories">
+          <p>
+            In programming-speak, all folders are called <a href="index.html#directory"><strong>directories</strong></a>.
+          </p>
+          <img src="Graphics/Directory.png" alt="Directory">
+          <p>
+            This folder named <em>World</em> will serve as our first directory.
+          </p>
+        </section>
+
+        <section title="subdirectory">
+          <p>
+            A directory within another directory is called a <strong>subdirectory</strong>.
+          </p>
+          <img src="Graphics/Subdirectory.png" alt="Subdirectory">
+          <p>
+            <em>Africa</em> is a subdirectory of <em>World</em>.
+          </p>
+        </section>
+
+        <section title="parent-directory">
+          <p>
+            A directory that contains a subdirectory or file is called a <strong>parent directory</strong>.
+          </p>
+          <img src="Graphics/ParentDirectory.png" alt="Parent Directory">
+          <p>
+            The parent directory of <em>Africa</em> is <em>World</em>.
+          </p>
+        </section>
+
+        <section title="root-directory">
+          <p>
+            The topmost directory of any file is called the <strong>root directory</strong> &#151;nothing contains it.
+          </p>
+          <img src="Graphics/RootDirectory.png" alt="Root Directory">
+          <p>
+            The root directory of <em>Nairobi.pdf</em> is <em>World</em>.
+          </p>
+        </section>
+
+        <section title="home-directory">
+          <p>
+            For the purposes of this lesson, the root directory of everything on your computer is your home directory.
+          </p>
+          <img src="Graphics/home.jpg" alt="Home Directory">
+          <p>
+          It&rsquo;s aptly represented in the GUI by a house icon.
+          </p>
+        </section>
+
+        <section title="where-to-find-hd">
+            Access your home directory by going into your hard drive (Machintosh HD), then into the Users folder, and then by double-clicking the house icon:
+          <img src="Graphics/where_to_find_home_directory.gif" alt="Home Directory in Finder">
+          <p>*You can also use the keyboard shortcut, <br><kbd>Shift</kbd> + <kbd>&#8984;Command</kbd> + <kbd>H</kbd><br> but you must be in the Finder for this to work!</p>
+        </section>
+
+        <section title="do-it-download-world">
+          <h2>Your Turn</h2>
+          <ol>
+            <li>
+              <span class="li">
+                We&rsquo;ve gone ahead and created a new directory for you, called <em>World</em>. Download it <a href="http://generalassembly.github.io/prework/assets/activity/World.zip">here</a>.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                When you double-click on the zip file, it will create a new folder next to the zip file.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                In the GUI, drag the new <em>World</em> folder from your Downloads folder into your Home Directory.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="file-system-in-console">
+          <p>
+             We know how file and directories appear in the GUI –now let&rsquo;s find our way around this system in command line.
+          </p>
+        </section>
+
+        <section title="path">
+          <p>
+            Computers are dumb. To ask for a specific directory or file in command line, we need to write out a precise address, called a <a href="index.html#path"><strong>path</strong></a> so that the computer knows exactly where to find it.
+            <br>
+            For example, if you call your travel agent and say "I want to go to Main Street," without any additional information, your travel agent wouldn&rsquo;t know which of the 10,466-plus Main Streets you want.
+            <br>
+            You have to be more specific with your computer.
+          </p>
+        </section>
+
+        <section title="absolute-path">
+          <p>
+            Your computer understands two kinds of paths, <strong>absolute</strong> and <strong>relative</strong>.
+            <br>
+            An <strong>absolute</strong> path starts from the root. It&rsquo;s analogous to saying the full address you want starting from the <em>World</em> as our reference point.
+          </p>
+          <img src="Graphics/absolute_path.gif" alt="Absolute Path">
+          </section>
+
+          <section title="absoilute-path-in-gui">
+          <img src="Graphics/absolute_path_world.gif" alt="Absolute Path with GUI">
+          <p>
+            This absolute path is the equivalent of telling the computer,
+            <br>
+            <p class="small">
+            &ldquo;Look in the <em>World</em> directory,then look in the <em>North_America</em> directory, then look in the <em>United_States</em> directory, then look in the <em>Alaska</em> directory, then look in the <em>Anchorage</em> directory for the <em>Main_Street</em> directory.&rdquo;</p>
+          </p>
+        </section>
+
+        <section>
+          <p>
+            If you&rsquo;re standing on a street corner in Anchorage, Alaska you wouldn&rsquo;t need the full address to find Main Street. You could just jump in a taxi and say "Main Street, please."
+          </p>
+            <br>
+          <p>
+            In this case, you&rsquo;d be using a <strong>relative</strong> path.
+          </p>
+            <br>
+            <img src="Graphics/relative_path_world.gif" alt="Relative Path with GUI">
+          </p>
+        </section>
+
+        <section title="working-directory">
+          <p>
+            The directory you are currently in is called your <strong>working directory</strong>.
+            <br>
+            Your working directory name will always be displayed before your username and prompt in the command line.
+            <img src="Graphics/working_directory.gif" alt="working-directory">
+            <br>
+            It&rsquo;s important to know where you&rsquo;re working from so that you know whether to communicate with your computer using absolute or relative paths.
+          </p>
+        </section>
+
+        <section title="navigate-your-file-system">
+          <h1>Part Three</h1>
+          <h3>Navigate Your File System</h3>
+        </section>
+
+        <section title="home-directory">
+          <p>
+            As you can see, when you open up a new Terminal window, you are automatically situated in your home directory:
+          </p>
+          <img src="Graphics/terminal_working_directory.gif" alt="Home Directory">
+          <p>
+            <span class="subtext">
+              The tilde &ldquo;~&rdquo; symbol is a shortcut for the home directory.
+            </span>
+          </p>
+        </section>
+
+        <section title="why-use-shortcuts">
+          <p>
+            Shortcuts will come in handy as we start working with more complex file systems.
+            <br>
+            Think about it, if your file is buried deep inside a maze of directories, it would take a lot of time to write out the entire path.
+          </p>
+          <img src="http://gifshost.com/112009/1257168712_recursive_room.gif" alt="Never Ending Path">
+        </section>
+
+
+        <section title="pwd-in-console">
+          <p>
+            To see the full path for your working directory, you can use the <code>pwd</code> command, which stands for <span class="callout">p</span>rint <span class="callout">w</span>orking <span class="callout">d</span>irectory.
+            <br>
+            For example, if we wanted to see the path for the working directory on Sams-MacBook-Air, we would write:
+          </p>
+          <img src="Graphics/terminal_pwd.gif" alt="pwd">
+          <p>
+          Since we are currently situated in our home directory, the command returns <code>/Users/samspade</code>.
+          </p>
+        </section>
+
+        <section title="Do-it-pwd">
+          <h2>Your Turn</h2>
+          <ol>
+            <li>
+              <span class="li">
+              In your open Terminal window, tell your computer to type <code>pwd</code> and then press <kbd>ENTER</kbd>.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Command Line will return the path to your home directory starting with &ldquo;/Users/...&rdquo;
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Congratulations! You just executed your first command.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="list">
+          <p>
+          Unlike the GUI, you cannot see what other directories or files are present just by <em>being</em> in a particular directory. You have to tell your computer to <span class="callout">l</span>i<span class="callout">s</span>t them for you using the <code>ls</code> command:
+          </p>
+          <img src="Graphics/terminal_ls.gif" alt="List Directory in the Terminal">
+          <p>
+            Typing <code>ls</code> alone will display the contents of your working directory:
+          </p>
+        </section>
+
+        <section title="list-in-gui">
+          <p>
+            Translated to the GUI of your Finder window, you&rsquo;re simply looking inside a folder:
+          </p>
+          <img src="Graphics/ls_in_gui.gif" alt="List Directory in the Terminal">
+          <p>
+            Note that our working directory is in the frame of both the finder window and the Terminal window.
+          </p>
+        </section>
+
+        <section title="do-it-list">
+          <h2>Your Turn</h2>
+          <ol>
+            <li>
+              <span class="li">
+                In your open Terminal window, list the contents of your working directory.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                The computer should return the names of a bunch of directories from inside your home directory, such as Applications, Desktop, Downloads, Pictures, and World.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="list-with-path">
+          <p>
+            If you&rsquo;d like to explore another directory, you need to use <code>ls</code> with a path.
+            <br>
+            For example, <code>ls ~/Documents</code> will show you what's inside <em>Documents</em>:
+          </p>
+          <img src="Graphics/terminal_ls_documents.gif" alt="List Directory in the Terminal">
+          <div class="fragment">
+            <p>
+              Note that even though we just browsed the contents of the <em>Documents</em> directory, we are still currently working from the home directory.
+            </p>
+          </div>
+        </section>
+
+        <section title="argument">
+          <br>
+          <p>
+            The addition of <code>~/Documents</code> is what is known as an <a href="index.html#argument"><strong>argument</strong></a>.  The command tells the computer what to do, and the argument tells the computer what to do it to.
+          <br>
+          For example, your mom could tell you to "Clean!" or she could tell you to "Clean the garage!"
+          </p>
+          <img src="Graphics/argument.png" alt="Argument">
+        </section>
+
+        <section title="do-it-list-with-argument">
+          <h2>Your Turn</h2>
+          <ol>
+            <li>
+              <span class="li">
+                In your open Terminal window, list the contents of the <em>World</em> directory.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                The computer should return 6 continent directories: <em>Africa</em>, <em>Asia</em>, <em>Australia</em>, <em>Europe</em>, <em>North_America</em>, and <em>South_America</em>.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="option">
+          <p>
+          In addition to arguments, we can modify commands using <a href="index.html#option"><strong>options</strong></a>. They describe <em>how</em> the command should be carried out.
+          <br>
+          For example, your mom can tell you to clean the garage "quickly" or "right away".  Though this is the order we would use in English, in command line the option needs to come between the command and the argument:
+          </p>
+          <img src="Graphics/Options.png" alt="command line">
+          <div class="fragment">
+            <p>
+              Let&rsquo;s look at a few options we can use with <code>ls</code>.
+            </p>
+          </div>
+        </section>
+
+        <section title="list-long">
+          <p>
+            You can use the <code>-l</code> <strong>option</strong> to show a <span class="callout">l</span>onger list, including the directory permission, size, owner, modified date and time, and name.
+          </p>
+          <img src="Graphics/terminal_ls_l.gif" alt="Long format">
+        </section>
+
+        <section title="crowded-console">
+          <p>
+            You may have noticed that our Terminal window is looking pretty crowded. A scrollbar has appeared on the right side, so that we can review our previous lines of code:
+          </p>
+          <img src="Graphics/terminal_scroll_scrollback.gif" alt="Scrollbar">
+          <div class="fragment">
+            <p>
+              All of this preceding text is known as <a href="index.html#scrollback">Scrollback</a> (not to be confused with the &rsquo;90s band Nickelback).
+            </p>
+          </div>
+        </section>
+
+        <section title="clear">
+          <p>
+            If you would like to clear your scrollback, simply use the keyboard shortcut <kbd>&#8984;Command</kbd> + <kbd>K</kbd> or enter the <code>clear</code> command. Let&rsquo;s go ahead and do that now:
+          </p>
+          <img src="Graphics/terminal_ls_clear.gif" alt="Clear in Terminal">
+        </section>
+
+        <section title="review-scrollback">
+          <p>
+            Don&rsquo;t worry, this does not permanently delete your command line history.
+          </p>
+          <img src="Graphics/terminal_scrolling.gif" alt="Scrolling with Arrows">
+          <p>
+            You can review your command line history by using the <kbd>&#8984;Command</kbd> and  <kbd>&#x25B2;</kbd> and <kbd>&#x25BC;</kbd> arrows.
+          </p>
+        </section>
+
+        <section title="Do-it-list-long">
+          <h2>Your Turn</h2>
+          <ol>
+            <li>
+              <span class="li">
+                Use the <code>-l</code> option with the <code>ls</code> command without an argument, to list the contents of your working directory.</span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Next, type <code>clear</code> and press <kbd>ENTER</kbd>.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Notice that the prompt has now moved to the top of the window to give you space to work.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Try reviewing your code using your keyboard.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="hidden-files">
+          <p>
+            There are also some files that <code>ls</code> won&rsquo;t show you by default&#151;these are what are known as &ldquo;hidden&rdquo; files.
+          </p>
+          <img src="Graphics/hiddenfolder.png" alt="Hidden File">
+          <p>
+            Hidden filenames start with a dot character and they contain important program configuration information.
+          </p>
+        </section>
+
+        <section title="list-all">
+          <p>
+            Unless you are confident programming in UNIX, don&rsquo;t touch these files.  If you&rsquo;re curious, you can see them by passing the <code>-a</code> option, which modifies <code>ls</code> to show <span class="callout">a</span>ll files contained in a directory:
+          </p>
+          <img src="Graphics/terminal_ls_a.gif" alt="List Hidden Directories in the Terminal">
+          <p>
+            See how many more files are actually contained by the home directory?
+          </p>
+        </section>
+
+        <section title="option-groups" class="content-area">
+          <div>
+            <h3>Fun fact</h3>
+          <p>
+            Options can be grouped together in any order, and still convey the same information to your computer.
+            <br>
+            For example, <code>ls -al</code> and <code>ls -la</code> will both yield the same result!
+          </p>
+        </div>
+        </section>
+
+        <section title="do-it-list-all">
+          <h2>Your Turn</h2>
+          <ol>
+            <li>
+              <span class="li">
+                Pass the <code>-a</code> option with the <code>ls</code> command for the <em>World</em> directory.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Can you spot the hidden files? There should be 14 items total in the <em>World</em> directory, including the 6 continent directories we saw in a previous activity.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Clear your Terminal window.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="cd">
+          <p class="large">
+            Let&rsquo;s move from one <strong>working directory</strong> to another in command line.
+          </p>
+          <br>
+          <p>
+            To do that, we&rsquo;re going to use a command that <em>always</em> takes an argument: the command <code>cd</code> which allows you to <span class="callout">c</span>hange <span class="callout">d</span>irectories.
+          </p>
+        </section>
+
+        <section title="cd-in-console">
+          <p>
+            Let&rsquo;s say we want to move from the <em>samspade</em> directory into its subdirectory, <em>Documents</em>, we would write:
+          </p>
+          <img src="Graphics/terminal_cd.gif" alt="Change Directory in the Terminal">
+          <div class="fragment">
+            <p>
+              Notice how our working directory has changed.
+            </p>
+          </div>
+        </section>
+
+        <section title="cd-in-gui">
+          <p>
+          Translated to the GUI, <code>cd</code> is the equivalent of double clicking on a folder and working in that new window:
+          </p>
+          <img src="Graphics/terminal_gui_cd.gif" alt="Change Directory in the Finder">
+        </section>
+
+        <section title="check-cd-with-pwd">
+          <p>
+            To be sure we successfully moved, we can use the pwd command:
+          </p>
+          <img src="Graphics/terminal_cd_pwd.gif" alt="Change Directory in the Terminal and PWD">
+          <p>
+          <span class="fragment">
+            Now we know what address to use to find <em>Documents</em> when we&rsquo;re totally lost.
+          </span>
+        </p>
+        </section>
+
+        <section title="cd-absolute-path">
+          <p>
+            To move back up to our home directory, <em>samspade</em> we would need to write out the full path OR use this nifty shortcut &ldquo;..&rdquo;:
+          </p>
+
+          <img src="Graphics/terminal_cd_shorthand.gif" alt="Change Directory using parent shorthand">
+          <p>
+            &ldquo;..&rdquo; represents the parent directory of the one you are currently in.
+          </p>
+
+        </section>
+
+        <section title="do-it-cd">
+
+          <h2>Your Turn</h2>
+          <ol>
+            <li>
+              <span class="li">
+                In your open Terminal window change your working directory to <em>Europe</em>.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Next, change your working directory to <em>France</em> using a relative path.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                List the contents of your working directory. If you've successfuly changed working directories, you should see the files <em>eiffel_tower.jpg</em> and <em>mona_lisa.jpg</em>.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Clear your Terminal window.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="manipulate-files">
+
+          <h1>Part Four</h1>
+          <h3>Manipulate Files</h3>
+
+        </section>
+
+        <section title="manipulate-files-ready">
+          <p>
+             Alright, now that you know your way around your computer&rsquo;s file system, you&rsquo;re ready to manipulate these files in command line.
+          </p>
+        </section>
+
+        <section title="mkdir">
+          <p>
+          Let&rsquo;s <span class="callout">m</span>a<span class="callout">k</span>e a new <span class="callout">dir</span>ectory inside of <em>Documents</em>, and call it <em>To Do Lists</em>.
+          <br>
+          We can use the <code>mkdir</code> command, which takes two arguments:
+          <ol>
+          <li>
+            <span class="li">the name of the new directory and
+            </span>
+          </li>
+          <li>
+            <span class="li">
+            the destination path of that directory.
+            </span>
+          </li>
+          </p>
+            <img src="Graphics/terminal_mkdir.gif" alt="mkdir">
+        </section>
+
+        <section title="mkdir-spaces-in-filenames">
+          <p>
+           We should check to see if we were successful by listing the contents of the <em>Documents</em> directory:
+          </p>
+        <img src="Graphics/terminal_mkdir_ls.gif" alt="wrong mkdir">
+          <div class="fragment">
+          <p>
+            Oops. We didn&rsquo;t mean to make three directories <em>To</em>, <em>Do</em> and <em>Lists</em>!
+            <br>
+            There&rsquo;s a lesson here: don&rsquo;t put spaces in your file or directory names. Remember, spaces are how the computer tells the difference between commands, options and arguments.
+          </p>
+          </div>
+        </section>
+
+        <section title="mkdir-special-characters">
+          <p>
+            You can indicate with quotes that <code>"To Do Lists"</code> is one continuous filename, but it's better to just avoid <a href="index.html#specialchar">special characters</a> altogether.
+          </p>
+        </section>
+
+        <section title="rm">
+          <p class="big">
+            Not to worry.
+          </p>
+            <br>
+            <p>We can delete or <span class="callout">r</span>e<span class="callout">m</span>ove files by running the <code>rm</code> command. To delete a directory, we need to pass the <span class="callout">r</span>ecursive option <code>-r</code>, which tells your computer to delete that directory along with any files or subdirectories it contains.
+          </section>
+
+          <section title="rm-recursive">
+          So let&rsquo;s go ahead and remove <em>To</em> and <em>Do</em> and <em>Lists</em>. Just as we could create multiple directories all at once, we can delete multiple directories by separating them with a space:
+          </p>
+          <img src="Graphics/terminal_rm_r.gif" alt="Removing Folders">
+        </section>
+
+        <section title="List after Remove">
+          <p>
+          To be sure they&rsquo;re gone, we should list the contents of our home directory again.
+          <img src="Graphics/terminal_rm_ls.gif" alt="List After Removing Folders">
+          </p>
+        </section>
+
+        <section title="be-careful-with-rm">
+          <img src="http://i.giphy.com/cEYFeDY2gmppxFLpoIM.gif">
+          <br>
+          <br>
+          <p>
+            You can't undo the <code>rm</code> command, so be careful when you delete files. Removing files in command line is not the same as moving a file to the <em>Trash</em>.
+          </p>
+        </section>
+
+        <section title="rm-interactive">
+          <p>
+            If you&rsquo;re feeling cautious, you can use the <code>-i</code> option which will create an <span class="callout">i</span>nteractive warning when you press <kbd>ENTER</kbd>.
+          </p>
+          <img src="Graphics/terminal_rm_i.gif" alt="rm ri">
+          <p>
+            Above is what our command line would have looked like had we passed the <code>-i</code> option. To proceed you will need to type <code>y</code> (yes, please delete) or <code>n</code> (no, please don&rsquo;t delete).
+          </p>
+        </section>
+
+        <section title="rm-interactive-in-gui" alt="Remove in GUI">
+          <p>
+            Translated to the GUI, you&rsquo;re asking for an alert box to ask you whether you&rsquo;re really, truly sure you want to delete each file or folder:
+          </p>
+          <img src="Graphics/terminal_rm_gui.gif" alt="rm r">
+          <div class="fragment">
+          <p>
+          Note that the GUI window doesn&rsquo;t perfectly illustrate what is happening in command line. This is because we are manipulating files in a directory different from our working directory&#151;you can&rsquo;t do this in the GUI. You&rsquo;d have to open a <em>Documents</em> window in order to work with its contents.
+          </p>
+        </div>
+        </section>
+
+
+        <section title="do-it-mkdir">
+          <h2>Your Turn</h2>
+          <ol>
+            <li>
+              <span class="li">
+                You may have noticed that we neglected to include Antarctica in the <em>World</em> directory.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Go ahead and correct this mistake straight from command line; make a new directory titled &ldquo;Antarctica&rdquo; inside the <em>World</em> directory.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                To be sure you created the directory in the right place, list the contents of the <em>World</em> directory.
+              </span>
+            </li>
+            <li class="fragment">
+              <span class="li">
+                Clear your Terminal window.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="mkdir-2">
+          <p>
+          Now let&rsquo;s try that again. We&rsquo;ll substitute underscores for the spaces, and call our new directory <em>To_Do_Lists</em>
+          </p>
+          <img src="Graphics/terminal_mkdir2.gif" alt="mkdir again">
+         <div class="fragment">
+           You might have noticed, we have a bunch of files in <em>Documents</em> that belong in <em>To_Do_Lists</em>. Many of them have spaces and special characters in their filenames, which makes them a pain to deal with in command line.
+         </div>
+        </section>
+
+        <section title="mv">
+          <p>
+            Fortunately, we only need one command to rename and <span class="callout">m</span>o<span class="callout">v</span>e files and directories: the <code>mv</code> command.
+          </p>
+          <div class="fragment">
+            <p>
+            The <code>mv</code> command always takes two arguments:
+            </p>
+              <ol>
+              <div class="fragment">
+              <li>
+                <span class="li">
+                  To move directories or files to a location;
+                </span>
+              </li>
+              <div><code>$ mv [FILE_NAME] [LOCATION]</code></div></div>
+              <br>
+              <div class="fragment">
+               <li>
+                  <span class="li">
+                    To rename a file.
+                  </span>
+                </li>
+                <code>$ mv [FILE_NAME] [NEW_FILE_NAME]</code></div>
+              </ol>
+          </div>
+      </section>
+
+        <section title="mv-rename">
+              <p>
+              For example, if we wanted to change <em>Monday Tasks.txt</em> to <em>monday_tasks.txt</em> without moving the file, we would write <code>mv 'Monday Tasks.txt' monday_tasks.txt</code>.
+            </p>
+        </section>
+
+        <section title="mv-move">
+        <p>If we wanted to move <em>monday_tasks.txt</em> to <em>To_Do_Lists</em> we would write <code>mv 'monday_tasks.txt' To_Do_Lists</code>
+        </p>
+      </section>
+
+        <section title="mv-move-and-rename">
+        <p>If we wanted to move <em>$aturday Tasks.txt</em> to <em>To_Do_Lists</em> and rename it <em>saturday_tasks.txt</em> we would write <code>mv '$aturday Tasks.txt' To_Do_Lists/saturday_tasks.txt</code>
+        </p>
+        </section>
+
+        <section title="mv-interactive">
+          <p>
+          Just like the <code>rm</code> command, <code>mv</code> has an <code>-i</code> option, which will warn you if --in the above example --a file named <em>saturday_tasks.txt</em> already exists in the <em>To_Do_Lists</em> directory.
+          <br>
+          If you move a file to a new folder that contains a file with the same name, the existing file will be overwritten with no chance of recovery.
+          </p>
+        </section>
+
+        <section title="do-it-mv">
+          <h2>Your Turn</h2>
+          <ol>
+            <li>
+              <span class="li">
+                Move into the <em>World</em> directory.
+              </span>
+            </li>
+            <li>
+              <span class="li">
+                List the contents of <em>South America</em>. There should be three continent directories, <em>Argentina</em>, <em>Brazil</em>, and <em>Chile</em>.
+              </span>
+            </li>
+            <li>
+              <span class="li">
+                Move the contents of <em>South America</em> into the <em>North America</em> folder.
+              </span>
+            </li>
+            <li>
+              <span class="li">
+                Delete the now empty <em>South America</em> directory
+              </span>
+            </li>
+            <li>
+              <span class="li">
+                Change the name of <em>North_America</em> to <em>Americas</em>
+              </span>
+            </li>
+            <li>
+              <span class="li">
+               Clear your Terminal window.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section title="congratulations" data-background="Graphics/confetti.gif">
+            <p>
+              Congratulations!
+              <br>
+              You&rsquo;ve graduated from an average computer user to a slightly more sophisticated computer user.
+            </p>
+        </section>
+
+
+        <section>
+          <section title="key-terms">
+            <h2>Glossary A</h2>
+            <h4>Terms</h4>
+            <p>
+              Use the <kbd>&#x25B2;</kbd> and <kbd>&#x25BC;</kbd> arrows on your keyboard to view the full list of <strong>terms</strong> from this lesson.
+            </p>
+          </section>
+
+          <section title="definition-terminal" id="terminal">
+            <h3>Terminal</h3>
+            <ol>
+              <li>
+                <span class="li">
+                  An OSX application that provides text-based access to the operating system;
+                </span>
+              </li>
+              <li>
+                <span class="li">
+                  Any device or application used for data entry and display in a computer system
+                </span>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <ul>
+              <li>
+                <em>Synonyms</em>
+                : client, computer terminal, terminal emulator
+              </li>
+            </ul>
+            <br>
+            <br>
+            <p>
+              <a href="index.html#/6">Return to first mention</a>
+            </p>
+          </section>
+
+          <section title="definition-commandline" id="commandline">
+            <h3>Command Line</h3>
+            <ul>
+              <li>
+                A text-based interface.
+              </li>
+              <li>
+                <em>Synonyms</em>
+                : command-line interface (CLI), console
+              </li>
+            </ul>
+              <br>
+              <br>
+              <p>
+                <a href="index.html#/5">Return to first mention</a>
+              </p>
+          </section>
+
+          <section title="definition-directory" id="directory">
+            <h3>Directory</h3>
+            <ul>
+              <li>
+                An organizational unit, or container, used to organize computer files into a hierarchical structure.
+              </li>
+              <br>
+              <li>
+                <em>Synonyms</em>
+                : folder, catalog, drawer
+              </li>
+            </ul>
+            <br>
+            <br>
+            <p>
+              <a href="index.html#/20">Return to first mention</a>
+            </p>
+          </section>
+
+          <section title="definition-filesystem" id="file-system">
+            <h3>File System</h3>
+            <ul>
+              <li>A file system is a systematic way to control how information is stored and retrieved. It describes where one piece of information stops and where the next one begins. Each file system has its own structure and logic.</li>
+              <br>
+              <li>
+                <em>Synonyms</em>
+                : NTFS (Windows' File System), HFS+ (Apple's File System), file allocation table, GFS (Global File System)
+              </li>
+            </ul>
+            <br>
+            <br>
+            <p>
+              <a href="index.html#/">Return to first mention</a>
+            </p>
+            </ul>
+          </section>
+
+            <section title="definition-path" id="path">
+              <h3>Path</h3>
+              <ul>
+                <li>
+                  A sequence of symbols and names that identifies a file or directory. The path always starts from your working directory or from the root directory, and each subdirectory is followed by a forward slash.
+                </li>
+                <li>
+                  An <em>absolute</em> or full path begins with the root directory and specifies every directory above the terminating file or dirctory name.
+                </li>
+                <li>
+                  A <em>relative</em> path does not include the root or parent directory names, and refers to a file or directory directly below the current working directory.
+                </li>
+                <br>
+                <li>
+                  <em>Synonyms</em>
+                  : pathname
+                </li>
+              </ul>
+              <br>
+              <br>
+              <p>
+                <a href="index.html#/28">Return to first mention</a>
+              </p>
+            </section>
+
+            <section title="definition-scrollback" id="scrollback">
+              <h3>Scrollback</h3>
+              <ul>
+                <li>
+                  The part of a scrolling display that precedes the current line or section.
+                </li>
+                <br>
+                <li>
+                  <em>Synonyms</em>
+                  : backscroll
+                </li>
+              </ul>
+              <br>
+              <br>
+              <p>
+                <a href="index.html#/46">Return to first mention</a>
+              </p>
+            </section>
+
+            <section title="definition-command" id="command">
+              <h3>Command</h3>
+              <ul>
+                <li>
+                  The action we want the computer to take; always a single word.
+                </li>
+                <br>
+                <li>
+                  <em>Synonyms</em>
+                  : utility
+                </li>
+              </ul>
+              <br>
+              <br>
+              <p>
+                <a href="index.html#/14">Return to first mention</a>
+              </p>
+            </section>
+
+            <section title="definition-option" id="option">
+              <h3>Option</h3>
+              <ul>
+                <li>
+                  Follows the &ldquo;command&rdquo; in a command line, to modify the behavior of the command in some way.
+                </li>
+                <br>
+                <li>
+                  <em>Synonyms</em>
+                  : flag
+                </li>
+              </ul>
+              <br>
+              <br>
+              <p>
+                <a href="index.html#/44">Return to first mention</a>
+              </p>
+            </section>
+
+            <section title="definition-argument" id="argument">
+              <h3>Argument</h3>
+              <ul>
+                <li>
+                  Follows the &ldquo;command&rdquo; and &ldquo;options&rdquo; (if any) in a command line, and is used to explain what we want the command to act on.
+                </li>
+                <br>
+                <li>
+                  The number of arguments used generally depends on the command: some don&rsquo;t need arguments, some require exactly one argument, some require lots of arguments, and some are flexible in the number they can take.
+                </li>
+              </ul>
+              <br>
+              <br>
+              <p>
+                <a href="index.html#/42">Return to first mention</a>
+              </p>
+            </section>
+
+            <section title="definition-specialchar" id="specialchar">
+              <h2>Special Characters</h2>
+              <ul>
+                <li>
+                  Don&rsquo;t use the following characters and symbols in your filenames:
+                </li>
+                <br>
+                <li>
+                  # pound
+                </li>
+                <li>
+                  & ampersand
+                </li>
+                <li>
+                  \ back slash
+                </li>
+                <li>
+                 / forward slash
+                </li>
+                <li>
+                  blank spaces
+                </li>
+                <li>
+                  . period
+                </li>
+              </ul>
+              <br>
+              <br>
+              <p>
+                <a href="index.html#/64">Return to first mention</a>
+              </p>
+            </section>
+          </section>
+
+        <section>
+        <section title="key-commands">
+          <h2>Glossary B</h2>
+          <h4>Commands</h4>
+          <p>
+            Use the <kbd>&#x25B2;</kbd> and <kbd>&#x25BC;</kbd> arrows on your keyboard to view the full list of <strong>commands</strong> from this lesson.
+          </p>
+        </section>
+
+          <section title="definition-man" id="man">
+            <p>
+              Your Terminal comes with a <span class="callout">man</span>ual, and to access more (<em>a lot more</em>) information about any command, type <code>man</code> followed by the command name and press <kbd>Enter</kbd>:
+            </p>
+            <img src="Graphics/terminal_man.gif" alt="Manual">
+            <br>
+            <p>
+              You can scroll through a manual entry with the arrow keys or space bar. To quit this view and return to your prompt, just type <code>q</code>.
+            </p>
+          </section>
+
+          <section title="definition-man" id="pwd">
+            <div class="code-big"><code class="big">pwd</code></div>
+            <p>Prints the working directory; returns the absolute path name of the current directory</p>
+            <br>
+            <code>$ pwd [-options]</code>
+          </section>
+
+          <section title="definition-man" id="ls">
+            <div class="code-big"><code class="big">ls</code></div>
+            <p>Lists directory contents</p>
+            <br>
+            <code>$ ls [-options] [DIRECTORY_NAME]</code>
+          </section>
+
+          <section title="definition-man" id="cd">
+            <div class="code-big"><code class="big">cd</code></div>
+            <p>Changes your current working directory</p>
+            <br>
+            <code>$ cd [-options] [DIRECTORY_NAME]</code>
+          </section>
+
+          <section title="definition-man" id="clear">
+            <div class="code-big"><code class="big">clear</code></div>
+            <p>Clears the terminal screen</p>
+            <br>
+            <code>$ clear</code>
+          </section>
+
+          <section title="definition-man" id="mkdir">
+            <div class="code-big"><code class="big">mkdir</code></div>
+            <p>Creates a new directory</p>
+            <br>
+            <code>$ mkdir [-options] [DIRECTORY_NAME]</code>
+          </section>
+
+          <section title="definition-man" id="rm">
+            <div class="code-big"><code class="big">rm</code></div>
+            <p>Deletes directories or files permanently.</p>
+            <br>
+            <code>$ rm [-options] [FILE_NAME] [FILE_NAME2] ...</code>
+          </section>
+
+          <section title="definition-man" id="mv">
+            <div class="code-big"><code class="big">mv</code></div>
+            <ol>
+              <li><span class="li">Moves directories or files to a location;</span></li>
+              <div><code>$ mv [-options] [FILE_NAME] [LOCATION]</code><div>
+              <br>
+               <li><span class="li">Renames a file.</span></li>
+               <code>$ mv [-options] [FILE_NAME] [NEW_FILE_NAME]</code>
+              </ol>
+          </section>
+        </section>
+
+        <section title="feedback form">
+          <div id="wufoo">
+            <iframe title="What did you think of &quot;Use Command Line&quot;?" frameborder="0" src="https://generalassembly.wufoo.com/forms/z1x46f5p08sa0ur/">
+            <a href="https://generalassembly.wufoo.com/forms/z1x46f5p08sa0ur/" title="HTML Form">What did you think of "Use Command Line"?</a>
+            </iframe>
+          </div>
+
+        </section>
+
+      </div>
+
+      <aside class="footer">
+        <div class="toc">
+          <a href="index.html#/2"><span class="arrow">&#9668;</span>Back to table of contents</a>
+        </div>
+      </aside>
+
+     <aside class="get_started">
+      <div id= "get_started" class="floating"></div>
+      </aside>
+
+    </div>
+
+          <script src="../lib/js/head.min.js"></script>
+          <script src="../js/reveal.min.js"></script>
+          <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+          <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+              controls: true,
+              progress: true,
+              history: true,
+              slideNumber: false,
+              center: true,
+              width: 1366,
+              height: 768,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                { src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: '../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: '../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: '../plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                { src: '../plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+              });
+
+            Reveal.addEventListener('slidechanged', function(event) {
+              showTableOfContents(event.indexh);
+              showSlideNumber(event.indexh);
+              showGetStarted(event.indexh);
+            });
+
+            Reveal.addEventListener('ready', function(event) {
+              showTableOfContents(event.indexh);
+              showSlideNumber(event.indexh);
+              showGetStarted(event.indexh);
+            });
+
+            function showTableOfContents(indexh) {
+              if (indexh !== 0 || indexh !== 1 || indexh !== 2) {
+                $('.toc').show();
+              }
+              if (indexh === 0 || indexh === 1 || indexh === 2) {
+                $('.toc').hide();
+              }
+            }
+
+            function showSlideNumber(indexh) {
+              if (indexh === 0) {
+                $('.slide-number').hide();
+              } else {
+                $('.slide-number').text(indexh);
+                $('.slide-number').show();
+              }
+            }
+
+            function showGetStarted(indexh) {
+              if (indexh === 0) {
+                $('.floating').show();
+              }
+              if (indexh !== 0) {
+                $('.floating').hide();
+              }
+            }
+
+          </script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-55317611-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <script type="text/javascript">
+    var _kmq = _kmq || [];
+    var _kmk = _kmk || '66ff73daf31d1224f46a403d4286b4de70f4da55';
+    function _kms(u){
+      setTimeout(function(){
+        var d = document, f = d.getElementsByTagName('script')[0],
+        s = d.createElement('script');
+        s.type = 'text/javascript'; s.async = true; s.src = u;
+        f.parentNode.insertBefore(s, f);
+      }, 1);
+    }
+    _kms('//i.kissmetrics.com/i.js');
+    _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+  </script>
+
+  <script>
+
+    Reveal.addEventListener('ready', function( event ) {
+        _kmq.push(['record', 'viewed-public-slide']);
+        _kmq.push(['record', 'viewed-public-slide ' + event.currentSlide.title]);
+        _kmq.push(['record', 'viewed-public-slide-number ' + event.indexh]);
+        showTableOfContents(event.indexh);
+        showSlideNumber(event.indexh);
+    });
+
+    Reveal.addEventListener('slidechanged', function( event ) {
+        _kmq.push(['record', 'viewed-public-slide']);
+        _kmq.push(['record', 'viewed-public-slide ' + event.currentSlide.title]);
+        _kmq.push(['record', 'viewed-public-slide-number ' + event.indexh]);
+        _kmq.push(['record', 'changed-public-slide']);
+        _kmq.push(['record', 'changed-public-slide ' + event.previousSlide.title + ' to ' + event.currentSlide.title]);
+        showTableOfContents(event.indexh);
+        showSlideNumber(event.indexh);
+    });
+
+  </script>
+</body>
+</html>

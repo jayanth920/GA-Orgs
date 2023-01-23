@@ -1,0 +1,14 @@
+<% @articles.each do |article| %>
+  <div class="article">
+    <h2 class="article-title"><%= article.title %></h2>
+    <p class="article-content"><%= article.content %></p>
+    <% if article.user %>
+      <p class="article-author">By <%= article.user.email %></p>
+    <% end %>
+    <p class="article-links">
+      <%= link_to 'View', article %> |
+      <%= link_to 'Edit', edit_article_path(article) %> |
+      <%= link_to 'Delete', article, method: :delete, data: {confirm: 'Are you sure?'} %>
+    </p>
+  </div>
+<% end %>

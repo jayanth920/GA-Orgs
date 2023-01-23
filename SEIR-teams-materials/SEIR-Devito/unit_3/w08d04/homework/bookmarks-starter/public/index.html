@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="BookmarkApp">
+  <head>
+    <meta charset="utf-8">
+    <title>BOOKMARK'd</title>
+    <!-- ====== fonts & styles ====== -->
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- ====== scripts ====== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" charset="utf-8"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
+  </head>
+  <body ng-controller="BookmarkController as ctrl">
+    <h1>ADD NEW BOOKMARK</h1>
+    <!-- ====== form to create new bookmark ====== -->
+    <form ng-submit="ctrl.newBookmark()">
+      <!-- title -->
+      <input type="text" placeholder="BOOKMARK TITLE" ng-model="ctrl.newBookmarkData.title">
+      <!-- url -->
+      <input type="text" placeholder="BOOKMARK URL" ng-model="ctrl.newBookmarkData.url">
+      <!-- submit -->
+      <input type="submit" name="" value="submit">
+    </form>
+    <h1>ALL BOOKMARKS</h1>
+    <!-- ====== list of all bookmarks ====== -->
+    <ul>
+      <li ng-repeat="bookmark in ctrl.allBookmarks">
+        <!-- link to bookmark -->
+        <a href="{{bookmark.url}}">{{bookmark.title}}</a>
+        <!-- edit bookmark button -->
+        <a ng-click="ctrl.showEditBookmark(bookmark, $index)" class="li-button">
+          <span class="lnr lnr-pencil"></span>
+        </a>
+        <!-- delete bookmark button -->
+        <a ng-click="ctrl.deleteBookmark(bookmark._id)" class="li-button">
+          <span class="lnr lnr-trash"></span>
+        </a>
+        <!-- ====== edit bookmark form ====== -->
+        <form ng-submit="ctrl.editBookmark(bookmark._id)" ng-if="ctrl.editIndex === $index">
+          <!-- title -->
+          <input type="text" placeholder="BOOKMARK TITLE" ng-model="ctrl.editData.title">
+          <!-- url -->
+          <input type="text" placeholder="BOOKMARK URL" ng-model="ctrl.editData.url">
+          <!-- submit -->
+          <input type="submit" name="" value="submit">
+        </form>
+      </li>
+    </ul>
+  </body>
+</html>

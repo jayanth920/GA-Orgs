@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+- 2.2.0
+script: bundle exec rspec spec/models/step6.rb
+notifications:
+  webhooks: http://gradingwizard.herokuapp.com/travisreports

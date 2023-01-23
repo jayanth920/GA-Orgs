@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>HTML-CSS-Bootstrap-Layout</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags-->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+      <!-- Do not add `script` tags-->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <body>
+        <!-- required 'container' class wrapper for our rows/columns -->
+        <div class="container">
+          <h1>HTML-CSS-Bootstrap-Layout</h1>
+          <h2>Let's make some grids!</h2>
+          <div class="row">
+            <div class="col-md-8 box alt-color">.col-md-8</div>
+            <div class="col-md-4 box alt-color">.col-md-4</div>
+          </div>
+
+          <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+          <div class="row">
+            <div class="col-12 col-md-8 box">.col-12 .col-md-8</div>
+            <div class="col-6 col-md-4 box">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-12 box">.col-6 .col-md-12</div>
+          </div>
+
+          <!-- Columns start at 50% wide on mobile and bump up to 33.3% 6wide on desktop -->
+          <div class="row">
+            <div class="col-6 col-md-4 box alt-color">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4 box alt-color">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4 box alt-color">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-12 box alt-color">.col-6 .col-md-12</div>
+          </div>
+
+          <!-- Columns are always 50% wide, on mobile and desktop -->
+          <div class="row">
+            <div class="col-6 box">.col-6</div>
+            <div class="col-6 box">.col-6</div>
+          </div>
+
+      </div>
+    </body>
+</html>

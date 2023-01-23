@@ -1,0 +1,39 @@
+{
+  "src": {
+    "all": [
+      "bin/**/*.js",
+      "lib/**/*.js",
+      "spec/**/*.spec.js",
+      "snippets/**/*.js",
+      "scripts/**/*.js"
+    ],
+    "spec": [
+      "spec/**/*.spec.js"
+    ],
+    "lib": [
+      "lib/**/*.js"
+    ],
+    "snippets": [
+      "snippets/**/*.js"
+    ],
+    "scripts": [
+      "scripts/**/*.js"
+    ]
+  },
+
+  "grunt": {
+    "all": [
+      "Gruntfile.js",
+      "grunt/*.js"
+    ]
+  },
+
+  "json": {
+    "all": [
+      "lib/**/*.json",
+      "spec/**/*.json",
+      "grunt/*.json",
+      "snippets/**/*.json"
+    ]
+  }
+}

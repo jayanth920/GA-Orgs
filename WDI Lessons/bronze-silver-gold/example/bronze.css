@@ -1,0 +1,12 @@
+td{
+  width:100px;
+  height:100px;
+}
+.player1{
+  background-color:blue;
+  color:white;
+}
+.player2{
+  background-color:red;
+  color:black;
+}

@@ -1,0 +1,2 @@
+- Run `bower install` in this directory to install required JS libraries. 
+- Run `http-server ./` and then open [http://localhost:8080](http://localhost:8080) in your browser to see the contents of this folder. Press `control-c` to stop the server.

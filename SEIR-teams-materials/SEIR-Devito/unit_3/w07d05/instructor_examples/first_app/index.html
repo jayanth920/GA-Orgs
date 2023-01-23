@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Add the Angular directive ng-app -->
+<html lang="en" ng-app='MyApp'>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- import AngularJS (1.x) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+  <!-- import our app.js file -->
+  <script src="app.js"></script>
+  <title>Document</title>
+  <style>
+    img {
+      max-width: 100px;
+      display: inline-block;
+    }
+    dl {
+      display: inline-block;
+      vertical-align: top;
+    }
+</style>
+</head>
+<!--MainController will be referenced as ctrl  -->
+<body ng-controller='MainController as ctrl'>
+  <!-- <h1>Hello</h1> -->
+  <h1>{{ ctrl.hello }}</h1>
+  <button ng-click='ctrl.toggleInfo()'>Toggle Info</button>
+  <div ng-repeat='contact in ctrl.contacts'>
+    <img
+      ng-src="{{ contact.image }}" alt="an image of {{ contact.name }}"
+      ng-if='ctrl.showImages'
+      >
+    <dl>
+      <dt> {{ contact.name }}</dt>
+      <dd  ng-show="ctrl.showInfo"> {{ contact.state }}</dd>
+      <dd  ng-show="ctrl.showInfo"> {{ contact.phone }}</dd>
+    </dl>
+  </div>
+
+</body>
+</html>

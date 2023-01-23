@@ -1,0 +1,6 @@
+title: 'Golden Age', genre: 'Rock', price: 1.49
+title: 'Breathe', genre: 'ProgRock', price: 2.49
+title: 'Norwegian Wood', genre: 'Rock', price: 1.99
+title: 'Chocolate Jesus', genre: 'Folk', price: 1.79
+title: 'Into the Dust', genre: 'Blues', price: 1.79
+

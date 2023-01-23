@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="MovieApp" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body ng-controller="MainController as ctrl">
+
+    <h1>Welcome to {{ctrl.appName}}</h1>
+
+    <input type="text" placeholder="movie title" ng-model="ctrl.movieTitle" />
+    <button ng-click="ctrl.getMovies()"> Find all movies </button>
+
+    <div
+
+
+    <div ng-repeat="movie in ctrl.movieData">
+      <div ng-if="movie.Title">
+        <h2 ng-click="ctrl.getMovieDetails(movie.Title)">{{ movie.Title }} ({{ movie.Year }})</h2>
+        <div ng-if="movie.Plot">
+          <img ng-src='{{ movie.Poster }}' />
+          <h3> Starring: {{ movie.Actors }} </h3>
+          <h4> Plot: {{ movie.Plot }} </h4>
+          <h5> Genre: {{ movie.Genre }} </h5>
+          <h6> Rated: {{ movie.Rated }} </h6>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

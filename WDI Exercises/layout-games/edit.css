@@ -1,0 +1,69 @@
+/* ************
+part I:
+************ */
+
+/* ===========
+position 8/19
+=========== */
+
+
+
+/* ===========
+float, fixed width 12/19
+=========== */
+
+/*
+.container:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}*/
+
+
+
+/* ===========
+float, percent 13/19
+=========== */
+
+/*
+.container:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}*/
+
+
+
+/* ===========
+media-queries, float, percent 14/19
+=========== */
+
+/*
+.container:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}*/
+
+
+
+/* ************
+part II:
+************ */
+
+/* ===========
+inline-block, percent 16/19
+=========== */
+
+
+
+/* ===========
+flexbox 17/19
+=========== */
+

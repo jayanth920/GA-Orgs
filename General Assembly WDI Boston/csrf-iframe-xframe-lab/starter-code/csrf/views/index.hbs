@@ -1,0 +1,30 @@
+<h1>Cross-Site Request Forgery Demo</h1>
+
+
+{{#if yourName}}
+<p>
+    Welcome to the Cross-Site Request Forgery (CSRF) Lab <strong>{{yourName}}</strong>.
+</p>
+
+<p>
+    We hope you enjoy your day!
+</p>
+{{else}}
+<p>
+    Welcome to the Cross-Site Request Forgery (CSRF) Lab.
+</p>
+{{/if}}
+
+<p>
+    This website is vulnerable to CSRF.
+</p>
+
+<form action="/update" method="post">
+    <label for="name">
+        Your Name: <input type="text" name="name" value="{{yourName}}" />
+    </label>
+    
+    <br />
+    
+    <input type="submit" value="Save" />
+</form>

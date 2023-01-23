@@ -1,0 +1,7 @@
+<h1>Index of Guitars</h1>
+
+<% @guitars.each do |guitar| %>
+  <div><%= guitar.make %> is an example of <%= guitar.model %></div>
+<% end %>
+
+<a href="/guitars/new.html">Create a New Guitar</a>

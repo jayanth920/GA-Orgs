@@ -1,0 +1,19 @@
+{
+  "name": "balancing_binary_trees",
+  "version": "1.0.0",
+  "description": "Repository for AVL Trees modules and exercise",
+  "main": "balancing_trees.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:sei-921/balancing_binary_trees.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

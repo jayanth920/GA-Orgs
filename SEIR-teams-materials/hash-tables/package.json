@@ -1,0 +1,19 @@
+{
+  "name": "hash-tables",
+  "version": "1.0.0",
+  "description": "Exercises and tests for hash tables",
+  "main": "hashtable.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:sei-921/hash-tables.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

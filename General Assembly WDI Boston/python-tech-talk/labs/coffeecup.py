@@ -1,0 +1,1 @@
+"""Defines a CoffeeCup Class"""

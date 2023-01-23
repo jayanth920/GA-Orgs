@@ -1,0 +1,17 @@
+<h1> <%= @show.title %> </h1>
+
+<h2> At <%= link_to(@show.venue) {@show.venue.name} %> </h2>
+
+<p><%= @show.description %></p>
+<p>
+  <% if signed_in? %>
+    <% if @attending_this %>
+
+      <%= button_to("Cancel attending this show",show_attendances_path(@show.id), :method => :delete, :class => 'btn btn-danger') %>
+    <% else %>
+      <%= button_to("Attend this show",show_attendances_path(@show.id), :class => 'btn btn-success') %>
+    <% end %>
+  <% end %>
+</p>
+<h3>Users attending this show:</h3> 
+<%= render @show.users %>

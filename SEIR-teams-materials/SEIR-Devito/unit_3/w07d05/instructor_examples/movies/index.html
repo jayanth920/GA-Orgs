@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='MoviesApp'>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- import AngularJS (1.x) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+  <!-- import our app.js file -->
+  <script src="app.js"></script>
+</head>
+<body ng-controller='MainController as ctrl'>
+ <h1>Welcome to {{ ctrl.appName }}</h1>
+ <!-- clicking on subnmit will trigger ng-submit to call the getMovies() method -->
+ <form ng-submit='ctrl.getMovies()'>
+   <input
+     type="text"
+     placeholder='movie title'
+     <!--ng-model will capture the data inputed into the input field   -->
+     ng-model='ctrl.movieTitle'
+    />
+   <button type='submit'>SUBMIT</button>
+ </form>
+<!-- if this.movies in the ctrl is updated than it triggers ng-repeat to loop over and
+     output that new info as HTML
+ -->
+ <div ng-repeat='movie in ctrl.movies'>
+  <h2>{{ movie.title }} {{ movie.Year }}</h2>
+  <img ng-src="{{ movie.Poster }}" alt="">
+  <h3>Starring: {{ movie.Actors }}</h3>
+  <h4>Plot: {{ movie.Plot }}</h4>
+  <h5>Genre: {{ movie.Genre }}</h5>
+  <h6>Rated: {{ movie.Rated }}</h6>
+ </div>
+</body>
+</html>

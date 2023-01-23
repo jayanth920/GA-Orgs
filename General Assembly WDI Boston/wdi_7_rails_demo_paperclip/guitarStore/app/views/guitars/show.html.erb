@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Make:</b>
+  <%= @guitar.make %>
+</p>
+
+<p>
+  <b>Model:</b>
+  <%= @guitar.model %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%= @guitar.year %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @guitar.price %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @guitar.description %>
+</p>
+
+<p>
+  <b>Color:</b>
+  <%= @guitar.color %>
+</p>
+
+
+<%= link_to 'Edit', edit_guitar_path(@guitar) %> |
+<%= link_to 'Back', guitars_path %>

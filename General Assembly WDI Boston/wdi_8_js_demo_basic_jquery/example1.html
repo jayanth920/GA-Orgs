@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Demo</title>
+
+    <style>
+      a.test {
+        font-weight: bold;
+      }
+    </style>
+    <script src="jquery-2.1.0.js"></script>
+    <script>
+      // $ is an alias for the jQuery function. It's argument
+      // is the document object.
+      // $('#theElement); is the same as jQuery('#theElement');
+
+      // This jQuery function has a ready method that takes a
+      // function as an argument.
+
+      // The function is executed as soon as the DOM is ready.
+      $(document).ready(function(){
+         // This is where all the code you want to invoke
+         // when the DOM is ready
+
+         // Selectors, mega powerful
+         // Select the elememnt by id. Notice the # for the id.
+         var theDiv = $('#theDiv');
+
+         // Modify the elements css attributes
+         theDiv.css('border', '1px solid black');
+
+         // Add a click handler
+         theDiv.click(function(){
+           alert('Div clicked');
+         });
+
+        });
+    </script>
+</head>
+<body>
+    <div id='theDiv'>Empty Div</div
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Skrollr Parallax Scrolling</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <h1>Skrollr Demo: Parallax Scrolling</h1>
+    <!--
+    We position the images fixed and therefore need to place them outside of #skrollr-body.
+    We will then use data-anchor-target to display the correct image matching the current section (.gap element).
+  -->
+
+  <div
+    class="parallax-image-wrapper parallax-image-wrapper-100"
+    data-anchor-target="#dragons + .gap"
+    data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+    data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div
+      class="parallax-image parallax-image-100"
+      style="background-image:url(images/kitteh1.jpg)"
+      data-anchor-target="#dragons + .gap"
+      data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+      data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+    ></div>
+    <!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+  </div>
+
+  <div
+    class="parallax-image-wrapper parallax-image-wrapper-100"
+    data-anchor-target="#bacons + .gap"
+    data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+    data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div
+      class="parallax-image parallax-image-100"
+      style="background-image:url(images/kitteh2.jpg)"
+      data-anchor-target="#bacons + .gap"
+      data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+      data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+    ></div>
+  </div>
+
+  <div
+    class="parallax-image-wrapper parallax-image-wrapper-50"
+    data-anchor-target="#kittens + .gap"
+    data-bottom-top="transform:translate3d(0px, 300%, 0px)"
+    data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div
+      class="parallax-image parallax-image-50"
+      style="background-image:url(images/kitteh3.jpg)"
+      data-anchor-target="#kittens + .gap"
+      data-bottom-top="transform: translate3d(0px, -60%, 0px);"
+      data-top-bottom="transform: translate3d(0px, 60%, 0px);"
+    ></div>
+  </div>
+
+  <div id="skrollr-body">
+    <div class="header" id="dragons">
+      Skrollr demo of classic parallax sections. Degrades without JavaScript (could be disabled on mobile without breaking everything).
+    </div>
+    <div class="gap gap-100" style="background-image:url(images/kitteh1.jpg);"></div>
+    <div class="content" id="bacons">
+      <p>Small batch readymade Wes Anderson try-hard, aesthetic mlkshk pickled. Post-ironic cold-pressed skateboard, umami pug jean shorts Marfa quinoa McSweeney's actually. Synth VHS scenester, kogi kale chips Austin vinyl Helvetica church-key migas. Hashtag health goth locavore, migas meggings Neutra synth gentrify. Brunch mumblecore jean shorts 3 wolf moon, bespoke sriracha tousled four dollar toast heirloom direct trade small batch street art before they sold out kale chips. Normcore mlkshk roof party lomo before they sold out. Mlkshk aesthetic Tumblr Kickstarter, ennui ethical street art cold-pressed cliche jean shorts fap.</p>
+
+      <p>Sartorial bicycle rights fanny pack Portland Blue Bottle, Bushwick aesthetic biodiesel brunch. Before they sold out hashtag small batch chia cray Odd Future. Keytar letterpress XOXO, irony cred iPhone hella. 90's selvage flexitarian 3 wolf moon pork belly chillwave. XOXO hashtag 3 wolf moon, wolf lo-fi cornhole Schlitz Williamsburg Tumblr Etsy mixtape asymmetrical small batch squid. Wolf keffiyeh Etsy master cleanse, deep v Pitchfork McSweeney's heirloom messenger bag Brooklyn. Wolf Godard swag Thundercats, Blue Bottle American Apparel paleo PBR&B Odd Future.</p>
+
+      <p>XOXO roof party banjo Banksy four dollar toast sartorial farm-to-table. Kitsch gluten-free VHS flexitarian. Direct trade crucifix viral typewriter before they sold out Odd Future meh, tofu American Apparel put a bird on it Thundercats art party. Tumblr pug try-hard 90's street art cardigan. Banjo aesthetic Kickstarter YOLO, before they sold out beard High Life readymade VHS Thundercats tote bag tousled selfies chia. Kickstarter tote bag try-hard, chillwave butcher ethical migas art party artisan meh slow-carb yr Etsy fap chia. Fap meggings authentic normcore lumbersexual try-hard, flannel gentrify.</p>
+    </div>
+    <div class="gap gap-100" style="background-image:url(images/kitteh2.jpg);"></div>
+    <div class="content content-full" id="kittens">
+      <h1>Here be kittens</h1>
+      <p>Neutra normcore you probably haven't heard of them aesthetic, narwhal typewriter mumblecore mixtape paleo messenger bag fingerstache kale chips. Quinoa street art kogi raw denim, four dollar toast bicycle rights readymade. Street art letterpress squid lo-fi disrupt Truffaut. Tousled kogi umami try-hard jean shorts Helvetica. Blue Bottle asymmetrical vegan drinking vinegar fixie. Slow-carb mlkshk wayfarers bitters American Apparel, McSweeney's kitsch flannel ennui ethical trust fund. Forage 90's four dollar toast before they sold out fanny pack salvia.</p>
+    </div>
+    <div class="gap gap-50" style="background-image:url(images/kitteh3.jpg);"></div>
+    <div class="content" id="done">
+      Images from <a href="http://placekitten.com/attribution.html">http://placekitten.com/</a>, thanks!
+    </div>
+  </div>
+
+    <!-- build:js(.) scripts/oldieshim.js -->
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <![endif]-->
+    <!-- endbuild -->
+
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <script src="js/vendor/skrollr.min.js" type="text/javascript"></script>
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="js/app.js" type="text/javascript"></script>
+    <!-- endbuild -->
+  </body>
+</html>

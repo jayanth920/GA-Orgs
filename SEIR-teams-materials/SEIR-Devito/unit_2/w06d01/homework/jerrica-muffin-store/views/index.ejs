@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <% include ./partials/head.ejs %>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ========== SIDEBAR ========== -->
+      <aside>
+        <% include ./partials/sidebar.ejs %>
+      </aside>
+      <!-- ========== MAIN CONTENT ========== -->
+      <main class="index">
+        <% for(product of products) { %>
+          <div class="product">
+            <h2><%=product.name%></h2>
+            <a href="/products/<%=product._id%>"><img src="<%=product.img%>"/></a>
+            <h3>PRICE: $<%=product.price%></h3>
+          </div>
+        <% } %>
+      </main>
+    </div>
+  </body>
+</html>

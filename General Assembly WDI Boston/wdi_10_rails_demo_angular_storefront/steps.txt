@@ -1,0 +1,126 @@
+- See "Bootstrapping an AngularJS app in Rails 4.0" for details explanation.
+  http://asanderson.org/posts/2013/06/03/bootstrapping-angular-rails-part-1.html
+  - Last lesson, 5,  is:
+    http://asanderson.org/posts/2013/11/20/bootstrap-angular-rails-part-5.html
+
+- Add angular rails gem.
+
+- Add the main controller for the one page app.
+  Add a Main Controller with an index action and view using the rails generator
+
+  rails g controller Main index
+
+- Added javascript directories that will contain angular controllers, filters, etc.
+  Add directories that will contain angular javascript. This will be added under app/assets/javascript
+  and picked up by the Rails asset pipeline.
+
+- Add sprocket directives to main.js.
+  Add app/assets/javascript/main.js that will contain the Sprocket directives used to include
+  the files in the above directories.
+
+- Added the main angular controller.
+  Add the main angular controller, app/assests/javascript/controllers/main/mainIndex.js
+
+  - Add the angular javascript files to the app/assets/application.js. This will allow the
+    angular javascripts in the gem to be used by this Rails app.
+  - In the app/views/layouts/application.html.erb
+    - Add the ng-app directive to the Rails layout view.
+    - Add the controller_name to the javascript_include_tag. This will add the app/assets/javascript/main.js
+      that we will add.
+  - Add the ng-controller directive to the Rails index view for the Rails Main Controller.
+    app/views/main/index.html.erb
+  - Add the angular mainIndex controller to app/assets/javascript/controllers/main/main/mainIndexCtrl.js
+    Just a little placeholder for the title for now.
+
+- Add products angular view.
+  - mainIndexCtrl.js. Add dummy data into the main index controller,
+  - index.html.erb. Use this data in the Rails Main index view file.
+    This will use the ng-repeat directive.
+
+- Added an angular view for all the products.
+  - In the main.js file.
+    - Add a 'Storefront' app.
+    - Add route that will use the angular controller and view for the mainIndex.
+  - Add the angular view template, app/templates/mainIndex.html
+  - Add the 'Storefront' app to the Rails layout using the ng-app directive.
+  - Replace the ng-controller directive with the ng-view directive in the
+    Rails main index view.
+  - Open up the page and inspect in chrome to see what is inserted in the div for
+    ng-view.
+
+- Add product angular view.
+  This will view a dummy product view.
+  - main.js. Add a route for the angular Product controller and view when
+    going to the /#/product path.
+  - app/templates/mainProduct.html. Add the angular Product view.
+  - app/assets/javascript/controllers/main/mainProductCtlr.js. Add the angular Product controller.
+  - mainIndex.html. Add a click handler, using the ng-click directive, for viewing a single product.
+  - main/mainProductCtlr.js. Add a function that will handle this show product click event.
+  - Make the Rails root path go to the 'main#index'. That shows the single page app, not the rails app.
+
+- Add route parameters.
+  - main.js.
+    Update the product route to have a product id.
+  - mainProductCtlr.js.
+    Add product id.
+  - mainProduct.html.
+    Add product id to view.
+  - mainIndex.html
+    - Add index to viewProduct click handler function.
+  - mainIndexCtrl.js
+    - Fix Product id numbering.
+    - Add handler function for viewing a single product.
+
+- Getting product list from Rails api using json.
+  - Rails ProductsController. Add json API for showing all products.
+  - mainIndexCtrl.js. Add functions to handle remote json requests to
+    rails backend.
+  - mainIndex.html. Add code to view the json reply returned from backend.
+
+- Add angular view product page.
+ - Rails ProductsController.
+   Add a json api to the products show action.
+ - mainProductCtrl.js.
+   Add a function to load one product from the backend.
+   Add a "busy" ajax request message.
+ - mainIndex.html.
+   Fix the product id, add one to the id.
+ - mainProduct.html
+   Update the angular main product view to look like the rails product view.
+
+- Add a link to the Products page served by rails.
+
+- Hard code the main js file into the layout.
+  Remove trickery for loading javascript file based on Rails controller name.
+
+- Refactor, move, remote request for posts to an angular service.
+  - Add app/assets/javascript/services/main/productData.js
+    Add a service, using angular factory. This will encapsulate
+    the methods used to communicate with the backend.
+    Note that this service can be reused.
+  - mainIndexCtlr.js and mainProductCtrl.js
+    Inject the above service into these controllers.
+    And move the functions to call backend to the above service.
+
+- Added creating new products.
+  - main.js.
+    Add a route to create a product.
+  - Added app/assets/javascript/controllers/main/mainCreateProductCtrl.js.
+    This is the controller that will be used to add a product.
+  - Added app/assets/templates/mainCreatePost.html.
+    This is the view that will show *one* product.
+  - mainIndex.html
+    Add link to create a product.
+  - mainIndexCtrl.js
+    Add the handler for creating a product.
+  - Rails Product controller.
+    Add a create action. Will respond with json for this new product.
+  - config/routes.rb. Rails routes.
+    Add create action.
+  - main.js
+    Handle Cross Site Scripting Forgery for Rails.
+    StoreFront.config(["$httpProvider", function(provider){
+      provider.defaults.headers.common['X-CSRF-Token'] = $('meta[name=csrf-token]').attr('content');
+      }])
+  - index.html.erb
+    Remove uneeded class from div.

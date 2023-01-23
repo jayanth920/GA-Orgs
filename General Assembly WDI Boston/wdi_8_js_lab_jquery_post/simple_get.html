@@ -1,0 +1,62 @@
+<html>
+<head>
+  <!-- Spinners for Ajax loading -->
+  <link href="css/simple.css" rel="stylesheet" type="text/css" media="all">
+
+  <script src='js/jquery.js'></script>
+  <script src='js/ajax_globals.js'></script>    
+  <script>
+    $(document).ready(function(){
+
+        // Callback/Handler that is invoked when the Ajax request 
+        // is done.
+
+        var articlesCallbackHandler = function( articles) {
+          articlesHTML = '';
+
+          // Build the HTML for each Article
+          for(var i = 0; i < articles.length; i++){
+            articlesHTML += '<li id=article_' + articles[i].id + '>' + articles[i].title;
+            articlesHTML += '<div>' + articles[i].body + '</div>';
+            articlesHTML += '</li>';
+          };
+
+          // Fill in the Article list
+          $('#articles').append(articlesHTML);
+
+        };
+
+        var getArticles = function(){
+          // Retrieve all the articles
+          $.get( "http://localhost:3000",articlesCallbackHandler );
+        };
+
+        $('#get-articles').on('click', getArticles);
+        $('#get-articles').trigger('click')
+
+      }); // end ready
+  </script>
+</head>
+<body>
+  <!-- Ajax Loading Spinner-->
+  <div id="ajaxSpinnerContainer" class='centered'>
+    <img src="images/ajax-loader.gif" id="ajaxSpinnerImage" title="working...">
+  </div>
+
+  <h3>Simple Ajax Get</h3>
+
+  <div id='container'>
+
+      <!-- Message to user. Could be error, warning or completed
+      messaged -->
+      <div id='msg'></div>
+
+      <button id='get-articles'>Get Articles</button>
+
+      <!-- List of Articles --> 
+      <ul id='articles'>Articles
+      </ul>
+
+    </div>
+  </body>
+  </html>

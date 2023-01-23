@@ -1,0 +1,30 @@
+body {
+    background: steelblue;
+    font-family: sans-serif;
+}
+
+.board {
+    font-size: 8em;
+    text-align: center;
+    display: grid;
+    margin: 40px auto;
+    width: 450px;
+    height: 450px;
+    background: black;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.square {
+    background: lemonchiffon;
+}
+
+.clicked {
+}
+
+#score {
+    text-align: center;
+    padding: 20px;
+    border: 1px dashed pink;
+}

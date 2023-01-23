@@ -1,0 +1,31 @@
+$colorText: #CF458B;
+$colorShadow: #fefefe;
+
+body{
+  background:#CF458B;
+}
+
+@function textShadowString($offset, $color) {
+  $text-shadow:();
+
+  //create a collection of text-shadows (up to $offset)
+  @for $i from 0 through $offset{
+    $string: -1*($i+1)+px $i+px 0px $color;
+    $text-shadow: append($text-shadow, $string, comma);
+  }
+  // return the string of all of these values
+  @return $text-shadow;
+}
+
+
+h1{
+  text-align: center;
+  color: $colorText;
+  text-transform: uppercase;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  font-size: 10em;
+  letter-spacing: .075em;
+  text-shadow: textShadowString(40, $colorShadow);
+  transform: skew(8deg);
+}

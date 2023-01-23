@@ -1,0 +1,4 @@
+What is css_reset_file?
+
+Basically, each browers has it's own built-in default styles. You might want to load the CSS reset file prior your own css files. This will allow you to set your own default styles that will override the browser's default styles, and will help ensure that your site looks the same in different browsers.
+

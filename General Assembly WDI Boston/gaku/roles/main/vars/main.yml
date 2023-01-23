@@ -1,0 +1,21 @@
+---
+
+ubuntu_release: trusty
+
+user: root
+user_group: root
+user_home: /root
+
+postgres_version: 9.4
+postgres_user: postgres
+
+chruby_version: 0.3.9
+chruby_exec_command: /usr/local/bin/chruby-exec
+
+ruby_install_version: 0.5.0
+ruby_version: 2.2.0
+
+ruby_install_version: 0.5.0
+ruby_install_command: /usr/local/bin/ruby-install
+
+ruby_version: 2.2.2

@@ -1,0 +1,12 @@
+<div ng-controller='CartCtrl' data-ng-init='getCartLineItems()'>
+  <h1>Shopping Cart</h1>
+
+  <ul>
+    <dl ng-repeat='item in lineItems' id="list_item-{{item.id}}"> 
+    <h3>{{item.product.name}}</h3>
+      <dt>Description</dt><dd>{{item.product.description}}</dd> 
+      <dt>Price</dt><dd> {{item.product.price}}</dd> 
+    </dl>
+
+  </ul>
+</div>

@@ -1,0 +1,8 @@
+# For all info and up-to-date list of accepted values, see https://git.generalassemb.ly/sei-nyc/start-here/blob/master/info_schema.md: 
+# Required fields: unit, section and type
+
+unit: 2
+section: react-basics
+type: exercise
+prereqs: grid
+level: 2

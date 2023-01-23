@@ -1,0 +1,13 @@
+<h2>New Entry</h2>
+
+<%= form_for @entry do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <br>
+
+  <%= f.label :content %>
+  <%= f.text_area :content %>
+  <br>
+
+  <%= f.submit %>
+<% end %>

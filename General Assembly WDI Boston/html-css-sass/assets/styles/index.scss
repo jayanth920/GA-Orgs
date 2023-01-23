@@ -1,0 +1,60 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+body {
+  margin: auto;
+  max-width: 95%;
+  padding: 2rem 0;
+}
+
+blockquote {
+  background-color: #ececff;
+  color: #000080;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+header {
+  border-bottom: 2px solid;
+  margin-bottom: 1rem;
+
+  h1 {
+    color: #000080;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .dates {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  blockquote {
+    float: right;
+    font-size: 2em;
+    margin: 1rem;
+    line-height: 1.2;
+    padding: 1.5rem;
+    width: 300px;
+  }
+
+  main {
+    display: flex;
+
+    header {
+      border-bottom: 0;
+      border-right: 2px solid #000080;
+      padding: 1rem;
+
+      h1 {
+        font-size: 4em;
+      }
+    }
+
+    section {
+      flex-grow: 2;
+      padding: 1rem;
+    }
+  }
+}

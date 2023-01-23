@@ -1,0 +1,16 @@
+{
+  "name": "angular_address_book",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "api": "node_modules/.bin/json-server api/db.js",
+    "app": "node_modules/.bin/http-server"
+  },
+  "devDependencies": {
+    "casual": "^1.4.7",
+    "chance": "^0.7.7",
+    "http-server": "^0.8.0",
+    "json-server": "^0.7.27",
+    "lodash": "^3.10.1"
+  }
+}

@@ -1,0 +1,11 @@
+<h1>Here is where my new guitar will go!</h1>
+
+<%= form_for @guitar do |f| %>
+  <%= f.label :make %>
+  <%= f.text_field :make %>
+
+  <%= f.label :model %>
+  <%= f.text_field :model %>
+
+  <%= f.submit %>
+<% end %>

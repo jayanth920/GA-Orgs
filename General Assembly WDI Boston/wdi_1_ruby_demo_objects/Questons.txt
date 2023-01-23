@@ -1,0 +1,42 @@
+# 'class' is a keyword in Ruby
+# Q: Whats unique about keywords?
+
+# Q: What can you not do with keywords?
+
+# Q: What is the visibility of object's attributes "outside" of the object?
+
+# Q: How do you define an Object's Behavior?
+
+# Q: At what time in the application's lifecycle should you define behavior for a class?
+
+# Q: What is YAGNI? What is the principle it communicates?
+
+# Q: What are the built-in methods used to expose instance variables?
+
+# Q: What is a private method and when should you use it?
+
+# Q: What instance method is called/invoked _after_ an object is created.
+
+# Q: What is a getter method?
+
+# Q: What is a setter method?
+
+# Q: When should you use a getter method instead of a setter method?
+
+# Q: What is encapsulation.
+
+# Q: Explain DRY.
+
+# Q: Explain YAGNI
+
+# Q: What is Inheritence?
+
+# Q: When you one define a class method?
+
+# Q: What keyword would you used to define a Mixin?
+
+# Q: How can you avoid class name collisions? When would this likely be a problem?
+
+# Q: What is self inside of an instance method?
+
+# Q: What is self inside of a class method?

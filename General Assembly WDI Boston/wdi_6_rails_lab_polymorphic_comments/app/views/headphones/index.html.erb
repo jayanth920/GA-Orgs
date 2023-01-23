@@ -1,0 +1,35 @@
+<h1>Listing headphones</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Make</th>
+      <th>Model</th>
+      <th>Description</th>
+      <th>Impedance</th>
+      <th>Price</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @headphones.each do |headphone| %>
+      <tr>
+        <td><%= headphone.make %></td>
+        <td><%= headphone.model %></td>
+        <td><%= headphone.description %></td>
+        <td><%= headphone.impedance %></td>
+        <td><%= headphone.price %></td>
+        <td><%= link_to 'Show', headphone %></td>
+        <td><%= link_to 'Edit', edit_headphone_path(headphone) %></td>
+        <td><%= link_to 'Destroy', headphone, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Headphone', new_headphone_path %>

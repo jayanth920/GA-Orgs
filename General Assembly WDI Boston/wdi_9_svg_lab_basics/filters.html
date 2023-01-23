@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVG Filters</title>
+</head>
+<body>
+  <h1>SVG Filters</h1>
+  <p>SVG filters are awesome, but a little tricky. First you define your filters in a 'defs' element and then you use them on an element with a <em>filter="url(#filter_name)"</em> attribute. There are a lot of filters, but we're going to just try the blur one here.</p>
+
+  <svg height="100" width="100">
+    <defs>
+      <filter id="f1" x="0" y="0">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" />
+      </filter>
+    </defs>
+    <text x="0" y="50" fill="black" filter="url(#f1)">Blurry Text</text>
+  </svg>
+
+  <h3>NOW YOU TRY - 9</h3>
+  <p>Make an SVG graphic of a 'vision test chart', where the top text is larger and sharper, and the bottom text is smaller and blurry</p>
+
+  <div id="vision-chart">
+  </div>
+</body>
+</html>

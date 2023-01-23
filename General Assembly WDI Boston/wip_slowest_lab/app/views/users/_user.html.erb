@@ -1,0 +1,8 @@
+<div>
+<p>
+  <%= link_to user do %>
+    <%= user.name %>
+  <% end %>
+</p>
+<%= yield if block_given?%>
+</div>

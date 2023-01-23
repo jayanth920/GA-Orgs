@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <script src="d3.js"></script>
+    <!-- selectAll where data elements < DOM elements  -->
+    <!-- Used the update selection list and the enter selection list -->
+    <script>
+      window.onload = function(){
+
+      // get the svg element
+      var canvas = d3.select('svg');
+
+      // selectAll(circle) will:
+
+      // Find the existing 1 circle DOM elements on the page
+      // Put these in the update selection list.
+      // Make all the elements in this update selection list red
+      // Associate each data element with a circle DOM Element
+      // circle 1 will have data value = 5
+
+      // Oops, ran out of data elements
+
+      // for all other circles on the page, circle 2 in this case
+      // Add it to the exit selection list
+      // Fill each DOM Element entry in the exit selection list to blue
+
+      canvas.selectAll('circle')
+      .data([5])
+      .attr('fill', 'red')
+      .exit() // exit selection list
+      .attr('fill', 'blue');
+      };
+
+    </script>
+  </head>
+  <body>
+    <h3> Page with two SVG Circles</h3>
+    <svg width='500' height='500'>
+      <circle cx='100' cy='100' r='25'> </circle>
+      <circle cx='200' cy='200' r='25'> </circle>
+    </svg>
+  </body>
+</html>

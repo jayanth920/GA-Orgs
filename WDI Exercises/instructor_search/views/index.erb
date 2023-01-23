@@ -1,0 +1,14 @@
+<% @instructors.each do |instructor| %>
+  <li><%= instructor %></li>
+<% end %>
+
+<form method="get" action="/">
+  <input type="search" name="instructor_name" placeholder="Get Instructor Name">
+  <input type="submit">
+</form>
+
+<form method="post" action="/">
+  <input type="text" name="instructor_name" placeholder="Instructor Name">
+  <input type="submit">
+</form>
+

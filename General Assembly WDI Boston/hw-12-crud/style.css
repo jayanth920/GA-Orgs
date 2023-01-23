@@ -1,0 +1,63 @@
+/* Design inspired by: https://codepen.io/bessa/pen/ORNBxJ */
+
+body {
+    background-color: #85cff7;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    margin: 0px auto;
+    padding: 20px;
+  }
+  
+  ul#todo-list {
+    padding: 0;
+  }
+  
+  ul#todo-list li.todo-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    text-align: left;
+    margin: 0px auto;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    list-style-type: none;
+    border-radius: 3px;
+    border: 1px solid #000;
+  }
+  
+  ul#todo-list li.todo-task.done {
+    background-color: lightgray;
+    text-decoration: line-through;
+  }
+  
+  a.delete:before {
+    content: '\2715'; /* Multiplication Sign */
+  }
+  
+  form#new-task-form input#task-field {
+    font-size: 16px;
+    padding: 6px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 35%;
+  }
+  
+  form#new-task-form input#add {
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    width: 120px;
+  }

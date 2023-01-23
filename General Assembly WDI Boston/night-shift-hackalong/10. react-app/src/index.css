@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url('https://static1.squarespace.com/static/57ed18381b631b4217bef4b9/t/59a350246a49631dd5237209/1503875139368/year+5_celebration.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size:cover;
+}

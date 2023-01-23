@@ -1,0 +1,38 @@
+.Table {
+  width: 80%;
+  max-width: 750px;
+  margin: 2rem auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: smaller;
+  color: #555;
+}
+
+.NoData {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: smaller;
+  color: #555;
+}
+
+.Table thead {
+  border-bottom: 2px solid #555;
+}
+
+.Table tbody {
+  padding: 0 2rem;
+}
+
+.Table tr {
+  padding: 0.25rem 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #555;
+}
+
+.Table td {
+}
+
+.Table td:not(:first-of-type) {
+  text-align: center;
+}

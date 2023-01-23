@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @greeting.email %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @greeting.content %>
+</p>
+
+<%= link_to 'Edit', edit_greeting_path(@greeting) %> |
+<%= link_to 'Back', greetings_path %>

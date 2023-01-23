@@ -1,0 +1,8 @@
+<div>
+  <h3 {{action 'toggleDetail'}}>Title: {{list.title}}</h3>
+  <ol>
+    {{#each list.items as |item|}}
+      {{shopping-list/item item=item}}
+    {{/each}}
+  </ol>
+</div>

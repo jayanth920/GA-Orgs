@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: movies_hmt_development
+
+test:
+  <<: *default
+  database: movies_hmt_test
+
+production:
+  <<: *default
+  database: movies_hmt_production
+  username: movies_crud_app
+  password: <%= ENV['MOVIES_HMT_DATABASE_PASSWORD'] %>

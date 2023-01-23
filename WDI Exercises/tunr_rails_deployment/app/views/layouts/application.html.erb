@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tunr</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <h1>Tun.r</h1>
+  <nav>
+    <a href="/songs">Songs</a>
+    <a href="/artists">Artists</a>
+
+    <div class="user-info">
+      <% if current_user %>
+        Welcome, <%= current_user.email %>
+        <%= link_to 'Signout', destroy_user_session_path, :method => :delete %>
+      <% else %>
+        <%= link_to 'Signup', new_user_registration_path %>
+        <%= link_to 'Login', new_user_session_path %>
+      <% end %>      
+    </div>
+  </nav>
+  <% flash.each do |type, message| %>
+    <p class="<%= type %>"><%= message %></p>
+  <% end %>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+#!/usr/bin/env ruby
+
+$:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+
+require 'estimate'
+require 'planning'
+
+module Repoman
+  class App
+    VERSION = '0.0.1'
+
+    attr_reader :options
+
+    def initialize(arguments)
+      @arguments = arguments
+
+      parse_options
+
+      perform
+    end
+
+    def perform
+      ESTIMATE_LABELS.each do |estimate|
+        `ghi label \"#{estimate.label_name}\" -c \"#{estimate.color}\" -- \"#{@organization_repository}\"`
+      end
+
+      PLANNING_LABELS.each do |planning|
+        `ghi label \"#{planning.label_name}\" -c \"#{planning.color}\" -- \"#{@organization_repository}\"`
+      end
+    end
+
+  protected
+
+    def parse_options
+      require 'optparse'
+
+      @options = {}
+      optparser = OptionParser.new do |opts|
+        opts.banner = "Usage: repoman <organization/repository> [options]"
+        opts.separator ""
+        opts.separator "Specific options:"
+
+        # opts.on("-l", "--label", "Add predefined labels to repository") do |l|
+        #   options[:label] = l
+        # end
+
+        opts.on_tail("-h", "--help", "Prints this help") do
+          puts opts
+          exit 0
+        end
+
+        opts.on_tail("-v", "--version", "Show version") do
+          puts VERSION
+          exit 0
+        end
+      end
+
+      optparser.parse!(@arguments)
+
+      if ARGV.empty?
+        puts optparser
+        exit 1
+      else
+        @organization_repository = ARGV[0]
+      end
+    end
+  end
+end
+
+Repoman::App.new(ARGV)

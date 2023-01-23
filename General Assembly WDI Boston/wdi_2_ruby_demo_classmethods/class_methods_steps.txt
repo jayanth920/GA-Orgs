@@ -1,0 +1,59 @@
+# Step 1
+# Create a ticket.rb file!!
+# We've been using instance methods, mostly
+# object.message.
+# The ticket should have a venue, price and date
+# The venue and date cannot be changed
+
+# Step 1.1
+# Create an instance of a ticket.
+
+# How may methods are we calling here?
+
+# Ticket.new is a class method because it's the job 
+# of the Ticket to create new ticket instances
+
+# Step 1.2
+# Look up Class.new method
+# http://www.ruby-doc.org/core-2.1.0/Class.html
+
+# Step 2 
+# Create a class method to find the most expensive ticket given a set of
+# tickets.
+
+# finding the most expensive ticket wouldn't make sense
+# if it was a method that was called on a Ticket object.
+
+# Only makes sense in the realm of all the Tickets
+# which is represented by the Ticket class.
+
+# Step 3
+# Show other ways of defining a class method.
+
+# Step 3.1 
+# Using the name of the class to define a class method
+
+# Step 3.2 
+# Using some ruby magic. It's only magic right now.
+
+# Step 4 
+# We can create a class that is ONLY has class methods.
+# Create a Temperature class that only has two class methods
+# one to covert f to c other to convert c to f.
+
+# Step 5
+# What are some build-in Ruby classes that don't have
+# instance methods?
+
+# Step 5 
+# Class methods vs instance methods.
+
+# 1) Instances created by classes are object.
+# 2) Classes are objects too.
+# 3) A class object (like Ticket) has it's methods, it own state
+# and it's own identity.
+
+
+
+
+

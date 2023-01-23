@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+		<link rel="stylesheet" href="main.css">
+		<script src="app.js" charset="utf-8"></script>
+		<title>Nozama Filters</title>
+	</head>
+	<body ng-controller="BaseCtrl as ctrl">
+		<h1>{{ ctrl.storeName | uppercase }}</h1>
+		<h2>{{ ctrl.jingle | limitTo: 8 }}</h2>
+		<h3>You are right here, right now: {{ ctrl.date | date:'MM/dd/yyyy @ h:mm:ss:a Z' }}</h3>
+		<label for="Search by">
+			<input type="text" placeholder="Product name" ng-model='searchBox'>
+		</label>
+		<div>
+			<label for="price-up">Price Low to High</label>
+			<input type="radio" value="price" ng-model='order' id='price-up'>
+			<label for="price-down">Price High to Low</label>
+			<input type="radio" value="-price" ng-model='order' id='price-down'>
+			<label for="product-asc">Product Name</label>
+			<input type="radio" value="name" ng-model='order' id='product'>
+		</div>
+		<ul>
+			<li ng-repeat="product in ctrl.products | filter: searchBox | orderBy: order">{{product.name}}:<span>{{product.price | currency}}</span></li>
+		</ul>
+	</body>
+</html>

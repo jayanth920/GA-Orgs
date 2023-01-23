@@ -1,0 +1,85 @@
+[
+  {
+    "unit": 1,
+    "days": [
+      {
+        "day": 1,
+        "IA": "Esin Saribudak",
+        "morning": {
+          "repo": "course-intro",
+          "name": "Welcome to SEIR",
+          "instructor": "all"
+        },
+        "lecture1": {
+          "repo": "course-intro",
+          "name": "Welcome to SEIR",
+          "instructor": "all"
+        },
+        "lab1": {
+          "repo": "breakout-groups",
+          "name": "Introduction to Breakout Groups",
+          "instructor": "all"
+        },
+        "lecture2": {
+          "repo": "cli-intro",
+          "name": "Command Line Interface",
+          "instructor": "Jennifer Meade"
+        },
+        "lab2": {
+          "repo": "installfest",
+          "name": "Installfest",
+          "instructor": "Jennifer Meade"
+        },
+        "homework": [
+          {
+            "assignment": "Complete Installfest",
+            "repo": "installfest",
+            "due": 1
+          },
+          {
+            "assignment": "To Oz",
+            "repo": "to-oz",
+            "due": 1
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "IA": "Carlos Godoy",
+        "morning": {
+          "repo": "gh-ssh-keys",
+          "name": "Github & Github Enterprise Set Up",
+          "instructor": "Jennifer Meade"
+        },
+        "lecture1": {
+          "repo": "course-intro",
+          "instructor": "Jennifer Meade"
+        },
+        "lab1": {
+          "repo": "breakout-groups",
+          "instructor": "Jennifer Meade"
+        },
+        "lecture2": {
+          "repo": "cli-intro",
+          "instructor": "Jennifer Meade"
+        },
+        "lab2": {
+          "repo": "installfest",
+          "instructor": "Jennifer Meade"
+        },
+        "homework": [
+          {
+            "assignment": "Complete Installfest",
+            "repo": "installfest",
+            "due": 1
+          },
+          {
+            "assignment": "To Oz",
+            "repo": "to-oz",
+            "due": 1
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+body{
+  background-color:#eee;
+  text-align:center;
+  font-family:"Helvetica Neue", Helvetica, sans-serif;
+  font-size:36px;
+  line-height:50px;
+}
+h1{
+  color:#aaa;
+  text-align:center;
+  text-shadow:-1px 1px 0 #666;
+}
+p{
+  height:50px;
+  width:300px;
+  border-radius:5px;
+  margin:20px auto;
+}
+.button{
+  background-color:#ddd;
+  cursor:pointer;
+}
+.button:hover{
+  background-color:#fff;
+}
+table{
+  margin:0 auto;
+  border-spacing:0;
+  border-radius:5px;
+  overflow:hidden;
+}
+td{
+  width:100px;
+  height:100px;
+  padding:0;
+  background-color:#fff;
+  color:#fff;
+}
+td:not(.played){
+  cursor:pointer;
+}
+td:not(.played):hover{
+  background-color:#ddd;
+}
+.player1, .player2{
+  color:#777;
+  background-color:#fff;
+}
+.player1:after{
+  content:"X";
+}
+.player2:after{
+  content:"O";
+}
+.won{
+  color:#fff;
+  background-color:#00f;
+}
+#info, td{
+  transition:color 0.3s, background-color 0.3s;
+}

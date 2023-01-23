@@ -1,0 +1,1 @@
+-- Delete the flamingos whose `mated` is false

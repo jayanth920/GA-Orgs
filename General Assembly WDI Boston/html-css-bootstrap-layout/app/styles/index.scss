@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  background-color: grey;
+}
+
+.box {
+  align-items: center;
+  background-color: lightgrey;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  height: 80px;
+  justify-content: center;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.alt-color {
+  background-color: cyan;
+}

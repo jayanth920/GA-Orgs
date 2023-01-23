@@ -1,0 +1,9 @@
+<h1>Edit <%= @guitar["make"] %> <%= @guitar["model"] %></h1>
+<form class="lower-margin-box" action='/guitars/<%= @guitar["id"]%>/update' method="POST">
+  Make: <input name="make" value="<%= @guitar["make"] %>" ><br>
+  Model: <input name="model" value="<%= @guitar["model"] %>" ><br>
+  Year: <input name="year" value="<%= @guitar["year"] %>" ><br>
+  Color: <input name="color" value="<%= @guitar["color"] %>" ><br>
+  <button>Update Guitar</button>
+</form>
+

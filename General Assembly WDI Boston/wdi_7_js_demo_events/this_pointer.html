@@ -1,0 +1,27 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <div id='messageId'>
+     No Message
+    </div>
+
+    <script src='./src/this_pointer.js'></script>
+    <script type='text/javascript'>
+    var msg  = "Global hello",
+    globalGreet = function(){
+      var msgDiv = document.getElementById('messageId');
+      msgDiv.innerHTML = "";
+      msgDiv.innerHTML = "globalGreet: " + this.msg;
+      //alert("globalGreet: " + this.msg);
+    }, 
+    newObj = new ThisDemo("newObj hello");
+
+    globalGreet();
+    // newObj.greet();
+
+    // change the this pointer of the function!    
+    newObj.greet.bind(window)();
+    </script>
+  </body>
+</html>

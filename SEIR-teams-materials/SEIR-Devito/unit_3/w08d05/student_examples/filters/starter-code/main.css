@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle|Montserrat');
+h1{
+  font-family: 'Chicle', cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #E27D60;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  width: 90%;
+  margin:auto;
+  color: #8899dd;
+}
+li {
+  list-style: none;
+  padding: .5em;
+}
+span {
+  padding-left: 1em;
+  font-weight: bold;
+}

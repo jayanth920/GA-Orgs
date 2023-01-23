@@ -1,0 +1,20 @@
+<h1> <%= @user.name %> </h1>
+<span>
+  <% if signed_in? %>
+    <% if @following %>
+
+      <%= button_to("Stop following this user",user_follows_path(@user.id), :method => :delete, :class => 'btn btn-danger') %>
+    <% else %>
+      <%= button_to("Follow this user",user_follows_path(@user.id), :class => 'btn btn-success') %>
+    <% end %>
+  <% end %>
+</span>
+<h2>
+<p>
+follows <%= @user.followeds.size %> users and is followed by 
+<%= @user.followers.size %> users.
+</p>
+
+<ul>
+<%= render @user.attendances %>
+</ul></h2>

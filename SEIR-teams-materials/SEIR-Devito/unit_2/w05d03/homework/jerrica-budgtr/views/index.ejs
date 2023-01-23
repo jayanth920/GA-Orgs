@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BUDGTR</title>
+    <!-- ========= SKELETON & NORMALIZE CSS ========= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <!-- ========= PERSONAL CSS ========= -->
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Budgtr</h1>
+      <!-- display bank account amount, use 'status' as the class to change the background color -->
+      <h5 class="<%=status%>">Current total: $<%=bankAccount%></h5>
+      <!-- create new button -->
+      <a href="/budgets/new"><button type="button" name="button">add new</button></a>
+      <table>
+        <tbody>
+          <!-- loop through all budgets and make a table row with needed data -->
+          <% for(let budget in budgets) { %>
+            <tr>
+              <td><%= budgets[budget].date %></td>
+              <td><a href="/budgets/<%=budget%>"><%= budgets[budget].name %></td>
+              <td><%= budgets[budget].amount %></td>
+            </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

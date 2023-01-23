@@ -1,0 +1,40 @@
+* Group 1
+    * YE AUNG
+    * Brian Na
+    * Lauren Wierzbicki
+    * Thomas Fairchild
+* Group 2
+    * Brandon Robinson
+    * Kyle Petersen
+    * Taylor Overturf
+    * Timothy Moon
+* Group 3
+    * Phil Aung
+    * Josiah Elliott
+    * Elle (Louis) Thompson
+    * Alina Abdrakhmanova
+* Group 4
+    * Shinhee Park
+    * Daniel Lee
+    * Alexandria Delaney
+    * Orawee Chantravutikorn
+* Group 5
+    * Diana Villada
+    * Tiffany Fong
+    * Trendon Robinson
+    * Marco Silva
+* Group 6
+    * Keith Rodriguez
+    * Alyshia Bentley
+    * Jay Nguyen
+    * Daniel An
+* Group 7
+    * Sean Story
+    * Robert (ZhiRong) Chen
+    * Jeremy Stubbs
+    * Tony (Anthony) Ingle
+* Group 8
+    * Larry Flint
+    * edgar lopez
+    * Julie Curry
+    * Damon Pickett

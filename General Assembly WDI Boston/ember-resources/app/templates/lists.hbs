@@ -1,0 +1,8 @@
+<!-- templates/lists.hbs -->
+<div>
+  <h2>Shopping List Manager</h2>
+
+  {{#each model as |list|}}
+    {{shopping-list list=list}}
+  {{/each}}
+</div>

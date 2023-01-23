@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <title>&hearts; D3</title>
+    <style>
+      pre{
+        background:#fafafa;
+	border-radius:3px;
+	display:inline-block;
+	border:1px solid #ccc;
+	padding:.25em .5em;
+        margin:.5em 0;
+      }
+      .box {
+        background-color: skyblue;
+        width: 24px;
+        height: 18px;
+        padding: 4px;
+        margin: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>D3 in the console</h2>
+    <p>Open up the JavaScript console and type in the following commands. What do the following methods do?
+    How do they relate to jQuery and/or vanilla JavaScript?</p>
+
+    <h3>Selecting Elements</h3>
+    <ol>
+      <li><pre>d3</pre></li>
+      <li><pre>body = d3.select("body")</pre></li>
+      <li><pre>body.append('p').text('Hello d3!')</pre></li>
+      <li><pre>d3.select("body p").text("Welcome to d3")</pre></li>
+      <li><pre>body.select("p").text("d3 is cool")</pre></li>
+    </ol>
+
+    <h3>Incorporating Data</h3>
+    <ol>
+      <li><pre>body.append('div').attr('class','box')</pre></li>
+      <li><pre>body.append('div').attr('class','box').text('hi')</pre></li>
+      <li><pre>body.append('div').attr('class','box').text('hello')</pre></li>
+      <li><pre>d3.select('.box')</pre></li>
+      <li><pre>d3.selectAll('.box')</pre></li>
+      <li><pre>my_data = [20, 7, 32]</pre></li>
+      <li><pre>d3.selectAll('.box').data(my_data).text( function(d) { return d } )</pre></li>
+      <li><pre>d3.select('.box')[0][0].__data__</pre></li>
+      <li><pre>new_data = [10, 50, 25]</pre></li>
+      <li><pre>d3.selectAll('.box').data(new_data)</pre></li>
+      <li><pre>d3.selectAll('.box').text( function(d) { return d } )</pre></li>
+      <li><pre>d3.selectAll('.box').text( String )</pre></li>
+    </ol>
+
+    <h3>Bonus!</h3>
+    <ul>
+      <li>Make the boxes as wide as their data points in pixels.</li>
+    </ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.js"></script>
+  </body>
+</html>

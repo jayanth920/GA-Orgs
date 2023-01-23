@@ -1,0 +1,181 @@
+###############################################
+# Create
+###############################################
+
+# Create a 'new' action for Products
+# This will return a form that will be used 
+# to create a product.
+# IT WILL NOT CREATE A PRODUCT!!!
+  # GET /products/new
+  def new
+    @product = Product.new
+  end
+
+# Create a MANUAL route for this 'new' action
+  # HTTP GET Request to get the FORM for creating ONE new product
+  get '/products/new', to: 'products#new'
+
+# NOTE: Place this both above and below the route for the product show
+  action.
+# What happens?
+
+# Create a view for the new product form
+touch app/views/products/new.html.erb
+
+# Add this to the view.
+
+<h3>New Product<h3>
+<%= form_for @product do |f| %>
+  <%= f.label :name %> <br> 
+  <%= f.text_field :name %> 
+  <br> 
+  <%= f.label :description %> <br> 
+  <%= f.text_area :description %> 
+  <br> 
+  <%= f.label :price %> <br> 
+  <%= f.text_field :price %> 
+  <br> 
+  <%= f.submit %> 
+<% end %>
+
+
+# Now,fill this in and submit the form
+# The Error is: No route matches [POST] "/products"
+# Why? 
+
+# NOTE: Make sure that the route for the show action has the 'as'
+# modifier.
+  # NOTE: the as: 'product' will generate a url helper (product_url, product_path)
+  get '/products/:id', to: 'products#show', as: 'product'
+
+# Lets implement a the 'create' action
+# In the routes file:
+  # HTTP POST Request to create a product. Uses the form fields to create the product.
+  post '/products', to: 'products#create'
+
+# In the products controller 
+  # POST /products
+  def create
+    @product = Product.create(params)
+
+    if @product.save
+      # It saved, so lets see this new product
+      render :show, status: :created, location: @product
+    else
+      # No worky, try again
+      render :new
+    end
+  end
+
+# OOPs, got this error
+# ActiveModel::ForbiddenAttributesError
+
+# Rails will NOT let you directly create a new product, directly, from
+# the params hash. We must use "strong params".
+# See Railscast episode for the why and how.
+# http://railscasts.com/episodes/371-strong-parameters
+
+# Add the below as a private method
+  def product_params
+    params.require(:product).permit([:name, :description, :price])
+  end
+
+# And use this in the create action
+  # @product = Product.create(params)
+  @product = Product.create(product_params)
+
+# OK, now we can create products!!
+
+###############################################
+# LAB: Write the code to create a new Song.
+###############################################
+
+###############################################
+# Update
+###############################################
+
+# Create an 'edit' action for Products
+# This will return a form that will be used 
+# to UPDATE a product.
+# IT WILL NOT UPDATE A PRODUCT!!!
+
+def edit
+    @product = Product.find(params[:id])
+end
+
+# Add the route to GET the form used to update an 
+# EXISTING product
+
+  # HTTP GET Request to get the FORM for updating ONE EXISTING product  
+  get '/products/:id/edit', to: 'products#edit', as: 'edit_product'
+
+# Add a view to generate the FORM used to update an existing product.
+touch app/views/products/edit.html.erb
+
+# Add this to the view.
+
+<h3>Update Product<h3>
+<%= form_for @product do |f| %>
+  <%= f.label :name %> <br> 
+  <%= f.text_field :name %> 
+  <br> 
+  <%= f.label :description %> <br> 
+  <%= f.text_area :description %> 
+  <br> 
+  <%= f.label :price %> <br> 
+  <%= f.text_field :price %> 
+  <br> 
+  <%= f.submit %> 
+<% end %>
+
+# Hey, lets add a link to the show page that will allow us to update a product.
+<%= link_to 'Update', edit_product_path(@product) %> 
+
+# After going to the form to update the product and submitting 
+# we get this error?
+# No route matches [PATCH] "/products/1"
+# Why?
+
+# Lets create a route to a update action. This will receive the 
+# contents/changes made in the form.
+  patch '/products/:id', to: 'products#update'
+
+# Add the update action
+  def update
+    @product = Product.find(params[:id])
+    if @product.update(product_params)
+      redirect_to @product, notice: "You have updated the #{product.name}"
+    else
+      # No worky, try again, show me the form you.
+      render :edit
+    end
+  end
+
+###############################################
+# LAB: Write the code to update an existing Song.
+###############################################
+
+###############################################
+# Destroy
+###############################################
+# First lets add a couple of links in the Products index view to show
+# and edit products.
+   <li> <%= link_to 'Show', product_path(product) %></li>
+   <li> <%= link_to 'Edit', edit_product_path(product) %></li>
+
+# Now, lets create a route for the destroy action
+  # HTTP DELETE Request 
+  delete '/products/:id', to: 'products#destroy'
+
+# And we need the destroy action
+  def destroy
+    @product = Product.find(params[:id])
+    @product.destroy
+    redirect_to @products, notice: "You have deleted the product"
+  end
+
+# Finally, lets create a link in the index view to delete a product.
+
+###############################################
+# LAB: Write the code to delete a Song.
+###############################################

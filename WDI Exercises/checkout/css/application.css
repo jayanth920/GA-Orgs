@@ -1,0 +1,9 @@
+h2 {
+  position: relative;
+  width: 260px;
+}
+.currency {
+  text-align: right;
+  position: absolute;
+  right: 0;
+}

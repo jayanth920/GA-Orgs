@@ -1,0 +1,10 @@
+<h2>These are the things</h2>
+
+<ol>
+{{#each things as |thing|}}
+  <li>
+    <h3><a href="/{{thing.name}}">{{thing.name}}</a></h3>
+    <p>{{thing.description}}</p>
+  </li>
+{{/each}}
+</ol>

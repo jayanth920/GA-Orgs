@@ -1,0 +1,29 @@
+{
+  "name": "sample-mean-app",
+  "version": "1.0.0",
+  "description": "Sample MEAN app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "seed": "node config/db/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/ga-wdi-exercises/sample-mean-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.6",
+    "angular": "^1.6.6",
+    "angular-resource": "^1.6.6",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

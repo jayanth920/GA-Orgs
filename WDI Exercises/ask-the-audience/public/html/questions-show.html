@@ -1,0 +1,15 @@
+<h2>{{ShowVM.question.text}}</h2>
+<ul class="answers">
+  <li data-ng-repeat="answer in ShowVM.question.answers">
+    {{answer.text}}
+  </li>
+  <li>
+    Add a new answer
+    <input type="text" data-ng-model="ShowVM.answer.text" />
+    <button data-ng-click="ShowVM.createAnswer()">Add your Answer</button>
+  </li>
+</ul>
+
+<h2>Update the Question</h2>
+<input type="text" data-ng-model="ShowVM.question.text" />
+<button data-ng-click="ShowVM.update()">Update</button>

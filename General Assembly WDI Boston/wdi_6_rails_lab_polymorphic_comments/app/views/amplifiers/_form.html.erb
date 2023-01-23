@@ -1,0 +1,45 @@
+<%= form_for(@amplifier) do |f| %>
+  <% if @amplifier.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@amplifier.errors.count, "error") %> prohibited this amplifier from being saved:</h2>
+
+      <ul>
+      <% @amplifier.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :make %><br>
+    <%= f.text_field :make %>
+  </div>
+  <div class="field">
+    <%= f.label :model %><br>
+    <%= f.text_field :model %>
+  </div>
+  <div class="field">
+    <%= f.label :price %><br>
+    <%= f.text_field :price %>
+  </div>
+  <div class="field">
+    <%= f.label :max_power %><br>
+    <%= f.number_field :max_power %>
+  </div>
+  <div class="field">
+    <%= f.label :impedance %><br>
+    <%= f.number_field :impedance %>
+  </div>
+  <div class="field">
+    <%= f.label :height %><br>
+    <%= f.number_field :height %>
+  </div>
+  <div class="field">
+    <%= f.label :weight %><br>
+    <%= f.number_field :weight %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

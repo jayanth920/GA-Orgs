@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ==========================
+            VARIABLES
+    ========================== */
+    :root {
+      /* colors */
+      --main-accent: #D33F49;
+      --second-accent: #6689A1;
+      --darker-second-accent: #4e6e83;
+      /* fonts */
+      --regular-font: 'Overpass', helvetica;
+      --accent-font: 'Abel';
+    }
+    /* ==========================
+            GENERAL
+    ========================== */
+    body {
+      background: #eeece6;
+      font-family: var(--regular-font);
+      color: #333;
+    }
+    /* ==========================
+            CONTAINERS
+    ========================== */
+    .main-container {
+      width: 25em;
+      margin: 5em auto;
+      padding: 10px;
+      border-radius: 5px;
+      background: white;
+      box-shadow: 1px 1px #ddd;
+    }
+    /* ==========================
+            HEADER
+    ========================== */
+    .header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .header h1 {
+      font-family: var(--accent-font);
+      margin: 0;
+    }
+    .header h2 {
+      font-size: 0.8em;
+      font-family: var(--accent-font);
+      margin: -5px 0;
+      color: #888;
+    }
+    .header ul {
+      list-style-type: none;
+      margin: 0;
+      text-align: right;
+      font-size: 0.8em;
+      font-weight: 900;
+    }
+    .header li {
+      margin: 5px 0;
+      color: var(--second-accent);
+    }
+    .header li:hover {
+      cursor: pointer;
+      color: var(--main-accent);
+    }
+    /* ==========================
+            FORM
+    ========================== */
+    .form {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--main-accent);
+    }
+    input[type="text"] {
+      width: 92%;
+      padding: 5px;
+      box-sizing: border-box;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      margin-right: 5px;
+    }
+    input[type="text"]:focus {
+      outline: 0;
+      border: 1px solid #888;
+    }
+    .submit-button {
+      width: 6%;
+      padding: 5px;
+      box-sizing: border-box;
+      background: #888;
+      border: 1px solid #888;
+      border-radius: 5px;
+      color: white;
+      font-size: 0.7em;
+    }
+    .submit-button:hover {
+      cursor: pointer;
+      background: #444;
+      border: 1px solid #444;
+    }
+    .submit-button:focus {
+      outline: 0;
+    }
+    /* ==========================
+          TASK LIST & TASKS
+    ========================== */
+    .task-list {
+      height: 400px;
+      overflow: auto;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .task {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+      font-family: var(--accent-font);
+      font-size: 0.9em;
+      text-transform: uppercase;
+    }
+    .task-item {
+      color: var(--darker-second-accent);
+    }
+    .task-actions i {
+      margin: 0px 3px;
+    }
+    .task-actions i:hover {
+      cursor: pointer;
+    }
+    .incomplete:hover {
+      color: orange;
+    }
+    .complete:hover {
+      color: green;
+    }
+    .delete:hover {
+      color: var(--main-accent);
+    }

@@ -1,0 +1,23 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <div id='container'>
+        Add Item: <input type='text' id='input-text' placeholder='Add an item'></input>
+      <ul id='item-list' data-counter='0'>List of Items
+      </ul>
+    </div>
+    <script src='./src/dynamic_list.js'></script>
+
+    <script type='text/javascript'>
+      var inputText = document.getElementById('input-text'),
+      list = document.getElementById('item-list');
+
+      // Add delete item event listener on the list itself.
+      list.addEventListener('click', TodoList.itemDelete, false);
+
+      inputText.addEventListener('change', TodoList.addItem, false);
+
+    </script>
+  </body>
+</html>

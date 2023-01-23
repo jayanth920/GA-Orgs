@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @amplifier.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @amplifier.model %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @amplifier.price %>
+</p>
+
+<p>
+  <strong>Max power:</strong>
+  <%= @amplifier.max_power %>
+</p>
+
+<p>
+  <strong>Impedance:</strong>
+  <%= @amplifier.impedance %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @amplifier.height %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @amplifier.weight %>
+</p>
+
+<%= link_to 'Edit', edit_amplifier_path(@amplifier) %> |
+<%= link_to 'Back', amplifiers_path %>

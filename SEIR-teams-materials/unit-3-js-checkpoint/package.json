@@ -1,0 +1,22 @@
+{
+  "name": "js-midcourse-checkpoint",
+  "version": "1.0.0",
+  "description": "Congratulations on completing the first half of SEI! 🥂",
+  "main": "objects.js",
+   "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:sei-921/js-midcourse-checkpoint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

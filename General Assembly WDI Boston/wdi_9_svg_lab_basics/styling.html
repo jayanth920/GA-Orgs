@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVG with CSS3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>SVG + CSS3</h1>
+  <p>We can use CSS3 to style our SVG files. This helps us get all those terrible styling attributes out of our markup and into a stylesheet where they belong. However, you should still keep most of your positioning and sizing attributes in the markup directly where you can easily manipulate them with JavaScript (hint hint, d3).</p>
+
+  <p>Note the <a href="./style.css">style.css</a> file. See how this rectangle is still green with a stroke on it?</p>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100">
+    <rect width="100" height="100"/>
+  </svg>
+
+  <p>We can select using elements, ids and classes just like normal with CSS.</p>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100">
+    <rect width="100" height="100" class="tomatos" />
+  </svg>
+
+  <h3>YOU TRY IT 10</h3>
+  <p>Take some code from prior exercises in this lab, remove the in-line styling and instead build CSS classes to make them look sweet</p>
+
+</body>
+</html>

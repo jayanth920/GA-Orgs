@@ -1,0 +1,16 @@
+I've reverted the changes made in this repo for the following
+reasons. The TDD changes are saved in the jasons_updates branch.
+
+1. Don't use tests before they are explained. No magic.
+
+2. Restore diagrams that are crucial to understanding __proto__ property.
+
+3. Don't use strict mode until we explain it. Good for students to see
+how most javascript they will encounter behaves. This is javascript
+written without script mode.
+
+4. Students to get to know Brower tools, e.g. Chrome inspector.
+
+5. What students to interact with the, sometimes hidden, __proto__
+property of object literal. Not sure if this is available in test
+environments, e.g. Phantom.

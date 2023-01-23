@@ -1,0 +1,25 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="./src/simple_button2.css">
+  </head>
+  <body>
+    <div id='my_button' class='button-div'>Off</div>
+    <script src='./src/simple_button2.js'></script>
+    <script type='text/javascript'>
+      var button = document.getElementById('my_button');
+
+      // Level 2 DOM  event.
+      // Args are:
+      // eventName - string representing the event type.
+      // handler - aka listner. Function that is invoked 
+      // when event is triggered.
+      // useCapture - flag to allow capturing. More later.
+      button.addEventListener('click', EventDemo.toggleButton, false);
+
+      // Level 2 DOM  events CAN have multiple handlers
+      // last handler overrides previous ones.
+      // button.onclick = function(){
+      button.addEventListener('click',function(){ alert("Yeehaa, so many handlers.")}, false);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<header class="listr-list__header" {{action "toggleList"}}>
+  <h2>{{list.title}}</h2>
+</header>
+
+<footer>
+  {{#each list.items as |item|}}
+    {{listr-list/listr-item item=item}}
+  {{else}}
+    This list is empty! Good job?
+  {{/each}}
+</footer>

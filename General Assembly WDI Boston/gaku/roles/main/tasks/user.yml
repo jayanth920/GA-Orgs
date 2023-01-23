@@ -1,0 +1,16 @@
+---
+
+- name: Create `src` directory
+  file: path={{ user_home }}/src state=directory owner={{ user }} group={{ user_group }}
+
+- name: Create `tmp` directory
+  file: path={{ user_home }}/tmp state=directory owner={{ user }} group={{ user_group }}
+
+- name: Ensure ownership of home directories
+  file: path={{ user_home }} state=directory owner={{ user }} group={{ user_group }} recurse=yes
+
+- name: Change the default shell
+  command: chsh -s /usr/bin/zsh {{ user }}
+
+- name: Ensure zsh finds /etc/profile
+  lineinfile: dest=/etc/zsh/zprofile regexp="/etc/profile$" line="source /etc/profile" state=present

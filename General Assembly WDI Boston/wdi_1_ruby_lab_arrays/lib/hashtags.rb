@@ -1,0 +1,2 @@
+def hashtags(tweet)
+end

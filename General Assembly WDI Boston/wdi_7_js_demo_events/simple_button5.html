@@ -1,0 +1,34 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="./src/simple_button2.css">
+  </head>
+  <body>
+    <div id='container'>
+      <!-- Button -->
+      <div id='my_button' class='button-div'>Add Paragraph to Container</div>
+    </div>
+
+    <script src='./src/simple_button5.js'></script>
+    <script type='text/javascript'>
+      var button = document.getElementById('my_button'),
+      container = document.getElementById('container'),
+      targetChildId = 'inserted',
+      insertedHandler = function(){
+        alert("Inserted element fired an event");
+
+      };
+
+      // This will bubble up, last arg is false.
+      // Add a div to the container.
+      button.addEventListener('click', EventDemo.addDiv(targetChildId), false);
+
+      // Handle child events.
+      container.addEventListener('click', function(event){
+        // Note the use of closure. This function ONLY
+        // has access to insertedHandler and targetChildId at runtime via closure.
+        EventDemo.handleChildEvents(event, insertedHandler,targetChildId);
+      }, false);
+
+    </script>
+  </body>
+</html>

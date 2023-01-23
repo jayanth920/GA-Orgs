@@ -1,0 +1,13 @@
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'snippets/**/*'
+
+AllCops:
+  TargetRubyVersion:
+    2.5
+  Exclude:
+    - 'spec/spec_helper.rb'

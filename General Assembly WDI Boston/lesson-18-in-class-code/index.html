@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/application.css" />
+
+  <script src="https://unpkg.com/@supabase/supabase-js"></script>
+  <script src="assets/javascript/task.js"></script>
+  <script src="assets/javascript/application.js"></script>
+
+  <title>To Do List</title>
+</head>
+<body>
+  <main>
+    <h1>To Do List</h1>
+
+    <form id="new-task-form">
+      <input type="text" id="task-field" placeholder="Enter your task..." />
+      <input type="submit" id="add" value="Add" />
+    </form>
+
+    <ul id="todo-list">
+    </ul>
+  </main>
+</body>
+</html>

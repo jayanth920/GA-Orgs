@@ -1,0 +1,11 @@
+<form method="get" action="/">
+  <label>City:</label>
+  <input name="city" type="text">
+  <label>State:</label>
+  <input name="state" type="text">
+  <input type="submit">
+</form>
+
+
+<p>Temperature in <%= "#{params[:city]}, #{params[:state]}" %> is <%= @forecast.temp_f %></p>
+<p>Current Weather in <%= "#{params[:city]}, #{params[:state]}" %> is <%= @forecast.weather %></p>

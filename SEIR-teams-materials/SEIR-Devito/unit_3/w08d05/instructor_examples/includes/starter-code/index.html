@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="WaterApp">
+	<head>
+		<meta charset="utf-8">
+		<title>Water Bar</title>
+		<link rel="stylesheet" href="main.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+		<script src="app.js" charset="utf-8"></script>
+	</head>
+	<body ng-controller="BaseCtrl as ctrl">
+		<nav ng-include="'partials/navigation'"></nav>
+		<h1>Water Bar</h1>
+		<h2>We only serve water</h2>
+		<div class="container">
+			<div ng-include="ctrl.includePath" class="menu"></div>
+		</div>
+	</body>
+</html>

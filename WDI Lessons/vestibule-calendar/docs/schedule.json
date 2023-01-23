@@ -1,0 +1,1598 @@
+{
+  "start-date": "2017-08-07",
+  "weeks": [
+    [{
+      "week": 1,
+      "events": [{
+        "9:00AM - 12:30PM": {
+          "title": "Intro to WDI",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/wdi-intro",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "CLI",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/cli-intro",
+          "lead": "Ali",
+          "support": "James"
+        }
+      }, {
+        "6:00PM - 8:00PM": {
+          "title": "Office Hours",
+          "url": "",
+          "lead": "Eric",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Checkpoint",
+          "url": "",
+          "lead": "Ali"
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Git 1",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/git-intro",
+          "lead": "Eric",
+          "support": "James"
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Git 2",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/git-branching",
+          "lead": "James",
+          "support": "Ali"
+        }
+      }, {
+        "6:00PM - 8:00PM": {
+          "title": "Office Hours",
+          "url": "",
+          "lead": "Ali",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Useful Tools",
+          "url": "",
+          "lead": "Ali"
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "HTML & CSS",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/html-and-css",
+          "lead": "Eric",
+          "support": "James"
+        }
+      }, {
+        "2:30PM - 4:30PM": {
+          "title": "Intro to Outcomes / Alumni Panel",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week01",
+          "lead": "Joy + Sarah",
+          "support": ""
+        }
+      }, {
+        "4:30PM - 05:00PM": {
+          "title": "Squad Scrum",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "6:00PM - 8:00PM": {
+          "title": "Office Hours",
+          "url": "",
+          "lead": "James",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Code Challenge",
+          "url": "",
+          "lead": "Eric",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "CSS: Flexbox",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/css-flexbox",
+          "lead": "James",
+          "support": "Ali"
+        }
+      }, {
+        "2:30PM - 05:00PM": {
+          "title": "Lab: Portfolio Pages",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/portfolio_pages",
+          "lead": "Ali",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM": {
+          "title": "Homework Due",
+          "color": "red",
+          "url": [{
+            "To Oz": "https://git.generalassemb.ly/ga-wdi-exercises/to_oz"
+          }, {
+            "Haiku": "https://git.generalassemb.ly/ga-wdi-exercises/haiku"
+          }, {
+            "Wendy Bite": "https://git.generalassemb.ly/ga-wdi-exercises/wendy_bite"
+          }, {
+            "Portfolio Pages": "https://git.generalassemb.ly/ga-wdi-exercises/portfolio_pages"
+          }],
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "History of JavaScript",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/js-history",
+          "lead": "Eric",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "JS: Data Types and Control Flow",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/js-data-types-and-conditionals",
+          "lead": "Ali",
+          "support": "Eric"
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "JS: Functions and Scope",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/functions-and-scope",
+          "lead": "James",
+          "support": "Eric"
+        }
+      }]
+    }],
+    [{
+      "week": 2,
+      "events": [{
+          "9:00AM": {
+            "title": "Homework Due",
+            "url": [{
+              "AirBnB": "https://git.generalassemb.ly/ga-wdi-exercises/css-airbnb"
+            }],
+            "lead": "",
+            "support": "",
+            "color": "red"
+          }
+        },
+        {
+          "9:00AM - 10:00AM": {
+            "title": "Checkpoint: HTML, CSS, Git",
+            "url": "",
+            "lead": "Ali",
+            "support": ""
+          }
+        },
+        {
+          "10:00AM - 12:30PM": {
+            "title": "JS: Higher Order Functions",
+            "url": "https://git.generalassemb.ly/ga-wdi-lessons/js-higher-order-functions",
+            "lead": "James",
+            "support": "Ali"
+          }
+        },
+        {
+          "2:30PM - 5:00PM": {
+            "title": "JS: Objects and Context",
+            "url": "https://git.generalassemb.ly/ga-wdi-lessons/js-objects-and-context",
+            "lead": "Eric",
+            "support": "James"
+          }
+        }
+      ]
+    }, {
+      "events": [{
+          "9:00AM - 10:00AM": {
+            "title": "Code Challenge",
+            "url": "",
+            "lead": "James",
+            "support": ""
+          }
+        },
+        {
+          "10:00AM - 12:30PM": {
+            "title": "JS: Object-Oriented Programming",
+            "url": "https://git.generalassemb.ly/ga-wdi-lessons/js-oojs-classes",
+            "lead": "Ali",
+            "support": "Eric"
+          }
+        },
+        {
+          "2:30PM - 5:00PM": {
+            "title": "Lab: JS Gladiator",
+            "url": "https://git.generalassemb.ly/ga-wdi-exercises/js-gladiator",
+            "lead": "Eric",
+            "support": ""
+          }
+        }
+      ]
+    }, {
+      "events": [{
+        "09:00AM": {
+          "title": "Due At 9: Lab",
+          "color": "red",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/js-gladiator",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "Outcomes Prep",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "JS: DOM and JQuery",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/jquery-dom",
+          "lead": "James",
+          "support": "Eric"
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Outcomes",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Slips",
+          "lead": "Eric",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "JS: Events",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/js-events-callbacks",
+          "lead": "Eric",
+          "support": "Ali"
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Lab: ATM",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/atm",
+          "lead": "Ali",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+          "9:00AM - 10:00AM": {
+            "title": "Checkpoint: JavaScript",
+            "lead": "Ali"
+          }
+        }, {
+          "10:00AM - 12:00PM": {
+            "title": "Lab: ATM",
+            "url": "https://git.generalassemb.ly/ga-wdi-exercises/atm",
+            "lead": "James",
+            "support": ""
+          }
+        },
+        {
+          "12:00PM - 12:30PM": {
+            "title": "Squad Scrum",
+            "url": "",
+            "lead": "James",
+            "support": ""
+          }
+        },
+        {
+          "02:30PM": {
+            "title": "Due At 2:30: Lab",
+            "color": "red",
+            "url": "https://git.generalassemb.ly/ga-wdi-exercises/project1",
+            "lead": "",
+            "support": ""
+          }
+        }, {
+          "2:30 - 5:00PM": {
+            "title": "Building a Bigger Project",
+            "url": "https://git.generalassemb.ly/ga-wdi-lessons/building-a-bigger-project",
+            "lead": "Ali",
+            "support": "James"
+          }
+        }
+      ]
+    }],
+    [{
+      "week": 3,
+      "events": [{
+        "9:00AM": {
+          "title": "Due At 9: Homework",
+          "color": "red",
+          "url": [{
+            "JS Calculator": "https://git.generalassemb.ly/ga-wdi-exercises/js-calculator"
+          }, {
+            "Choose Your Own Adventure": "https://git.generalassemb.ly/ga-wdi-exercises/choose_your_own_adventure_js"
+          }, {
+            "PixartJS": "https://git.generalassemb.ly/ga-wdi-exercises/pixart_js"
+          }, {
+            "Geometry": "https://git.generalassemb.ly/ga-wdi-exercises/js_geometry"
+          }],
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "Squad Scrum: Project 1",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project1",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:00PM": {
+          "title": "Project 1",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project1",
+          "lead": "Ali",
+          "support": ""
+        }
+      }, {
+        "2:00PM - 4:00PM": {
+          "title": "Project 1",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project1",
+          "lead": "James",
+          "support": ""
+        }
+      }, {
+        "6:00PM": {
+          "title": "Due At 6: Outcomes - What's My Brand Worksheet",
+          "color": "red",
+          "url": "https://github.com/ga-dc/outcomes/blob/master/roadmap/week03/HWWeek3.md",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "10:00AM - 12:00PM": {
+          "title": "Project 1",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project1",
+          "lead": "Ali",
+          "support": ""
+        }
+      }, {
+        "2:00PM - 4:00PM": {
+          "title": "Project 1",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project1",
+          "lead": "James",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "10:00AM - 12:00PM": {
+          "title": "Project 1",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project1",
+          "lead": "Eric",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Outcomes",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "10:00AM - 12:00PM": {
+          "title": "Project 1",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project1",
+          "lead": "Eric",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Project 1 Presentations",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project1",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM": {
+          "title": "Due At 9: Homework",
+          "color": "red",
+          "url": [{
+            "Try Ruby, Levels 1 - 3": "https://git.generalassemb.ly/ga-wdi-exercises/try-ruby"
+          }],
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "Markdown Reading",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/documentation-markdown",
+          "lead": "James",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:00PM": {
+          "title": "Ruby: Data Types and Control Flow",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/ruby-intro",
+          "lead": "Eric",
+          "support": "James"
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Ruby: Enumerables",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/ruby-iteration-and-enumerables",
+          "lead": "Ali",
+          "support": "Eric"
+        }
+      }]
+    }],
+    [{
+      "week": 4,
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Ruby Code Challenge: Ciphers",
+          "url": "",
+          "lead": "James",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30AM": {
+          "title": "Lab: State Capitals (Ruby Enumerables Lab)",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/state_capitals",
+          "lead": "James",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Ruby: Object-Oriented Programming I",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/ruby-oop",
+          "lead": "Ali",
+          "support": ""
+        }
+      }, {
+        "06:00PM": {
+          "title": "Due At 6: Outcomes - Draft Brand Statement",
+          "color": "red",
+          "url": "https://github.com/ga-dc/outcomes/blob/master/roadmap/week05/HWweek5.md",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM": {
+          "title": "HTTParty",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/httparty",
+          "lead": "James",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Ruby: Object-Oriented Programming II",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/ruby-oop-inheritance",
+          "lead": "Ali",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Lab: Ruby CLI",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/ruby-cli-lab",
+          "lead": "James",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Outcomes Prep",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Lab: Ruby CLI",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/ruby-cli-lab",
+          "lead": "Ali",
+          "support": ""
+        }
+      }, {
+        "02:30PM": {
+          "title": "Due At 2:30: Lab",
+          "color": "red",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/ruby-cli-lab",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Outcomes",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM": {
+          "title": "Due At 9: Homework",
+          "color": "red",
+          "url": [{
+            "High Card": "https://git.generalassemb.ly/ga-wdi-exercises/high_card"
+          }, {
+            "Landlord": "https://git.generalassemb.ly/ga-wdi-exercises/landlord_ruby_no_AR"
+          }],
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "Slips",
+          "url": "",
+          "lead": "Ali"
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Domain Modeling SQL",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/sql-intro",
+          "lead": "James",
+          "support": "Ali"
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Active Record",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/activerecord-intro",
+          "lead": "Mike",
+          "support": "James"
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Checkpoint",
+          "url": "",
+          "lead": "Ali",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Sinatra: MVC",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/sinatra-rest",
+          "lead": "Ali",
+          "support": "Mike"
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Sinatra: REST",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/sinatra-rest",
+          "lead": "James",
+          "support": "Mike"
+        }
+      }]
+    }],
+    [{
+      "week": 5,
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "Labor Day: No Class"
+        }
+      }, {
+        "6:00PM": {
+          "title": "Due at 6: Outcomes - Draft Resume",
+          "url": "https://github.com/ga-dc/outcomes/blob/master/roadmap/week06/HWweek6.md",
+          "color": "red",
+          "lead": "",
+          "support": ""
+        }
+      }]    }, {
+      "events": [{
+        "9:00AM": {
+          "title": "Due At 9: Homework",
+          "color": "red",
+          "url": [{
+            "NBA Stats": "https://git.generalassemb.ly/ga-wdi-exercises/nba_stats"
+          }, {
+            "Simetro": "https://git.generalassemb.ly/ga-wdi-exercises/simetro"
+          }],
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "Code Challenge",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Sinatra and ActiveRecord",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/sinatra-and-activerecord",
+          "lead": "Mike",
+          "support": "James"
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Lab: Pokenatra",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/pokenatra",
+          "lead": "Ali",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 12:00PM": {
+          "title": "Lab: Pokenatra",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/pokenatra",
+          "lead": "James",
+          "support": ""
+        }
+      }, {
+        "12:00PM - 12:30PM": {
+          "title": "Squad Scrum",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Rails: MVC",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/http-mvc-intro-rails",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "5:00PM": {
+          "title": "Due At 5: Lab",
+          "color": "red",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/pokenatra",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM": {
+          "title": "Due At 9: Homework",
+          "color": "red",
+          "url": [{
+            "Landlord (AR)": "https://git.generalassemb.ly/ga-wdi-exercises/landlord"
+          }, {
+            "Getting Started w/ Rails, Chapters 1-5": "https://git.generalassemb.ly/ga-wdi-exercises/rails_getting_started"
+          }],
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "Outcomes Prep",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Rails: Models and Migrations",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/rails-activerecord",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Outcomes: Washington Post Tour",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week05",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Slips",
+          "url": "https://ga-dc.github.io/slips/",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Rails: Views and Controllers",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/rails-views",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Rails: Routes and Resources",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/rails-routing",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }],
+    [{
+      "week": 6,
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Checkpoint: Rails",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Lab: Hogwarts",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/hogwarts_rails",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Rails: Sessions, Flash, Validations & Errors",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/rails-sessions-flash-validations-errors",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "06:00PM": {
+          "title": "Due At 6: Outcomes - Final Brand Statement",
+          "color": "red",
+          "url": "https://github.com/ga-dc/outcomes/blob/master/roadmap/week06/HWweek6.md",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM": {
+          "title": "Due At 9: Lab",
+          "color": "red",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/hogwarts_rails",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "Outcomes Prep",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Outcomes: Defining Your Job Search Requirements",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week06",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Rails: Devise and CanCanCan",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/devise",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Code Challenge",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Rails: Many to Many",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/rails-many-to-many",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Lab: Game of Thrones",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/game_of_thrones",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 12:30PM": {
+          "title": "Lab: Game of Thrones",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/game_of_thrones",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "02:30PM - 5:00PM": {
+          "title": "Guided Lab: Deployment",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/rails-deployment",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "5:00PM": {
+          "title": "Due At 5: Lab",
+          "color": "red",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/game_of_thrones",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM": {
+          "title": "Homework Due",
+          "color": "red",
+          "url": [{
+            "Scribble": "https://git.generalassemb.ly/ga-wdi-exercises/scribble"
+          }]
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "Agile",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 5:00PM": {
+          "title": "Project 2",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project2",
+          "lead": "Open Office Hours 10-12",
+          "support": "James"
+        }
+      }]
+    }],
+    [{
+      "week": 7,
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "Project 2",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project2",
+          "lead": "Open Office Hours 10-12",
+          "support": ""
+        }
+      }, {
+        "6:00PM": {
+          "title": "Due At 6: Outcomes - Draft Cover Letter",
+          "color": "red",
+          "url": "https://github.com/ga-dc/outcomes/blob/master/roadmap/week07/Coverletters.md",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Outcomes Prep",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Outcomes: Preparing for the Interview and Talking Money",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week07",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30AM - 5:00PM": {
+          "title": "Project 2",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project2",
+          "lead": "Open Office Hours 2:30-4:30",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "Project 2",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project2",
+          "lead": "Open Office Hours 10-12",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 12:30PM": {
+          "title": "Project 2",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project2",
+          "lead": "Open Office Hours 10-12",
+          "support": ""
+        }
+      }, {
+        "2:00PM - 4:30PM": {
+          "title": "Project 2 Presentations",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/project2",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "4:30PM - 5:00PM": {
+          "title": "Squad Scrum",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM": {
+          "title": "Homework Due",
+          "color": "red",
+          "url": [{
+            "Shaping Up with Angular": "https://git.generalassemb.ly/ga-wdi-exercises/shaping-up-with-angular"
+          }]
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "Slips",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Angular: Intro",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/angular-intro",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Lab: Superheroes",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/angular-superheroes",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "5:00PM": {
+          "title": "Due At 5: Lab",
+          "color": "red",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/angular-superheroes",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }],
+    [{
+      "week": 8,
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Code Challenge",
+          "url": "",
+          "lead": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Angular: UI Router",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/angular-routing",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "APIs and AJAX",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/js-ajax",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "6:00PM": {
+          "title": "Due At 6: Outcomes - Final Resume and LinkedIn Profile",
+          "color": "red",
+          "url": "https://github.com/ga-dc/outcomes/blob/master/roadmap/week08/HWweek8.md",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Outcomes Prep",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Outcomes: GA Profiles and Portfolios / Headshots",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week08",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30AM - 5:00PM": {
+          "title": "Angular: Resources",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/angular-resources",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Code Challenge",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Rails API",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/rails-api",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Lab: WDI Radio",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/wdi_radio_lab",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 12:30PM": {
+          "title": "Lab: WDI Radio",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/wdi_radio_lab",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 4:30PM": {
+          "title": "Git Workflows",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/git-teams",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "4:30PM - 5:00PM": {
+          "title": "Squad Scrum"
+        }
+      }, {
+        "5:00PM": {
+          "title": "Due At 5: Lab",
+          "color": "red",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/wdi_radio_lab",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM": {
+          "title": "Homework Due",
+          "color": "red",
+          "url": [{
+            "Movie Browser": "https://git.generalassemb.ly/ga-wdi-exercises/movie-browser"
+          }, {
+            "WDInstagram": "https://git.generalassemb.ly/ga-wdi-exercises/wdinstagram_angular"
+          }]
+        }
+      }, {
+        "9:00AM - 10:00AM": {
+          "title": "Project 3 Intro",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 5:00PM": {
+          "title": "Project 3",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }],
+    [{
+      "week": 9,
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "Project 3",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "6:00PM": {
+          "title": "Due At 6: Outcomes - Final GA Profile",
+          "color": "red",
+          "url": "https://github.com/ga-dc/outcomes/blob/master/roadmap/week09/HWweek9.md",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Outcomes Prep",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Outcomes: GA Profile Reviews and Organization Tracker Check-In",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week09",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Project 3",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "Project 3",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 12:30PM": {
+          "title": "Project 3",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 4:30PM": {
+          "title": "Project 3 Presentations",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "4:30PM - 5:00PM": {
+          "title": "Squad Scrum",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Node",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Express",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/express-intro",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00 PM": {
+          "title": "Mongoose",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/mongoose-intro",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }],
+    [{
+      "week": 10,
+      "events": [{
+        "9:00AM - 10:00PM": {
+          "title": "Code Challenge",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Express with Mongoose",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/express-mongoose",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00 PM": {
+          "title": "Testing in Express",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "6:00PM": {
+          "title": "Due At 6: Outcomes - Draft Portfolio",
+          "color": "red",
+          "url": "https://github.com/ga-dc/outcomes/blob/master/roadmap/week10/DraftPortfolio.md",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Outcomes Prep",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Outcomes: Hiring Panel",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week10",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Building a MEAN App",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/building-a-mean-app",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Slips",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Lab: MEAN",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/mean-lab",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Lab: MEAN",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/mean-lab",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "5:00PM": {
+          "title": "Due At 5: MEAN Lab",
+          "color": "red",
+          "lead": "",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/mean-lab",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Checkpoint: Mongoose and Express",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Websockets",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/websockets-node",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Teach Yourself",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/sweet-libs",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 12:30PM": {
+          "title": "Teach Yourself",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/sweet-libs",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "React: Components",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/react-intro",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "5:00PM": {
+          "title": "Due At 5: Teach Yourself",
+          "color": "red",
+          "lead": "",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/sweet-libs",
+          "support": ""
+        }
+      }]
+    }],
+    [{
+      "week": 11,
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "No Class",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00PM": {
+          "title": "Outcomes Prep",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Outcomes: Cracking the Technical Interview",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week11/WDI",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00 PM": {
+          "title": "React: State and Data Flow",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/react-continued",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM-10:00AM": {
+          "title": "Code Challenge",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Lab: React Components",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/component-extravaganza",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00 PM": {
+          "title": "React Router",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/react-router",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "5:00PM": {
+          "title": "Due At 5: Lab",
+          "color": "red",
+          "lead": "",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/component-extravaganza",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Code Challenge",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30AM": {
+          "title": "Lab: React Router",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/react-router-lab",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00 PM": {
+          "title": "React with Redux",
+          "url": "https://git.generalassemb.ly/ga-wdi-lessons/react-redux",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "5:00PM": {
+          "title": "Due At 5: Lab",
+          "color": "red",
+          "lead": "",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/react-router-lab",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Checkpoint: React",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30PM": {
+          "title": "Lab: Redux",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/react-redux-shopping-cart",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Project 4 Intro",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "5:00PM": {
+          "title": "Due At 5: Lab",
+          "color": "red",
+          "lead": "",
+          "url": "https://git.generalassemb.ly/ga-wdi-exercises/react-redux-shopping-cart",
+          "support": ""
+        }
+      }]
+    }],
+    [{
+      "week": 12,
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "Project 4",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "6:00PM": {
+          "title": "Due At 6: Outcomes - Final Materials",
+          "color": "red",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week12/WDI"
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 10:00AM": {
+          "title": "Project 4",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "10:00AM - 12:30AM": {
+          "title": "Outcomes: Qualification Check-In",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week12/WDI",
+          "lead": "",
+          "support": ""
+        }
+      }, {
+        "2:30PM - 5:00PM": {
+          "title": "Project 4",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "Project 4",
+          "url": "",
+          "lead": "",
+          "support": ""
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "Project 4"
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 12:30PM": {
+          "title": "Project 4"
+        }
+      }, {
+        "2:00PM - 4:00PM": {
+          "title": "Presentations"
+        }
+      }, {
+        "4:00PM - 5:00PM": {
+          "title": "Final Scrum / Feedback-back"
+        }
+      }]
+    }],
+    [{
+      "week": 13,
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "No Class"
+        }
+      }]
+    }, {
+      "events": [{
+        "12:00PM": {
+          "title": "Due at 12: Outcomes - Final Portfolios",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week13"
+        }
+      }, {
+        "2:30PM - 4:30PM": {
+          "title": "Portfolio Reviews",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/week13"
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "No Class"
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "No Class"
+        }
+      }]
+    }, {
+      "events": [{
+        "10:00AM - 3:30PM": {
+          "title": "Outcomes Bootcamp",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/Outcomes%20Bootcamp"
+        }
+      }]
+    }],
+    [{
+      "week": 14,
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "No Class"
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "No Class"
+        }
+      }]
+    }, {
+      "events": [{
+        "4:00PM - 6:30PM": {
+          "title": "Student Spotlight",
+          "url": "https://github.com/ga-dc/outcomes/tree/master/roadmap/Student%20Spotlight"
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "No Class"
+        }
+      }]
+    }, {
+      "events": [{
+        "9:00AM - 5:00PM": {
+          "title": "No Class"
+        }
+      }]
+    }]
+  ]
+}

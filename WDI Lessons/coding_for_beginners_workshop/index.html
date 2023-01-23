@@ -1,0 +1,1878 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+			<!-- PART 1: HOW THE INTERNET WORKS -->
+				<!-- <section>
+
+					<h1>PFNP Bootcamp</h1>
+					<p>
+						Jay Nappy
+						<br>
+						jay@ga.co
+					</p>
+					<p><u>Mac Users:</u> visit the App Store and download "Xcode"</p>
+					<p><u>PC Users:</u> visit Google and find/download "Git Bash" and visit http://rubyinstaller.org/</p>
+					<p><u>All Users:</u> visit Google and find/download "Sublime Text Editor"; also, visit tlk.io/coding to get access to our class' chat app</p>
+				</section> -->
+
+				<section data-markdown>
+				    <script type="text/template">
+				        ## Page title
+
+				        A paragraph with some text and a [link](http://hakim.se).
+				    </script>
+				</section>
+
+				<section>
+
+					<h1>PFNP</h1>
+					<p>
+						Jay Nappy
+						<br>
+						jay@ga.co
+					</p>
+					<p><u>Mac Users:</u> visit the App Store and download "Xcode"</p>
+					<p><u>PC Users:</u> visit Google and find/download "Git Bash"</p>
+					<p><u>All Users:</u> visit Google and find/download "Sublime Text Editor"; also, visit tlk.io/coding to get access to our class' chat app</p>
+				</section>
+
+				<!-- PART 1: HOW THE INTERNET WORKS -->
+<!-- 				<section>
+
+					<h1>Web Development for Beginners</h1>
+					<p>
+						Jay Nappy
+						<br>
+						jay@ga.co
+					</p>
+					<p><u>Mac Users:</u> visit the App Store and download "Xcode"</p>
+					<p><u>PC Users:</u> visit Google and find/download "Git Bash"</p>
+					<p><u>All Users:</u> visit Google and find/download "Sublime Text Editor"; also, visit tlk.io/coding to get access to our class' chat app</p>
+				</section> -->
+
+				<section>
+					<h2>What we'll learn</h2>
+					<p>
+						<li>How the Internet works</li>
+						<li>Basic HTML/CSS</li>
+						<li>How to talk to your operating system...like a developer</li>
+						<li>Version control and why it's important</li>
+						
+
+					</p>
+				</section>
+
+<!-- 
+				<section>
+					<h2>What we'll learn</h2>
+					<p>
+						<li>How the Internet works</li>
+						<li>Version control and why it's important</li>
+						<li>Programming fundamentals</li>
+						<li>How to start a simple web server</li>
+
+					</p>
+				</section> -->
+
+
+				<!--  -->
+
+
+
+
+				<!--  -->
+
+				<!-- <section>
+					<h2>Agenda</h2>
+					<p>Today</p>
+					<ol>
+
+						<li>Web basics</li>
+						<li>Talking to your OS</li>
+						<li>HTML/CSS</li>
+						<li>The basics of Ruby</li>
+
+
+					</ol>
+				</section> -->
+
+
+				<section>
+					<h2>Expectations</h2>
+					<ul>
+						<li>It's going to hurt your brain</li>
+						<li>Ask questions</li>
+						<li>Google is your friend</li>
+						<li>We will hit errors</li>
+					</ul>
+				</section>
+
+
+
+
+				<!--  -->
+
+
+				<section>
+					<h2>Goals</h2>
+						<ul>
+							<li>Have confidence in your ability to troubleshoot and learn on your own</li>
+							<li>Understand the constraints of programming</li>
+							<li>Compare tools developers use</li>
+						</ul>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Who am I?</h2>
+					<h4>Currently?</h4>
+					<ul>
+						<li>Senior Instructional Deigner - GA, Campus Tech Courses</li>
+						<li>Contract Web Developer - <a href="krossoverkredit.com">KrossoverKredit.com</a>, EssayManager, KrossoverLeaderboard.com</li>
+					</ul>
+					<br>
+					<br>
+					<h4>Previously?</h4>
+						<li>BiologyTeacher</li>
+						<li>RegentsHelp.com</li>
+						<li>Tech Sales</li>
+						<li>Events</li>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Who are you?</h2>
+					<p>Tell us your first name and one sentence about why you're taking the course.</p>
+
+
+				</section>
+
+
+
+				<!--  -->
+
+
+
+				<!--  -->
+
+				<section>
+					<h2>We're ready!!!</h2>
+					<img src="http://jokideo.com/wp-content/uploads/meme/2014/09/Why-are-frogs-so-happy---meme.jpg">
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Objectives: How the internet works</h2>
+						<p>Describe how clients work with servers to deliver information.</p>
+				</section>
+
+
+				<section>
+					<h2>The internet as you know it</h2>
+
+					<p>It all comes down to requests and responses</p>
+					<p class="fragment">You send information out to the web, and based on the info you send, you get information back</p>
+					<img src="https://cdn.tutsplus.com/net/authors/jeremymcpeak/http1-request-response.png">
+
+
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>HTTP</h2>
+
+					<p>Stands for "Hyper Text Transfer Protocol"</p>
+					<p class="fragment">Allows for communication between a variety of <strong>hosts and clients</strong>, and supports a mixture of network configurations.</p>
+
+					<img src="https://cdn.tutsplus.com/net/authors/jeremymcpeak/http1-request-response.png">
+
+					<p class="fragment">Read: "Makes it easy for computers to talk to each other"</p>
+
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Important Vocab</h2>
+					<p>Host - Client - Request - Response</p>
+
+
+					<p class="fragment">Predict, with a partner, how these vocabulary words relate to one another.  When you're finished,
+					we'll draw a diagram on the board that we will refer back to.</p>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Important Vocab</h2>
+					<p>Host - a computer or other device connected to a computer network. A host may offer information resources, services, and applications (via computer code!) to users or other computers on the network</p>
+
+					<img src="https://cdn.tutsplus.com/net/authors/jeremymcpeak/http1-request-response.png">
+
+					<p>Examples: Servers and Web Services</p>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Hosts - Servers</h2>
+
+					<img src="https://www.securecommobile.com/wp-content/uploads/2014/03/Server-room-interior.jpg">
+
+
+				</section>
+
+				<!--  -->
+
+				<section>
+
+						<h2>Web Services</h2>
+						<p>Let's login to the AWS Console, Heroku</p>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Important Vocab</h2>
+					<p>Client - the requesting <strong>program</strong> in the client/host relationship</p>
+					<p class="fragment">The client initiates an HTTP request message, which is serviced through a HTTP response message in return.</p>
+
+					<img src="https://cdn.tutsplus.com/net/authors/jeremymcpeak/http1-request-response.png">
+
+					<p class="fragment">Come up with one example of a client that can send requests.</p>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+
+					<section>
+						<h2>Clients</h2>
+						<p>Web Browsers</p>
+
+							<img src="http://chromespot.com/wp-content/uploads/2013/09/chrome-update-2.png">
+
+					</section>
+
+					<section>
+						<h2>Clients</h2>
+						<p>Terminals</p>
+
+							<img src="http://i0.wp.com/www.mikebeas.com/wordpress/wp-content/uploads/2014/06/terminal.png?fit=960%2C960">
+
+
+					</section>
+
+					<section>
+						<h2>Clients</h2>
+						<p>SQL Programs like Workbench and PGAdmin</p>
+
+							<img src="http://docs.aws.amazon.com/redshift/latest/mgmt/images/connect-cluster-query-result-55.png">
+
+					</section>
+
+					<!--  -->
+
+					<section>
+						<h2>Practice with the Terminal as a request client</h2>
+						<p>Open your terminal, and type in the following request:</p>
+
+							<pre><code data-trim>
+								curl http://www.krossoverkredit.com/users/sign_in
+							</code></pre>
+
+						<p>cURL stands for 'Client URL Request Library'</p>
+
+					</section>
+
+					<!--  -->
+
+
+				</section>
+
+				<!--  -->
+
+
+
+				<section>
+					<h2>Let's practice with a more popular client: the browser</h2>
+					<p>But before we do, let's answer the following questions in pairs:</p>
+					<ol>
+						<li>Do you think the request format different in a browser? Why or why not?</li>
+						<li>What do you think makes a browser client so special in the way it handles responses?</li>
+					</ol>
+
+				</section>
+
+				<!--  -->
+
+
+				<section>
+					<h2>Practice with the Chrome browser client</h2>
+					<p>Open up Chrome and type in 'http://www.krossoverkredit.com/users/sign_in'</p>
+					<p>Keep in mind, this is the same request and same response, so remember what makes response handling different!</p>
+				</section>
+
+					<!--  -->
+
+				<section>
+					<h2>Let's practice with Google.com:</h2>
+					<ol>
+						<li>In the browser, go to google.com.</li>
+						<li class='fragment'>Then, search for "general assembly".</li>
+					</ol>
+				</section>
+
+					<!--  -->
+
+				<section>
+					<h2> Talk with a partner</h2>
+						<p>What do you notice about the URL after you searched?</p>
+						<img src="https://i.imgur.com/gdrRBSI.png" class="fragment">
+
+				</section>
+
+
+				<!--  -->
+
+				<section>
+						<h2>So now that we're experts on requests and responses</h2>
+						<ol>
+							<li>Where do you think front-end development fits into the req/res cycle?</li>
+							<li class="fragment">What about backend development?</li>
+						</ol>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Backend vs. Frontend development and languages</h2>
+					<ul>
+						<li>Full-stack development: applications built for the web</li>
+						<li class="fragment">Front-end language: client/browser side code - HTML/CSS/JS</li>
+						<li class="fragment">Back-end languages: code that runs on the server - Ruby/PHP/Python</li>
+					</ul>
+
+					<p class="fragment">Let's draw it in our diagram</p>
+
+				</section>
+
+
+				<section>
+					<h2>Server-side vs. Client-Side</h2>
+					<p>Server-side languages control what pages, information is <strong>served</strong> to the client.</p>
+
+					<p class="fragment">Client-side languages are responsible for displaying information and aesthetics to the user.</p>
+
+					<p class="fragment">Each side's programming, refers to code which runs at the specific machine, the server's or the client's.</p>
+				</section>
+
+				<section>
+					<h2>In plain ol' English:</h2>
+					<p>Client: "I'm going to ask for information by explicitly saying where to go and what I need in a URL"</p>
+					<p class="fragment">Server: "Based on the request/URL, I'm going to run a particular set of code (Ruby), to send you the information + data you request via HTML/CSS/JS."</p>
+					<p class="fragment">Client: "Thank you for this data - I'm going to make it pretty with the HTML/CSS/JS you gave me."</p>
+				</section>
+
+
+
+				<!--  -->
+
+				<section>
+					<h2>Objectives: How the internet works</h2>
+						<p>Describe how clients work with servers to deliver information.</p>
+				</section>
+
+
+				<section>
+					<img src="http://img3.wikia.nocookie.net/__cb20130323203035/degrassi/images/f/f0/We_were_on_a_break.gif">
+				</section>
+
+				<!-- PART 2:  -->
+
+				<section>
+					<h2>Objectives: The command line</h2>
+						<p>Navigate files and folders using the terminal</p>
+				</section>
+
+				<!--  -->
+
+			<!-- 	<section>
+					<h2>Where does this fit in the big idea?</h2>
+					<p>It all comes down to requests and responses</p>
+					<p class="fragment">Let's look to the diagram...</p>
+				</section> -->
+
+				<!--  -->
+
+				<section>
+					<h2>Since we're big time developers</h2>
+
+						<p>Be efficient</p>
+							<ul>
+								<li>Use the keyboard, terminal (command line) as much as humanly possible</li>
+							</ul>
+
+
+					<img class='fragment' src="https://i.imgur.com/T7Sgfzb.png">
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>The Command Line</h2>
+					<ul>
+						<li>You speak to your operating system through your command line with via Unix commands</li>
+						<li>You can do anything you could do in finder in the command line...but faster</li>
+						<li>All the capabilities of a GUI but without clicking</li>
+						<li>"Directory" = "Folder"</li>
+						<img src="https://i.imgur.com/r7Gv3eC.png">
+					</ul>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Why use the command line?</h2>
+					<p>What about an mp3? Open with iTunes</p>
+					<p class="fragment">If we want to run a ruby file (.rb) we have to run it using the terminal program</p>
+					<p class="fragment">Watch, real quick...</p>
+
+					<pre class="fragment"><code>~/workshop-resources/secret_number/jay_nappy</code></pre>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Key Idea: Functions accept parameters</h2>
+						<ul>
+							<li>Functions are a set of instructions that take input, do calculations on that input, and return a result.</li>
+							<li>"Functions" ~ "Commands" ~ "Methods"</li>
+							<li>"Parameters" ~ "Input" ~ "Arguments"</li>
+							<li class="fragment">Parameters represent information or data you give to a function</li>
+							<li class="fragment">Example: f(x) = 2x + 4</li>
+							<li class="fragment">Sometimes, functions don't accept parameters</li>
+
+							<p class="fragment">What happens if we do f(3)?</p>
+
+						</ul>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Let's go back to the terminal</h2>
+					<p>Mac: <pre><code>Applications > Utilitites > Terminal</code></pre></p>
+
+					<p>PC: Right click desktop and choose<pre><code>Git bash</code></pre></p>
+
+					<p class="fragment">Then, open your Finder or My Computer to look at your OS through a different interface.</p>
+				</section>
+
+				<section>
+					<h2>Since we're big time developers</h2>
+
+						<p>Leverage the web: Google, StackOverflow, GitHub</p>
+							<ul>
+								<li>There is a "right" way to Google</li>
+								<li class="fragment">Let's figure out how to list out files and folders in the command line</li>
+							</ul>
+						
+
+					<img class='fragment' src="https://i.imgur.com/T7Sgfzb.png">
+				</section>
+
+				<section>
+					<h2>Framework for Googling</h2>
+					<p>Problem/Error + Language/Tech/Framework</p>
+				</section>
+
+				<section>
+					<h2>Terminal Commands Demo</h2>
+
+					<p>Remember: Directory = Folder</p>
+
+					<pre><code>pwd // Print working directory</code></pre>
+					
+					<pre><code>ls // List the contents of the directory</code></pre>
+					
+					<pre><code>cd // Change directories</code></pre>
+					
+					<pre><code>mkdir // Create a new folder</code></pre>
+
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Terminal Commands Demo</h2>
+							<pre><code>rmdir // Remove an empty folder</code></pre> 
+							<pre><code>touch // Create an empty file</code></pre> 
+							<pre><code>rm // Remove a file</code></pre> 
+							<pre><code>cp // Copy a file</code></pre> 
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Moving Between Folders Demo</h2>
+					
+						<pre><code>cd .. // Move up one directory</code></pre>
+						<pre><code>cd // Move to the top-most, or "root", directory</code></pre>
+
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Rules of Google-ing</h2>
+					<ul>
+						<li>StackOverflow is the most popular forum</li>
+						<li>Phrase your question: LANGUAGE/TECH and PROBLEM/QUESTION</li>
+						<li>As you look through results, is this post a recent post?</li>
+						
+					</ul>
+				</section>
+
+		
+
+				<section>
+					<h2>Your Turn! </h2>
+					<ul>
+						<li>Create a directory called "days-of-week"</li>
+						<li>Create two more directories within the "days-of-week" directory: "weekend" and "weekdays"</li>
+						<li>Within the "weekend" directory, create two files: saturday.html and sunday.html</li>
+						<li>Within the "weekdays" directory, create five files: monday.html, tuesday.html, etc</li>
+						<li>BONUS: Create a copy of the "days-of-week" directory and name it "days-of-week-copy"</li>
+						<li>BONUS: In "days-of-week-copy", try to remove the "weekdays" directory and every file inside it with <strong>one command</strong></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>BREAK</h2>
+				</section>
+
+				<!--  -->
+
+
+				<!-- <section>
+					<h2>What are the differences between HTML/HTML5? CSS/CSS3</h2>
+					<p>Differences between HTML/HTML5 - <a href="http://www.w3.org/TR/html5-diff/#character-encoding">docs</a></p>
+
+					<p>Differences between CSS/CSS3 - <a href="http://webdesign.about.com/od/css3/a/differences-css2-css3.htm">docs</a> </p>
+				</section> -->
+
+				<section>
+					<h2>Objectives: HTML/CSS</h2>
+
+					<p>Describe the relationship between HTML/CSS</p>
+					<p>Construct a basic HTML page and style with basic CSS selectors</p>
+				</section>
+
+				<section>
+					<h2>HTML Syntax</h2>
+					<img src="https://i.imgur.com/cJs8inl.png">
+				</section>
+
+				<section>
+					<h2>HTML Syntax</h2>
+					<img src="https://i.imgur.com/iOV1rx8.png">
+				</section>
+
+				<section>
+					<h2>Content Tags</h2>
+					<img src="https://i.imgur.com/UwSPuLb.png">
+				</section>
+
+				<section>
+					<h2>Options for HTML tags</h2>
+					<img src="https://i.imgur.com/wuCzQvb.png">
+				</section>
+
+				<section>
+					<h2>Here's a neat trick for finding pics</h2>
+					<p>Pull up your LinkedIn...</p>
+				</section>
+
+				<section>
+					<h2>Now, with a partner:</h2>
+					<p>Use the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN docs</a></p>
+					<ul>
+						<li>Insert a professional image of you ('img' tag); make it right after your 'h1' tags</li>	
+						<li>Insert an ordered list of your last three positions ('ul' tag)</li>
+						<li>Link out to your LinkedIn and Facebook/Twitter pages ('a' tag)</li>
+						<li>Bonus: Insert your favorite YouTube video ('iframe' tag)</li>
+						<li>Bonus: Insert a table with your contact info (`table` tag)</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>CSS Syntax</h2>
+					<img src="https://i.imgur.com/YCHk3sd.png">
+				</section>
+
+				<section>
+					<h2>CSS Syntax</h2>
+					<img src="https://i.imgur.com/3TooKGm.png">
+				</section>
+
+				<section>
+					<h2>CSS Syntax</h2>
+					<img src="https://i.imgur.com/nlsRYwi.png">
+				</section>
+
+				<section>
+					<h2>CSS Syntax</h2>
+					<img src="https://i.imgur.com/19NsXa6.png">
+				</section>
+
+				<section>
+					<h2>Let's apply some styles</h2>
+					<p>Center the 'h1' tags</p>
+					<p>Center the 'p' tags</p>
+					<p class="fragment">What's the problem here?</p>
+				</section>
+
+				<section>
+					<h2>IDs vs. Classes</h2>
+					<p>Let's discuss...</p>
+				</section>
+
+				<section>
+					<h2>Box Model</h2>
+
+					<img src="https://i.imgur.com/sATrTDr.png">
+				</section>
+
+				<section>
+					<p>Now, with a partner, use the <a href="https://developer.mozilla.org/en-US/docs/Web/css">MDN docs</a></p>
+					<ul>
+						<li>Give the image a 1px black border</li>	
+						<li>Make the image sit on the right side of the page and make it a reasonable size</li>
+						<li>Give the body of the page a thicker border than the picture but only on the top and bottom of the page</li>
+						<li>Using HTML, insert a short title above your p tags; use an h3 tag</li>
+						<li>Make your name an h1 and h3 tags uppercase using CSS</li>
+						<li>Make the background of the page a shade of gray</li>
+						<li>Insert two horizontal lines (these are HTML elements!) - one below your name and one below your "blurb" - make it take up only 70% of the page</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>What about a nav bar?</h2>
+						<p>Let's try it!</p>
+				</section>
+
+				<section>
+					<h2>What about multiple columns?</h2>
+						<p>Well, that just means that our boxes will want to "sit next to each other"</p>
+						<p>By default, all HTML elements (boxes) take up the entire width of the page</p>
+						<p class="fragment">Take a look inside your chrome dev tools</p>
+				</section>
+
+				<section>
+					<h2>Now, on your own:</h2>
+					<p>Use the <a href="https://developer.mozilla.org/en-US/docs/Web/css">MDN docs</a></p>
+					<ul>
+						
+						<li>Create a nav bar with the links to your LinkedIn, Twitter; also create a link to the 'index.html' page, and a link to a file called "projects.html" </li>	
+						<li>Create another html file in the project called 'projects.html'; copy the contents of the nav bar and information in the 'head' tag</li>
+						<li>In 'projects.html', create three columns: each column should contain the title and a description of your three most recent, successful projects</li>
+						<li>Insert another image of you, but make it round</li>
+						<li>Bonus: Insert a button on both pages with the same style (use classes) that links to opening an email to your email address</li>
+					</ul>
+				</section>
+				
+				<section><h2>BREAK!</h2></section>
+				
+
+				<section>
+					<h2>Objectives: Git/GitHub</h2>
+
+					<p>Explain the relationship between Git/GitHub</p>
+					<p>Use Git/GitHub to fork, clone, edit, and push changes to a code base</p>
+
+				</section>
+
+				<section>
+					<h2>What is Git?</h2>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDSYNiK9LZNmljFVhMlqt0nPVir1ttyM0xzwh59EMfZL-SAn-iEyS2yPw">
+					<ul>
+						<li>Who's familiar with the "See Version History" functionality in Google Docs?</li>
+						<li class="fragment">Git is software that allows you to do this for <strong>any folder</strong> you'd like on your computer</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<h2>What is Git?</h2>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDSYNiK9LZNmljFVhMlqt0nPVir1ttyM0xzwh59EMfZL-SAn-iEyS2yPw">
+					<ul>
+						<li>Code manager or "version control software"</li>
+						<li>It's super smart</li>
+						<li>The real benefit is when you're working in teams...but let's ignore that for now</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Vocab</h2>
+					<p>Repo/Repository - folder (project) being tracked by Git</p>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Let's try it!</h2>
+					<ul>
+						<li>Move back into your resume directory and lets track this project!</li>
+						<li>This adds git to your directory: <pre><code>git init</code></pre></li>
+						<li>This shows you what the files that have been changed but have not been "versioned":<pre><code>git status</code></pre> </li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Let's try it!</h2>
+					<ul>
+						<li>Adds your files as to "the stage": <pre><code>git add .</code></pre> </li>
+						<li>Commits (saves) a version of the files to the version history:<pre><code>git commit -m 'INSERT A MESSAGE'</code></pre> </li>
+						<li class="fragment">MAKE SURE YOU INCLUDE A MESSAGE!!!!</li>
+					</ul>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Let's check the logs</h2>
+					<ul>
+						<li><pre><code>git log</code></pre> Shows your commit history</li>
+					</ul>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Key Idea</h2>
+					<p>With Git, nothing is lost (if you do it right!)</p>
+					<p>Let's check it out:</p>
+					<ul>
+						<li>I'm going to ruin my resume...</li>
+						<li class="fragment">Then I'm going to fix it</li>
+					</ul>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>So what the heck is GitHub?</h2>
+					<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQgGCuxZwIa0pVqtUJV6ig3UJCL7KNXPBO6Lbo8NE1Pkyv8BB4yMNwzAQFU">
+					<ul>
+						<li>A service that lets you host Git repositories (fancy word for "projects") on the internet</li>
+						<li class="fragment">Allows for easy sharing of code</li>
+						<li class="fragment">There are public sources of code (Reddit) and private sources of code</li>
+					</ul>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>If you haven't already, let's take a second to sign up for GitHub</h2>
+					<ul>
+						<li>If you've configured your machine, to prevent problems, use the same email/username you used for your git configurations</li>
+						<li class="fragment">Now, let's create a repo on GitHub so that our resume will be live for everyone to see!</li>
+						<li class="fragment">GITHUB-USERNAME.github.io</li>
+						<li class="fragment">ex: jnappy.github.io</li>
+						<li class="fragment">Now, follow the directions it provides to "sync" your local repo with your GitHub repo</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Refresh the page!</h2>
+
+				</section>
+
+
+				<section>
+					<h2>One more time - Do this with me!</h2>
+					<ul>
+						<li>Add a small change to your resume</li>
+						<li class="fragment">Then, commit that change</li>
+						<li class="fragment">Then, push that change to your <a href="github.com">GitHub.com</a> repository.</li>
+						<br>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Let's take a look at a GitHub project</h2>
+					<p>What kind of information does GitHub show us on its web interface?</p>
+					<p>https://github.com/plataformatec/devise</p>
+				</section>
+
+				<section>
+					<h2>Get Familiar with GitHub!</h2>
+						<p>https://github.com/ryanb/cancan</p>
+						<ul>
+							<li>What version are they up to?</li>
+							<li>Which user is the second-greatest contributor to this repository?</li>
+							<li>How many commits were made on September 6th, 2013?</li>
+							<li>On the January 20, 2013 commit:</li>
+							<ul>
+								<li>How many files were modified? </li>
+								<li>How many lines were added? </li>
+								<li>How many lines were deleted? </li>
+								<li>What are the names of the files that were modified?</li>
+							</ul>
+
+						</ul>
+				</section>
+
+				
+<!-- 
+				<section>
+
+					<h2>Practice Editing Copy</h2>
+					<p>Fork and clone the pfnp-copy-change-exercise</p>
+					<p>https://github.com/jnappy/pfnp-the-basics-copy-exercise</p>
+					<p>(Jay, provide the link in the tlk.io)</p>
+					<p>Follow the directions in the readme.md file in the exercise directory</p>
+
+
+				</section>
+ -->
+
+				<!--  -->
+
+				<section>
+					<h2>MINI BREAK, BABY!</h2>
+					<img src="http://www.troll.me/images2/ryan-gosling-with-glasses/hey-girl-take-a-study-break.jpg">
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Recap the morning</h2>
+					<ul>
+						<li>How do clients work with hosts?</li>
+						<li>Explain the difference between how the command line handles a response vs. a browser.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Objectives</h2>
+					<ul>
+						<li>Create an application that displays directions and accepts user input</li>
+						<li>Control the flow of your application based on user input</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Lets write some code!</h2>
+					<ul>
+						<li>Why ruby???</li>
+						<img src="picture_1.png">
+						<li class="fragment">Ruby is a concise, elegant and simple programming language</li>
+					</ul>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Ruby</h2>
+					<img src="https://www.dropbox.com/s/089aa114s456ukn/matz.jpg?dl=1">
+					<ul>
+						<li>Created by "Matz" in the mid-90s</li>
+						<li>Written in C</li>
+						<li>Dynamic scripting language</li>
+						<li>Memory is managed for you</li>
+						<li>Object oriented, <strong>fun</strong></li>
+					</ul>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Before we can do any web stuff</h2>
+					<ul>
+						<li>We need to understand Ruby</li>
+						<li>First step in order to build any website</li>
+					</ul>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Talking to Ruby</h2>
+					<ul>
+						<li>Creating an interactive Ruby terminal:</li>
+						<img src="picture_2.png">
+					</ul>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Data Types</h2>
+					<ul>
+						<li>Now that we're able to write ruby, we <strong>must</strong> understand that everything in ruby is an object.</li>
+						<li>Every object has a "type" or "class":</li>
+						<p class="fragment">An object is a software bundle of related state and behavior. Software objects are often used to model the real-world objects that you find in everyday life.</p>
+					</ul>
+					<p class="fragment">Practice the next few slides with me!</p>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Objects</h2>
+					<img src="http://italian--course.com/ar/wp-content/uploads/2012/03/47.jpg">
+					<p class="fragment">Let's jump into Krossover's objects...</p>
+				</section>
+
+				<section>
+					<h2>Data Types: Strings</h2>
+					<ul>
+						<li>any kind of text</li>
+						<li>donated by single or double quotes</li>
+					</ul>
+					<br>
+					<img src="picture_4.png">
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Data Types: Numbers</h2>
+					<ul>
+						<p>Integers</p>
+						<br>
+						<img src="picture_5.png">
+						<p>Floats</p>
+						<br>
+						<img src="picture_6.png">
+					</ul>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Variables</h2>
+					<p>Variables are simply a place to store data. The data can take on almost any form. All variables we store as lower case, and separate words are separated by underscores:</p>
+					<br>
+					<img src="picture_7.png">
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Discuss</h2>
+					<p>How could data work with variables in req/resp?</p>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Concatenating Variables</h2>
+					<p>There are two ways to join variables together:</p>
+					<ol>
+						<li>By simply appending on thing after the other</li>
+						<img src="picture_10.png">
+						<li class="fragment">String interpolation</li>
+						<img src="picture_11.png" class="fragment">
+					</ol>
+					<p class="fragment">Discuss: Could you think of any use cases for this?</p>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Puts</h2>
+					<p>Puts is a method that Ruby "gives you for free". It stands for "PUT" "String", out to the terminal: </p>
+					<img src="picture_12.png">
+					<p>Puts always returns 'nil'</p>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Gets</h2>
+					<p>Gets is also a method that Ruby "give you for free". It stands for "GET" "String", requesting it from user input.</p>
+					<img src="picture_13.png">
+					<p class="fragment">What's that \n? It's newline (the user hitting enter)</p>
+					<img src="picture_14.png" class="fragment">
+				</section>
+
+				<!--  -->
+
+
+				<!--  -->
+
+				<section>
+					<h2>Functions</h2>
+					<ul>
+						<li>Let's think back to math, as before:</li>
+						<p>f(x) = x + 2</p>
+						<p class="fragment">Does this function produce anything if you repeat the "instructions"?</p>
+
+					</ul>
+					<p class="fragment">Think of functions as variables, but instead of data, they hold code!</p>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Writing Functions</h2>
+					<ul>
+						<p>In Ruby, you would write f(x) = x + 2 like: </p>
+						<img src="picture_16.png">
+					</ul>
+					<p>All methods, in Ruby, start with 'def'</p>
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Calling Methods</h2>
+					<p>You call a function exactly the same (as you would in math!)</p>
+					<img src="picture_17.png">
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Methods</h2>
+					<p>And remember, they can accept parameters</p>
+					<img src="picture_18.png">
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Let's practice together!</h2>
+					<p>Create a method that replaces every "e" in a word with "z"</p>
+					<p>Then, call the method with the word "Excellenet"</p>
+				</section>
+
+				<section>
+					<h2>Key Idea: Return Value</h2>
+					<p>In Ruby, this is what is given back to you after you run a command and call/store a variable, or execute a function</p>
+					<p>Let's look at some examples in pry</p>
+
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Running Ruby Code</h2>
+					<p>To run this ruby code from a file, let's create a ruby file called "no-more-e.rb":</p>
+					<p>Rewrite the code in the file</p>
+					<p>Run the file with:<pre><code>ruby FILE_NAME.rb</code></pre></p>
+				</section>
+
+					<section>
+					<h2>Back to GitHub...</h2>
+						<p>Why is GitHub so special for teams?</p>
+					<ul>
+						<li>Let's draw this out...</li>
+					</ul>
+				</section>
+<!-- github slide -->
+				<section>
+					<img src="https://i.imgur.com/WpgVv2e.png">
+				</section>
+
+				<section>
+					<p>I'll chat this out: https://i.imgur.com/WpgVv2e.png</p>
+					<img src="https://i.imgur.com/WpgVv2e.png" width="60%">
+				</section>
+
+				<section>
+					<h2>Try forking a project with me!</h2>
+					<p>https://github.com/ryanb/cancan</p>
+					<p class="fragment">Let's open it locally in Atom</p>
+
+				</section>
+
+				<section>
+					<ul>
+					<h2 class="fragment">Your turn!</h2>
+						<li class="fragment">"Fork" the methods exercise (story-likes), so you have a copy of it on GitHub</li>
+						<li class="fragment">Then "clone" that GitHub repository</li>
+						<pre class="fragment"><code>git clone YOUR_URL@github.com</code></pre>
+						<li class="fragment">Now, move into that project (folder) and open it to start working!</li>
+						<li class="fragment">When your finished: add, commit, and push!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Submitting a pull request</h2>
+					<p>To the GitHub diagram!</p>
+				</section>
+
+				<section>
+					<h2>I need a brave volunteer to jump on the big screen :)</h2>
+					<p>Let's see how to submit a pull request using GitHub's interface</p>
+				</section>
+
+				<section>
+					<h2>What information can I see in the Pull Request?</h2>
+					<p>Lets take a look...eventually, we'll merge!</p>
+				</section>
+ 
+				<!-- DAY TWO? -->
+
+				<section>
+					<section>
+					<h2>Welcome back!</h2>
+						<p>Let's get our brains going!</p>
+						<p>First, with a partner, describe how clients work with hosts.  Use this vocabulary: host, server, browser, HTML, URL, request, text, HTTP, response, CSS, JavaScript,  client, initiates, format</p> 
+						<p class="fragment">Then, https://github.com/jnappy/day-two-kickoff</p>
+						<img src="http://i3.kym-cdn.com/photos/images/original/000/288/697/3fa.jpg">
+					</section>
+
+					<!-- <section>
+						<p>Together: create a new directory in exercises titled: "day_2", create a file called kick_off.rb, copy and paste the code from the gist, and initialize a git repository</p>
+						<p>Part 1: Together - day_2_opening.part1.rb</p>
+						<p>Part 2: In Pairs - https://gist.github.com/jnappy/17d0d99b7ded311a0eff</p>
+						<p>Bonus: Fork, clone, work, push, and submit: https://github.com/jnappy/day-two-exercise</p>
+					</section> -->
+
+					
+
+					</section>
+				</section>
+
+				<section>
+					<h2>Objectives</h2>
+					<p>use Booleans and conditionals to control the flow of your application</p>
+				</section>
+
+				<section>
+					<h2>Booleans</h2>
+					<p>Either true or false; these give us the ability to use logic => to choose where and what we want to happen in our application. </p>
+					<pre><code>true || false</code></pre>
+					<img src="boolean.png">
+				</section>
+
+				<section>
+					<h2>To get boolean values, we operate!</h2>
+					<p>read: "user operators; compare"</p>
+					<img src="boolean_operators.png">
+
+				</section>
+
+				<section>
+					<h2>That brings us to conditionals: the 'if' statement</h2>
+					<p>The syntax reads</p>
+					<img src="function_3.png">
+				</section>
+
+				<section>
+					<h2>Conditional 'if' statements</h2>
+					<p>The 'elsif'</p>
+					<img src="https://i.imgur.com/XLGQBUh.png">
+				</section>
+
+				<section>
+					<h2>Watch meh!</h2>
+					<p>I'm going to build a function that asks a user where they live and then tells them whether or not they are cool.</p>
+				</section>
+
+
+				<section>
+					<h2>You try it!</h2>
+					<p>Fork it; clone it to your computer; solve it!</p>
+					<p>https://github.com/jnappy/beer_exercise</p>
+				</section>
+
+				<section>
+					<h2>Multiple Conditions</h2>
+					<p>This allows you to create an if statement that could be satisfied by multiple conditions</p>
+					<ul>
+						<li>and</li>
+						<img src="multiple_conditionals.png">
+					</ul>
+
+
+					<p class="fragment">Let's see an easier way to do this...</p>
+				</section>
+
+				<section>
+					<h2>Multiple Conditionals</h2>
+					<p>or</p>
+						<img src="or_conditionals.png">
+					<p class="fragment">Predict: an easier way to do this...</p>
+				</section>
+
+
+				<section>
+					<h2>Let's try it!!</h2>
+					<p>Fork it, clone it, solve it!</p>
+					<p>https://github.com/jnappy/admin_exercise</p>
+				</section>
+
+
+				<section>
+					<h2>BREAK!!!</h2>
+					<img src="http://www.quickmeme.com/img/fe/fe92412d0d44c3c1e39eba68774bb5e4ff390935fbefc38f9084b93b6e557509.jpg">
+				</section>
+
+				<!--  -->
+
+				<section>
+					<h2>Objectives</h2>
+					<p>Describe how URL endpoints call functions to deliver HTML, CSS, and JavaScript files to the client.</p>
+				</section>
+
+				<section>
+					<h2>Looking at a Rails app</h2>
+					<img src="https://i.imgur.com/qpOy16f.png">
+				</section>
+
+
+				<section>
+					<h2>Loops: Continue doing stuff...over and over...</h2>
+					<p>While</p>
+					<img src="while.png">
+				</section>
+
+				<section>
+					<h2>Loops: Continue doing stuff...over and over...</h2>
+					<p>Until</p>
+					<img src="until.png">
+				</section>
+
+				<section>
+					<h2>Loops</h2>
+					<p>Watch mi!!</p>
+					<p>Let's make a SPAM message until I enter "unsubscribe"</p>
+					<p>(Jay, Lesson 2 slide 25)</p>
+					<p class="fragment">Let's make an Identification method that doesn't let you drink until you're twenty one</p>
+				</section>
+
+				<section>
+					<h2>Now yew!</h2>
+					<p>Fork it, clone it, solve it: https://github.com/jnappy/secret_numbah</p>
+					<img src="http://i3.kym-cdn.com/photos/images/original/000/240/010/c79.jpg">
+				</section>
+
+				<section>
+					<h2>See you soon!!</h2>
+					<img src="http://memecrunch.com/meme/5YSY5/lunch-time/image.jpg?w=817&c=1">
+				</section>
+
+
+				<section>
+					<h2>Data Collections</h2>
+					<p>Let's think back to KrossoverKredit Objects...</p>
+					<p>Data about an object is a collection of attributes, some of which have other attributes!</p>
+				</section>
+
+				<section>
+					<h2>Data Collections: Arrays</h2>
+					<ul>
+						<li>Think of arrays as a list, separated by commas</li>
+						<li class="fragment">They are denoted by square brackets around them</li>
+						<li class="fragment">They can have any type of data we want!!!!</li>
+					</ul>
+
+					<pre><code>names = ['jay', 'erin', 'lindsay', 'david', 'delauno']</code></pre>
+					<pre><code>numbers = [1, 2, 5, 9, 13]</code></pre>
+					<pre><code>misc = ["one", 4, '9', "Two"]</code></pre>
+
+					<p class="fragment">What do names, numbers, and misc represent?</p>
+				</section>
+
+				<section>
+					<h2>An Array is an Object</h2>
+					<p>That means: it has a bunch of attributes and functions we can use!!</p>
+					<br>
+					<p>Let's access a particular element of an array</p>
+					<pre><code>names = ['jay', 'erin', 'lindsay', 'david', 'delauno']</code></pre>
+					<pre><code>names[0] </code></pre>
+					<pre><code>=> 'jay'</code></pre>
+					<p class="fragment">NOTE: Indexes start at 0!</p>
+				</section>
+
+				<section>
+					<h2>All the stuff we can do with an array</h2>
+					<p>Imagine we get a request to get articles from our database...</p>
+
+					<img src="array2.png">
+
+				</section>
+
+				<section>
+					<h2>More stuff we can do with an array</h2>
+					<p>Code along with me:</p>
+					<ul>
+						<li>add our names to an array (variable) called class</li>
+						<li>add "Rob" to the front of the array</li>
+						<li>add "Jim" to the back of the array</li>
+						<li>remove them both</li>
+						<li class="fragment">... go crazy, and type in "names." and hit tab...</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Why are collections awesome?</h2>
+					<p>We can "iterate" over them!</p>
+					<p>read: "we can do something to each element in a collections of data"</p>
+					<ul>
+						<li>To the whiteboard: Let's take an array of names and check to see if the letter 'j' is in each element of the array</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Your turn!</h2>
+					<p>Create an array of your own names and for each item in the array, replace the the letter 'e' with a different letter</p>
+				</section>
+
+				<section>
+					<h2>Arrays within arrays</h2>
+					<pre><code>sign_ins = [["jpnappy@gmail.com", "3:02pm"], ["tylernappy@gmail.com", "3:03pm"], ["rob@gmail.com", "3:05pm"], ["lorit@gmail.com", "3:06pm"], ["laura@gmail.com", "3:07pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["dan@gmail.com", "3:05pm"]</code></pre>
+					<p class="fragment">Let's look at this in a text editor</p>
+					<p class="fragment">You're turn: Iterate over each of the sign_ins and print out each of the user's email addresses</p>
+				</section>
+
+				<section>
+					<h2>Your turn!</h2>
+					<p>Create an array of your own names and replace the a vowel with a different letter</p>
+				</section>
+
+				<section>
+					<h2>Collections: Hashes</h2>
+					<ul>
+						<li>A hash is like a dictionary, a set of "keys" and corresponding "values"</li>
+						<li>For every word, there is a corresponding definition</li>
+						<li>In between the key and value is a hash rocket ( => ) or a colon</li>
+					</ul>
+
+					<pre><code>person = {'name' => 'Jay', 'age' => 28}</code></pre>
+					<p class="fragment">This is great for objects!</p>
+					<p class="fragment">Let's build on this object</p>
+				</section>
+
+				<section>
+					<h2>We can write hashes like this too!</h2>
+					<pre><code>person = {name: 'Jay', age: 28}</code></pre>
+					<p class="fragment">These are called 'symbols' (just like strings, don't focus on them!!)</p>
+				</section>
+
+				<section>
+					<h2>Symbols</h2>
+					<p>Symbols are just like strings, the only difference is they're more efficient - they only get stored once</p>
+					<p>They're always denoted by a : and have lowercase letters with underscores.</p>
+					<p class="fragment">Let's show some symbols vs. strings on the projector (lessons/3/slides/17)</p>
+				</section>
+
+				<section>
+					<h2>Collections: Hashes</h2>
+					<p>We got sweet methods on hashes too!</p>
+
+					<pre><code>person.keys</code></pre>
+					<pre><code>person.values</code></pre>
+					<pre><code>person.size</code></pre>
+					<p class="fragment">Let's practice adding new values and retrieving values from a hash</p>
+				</section>
+
+				<section>
+					<h2>Retrieving values from a hash</h2>
+					<pre><code>person['name']</code></pre>
+					<pre><code>person['age']</code></pre>
+						<pre><code>person[:name]</code></pre>
+					<pre><code>person[:age]</code></pre>
+				</section>
+
+				<section>
+					<h2>Collections: Hashes</h2>
+					<p>Let's try with a larger collection: hash + array (object)</p>
+					<pre><code>blog_post = {
+    title: 'What Makes A Star Starry? Is It Me?',
+    body: "Notice what Tyler Nordgren does in these posters. He's an artist, an astronomer (from Cornell, Carl Sagan's department);",
+    author: {
+      first_name: 'Robert',
+      last_name: 'Krulwich',
+      twitter_handle: '@rkrulwich'
+    },
+    tags: ['art', 'education', 'science']
+  }</code></pre>
+
+
+				</section>
+
+				<section>
+					<h2>When looking at any collection...</h2>
+					<ol>
+						<li>Look at where [] or {} start and end</li>
+						<li class="fragment">Look for commas</li>
+						<li class="fragment">Look for symbols vs. strings in keys</li>
+						<li class="fragment">Typically, you have an array of hashes!</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Let's look at a collection of blog posts</h2>
+					<pre><code>blog_posts = [
+  {
+    title: 'What Makes A Star Starry? Is It Me?',
+    body: "Notice what Tyler Nordgren does in these posters. He's an artist, an astronomer (from Cornell, Carl Sagan's department);",
+    author: {
+      first_name: 'Robert',
+      last_name: 'Krulwich',
+      twitter_handle: '@rkrulwich'
+    },
+    tags: ['art', 'education', 'science']
+  },
+  {
+    title: 'The Meter: The Measure of a Man',
+    body: "About six and a half billion people use the metric system every single day.  That's more than the citizens of any single nation, the followers of any single religion or the speakers of any single language.",
+    author: {
+      first_name: 'Latif',
+      last_name: 'Nasser',
+      twitter_handle: '@latifnasser'
+    },
+    tags: ['discovery', 'dialogues', 'history', 'meter', 'science', 'storytelling']
+  },
+  {
+    title: 'Shattering Silence and An Eye of God',
+    body: "In our Morality show, we tell the story of Eastern State Penitentiary -- a radical new kind of prison engineered to crack into the hearts and minds of 19th-Century criminals",
+    author: {
+      first_name: 'Brenna',
+      last_name: 'Farrell',
+      twitter_handle: '@brennacfarrell'
+    },
+    tags: ['history', 'morality', 'prison']
+  }
+]
+					</code></pre>
+
+					<p class="fragment">Let's store each blog post into a variable to make this feel a bit easier...</p>
+
+				</section>
+
+				<section>
+
+					<h2>Let's try the following together:</h2>
+					<ul>
+
+						<li class="fragment">store the second blog post in a variable</li>
+						<li class="fragment">get the second blog post's author's twitter handle...and reverse it</li>
+						<li class="fragment">iterate over each blog post and print out the title</li>
+					</ul>
+				</section>
+
+				<section>
+
+					<h2>Try these on your own!</h2>
+
+					<ol>
+						<li>get the author's first name of the third blog post</li>
+						<li>get the last tag of the second blog post</li>
+						<li>iterate over each blog post and print out the author's first name</li>
+						<li>iterate over each blog post and print out just the author's full name name</li>
+						<li>BONUS: iterate over each blog post and print out the title, the author, and the tags associated with it</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Ok, feeling really good?</h2>
+					<p>Let's try putting it all together:</p>
+					<p>https://github.com/jnappy/reddit-reader/</p>
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<section data-markdown>
+					<script type="text/template">
+						## Markdown support
+
+						Write content using inline or external Markdown.
+						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+
+						```
+						<section data-markdown>
+						  ## Markdown support
+
+						  Write content using inline or external Markdown.
+						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+						</section>
+						```
+					</script>
+				</section>
+
+				<section>
+					<section id="fragments">
+						<h2>Fragments</h2>
+						<p>Hit the next arrow...</p>
+						<p class="fragment">... to step through ...</p>
+						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+
+						<aside class="notes">
+							This slide has fragments which are also stepped through in the notes window.
+						</aside>
+					</section>
+					<section>
+						<h2>Fragment Styles</h2>
+						<p>There's different types of fragments, like:</p>
+						<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p class="fragment highlight-red">highlight-red</p>
+						<p class="fragment highlight-blue">highlight-blue</p>
+					</section>
+				</section>
+
+				<section id="transitions">
+					<h2>Transition Styles</h2>
+					<p>
+						You can select from different transitions, like: <br>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+				</section>
+
+				<section id="themes">
+					<h2>Themes</h2>
+					<p>
+						reveal.js comes with a few themes built in: <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+
+				<section>
+					<section data-background="#dddddd">
+						<h2>Slide Backgrounds</h2>
+						<p>
+							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
+						</p>
+						<a href="#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
+						<h2>Image Backgrounds</h2>
+						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
+						<h2>Tiled Backgrounds</h2>
+						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+					</section>
+					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
+						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+							<h2>Video Backgrounds</h2>
+							<pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+						</div>
+					</section>
+					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+						<h2>... and GIFs!</h2>
+					</section>
+				</section>
+
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
+					</p>
+					<pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+				</section>
+
+				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						You can override background transitions per-slide.
+					</p>
+					<pre><code style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+				</section>
+
+				<section>
+					<h2>Pretty Code</h2>
+					<pre><code data-trim contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+
+    var nodes = document.querySelectorAll( selector );
+
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
+
+      if( !node.className ) {
+        node.className += ' roll';
+      }
+    }
+  }
+}
+					</code></pre>
+					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+				</section>
+
+				<section>
+					<h2>Marvelous List</h2>
+					<ul>
+						<li>No order here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Fantastic Ordered List</h2>
+					<ol>
+						<li>One is smaller than...</li>
+						<li>Two is smaller than...</li>
+						<li>Three!</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Tabular Tables</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Value</th>
+								<th>Quantity</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Apples</td>
+								<td>$1</td>
+								<td>7</td>
+							<tr>
+							<tr>
+								<td>Lemonade</td>
+								<td>$2</td>
+								<td>18</td>
+							<tr>
+							<tr>
+								<td>Bread</td>
+								<td>$3</td>
+								<td>2</td>
+							<tr>
+						</tbody>
+					</table>
+				</section>
+
+				<section>
+					<h2>Clever Quotes</h2>
+					<p>
+						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
+					</p>
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
+						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
+					</blockquote>
+				</section>
+
+				<section>
+					<h2>Intergalactic Interconnections</h2>
+					<p>
+						You can link between slides internally,
+						<a href="#/2/3">like this</a>.
+					</p>
+				</section>
+
+				<section>
+					<h2>Speaker View</h2>
+					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
+					<p>Press the <em>S</em> key to try it out.</p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+
+				<section>
+					<h2>Export to PDF</h2>
+					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
+					<iframe src="//www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+				</section>
+
+				<section>
+					<h2>Global State</h2>
+					<p>
+						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
+						will be added as a class to the document element when the slide is open. This lets you
+						apply broader style changes, like switching the page background.
+					</p>
+				</section>
+
+				<section data-state="customevent">
+					<h2>State Events</h2>
+					<p>
+						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
+					</p>
+					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
+Reveal.addEventListener( 'customevent', function() {
+	console.log( '"customevent" has fired' );
+} );
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Take a Moment</h2>
+					<p>
+						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
+					</p>
+				</section>
+
+				<section>
+					<h2>Much more</h2>
+					<ul>
+						<li>Right-to-left support</li>
+						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+					</ul>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="http://slides.com">Try the online editor</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,19 @@
+@import '~bootstrap/scss/bootstrap';
+
+// Styling for star rating solution
+.star {
+  display: inline;
+  max-height: 200px;
+  width: 10%;
+}
+
+// Styling for calculator solution
+.calc-row {
+  display: block;
+}
+
+.calc-display {
+  border: 2px solid black;
+  max-width: 300px;
+  min-height: 2rem;
+}
